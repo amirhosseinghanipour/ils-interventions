@@ -126,7 +126,7 @@ class Circuit:
         return torch.cat(vals).detach().cpu().numpy().astype(float)
 
     @torch.no_grad()
-    def exact(self, indices):
+    def exact(self, indices, *, tops=False):
         # A native donor activation replaces one component per independent batch lane.
         with ExitStack() as hooks:
             for i in self.levels:
@@ -163,7 +163,10 @@ class Circuit:
                 :, -1
             ]
             logits = F.linear(out, self.model.lm_head.weight[self.labels])
-            return (logits[:, 1] - logits[:, 0] - self.outputs[0]).cpu().numpy().astype(float)
+            effects = (logits[:, 1] - logits[:, 0] - self.outputs[0]).cpu().numpy().astype(float)
+            if tops:
+                return effects, self.model.lm_head(out).argmax(-1).tolist()
+            return effects
 
     def audit(self):
         for i, k, d in self.groups:

@@ -29,12 +29,13 @@ def now():
 
 
 def gold(circuit):
-    return np.concatenate(
-        [
-            circuit.exact(list(range(i, min(i + 8, len(circuit.keys)))))
-            for i in range(0, len(circuit.keys), 8)
-        ]
-    )
+    values, top = [], []
+    for i in range(0, len(circuit.keys), 8):
+        effects, tokens = circuit.exact(list(range(i, min(i + 8, len(circuit.keys)))), tops=True)
+        values.append(effects)
+        top.extend(tokens)
+    return np.concatenate(values), top
+
 
 
 def rank(x):
@@ -171,8 +172,8 @@ def main():
             record["methods"] = {key: policy(c, key, strength, 94817 + n, caps["roomy"]) for key in order}
         # Never use exhaustive labels in the online policies.
         t = now()
-        exact = gold(c)
-        record.update(gold=exact.tolist(), oracle_ms=now() - t)
+        exact, top = gold(c)
+        record.update(gold=exact.tolist(), patch_top=top, clean_top=c.top[0], donor_top=c.top[1], labels=c.labels, oracle_ms=now() - t)
         if not fit:
             for run in record["methods"].values():
                 for batch in run["history"]:
