@@ -17,3 +17,17 @@ From the repository root, set `PYTHONPATH=.`, single-thread BLAS and OMP, and us
     for stage in dev qwen large; do python -m scripts.interaction_search.run INPUTS OUT OUT "$stage"; done
     python -m scripts.interaction_search.score OUT OUT/summary.json
     python -m scripts.interaction_search.mechanisms OUT OUT/mechanisms.json
+
+Reproduce the calibration and timing diagnostics in the same output directory as the primary collection. These diagnostics were added after the primary protocol freeze. The single-verification run uses two examples from each held-out IOI template and the first twelve CopyColors objects. Each method pays for one proposed group and falls back to the shared measured triple when it misses the deadline. The repeated-query measurement uses the first two examples per task and checkpoint, three warm repetitions per workload and fresh calibration for each fitted predictor.
+
+    for model in qwen large; do
+        python -m scripts.interaction_search.amortized gpu INPUTS OUT OUT "$model"
+        python -m scripts.interaction_search.verify_one collect INPUTS OUT OUT "$model"
+    done
+    python -m scripts.interaction_search.amortized score OUT OUT/amortized-summary.json
+    python -m scripts.interaction_search.verify_one summarize OUT OUT/one-check-summary.json
+    python -m scripts.interaction_search.audit OUT OUT/audit.json
+
+The calibration-budget replay holds the three-pair support size fixed and takes nested, complement-balanced subsets of the original 32 observations. The chosen budget is the smallest tested budget retaining 90% of the 32-observation MAE improvement over the midpoint on development. The smaller-budget results measure raw prediction and raw top-choice accuracy.
+
+    python -m scripts.interaction_search.calibration_budget OUT OUT/calibration-budget.json

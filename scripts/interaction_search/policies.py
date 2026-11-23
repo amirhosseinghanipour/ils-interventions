@@ -66,7 +66,11 @@ def _gradient_scores(gradients, key):
 
 
 def _fits(gradients, measure, seed, calibration_size, budgets):
-    masks = calibration_masks(seed, calibration_size)
+    return fit_observations(gradients, measure, calibration_masks(seed, calibration_size), budgets)
+
+
+def fit_observations(gradients, measure, masks, budgets):
+    """Fit requested supports to the supplied calibration design via one paid callback."""
     indices = list(masks)
     base = _gradient_scores(gradients, "midpoint")
     residual = _measure(measure, masks) - base[indices]
