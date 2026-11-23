@@ -46,3 +46,11 @@ Use the native build command and pinned backend in `../query_transition/replicat
     python scripts/finite_response/native.py PROBE.so MODEL.gguf INPUTS/train-v1.1.json artifacts/finite-response/paired-articles.json PAIRED_RESULTS/weights.json PAIRED_RESULTS/native-4b.json 4b
     python scripts/finite_response/native.py PROBE.so MODEL.gguf INPUTS/train-v1.1.json artifacts/finite-response/paired-articles.json PAIRED_RESULTS/weights.json PAIRED_RESULTS/native-9b.json 9b
     python scripts/finite_response/native_score.py PAIRED_RESULTS
+
+## All-position external diagnostic
+
+The external test uses original test prompts and supplied counterfactuals from two [MIB datasets](https://mib-bench.github.io/). It compares signed first-answer logit-margin changes for every nonzero single-position patch at half depth. This differs from MIB's official component/edge localization track. Run on the unchanged prompt text, without a chat wrapper. The clean and counterfactual answers must be different single continuation tokens under both tokenizers. Selection uses no model-output filter.
+
+Let u be the fraction of squared whole-sequence displacement at a given position. The fixed estimator interpolates the recipient and donor first-order estimates with donor weight u²/(u²+(1−u)²). Two scalar reverse passes supply estimates for all positions. Controls include recipient-side attribution patching, a nearest-endpoint rule, a global midpoint gradient, trapezoidal averaging, and an energy-weighted secant correction. Exact batched single-position interventions supply the independent target.
+
+Download the authors' [IOI test file](https://huggingface.co/datasets/mib-bench/ioi/blob/e5f3468f3af4c0883be35cd3bced8c711c95d286/test.json) as `ioi-test.json` and the [four-choice CopyColors test file](https://huggingface.co/datasets/mib-bench/copycolors_mcqa/blob/682676b0e80d3a80e847a21810157710c1f23e27/4_answer_choices/test.jsonl) as `colors-test.jsonl` under INPUTS, and run `python scripts/finite_response/sites.py INPUTS SITE_RESULTS`. Source licenses are MIT for IOI and Apache-2.0 for CopyColors. The raw records include source indices and measured/predicted scores.
