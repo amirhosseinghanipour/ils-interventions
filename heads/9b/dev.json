@@ -1,0 +1,4226 @@
+[
+  {
+    "people": [
+      "Jack",
+      "Rose"
+    ],
+    "tails": [
+      "stone",
+      "rain"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is white stone. The code for Rose is white rain.\nWhat is the code for Jack?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is white stone. The code for Rose is white rain.\nWhat is the code for Rose?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        4022,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        15492,
+        369,
+        4022,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7366,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        4022,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        15492,
+        369,
+        4022,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        15492,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      9506,
+      10849
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -9.770561218261719,
+        "top_token": 9506
+      },
+      {
+        "donor_minus_original": -6.867866516113281,
+        "top_token": 10849
+      }
+    ],
+    "first_top": [
+      1266,
+      1266
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -9.026824951171875,
+          "top_token": 9506
+        },
+        "1": {
+          "donor_minus_original": -10.061788558959961,
+          "top_token": 9506
+        },
+        "2": {
+          "donor_minus_original": -8.339727401733398,
+          "top_token": 9506
+        },
+        "3": {
+          "donor_minus_original": -9.604110717773438,
+          "top_token": 9506
+        },
+        "4": {
+          "donor_minus_original": -9.744500160217285,
+          "top_token": 9506
+        },
+        "5": {
+          "donor_minus_original": -9.77845573425293,
+          "top_token": 9506
+        },
+        "6": {
+          "donor_minus_original": -9.887903213500977,
+          "top_token": 9506
+        },
+        "7": {
+          "donor_minus_original": -9.865090370178223,
+          "top_token": 9506
+        },
+        "8": {
+          "donor_minus_original": -11.28513240814209,
+          "top_token": 9506
+        },
+        "9": {
+          "donor_minus_original": -9.075007438659668,
+          "top_token": 9506
+        },
+        "10": {
+          "donor_minus_original": -9.23043441772461,
+          "top_token": 9506
+        },
+        "11": {
+          "donor_minus_original": -4.232097625732422,
+          "top_token": 9506
+        },
+        "12": {
+          "donor_minus_original": -7.9715375900268555,
+          "top_token": 9506
+        },
+        "13": {
+          "donor_minus_original": -9.760753631591797,
+          "top_token": 9506
+        },
+        "14": {
+          "donor_minus_original": -10.28394889831543,
+          "top_token": 9506
+        },
+        "15": {
+          "donor_minus_original": -6.554346084594727,
+          "top_token": 9506
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -6.379640579223633,
+          "top_token": 10849
+        },
+        "1": {
+          "donor_minus_original": -7.032099723815918,
+          "top_token": 10849
+        },
+        "2": {
+          "donor_minus_original": -5.957318305969238,
+          "top_token": 10849
+        },
+        "3": {
+          "donor_minus_original": -6.962398529052734,
+          "top_token": 10849
+        },
+        "4": {
+          "donor_minus_original": -6.885974884033203,
+          "top_token": 10849
+        },
+        "5": {
+          "donor_minus_original": -6.887843132019043,
+          "top_token": 10849
+        },
+        "6": {
+          "donor_minus_original": -6.884143829345703,
+          "top_token": 10849
+        },
+        "7": {
+          "donor_minus_original": -6.947747230529785,
+          "top_token": 10849
+        },
+        "8": {
+          "donor_minus_original": -7.970972061157227,
+          "top_token": 10849
+        },
+        "9": {
+          "donor_minus_original": -6.394128799438477,
+          "top_token": 10849
+        },
+        "10": {
+          "donor_minus_original": -6.565546989440918,
+          "top_token": 10849
+        },
+        "11": {
+          "donor_minus_original": -3.749112129211426,
+          "top_token": 10849
+        },
+        "12": {
+          "donor_minus_original": -5.787418365478516,
+          "top_token": 10849
+        },
+        "13": {
+          "donor_minus_original": -6.747262954711914,
+          "top_token": 10849
+        },
+        "14": {
+          "donor_minus_original": -7.130100250244141,
+          "top_token": 10849
+        },
+        "15": {
+          "donor_minus_original": -4.540844917297363,
+          "top_token": 10849
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Jack",
+      "Ben"
+    ],
+    "tails": [
+      "cloud",
+      "bell"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is white cloud. The code for Ben is white bell.\nWhat is the code for Jack?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is white cloud. The code for Ben is white bell.\nWhat is the code for Ben?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        4022,
+        9158,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        27491,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7366,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        4022,
+        9158,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        27491,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7124,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      9158,
+      27491
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -9.901666641235352,
+        "top_token": 9158
+      },
+      {
+        "donor_minus_original": -9.554210662841797,
+        "top_token": 27491
+      }
+    ],
+    "first_top": [
+      5603,
+      5603
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -8.96888256072998,
+          "top_token": 9158
+        },
+        "1": {
+          "donor_minus_original": -10.26530933380127,
+          "top_token": 9158
+        },
+        "2": {
+          "donor_minus_original": -8.429405212402344,
+          "top_token": 9158
+        },
+        "3": {
+          "donor_minus_original": -9.883485794067383,
+          "top_token": 9158
+        },
+        "4": {
+          "donor_minus_original": -9.9708890914917,
+          "top_token": 9158
+        },
+        "5": {
+          "donor_minus_original": -9.915703773498535,
+          "top_token": 9158
+        },
+        "6": {
+          "donor_minus_original": -9.864697456359863,
+          "top_token": 9158
+        },
+        "7": {
+          "donor_minus_original": -9.688369750976562,
+          "top_token": 9158
+        },
+        "8": {
+          "donor_minus_original": -11.701916694641113,
+          "top_token": 9158
+        },
+        "9": {
+          "donor_minus_original": -9.29931926727295,
+          "top_token": 9158
+        },
+        "10": {
+          "donor_minus_original": -9.059834480285645,
+          "top_token": 9158
+        },
+        "11": {
+          "donor_minus_original": -3.4685707092285156,
+          "top_token": 9158
+        },
+        "12": {
+          "donor_minus_original": -9.094244956970215,
+          "top_token": 9158
+        },
+        "13": {
+          "donor_minus_original": -9.829130172729492,
+          "top_token": 9158
+        },
+        "14": {
+          "donor_minus_original": -10.555672645568848,
+          "top_token": 9158
+        },
+        "15": {
+          "donor_minus_original": -6.892333984375,
+          "top_token": 9158
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -9.26039981842041,
+          "top_token": 27491
+        },
+        "1": {
+          "donor_minus_original": -9.54839038848877,
+          "top_token": 27491
+        },
+        "2": {
+          "donor_minus_original": -8.836158752441406,
+          "top_token": 27491
+        },
+        "3": {
+          "donor_minus_original": -9.584935188293457,
+          "top_token": 27491
+        },
+        "4": {
+          "donor_minus_original": -9.606173515319824,
+          "top_token": 27491
+        },
+        "5": {
+          "donor_minus_original": -9.581304550170898,
+          "top_token": 27491
+        },
+        "6": {
+          "donor_minus_original": -9.520651817321777,
+          "top_token": 27491
+        },
+        "7": {
+          "donor_minus_original": -9.654532432556152,
+          "top_token": 27491
+        },
+        "8": {
+          "donor_minus_original": -10.154269218444824,
+          "top_token": 27491
+        },
+        "9": {
+          "donor_minus_original": -9.208915710449219,
+          "top_token": 27491
+        },
+        "10": {
+          "donor_minus_original": -9.317363739013672,
+          "top_token": 27491
+        },
+        "11": {
+          "donor_minus_original": -6.202929496765137,
+          "top_token": 27491
+        },
+        "12": {
+          "donor_minus_original": -9.087685585021973,
+          "top_token": 27491
+        },
+        "13": {
+          "donor_minus_original": -9.579450607299805,
+          "top_token": 27491
+        },
+        "14": {
+          "donor_minus_original": -9.755252838134766,
+          "top_token": 27491
+        },
+        "15": {
+          "donor_minus_original": -7.543278694152832,
+          "top_token": 27491
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Jane",
+      "Jack"
+    ],
+    "tails": [
+      "cloud",
+      "leaf"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jane is white cloud. The code for Jack is white leaf.\nWhat is the code for Jane?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jane is white cloud. The code for Jack is white leaf.\nWhat is the code for Jack?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        20817,
+        369,
+        4022,
+        9158,
+        13,
+        561,
+        1970,
+        364,
+        7366,
+        369,
+        4022,
+        15463,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        20817,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        20817,
+        369,
+        4022,
+        9158,
+        13,
+        561,
+        1970,
+        364,
+        7366,
+        369,
+        4022,
+        15463,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7366,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      9158,
+      15463
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -9.883349418640137,
+        "top_token": 9158
+      },
+      {
+        "donor_minus_original": -10.51125431060791,
+        "top_token": 15463
+      }
+    ],
+    "first_top": [
+      5603,
+      5603
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -9.148905754089355,
+          "top_token": 9158
+        },
+        "1": {
+          "donor_minus_original": -10.172754287719727,
+          "top_token": 9158
+        },
+        "2": {
+          "donor_minus_original": -8.91359806060791,
+          "top_token": 9158
+        },
+        "3": {
+          "donor_minus_original": -9.909070014953613,
+          "top_token": 9158
+        },
+        "4": {
+          "donor_minus_original": -9.853669166564941,
+          "top_token": 9158
+        },
+        "5": {
+          "donor_minus_original": -9.855046272277832,
+          "top_token": 9158
+        },
+        "6": {
+          "donor_minus_original": -9.874286651611328,
+          "top_token": 9158
+        },
+        "7": {
+          "donor_minus_original": -9.86429500579834,
+          "top_token": 9158
+        },
+        "8": {
+          "donor_minus_original": -11.093364715576172,
+          "top_token": 9158
+        },
+        "9": {
+          "donor_minus_original": -9.139429092407227,
+          "top_token": 9158
+        },
+        "10": {
+          "donor_minus_original": -9.156124114990234,
+          "top_token": 9158
+        },
+        "11": {
+          "donor_minus_original": -4.335165023803711,
+          "top_token": 9158
+        },
+        "12": {
+          "donor_minus_original": -8.948186874389648,
+          "top_token": 9158
+        },
+        "13": {
+          "donor_minus_original": -9.922340393066406,
+          "top_token": 9158
+        },
+        "14": {
+          "donor_minus_original": -10.652504920959473,
+          "top_token": 9158
+        },
+        "15": {
+          "donor_minus_original": -7.141848564147949,
+          "top_token": 9158
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -10.093318939208984,
+          "top_token": 15463
+        },
+        "1": {
+          "donor_minus_original": -10.516230583190918,
+          "top_token": 15463
+        },
+        "2": {
+          "donor_minus_original": -9.652653694152832,
+          "top_token": 15463
+        },
+        "3": {
+          "donor_minus_original": -10.567532539367676,
+          "top_token": 15463
+        },
+        "4": {
+          "donor_minus_original": -10.48180103302002,
+          "top_token": 15463
+        },
+        "5": {
+          "donor_minus_original": -10.517799377441406,
+          "top_token": 15463
+        },
+        "6": {
+          "donor_minus_original": -10.542191505432129,
+          "top_token": 15463
+        },
+        "7": {
+          "donor_minus_original": -10.59557056427002,
+          "top_token": 15463
+        },
+        "8": {
+          "donor_minus_original": -11.166203498840332,
+          "top_token": 15463
+        },
+        "9": {
+          "donor_minus_original": -10.101325035095215,
+          "top_token": 15463
+        },
+        "10": {
+          "donor_minus_original": -9.965262413024902,
+          "top_token": 15463
+        },
+        "11": {
+          "donor_minus_original": -5.7539777755737305,
+          "top_token": 15463
+        },
+        "12": {
+          "donor_minus_original": -9.838020324707031,
+          "top_token": 15463
+        },
+        "13": {
+          "donor_minus_original": -10.476783752441406,
+          "top_token": 15463
+        },
+        "14": {
+          "donor_minus_original": -10.810678482055664,
+          "top_token": 15463
+        },
+        "15": {
+          "donor_minus_original": -8.236031532287598,
+          "top_token": 15463
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Tom",
+      "Ben"
+    ],
+    "tails": [
+      "rain",
+      "moon"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Tom is white rain. The code for Ben is white moon.\nWhat is the code for Tom?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Tom is white rain. The code for Ben is white moon.\nWhat is the code for Ben?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        8105,
+        369,
+        4022,
+        10849,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        17257,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8105,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        8105,
+        369,
+        4022,
+        10849,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        17257,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7124,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      10849,
+      17257
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -8.98305606842041,
+        "top_token": 10849
+      },
+      {
+        "donor_minus_original": -6.320648193359375,
+        "top_token": 17257
+      }
+    ],
+    "first_top": [
+      5603,
+      1266
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -8.647361755371094,
+          "top_token": 10849
+        },
+        "1": {
+          "donor_minus_original": -9.02231216430664,
+          "top_token": 10849
+        },
+        "2": {
+          "donor_minus_original": -8.2168607711792,
+          "top_token": 10849
+        },
+        "3": {
+          "donor_minus_original": -9.02884292602539,
+          "top_token": 10849
+        },
+        "4": {
+          "donor_minus_original": -9.003244400024414,
+          "top_token": 10849
+        },
+        "5": {
+          "donor_minus_original": -8.957110404968262,
+          "top_token": 10849
+        },
+        "6": {
+          "donor_minus_original": -8.98594856262207,
+          "top_token": 10849
+        },
+        "7": {
+          "donor_minus_original": -8.983959197998047,
+          "top_token": 10849
+        },
+        "8": {
+          "donor_minus_original": -9.711259841918945,
+          "top_token": 10849
+        },
+        "9": {
+          "donor_minus_original": -8.388951301574707,
+          "top_token": 10849
+        },
+        "10": {
+          "donor_minus_original": -8.849345207214355,
+          "top_token": 10849
+        },
+        "11": {
+          "donor_minus_original": -3.8821640014648438,
+          "top_token": 10849
+        },
+        "12": {
+          "donor_minus_original": -8.339380264282227,
+          "top_token": 10849
+        },
+        "13": {
+          "donor_minus_original": -9.026078224182129,
+          "top_token": 10849
+        },
+        "14": {
+          "donor_minus_original": -9.279816627502441,
+          "top_token": 10849
+        },
+        "15": {
+          "donor_minus_original": -5.973642349243164,
+          "top_token": 10849
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -6.046812057495117,
+          "top_token": 17257
+        },
+        "1": {
+          "donor_minus_original": -6.279690742492676,
+          "top_token": 17257
+        },
+        "2": {
+          "donor_minus_original": -5.559282302856445,
+          "top_token": 17257
+        },
+        "3": {
+          "donor_minus_original": -6.3772125244140625,
+          "top_token": 17257
+        },
+        "4": {
+          "donor_minus_original": -6.2768964767456055,
+          "top_token": 17257
+        },
+        "5": {
+          "donor_minus_original": -6.307323455810547,
+          "top_token": 17257
+        },
+        "6": {
+          "donor_minus_original": -6.260828971862793,
+          "top_token": 17257
+        },
+        "7": {
+          "donor_minus_original": -6.388418197631836,
+          "top_token": 17257
+        },
+        "8": {
+          "donor_minus_original": -6.913788795471191,
+          "top_token": 17257
+        },
+        "9": {
+          "donor_minus_original": -5.592747688293457,
+          "top_token": 17257
+        },
+        "10": {
+          "donor_minus_original": -6.090561866760254,
+          "top_token": 17257
+        },
+        "11": {
+          "donor_minus_original": -3.9120750427246094,
+          "top_token": 17257
+        },
+        "12": {
+          "donor_minus_original": -5.500248908996582,
+          "top_token": 17257
+        },
+        "13": {
+          "donor_minus_original": -6.216863632202148,
+          "top_token": 17257
+        },
+        "14": {
+          "donor_minus_original": -6.417607307434082,
+          "top_token": 17257
+        },
+        "15": {
+          "donor_minus_original": -4.326082229614258,
+          "top_token": 17257
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Sam",
+      "Jane"
+    ],
+    "tails": [
+      "bell",
+      "leaf"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Sam is white bell. The code for Jane is white leaf.\nWhat is the code for Sam?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Sam is white bell. The code for Jane is white leaf.\nWhat is the code for Jane?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7967,
+        369,
+        4022,
+        27491,
+        13,
+        561,
+        1970,
+        364,
+        20817,
+        369,
+        4022,
+        15463,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7967,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7967,
+        369,
+        4022,
+        27491,
+        13,
+        561,
+        1970,
+        364,
+        20817,
+        369,
+        4022,
+        15463,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        20817,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      27491,
+      15463
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -10.289410591125488,
+        "top_token": 27491
+      },
+      {
+        "donor_minus_original": -8.201879501342773,
+        "top_token": 15463
+      }
+    ],
+    "first_top": [
+      5603,
+      5603
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -9.868556022644043,
+          "top_token": 27491
+        },
+        "1": {
+          "donor_minus_original": -10.361055374145508,
+          "top_token": 27491
+        },
+        "2": {
+          "donor_minus_original": -9.822033882141113,
+          "top_token": 27491
+        },
+        "3": {
+          "donor_minus_original": -10.226997375488281,
+          "top_token": 27491
+        },
+        "4": {
+          "donor_minus_original": -10.254180908203125,
+          "top_token": 27491
+        },
+        "5": {
+          "donor_minus_original": -10.172297477722168,
+          "top_token": 27491
+        },
+        "6": {
+          "donor_minus_original": -10.283615112304688,
+          "top_token": 27491
+        },
+        "7": {
+          "donor_minus_original": -10.264460563659668,
+          "top_token": 27491
+        },
+        "8": {
+          "donor_minus_original": -11.004935264587402,
+          "top_token": 27491
+        },
+        "9": {
+          "donor_minus_original": -9.624797821044922,
+          "top_token": 27491
+        },
+        "10": {
+          "donor_minus_original": -9.905242919921875,
+          "top_token": 27491
+        },
+        "11": {
+          "donor_minus_original": -5.953582763671875,
+          "top_token": 27491
+        },
+        "12": {
+          "donor_minus_original": -9.565383911132812,
+          "top_token": 27491
+        },
+        "13": {
+          "donor_minus_original": -10.255859375,
+          "top_token": 27491
+        },
+        "14": {
+          "donor_minus_original": -10.535672187805176,
+          "top_token": 27491
+        },
+        "15": {
+          "donor_minus_original": -7.663421630859375,
+          "top_token": 27491
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -7.807154655456543,
+          "top_token": 15463
+        },
+        "1": {
+          "donor_minus_original": -8.302600860595703,
+          "top_token": 15463
+        },
+        "2": {
+          "donor_minus_original": -7.674917221069336,
+          "top_token": 15463
+        },
+        "3": {
+          "donor_minus_original": -8.374567985534668,
+          "top_token": 15463
+        },
+        "4": {
+          "donor_minus_original": -8.222713470458984,
+          "top_token": 15463
+        },
+        "5": {
+          "donor_minus_original": -8.241100311279297,
+          "top_token": 15463
+        },
+        "6": {
+          "donor_minus_original": -8.177495002746582,
+          "top_token": 15463
+        },
+        "7": {
+          "donor_minus_original": -8.239856719970703,
+          "top_token": 15463
+        },
+        "8": {
+          "donor_minus_original": -8.834626197814941,
+          "top_token": 15463
+        },
+        "9": {
+          "donor_minus_original": -7.650010108947754,
+          "top_token": 15463
+        },
+        "10": {
+          "donor_minus_original": -7.940634727478027,
+          "top_token": 15463
+        },
+        "11": {
+          "donor_minus_original": -5.048679351806641,
+          "top_token": 15463
+        },
+        "12": {
+          "donor_minus_original": -7.543369293212891,
+          "top_token": 15463
+        },
+        "13": {
+          "donor_minus_original": -8.10925006866455,
+          "top_token": 15463
+        },
+        "14": {
+          "donor_minus_original": -8.424445152282715,
+          "top_token": 15463
+        },
+        "15": {
+          "donor_minus_original": -6.011940956115723,
+          "top_token": 15463
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Ben",
+      "Tom"
+    ],
+    "tails": [
+      "leaf",
+      "rain"
+    ],
+    "lead": "red",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Ben is red leaf. The code for Tom is red rain.\nWhat is the code for Ben?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Ben is red leaf. The code for Tom is red rain.\nWhat is the code for Tom?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7124,
+        369,
+        2438,
+        15463,
+        13,
+        561,
+        1970,
+        364,
+        8105,
+        369,
+        2438,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7124,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7124,
+        369,
+        2438,
+        15463,
+        13,
+        561,
+        1970,
+        364,
+        8105,
+        369,
+        2438,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8105,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 1114,
+    "second": [
+      15463,
+      10849
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -10.409893035888672,
+        "top_token": 15463
+      },
+      {
+        "donor_minus_original": -6.5651397705078125,
+        "top_token": 10849
+      }
+    ],
+    "first_top": [
+      1114,
+      1114
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -10.058370590209961,
+          "top_token": 15463
+        },
+        "1": {
+          "donor_minus_original": -10.499456405639648,
+          "top_token": 15463
+        },
+        "2": {
+          "donor_minus_original": -9.575276374816895,
+          "top_token": 15463
+        },
+        "3": {
+          "donor_minus_original": -10.419008255004883,
+          "top_token": 15463
+        },
+        "4": {
+          "donor_minus_original": -10.434564590454102,
+          "top_token": 15463
+        },
+        "5": {
+          "donor_minus_original": -10.492301940917969,
+          "top_token": 15463
+        },
+        "6": {
+          "donor_minus_original": -10.413310050964355,
+          "top_token": 15463
+        },
+        "7": {
+          "donor_minus_original": -10.648524284362793,
+          "top_token": 15463
+        },
+        "8": {
+          "donor_minus_original": -11.398284912109375,
+          "top_token": 15463
+        },
+        "9": {
+          "donor_minus_original": -10.055103302001953,
+          "top_token": 15463
+        },
+        "10": {
+          "donor_minus_original": -10.083429336547852,
+          "top_token": 15463
+        },
+        "11": {
+          "donor_minus_original": -5.8756561279296875,
+          "top_token": 15463
+        },
+        "12": {
+          "donor_minus_original": -9.472865104675293,
+          "top_token": 15463
+        },
+        "13": {
+          "donor_minus_original": -10.580718040466309,
+          "top_token": 15463
+        },
+        "14": {
+          "donor_minus_original": -10.780312538146973,
+          "top_token": 15463
+        },
+        "15": {
+          "donor_minus_original": -7.7060699462890625,
+          "top_token": 15463
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -6.021553039550781,
+          "top_token": 10849
+        },
+        "1": {
+          "donor_minus_original": -6.625393867492676,
+          "top_token": 10849
+        },
+        "2": {
+          "donor_minus_original": -5.821779251098633,
+          "top_token": 10849
+        },
+        "3": {
+          "donor_minus_original": -6.624927520751953,
+          "top_token": 10849
+        },
+        "4": {
+          "donor_minus_original": -6.5885467529296875,
+          "top_token": 10849
+        },
+        "5": {
+          "donor_minus_original": -6.576776504516602,
+          "top_token": 10849
+        },
+        "6": {
+          "donor_minus_original": -6.588724136352539,
+          "top_token": 10849
+        },
+        "7": {
+          "donor_minus_original": -6.5763959884643555,
+          "top_token": 10849
+        },
+        "8": {
+          "donor_minus_original": -7.438332557678223,
+          "top_token": 10849
+        },
+        "9": {
+          "donor_minus_original": -5.874144554138184,
+          "top_token": 10849
+        },
+        "10": {
+          "donor_minus_original": -6.220188140869141,
+          "top_token": 10849
+        },
+        "11": {
+          "donor_minus_original": -3.771188735961914,
+          "top_token": 10849
+        },
+        "12": {
+          "donor_minus_original": -5.690486907958984,
+          "top_token": 10849
+        },
+        "13": {
+          "donor_minus_original": -6.4970855712890625,
+          "top_token": 10849
+        },
+        "14": {
+          "donor_minus_original": -6.625555992126465,
+          "top_token": 10849
+        },
+        "15": {
+          "donor_minus_original": -4.343652725219727,
+          "top_token": 10849
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Bill",
+      "Ben"
+    ],
+    "tails": [
+      "tree",
+      "lake"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Bill is white tree. The code for Ben is white lake.\nWhat is the code for Bill?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Bill is white tree. The code for Ben is white lake.\nWhat is the code for Ben?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        8333,
+        369,
+        4022,
+        4757,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        21128,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8333,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        8333,
+        369,
+        4022,
+        4757,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        21128,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7124,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      4757,
+      21128
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -11.769493103027344,
+        "top_token": 4757
+      },
+      {
+        "donor_minus_original": -5.053865432739258,
+        "top_token": 21128
+      }
+    ],
+    "first_top": [
+      5603,
+      5603
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -11.076830863952637,
+          "top_token": 4757
+        },
+        "1": {
+          "donor_minus_original": -12.038805961608887,
+          "top_token": 4757
+        },
+        "2": {
+          "donor_minus_original": -10.788261413574219,
+          "top_token": 4757
+        },
+        "3": {
+          "donor_minus_original": -11.640424728393555,
+          "top_token": 4757
+        },
+        "4": {
+          "donor_minus_original": -11.800843238830566,
+          "top_token": 4757
+        },
+        "5": {
+          "donor_minus_original": -11.814068794250488,
+          "top_token": 4757
+        },
+        "6": {
+          "donor_minus_original": -11.802742958068848,
+          "top_token": 4757
+        },
+        "7": {
+          "donor_minus_original": -11.795870780944824,
+          "top_token": 4757
+        },
+        "8": {
+          "donor_minus_original": -12.82351303100586,
+          "top_token": 4757
+        },
+        "9": {
+          "donor_minus_original": -11.021302223205566,
+          "top_token": 4757
+        },
+        "10": {
+          "donor_minus_original": -11.275330543518066,
+          "top_token": 4757
+        },
+        "11": {
+          "donor_minus_original": -6.5353193283081055,
+          "top_token": 4757
+        },
+        "12": {
+          "donor_minus_original": -11.274513244628906,
+          "top_token": 4757
+        },
+        "13": {
+          "donor_minus_original": -11.74561595916748,
+          "top_token": 4757
+        },
+        "14": {
+          "donor_minus_original": -12.108141899108887,
+          "top_token": 4757
+        },
+        "15": {
+          "donor_minus_original": -9.063403129577637,
+          "top_token": 4757
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -4.71748161315918,
+          "top_token": 21128
+        },
+        "1": {
+          "donor_minus_original": -5.190525054931641,
+          "top_token": 21128
+        },
+        "2": {
+          "donor_minus_original": -4.244394302368164,
+          "top_token": 21128
+        },
+        "3": {
+          "donor_minus_original": -5.101167678833008,
+          "top_token": 21128
+        },
+        "4": {
+          "donor_minus_original": -5.120609283447266,
+          "top_token": 21128
+        },
+        "5": {
+          "donor_minus_original": -5.068244934082031,
+          "top_token": 21128
+        },
+        "6": {
+          "donor_minus_original": -5.1315717697143555,
+          "top_token": 21128
+        },
+        "7": {
+          "donor_minus_original": -5.124326705932617,
+          "top_token": 21128
+        },
+        "8": {
+          "donor_minus_original": -6.112186431884766,
+          "top_token": 21128
+        },
+        "9": {
+          "donor_minus_original": -4.2344560623168945,
+          "top_token": 21128
+        },
+        "10": {
+          "donor_minus_original": -4.562839508056641,
+          "top_token": 21128
+        },
+        "11": {
+          "donor_minus_original": -2.0098094940185547,
+          "top_token": 21128
+        },
+        "12": {
+          "donor_minus_original": -4.592514991760254,
+          "top_token": 21128
+        },
+        "13": {
+          "donor_minus_original": -5.032958984375,
+          "top_token": 21128
+        },
+        "14": {
+          "donor_minus_original": -5.305841445922852,
+          "top_token": 21128
+        },
+        "15": {
+          "donor_minus_original": -3.409242630004883,
+          "top_token": 21128
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Sam",
+      "Tom"
+    ],
+    "tails": [
+      "tree",
+      "stone"
+    ],
+    "lead": "gold",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Sam is gold tree. The code for Tom is gold stone.\nWhat is the code for Sam?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Sam is gold tree. The code for Tom is gold stone.\nWhat is the code for Tom?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7967,
+        369,
+        6414,
+        4757,
+        13,
+        561,
+        1970,
+        364,
+        8105,
+        369,
+        6414,
+        9506,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7967,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7967,
+        369,
+        6414,
+        4757,
+        13,
+        561,
+        1970,
+        364,
+        8105,
+        369,
+        6414,
+        9506,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8105,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 33392,
+    "second": [
+      4757,
+      9506
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -9.514290809631348,
+        "top_token": 4757
+      },
+      {
+        "donor_minus_original": -5.58613395690918,
+        "top_token": 9506
+      }
+    ],
+    "first_top": [
+      33392,
+      33392
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -8.437894821166992,
+          "top_token": 4757
+        },
+        "1": {
+          "donor_minus_original": -10.024516105651855,
+          "top_token": 4757
+        },
+        "2": {
+          "donor_minus_original": -8.560440063476562,
+          "top_token": 4757
+        },
+        "3": {
+          "donor_minus_original": -9.513855934143066,
+          "top_token": 4757
+        },
+        "4": {
+          "donor_minus_original": -9.655797004699707,
+          "top_token": 4757
+        },
+        "5": {
+          "donor_minus_original": -9.587603569030762,
+          "top_token": 4757
+        },
+        "6": {
+          "donor_minus_original": -9.638708114624023,
+          "top_token": 4757
+        },
+        "7": {
+          "donor_minus_original": -9.480854034423828,
+          "top_token": 4757
+        },
+        "8": {
+          "donor_minus_original": -10.883695602416992,
+          "top_token": 4757
+        },
+        "9": {
+          "donor_minus_original": -8.684822082519531,
+          "top_token": 4757
+        },
+        "10": {
+          "donor_minus_original": -8.721446990966797,
+          "top_token": 4757
+        },
+        "11": {
+          "donor_minus_original": -4.635801315307617,
+          "top_token": 4757
+        },
+        "12": {
+          "donor_minus_original": -8.71558952331543,
+          "top_token": 4757
+        },
+        "13": {
+          "donor_minus_original": -9.407149314880371,
+          "top_token": 4757
+        },
+        "14": {
+          "donor_minus_original": -10.316824913024902,
+          "top_token": 4757
+        },
+        "15": {
+          "donor_minus_original": -7.198163986206055,
+          "top_token": 4757
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -4.853950500488281,
+          "top_token": 9506
+        },
+        "1": {
+          "donor_minus_original": -5.6698198318481445,
+          "top_token": 9506
+        },
+        "2": {
+          "donor_minus_original": -4.72292423248291,
+          "top_token": 9506
+        },
+        "3": {
+          "donor_minus_original": -5.68228816986084,
+          "top_token": 9506
+        },
+        "4": {
+          "donor_minus_original": -5.535981178283691,
+          "top_token": 9506
+        },
+        "5": {
+          "donor_minus_original": -5.614784240722656,
+          "top_token": 9506
+        },
+        "6": {
+          "donor_minus_original": -5.515462875366211,
+          "top_token": 9506
+        },
+        "7": {
+          "donor_minus_original": -5.646103858947754,
+          "top_token": 9506
+        },
+        "8": {
+          "donor_minus_original": -6.517387390136719,
+          "top_token": 9506
+        },
+        "9": {
+          "donor_minus_original": -4.947693824768066,
+          "top_token": 9506
+        },
+        "10": {
+          "donor_minus_original": -5.158696174621582,
+          "top_token": 9506
+        },
+        "11": {
+          "donor_minus_original": -3.228992462158203,
+          "top_token": 9506
+        },
+        "12": {
+          "donor_minus_original": -5.010861396789551,
+          "top_token": 9506
+        },
+        "13": {
+          "donor_minus_original": -5.452069282531738,
+          "top_token": 9506
+        },
+        "14": {
+          "donor_minus_original": -5.734048843383789,
+          "top_token": 9506
+        },
+        "15": {
+          "donor_minus_original": -4.225292205810547,
+          "top_token": 10495
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Ben",
+      "Bill"
+    ],
+    "tails": [
+      "cloud",
+      "stone"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Ben is white cloud. The code for Bill is white stone.\nWhat is the code for Ben?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Ben is white cloud. The code for Bill is white stone.\nWhat is the code for Bill?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        9158,
+        13,
+        561,
+        1970,
+        364,
+        8333,
+        369,
+        4022,
+        9506,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7124,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7124,
+        369,
+        4022,
+        9158,
+        13,
+        561,
+        1970,
+        364,
+        8333,
+        369,
+        4022,
+        9506,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8333,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      9158,
+      9506
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -6.912994384765625,
+        "top_token": 9158
+      },
+      {
+        "donor_minus_original": -8.142291069030762,
+        "top_token": 9506
+      }
+    ],
+    "first_top": [
+      5603,
+      1266
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -6.263277053833008,
+          "top_token": 9158
+        },
+        "1": {
+          "donor_minus_original": -7.125833511352539,
+          "top_token": 9158
+        },
+        "2": {
+          "donor_minus_original": -5.994683265686035,
+          "top_token": 9158
+        },
+        "3": {
+          "donor_minus_original": -6.865148544311523,
+          "top_token": 9158
+        },
+        "4": {
+          "donor_minus_original": -6.895076751708984,
+          "top_token": 9158
+        },
+        "5": {
+          "donor_minus_original": -6.836409568786621,
+          "top_token": 9158
+        },
+        "6": {
+          "donor_minus_original": -6.903273582458496,
+          "top_token": 9158
+        },
+        "7": {
+          "donor_minus_original": -6.826955795288086,
+          "top_token": 9158
+        },
+        "8": {
+          "donor_minus_original": -8.143949508666992,
+          "top_token": 9158
+        },
+        "9": {
+          "donor_minus_original": -6.1825361251831055,
+          "top_token": 9158
+        },
+        "10": {
+          "donor_minus_original": -6.271689414978027,
+          "top_token": 9158
+        },
+        "11": {
+          "donor_minus_original": -2.8104915618896484,
+          "top_token": 9158
+        },
+        "12": {
+          "donor_minus_original": -6.2277116775512695,
+          "top_token": 9158
+        },
+        "13": {
+          "donor_minus_original": -6.879510879516602,
+          "top_token": 9158
+        },
+        "14": {
+          "donor_minus_original": -7.352788925170898,
+          "top_token": 9158
+        },
+        "15": {
+          "donor_minus_original": -4.127618789672852,
+          "top_token": 9158
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -7.679563522338867,
+          "top_token": 9506
+        },
+        "1": {
+          "donor_minus_original": -8.350220680236816,
+          "top_token": 9506
+        },
+        "2": {
+          "donor_minus_original": -7.059333801269531,
+          "top_token": 9506
+        },
+        "3": {
+          "donor_minus_original": -8.323683738708496,
+          "top_token": 9506
+        },
+        "4": {
+          "donor_minus_original": -8.241846084594727,
+          "top_token": 9506
+        },
+        "5": {
+          "donor_minus_original": -8.167521476745605,
+          "top_token": 9506
+        },
+        "6": {
+          "donor_minus_original": -8.113662719726562,
+          "top_token": 9506
+        },
+        "7": {
+          "donor_minus_original": -8.197524070739746,
+          "top_token": 9506
+        },
+        "8": {
+          "donor_minus_original": -9.195657730102539,
+          "top_token": 9506
+        },
+        "9": {
+          "donor_minus_original": -7.482928276062012,
+          "top_token": 9506
+        },
+        "10": {
+          "donor_minus_original": -7.663813591003418,
+          "top_token": 9506
+        },
+        "11": {
+          "donor_minus_original": -3.7527236938476562,
+          "top_token": 9506
+        },
+        "12": {
+          "donor_minus_original": -7.612608909606934,
+          "top_token": 9506
+        },
+        "13": {
+          "donor_minus_original": -8.079543113708496,
+          "top_token": 9506
+        },
+        "14": {
+          "donor_minus_original": -8.399611473083496,
+          "top_token": 9506
+        },
+        "15": {
+          "donor_minus_original": -5.683598518371582,
+          "top_token": 9506
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Sam",
+      "Bill"
+    ],
+    "tails": [
+      "stone",
+      "rain"
+    ],
+    "lead": "red",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Sam is red stone. The code for Bill is red rain.\nWhat is the code for Sam?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Sam is red stone. The code for Bill is red rain.\nWhat is the code for Bill?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7967,
+        369,
+        2438,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        8333,
+        369,
+        2438,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7967,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7967,
+        369,
+        2438,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        8333,
+        369,
+        2438,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8333,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 1114,
+    "second": [
+      9506,
+      10849
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -10.614582061767578,
+        "top_token": 9506
+      },
+      {
+        "donor_minus_original": -5.934904098510742,
+        "top_token": 10849
+      }
+    ],
+    "first_top": [
+      1114,
+      1114
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -10.26552963256836,
+          "top_token": 9506
+        },
+        "1": {
+          "donor_minus_original": -10.715475082397461,
+          "top_token": 9506
+        },
+        "2": {
+          "donor_minus_original": -9.464826583862305,
+          "top_token": 9506
+        },
+        "3": {
+          "donor_minus_original": -10.581603050231934,
+          "top_token": 9506
+        },
+        "4": {
+          "donor_minus_original": -10.642223358154297,
+          "top_token": 9506
+        },
+        "5": {
+          "donor_minus_original": -10.652766227722168,
+          "top_token": 9506
+        },
+        "6": {
+          "donor_minus_original": -10.547577857971191,
+          "top_token": 9506
+        },
+        "7": {
+          "donor_minus_original": -10.790077209472656,
+          "top_token": 9506
+        },
+        "8": {
+          "donor_minus_original": -11.430830001831055,
+          "top_token": 9506
+        },
+        "9": {
+          "donor_minus_original": -10.142577171325684,
+          "top_token": 9506
+        },
+        "10": {
+          "donor_minus_original": -10.228306770324707,
+          "top_token": 9506
+        },
+        "11": {
+          "donor_minus_original": -6.910673141479492,
+          "top_token": 9506
+        },
+        "12": {
+          "donor_minus_original": -10.001852989196777,
+          "top_token": 9506
+        },
+        "13": {
+          "donor_minus_original": -10.624795913696289,
+          "top_token": 9506
+        },
+        "14": {
+          "donor_minus_original": -10.906057357788086,
+          "top_token": 9506
+        },
+        "15": {
+          "donor_minus_original": -7.716856956481934,
+          "top_token": 9506
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -5.339258193969727,
+          "top_token": 10849
+        },
+        "1": {
+          "donor_minus_original": -6.043597221374512,
+          "top_token": 10849
+        },
+        "2": {
+          "donor_minus_original": -4.935300827026367,
+          "top_token": 10849
+        },
+        "3": {
+          "donor_minus_original": -6.011451721191406,
+          "top_token": 10849
+        },
+        "4": {
+          "donor_minus_original": -5.927523612976074,
+          "top_token": 10849
+        },
+        "5": {
+          "donor_minus_original": -5.999598503112793,
+          "top_token": 10849
+        },
+        "6": {
+          "donor_minus_original": -5.919947624206543,
+          "top_token": 10849
+        },
+        "7": {
+          "donor_minus_original": -5.960292816162109,
+          "top_token": 10849
+        },
+        "8": {
+          "donor_minus_original": -6.964439392089844,
+          "top_token": 10849
+        },
+        "9": {
+          "donor_minus_original": -5.009429931640625,
+          "top_token": 10849
+        },
+        "10": {
+          "donor_minus_original": -5.5268449783325195,
+          "top_token": 10849
+        },
+        "11": {
+          "donor_minus_original": -2.821685791015625,
+          "top_token": 10849
+        },
+        "12": {
+          "donor_minus_original": -5.1637372970581055,
+          "top_token": 10849
+        },
+        "13": {
+          "donor_minus_original": -5.799060821533203,
+          "top_token": 10849
+        },
+        "14": {
+          "donor_minus_original": -6.137085914611816,
+          "top_token": 10849
+        },
+        "15": {
+          "donor_minus_original": -3.504901885986328,
+          "top_token": 10849
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Jack",
+      "Ben"
+    ],
+    "tails": [
+      "lake",
+      "cloud"
+    ],
+    "lead": "gold",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is gold lake. The code for Ben is gold cloud.\nWhat is the code for Jack?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is gold lake. The code for Ben is gold cloud.\nWhat is the code for Ben?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        6414,
+        21128,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        6414,
+        9158,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7366,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        6414,
+        21128,
+        13,
+        561,
+        1970,
+        364,
+        7124,
+        369,
+        6414,
+        9158,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7124,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 33392,
+    "second": [
+      21128,
+      9158
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -9.837384223937988,
+        "top_token": 21128
+      },
+      {
+        "donor_minus_original": -5.876949310302734,
+        "top_token": 9158
+      }
+    ],
+    "first_top": [
+      33392,
+      33392
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -9.082747459411621,
+          "top_token": 21128
+        },
+        "1": {
+          "donor_minus_original": -10.096324920654297,
+          "top_token": 21128
+        },
+        "2": {
+          "donor_minus_original": -9.061881065368652,
+          "top_token": 21128
+        },
+        "3": {
+          "donor_minus_original": -9.826876640319824,
+          "top_token": 21128
+        },
+        "4": {
+          "donor_minus_original": -9.91783332824707,
+          "top_token": 21128
+        },
+        "5": {
+          "donor_minus_original": -9.773127555847168,
+          "top_token": 21128
+        },
+        "6": {
+          "donor_minus_original": -9.811873435974121,
+          "top_token": 21128
+        },
+        "7": {
+          "donor_minus_original": -9.86830997467041,
+          "top_token": 21128
+        },
+        "8": {
+          "donor_minus_original": -10.738242149353027,
+          "top_token": 21128
+        },
+        "9": {
+          "donor_minus_original": -9.287077903747559,
+          "top_token": 21128
+        },
+        "10": {
+          "donor_minus_original": -9.326983451843262,
+          "top_token": 21128
+        },
+        "11": {
+          "donor_minus_original": -5.161449432373047,
+          "top_token": 21128
+        },
+        "12": {
+          "donor_minus_original": -9.176854133605957,
+          "top_token": 21128
+        },
+        "13": {
+          "donor_minus_original": -9.69759464263916,
+          "top_token": 21128
+        },
+        "14": {
+          "donor_minus_original": -10.472785949707031,
+          "top_token": 21128
+        },
+        "15": {
+          "donor_minus_original": -6.122617721557617,
+          "top_token": 21128
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -5.218860626220703,
+          "top_token": 9158
+        },
+        "1": {
+          "donor_minus_original": -5.964266777038574,
+          "top_token": 9158
+        },
+        "2": {
+          "donor_minus_original": -5.108768463134766,
+          "top_token": 9158
+        },
+        "3": {
+          "donor_minus_original": -5.9407548904418945,
+          "top_token": 9158
+        },
+        "4": {
+          "donor_minus_original": -5.918754577636719,
+          "top_token": 9158
+        },
+        "5": {
+          "donor_minus_original": -5.868877410888672,
+          "top_token": 9158
+        },
+        "6": {
+          "donor_minus_original": -5.909195899963379,
+          "top_token": 9158
+        },
+        "7": {
+          "donor_minus_original": -5.956912040710449,
+          "top_token": 9158
+        },
+        "8": {
+          "donor_minus_original": -6.860833168029785,
+          "top_token": 9158
+        },
+        "9": {
+          "donor_minus_original": -5.28965950012207,
+          "top_token": 9158
+        },
+        "10": {
+          "donor_minus_original": -5.558521270751953,
+          "top_token": 9158
+        },
+        "11": {
+          "donor_minus_original": -2.892292022705078,
+          "top_token": 9158
+        },
+        "12": {
+          "donor_minus_original": -5.2300262451171875,
+          "top_token": 9158
+        },
+        "13": {
+          "donor_minus_original": -5.799162864685059,
+          "top_token": 9158
+        },
+        "14": {
+          "donor_minus_original": -6.331001281738281,
+          "top_token": 9158
+        },
+        "15": {
+          "donor_minus_original": -3.284595489501953,
+          "top_token": 9158
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Ben",
+      "Sam"
+    ],
+    "tails": [
+      "leaf",
+      "tree"
+    ],
+    "lead": "red",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Ben is red leaf. The code for Sam is red tree.\nWhat is the code for Ben?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Ben is red leaf. The code for Sam is red tree.\nWhat is the code for Sam?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7124,
+        369,
+        2438,
+        15463,
+        13,
+        561,
+        1970,
+        364,
+        7967,
+        369,
+        2438,
+        4757,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7124,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7124,
+        369,
+        2438,
+        15463,
+        13,
+        561,
+        1970,
+        364,
+        7967,
+        369,
+        2438,
+        4757,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7967,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 1114,
+    "second": [
+      15463,
+      4757
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -8.58067512512207,
+        "top_token": 15463
+      },
+      {
+        "donor_minus_original": -7.148370742797852,
+        "top_token": 4757
+      }
+    ],
+    "first_top": [
+      1114,
+      1114
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -8.151788711547852,
+          "top_token": 15463
+        },
+        "1": {
+          "donor_minus_original": -8.660940170288086,
+          "top_token": 15463
+        },
+        "2": {
+          "donor_minus_original": -8.004891395568848,
+          "top_token": 15463
+        },
+        "3": {
+          "donor_minus_original": -8.54487419128418,
+          "top_token": 15463
+        },
+        "4": {
+          "donor_minus_original": -8.567564964294434,
+          "top_token": 15463
+        },
+        "5": {
+          "donor_minus_original": -8.612058639526367,
+          "top_token": 15463
+        },
+        "6": {
+          "donor_minus_original": -8.53554916381836,
+          "top_token": 15463
+        },
+        "7": {
+          "donor_minus_original": -8.60265827178955,
+          "top_token": 15463
+        },
+        "8": {
+          "donor_minus_original": -9.366448402404785,
+          "top_token": 15463
+        },
+        "9": {
+          "donor_minus_original": -8.002361297607422,
+          "top_token": 15463
+        },
+        "10": {
+          "donor_minus_original": -8.259034156799316,
+          "top_token": 15463
+        },
+        "11": {
+          "donor_minus_original": -3.7773494720458984,
+          "top_token": 15463
+        },
+        "12": {
+          "donor_minus_original": -7.411759376525879,
+          "top_token": 15463
+        },
+        "13": {
+          "donor_minus_original": -8.778047561645508,
+          "top_token": 15463
+        },
+        "14": {
+          "donor_minus_original": -8.880268096923828,
+          "top_token": 15463
+        },
+        "15": {
+          "donor_minus_original": -5.778435707092285,
+          "top_token": 15463
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -6.896492004394531,
+          "top_token": 4757
+        },
+        "1": {
+          "donor_minus_original": -7.14530086517334,
+          "top_token": 4757
+        },
+        "2": {
+          "donor_minus_original": -6.765381813049316,
+          "top_token": 4757
+        },
+        "3": {
+          "donor_minus_original": -7.13407039642334,
+          "top_token": 4757
+        },
+        "4": {
+          "donor_minus_original": -7.192244529724121,
+          "top_token": 4757
+        },
+        "5": {
+          "donor_minus_original": -7.091913223266602,
+          "top_token": 4757
+        },
+        "6": {
+          "donor_minus_original": -7.133951187133789,
+          "top_token": 4757
+        },
+        "7": {
+          "donor_minus_original": -7.220568656921387,
+          "top_token": 4757
+        },
+        "8": {
+          "donor_minus_original": -7.512245178222656,
+          "top_token": 4757
+        },
+        "9": {
+          "donor_minus_original": -6.369328498840332,
+          "top_token": 4757
+        },
+        "10": {
+          "donor_minus_original": -6.973384857177734,
+          "top_token": 4757
+        },
+        "11": {
+          "donor_minus_original": -4.717750549316406,
+          "top_token": 4757
+        },
+        "12": {
+          "donor_minus_original": -6.325216293334961,
+          "top_token": 4757
+        },
+        "13": {
+          "donor_minus_original": -7.144809722900391,
+          "top_token": 4757
+        },
+        "14": {
+          "donor_minus_original": -7.169826507568359,
+          "top_token": 4757
+        },
+        "15": {
+          "donor_minus_original": -5.162507057189941,
+          "top_token": 4757
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Bill",
+      "Tom"
+    ],
+    "tails": [
+      "stone",
+      "rain"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Bill is white stone. The code for Tom is white rain.\nWhat is the code for Bill?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Bill is white stone. The code for Tom is white rain.\nWhat is the code for Tom?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        8333,
+        369,
+        4022,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        8105,
+        369,
+        4022,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8333,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        8333,
+        369,
+        4022,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        8105,
+        369,
+        4022,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        8105,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      9506,
+      10849
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -10.608110427856445,
+        "top_token": 9506
+      },
+      {
+        "donor_minus_original": -4.717058181762695,
+        "top_token": 10849
+      }
+    ],
+    "first_top": [
+      1266,
+      1266
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -10.120657920837402,
+          "top_token": 9506
+        },
+        "1": {
+          "donor_minus_original": -10.924910545349121,
+          "top_token": 9506
+        },
+        "2": {
+          "donor_minus_original": -9.531595230102539,
+          "top_token": 9506
+        },
+        "3": {
+          "donor_minus_original": -10.601015090942383,
+          "top_token": 9506
+        },
+        "4": {
+          "donor_minus_original": -10.635466575622559,
+          "top_token": 9506
+        },
+        "5": {
+          "donor_minus_original": -10.66357421875,
+          "top_token": 9506
+        },
+        "6": {
+          "donor_minus_original": -10.596370697021484,
+          "top_token": 9506
+        },
+        "7": {
+          "donor_minus_original": -10.658061027526855,
+          "top_token": 9506
+        },
+        "8": {
+          "donor_minus_original": -11.667398452758789,
+          "top_token": 9506
+        },
+        "9": {
+          "donor_minus_original": -10.127179145812988,
+          "top_token": 9506
+        },
+        "10": {
+          "donor_minus_original": -10.059462547302246,
+          "top_token": 9506
+        },
+        "11": {
+          "donor_minus_original": -6.689309120178223,
+          "top_token": 9506
+        },
+        "12": {
+          "donor_minus_original": -9.761627197265625,
+          "top_token": 9506
+        },
+        "13": {
+          "donor_minus_original": -10.549099922180176,
+          "top_token": 9506
+        },
+        "14": {
+          "donor_minus_original": -10.909537315368652,
+          "top_token": 9506
+        },
+        "15": {
+          "donor_minus_original": -7.553998947143555,
+          "top_token": 9506
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -4.26171875,
+          "top_token": 10849
+        },
+        "1": {
+          "donor_minus_original": -4.962554931640625,
+          "top_token": 10849
+        },
+        "2": {
+          "donor_minus_original": -3.8226242065429688,
+          "top_token": 10849
+        },
+        "3": {
+          "donor_minus_original": -4.849081039428711,
+          "top_token": 10849
+        },
+        "4": {
+          "donor_minus_original": -4.717411041259766,
+          "top_token": 10849
+        },
+        "5": {
+          "donor_minus_original": -4.729820251464844,
+          "top_token": 10849
+        },
+        "6": {
+          "donor_minus_original": -4.7920122146606445,
+          "top_token": 10849
+        },
+        "7": {
+          "donor_minus_original": -4.716139793395996,
+          "top_token": 10849
+        },
+        "8": {
+          "donor_minus_original": -5.793764114379883,
+          "top_token": 10849
+        },
+        "9": {
+          "donor_minus_original": -3.9712400436401367,
+          "top_token": 10849
+        },
+        "10": {
+          "donor_minus_original": -4.3084259033203125,
+          "top_token": 10849
+        },
+        "11": {
+          "donor_minus_original": -2.0146236419677734,
+          "top_token": 10849
+        },
+        "12": {
+          "donor_minus_original": -4.031572341918945,
+          "top_token": 10849
+        },
+        "13": {
+          "donor_minus_original": -4.651679992675781,
+          "top_token": 10849
+        },
+        "14": {
+          "donor_minus_original": -4.979280471801758,
+          "top_token": 10849
+        },
+        "15": {
+          "donor_minus_original": -2.6934499740600586,
+          "top_token": 10849
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Jane",
+      "Jack"
+    ],
+    "tails": [
+      "moon",
+      "bell"
+    ],
+    "lead": "gold",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jane is gold moon. The code for Jack is gold bell.\nWhat is the code for Jane?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jane is gold moon. The code for Jack is gold bell.\nWhat is the code for Jack?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        20817,
+        369,
+        6414,
+        17257,
+        13,
+        561,
+        1970,
+        364,
+        7366,
+        369,
+        6414,
+        27491,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        20817,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        20817,
+        369,
+        6414,
+        17257,
+        13,
+        561,
+        1970,
+        364,
+        7366,
+        369,
+        6414,
+        27491,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7366,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 33392,
+    "second": [
+      17257,
+      27491
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -13.897651672363281,
+        "top_token": 17257
+      },
+      {
+        "donor_minus_original": -10.387325286865234,
+        "top_token": 27491
+      }
+    ],
+    "first_top": [
+      33392,
+      33392
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -13.049259185791016,
+          "top_token": 17257
+        },
+        "1": {
+          "donor_minus_original": -14.206562995910645,
+          "top_token": 17257
+        },
+        "2": {
+          "donor_minus_original": -12.763912200927734,
+          "top_token": 17257
+        },
+        "3": {
+          "donor_minus_original": -13.835883140563965,
+          "top_token": 17257
+        },
+        "4": {
+          "donor_minus_original": -13.868927001953125,
+          "top_token": 17257
+        },
+        "5": {
+          "donor_minus_original": -13.894365310668945,
+          "top_token": 17257
+        },
+        "6": {
+          "donor_minus_original": -13.905285835266113,
+          "top_token": 17257
+        },
+        "7": {
+          "donor_minus_original": -13.963476181030273,
+          "top_token": 17257
+        },
+        "8": {
+          "donor_minus_original": -14.974828720092773,
+          "top_token": 17257
+        },
+        "9": {
+          "donor_minus_original": -13.597085952758789,
+          "top_token": 17257
+        },
+        "10": {
+          "donor_minus_original": -12.885970115661621,
+          "top_token": 17257
+        },
+        "11": {
+          "donor_minus_original": -8.434389114379883,
+          "top_token": 17257
+        },
+        "12": {
+          "donor_minus_original": -13.181116104125977,
+          "top_token": 17257
+        },
+        "13": {
+          "donor_minus_original": -13.777884483337402,
+          "top_token": 17257
+        },
+        "14": {
+          "donor_minus_original": -14.36483383178711,
+          "top_token": 17257
+        },
+        "15": {
+          "donor_minus_original": -10.932037353515625,
+          "top_token": 17257
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -9.42353630065918,
+          "top_token": 27491
+        },
+        "1": {
+          "donor_minus_original": -10.609513282775879,
+          "top_token": 27491
+        },
+        "2": {
+          "donor_minus_original": -9.057888984680176,
+          "top_token": 27491
+        },
+        "3": {
+          "donor_minus_original": -10.436053276062012,
+          "top_token": 27491
+        },
+        "4": {
+          "donor_minus_original": -10.436387062072754,
+          "top_token": 27491
+        },
+        "5": {
+          "donor_minus_original": -10.38552188873291,
+          "top_token": 27491
+        },
+        "6": {
+          "donor_minus_original": -10.431861877441406,
+          "top_token": 27491
+        },
+        "7": {
+          "donor_minus_original": -10.470284461975098,
+          "top_token": 27491
+        },
+        "8": {
+          "donor_minus_original": -11.37907886505127,
+          "top_token": 27491
+        },
+        "9": {
+          "donor_minus_original": -9.993210792541504,
+          "top_token": 27491
+        },
+        "10": {
+          "donor_minus_original": -9.478894233703613,
+          "top_token": 27491
+        },
+        "11": {
+          "donor_minus_original": -5.631538391113281,
+          "top_token": 27491
+        },
+        "12": {
+          "donor_minus_original": -9.533939361572266,
+          "top_token": 27491
+        },
+        "13": {
+          "donor_minus_original": -10.193865776062012,
+          "top_token": 27491
+        },
+        "14": {
+          "donor_minus_original": -10.777209281921387,
+          "top_token": 27491
+        },
+        "15": {
+          "donor_minus_original": -7.682293891906738,
+          "top_token": 27491
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Jack",
+      "Jane"
+    ],
+    "tails": [
+      "moon",
+      "rain"
+    ],
+    "lead": "gold",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is gold moon. The code for Jane is gold rain.\nWhat is the code for Jack?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Jack is gold moon. The code for Jane is gold rain.\nWhat is the code for Jane?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        6414,
+        17257,
+        13,
+        561,
+        1970,
+        364,
+        20817,
+        369,
+        6414,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        7366,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        7366,
+        369,
+        6414,
+        17257,
+        13,
+        561,
+        1970,
+        364,
+        20817,
+        369,
+        6414,
+        10849,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        20817,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 33392,
+    "second": [
+      17257,
+      10849
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -10.447144508361816,
+        "top_token": 17257
+      },
+      {
+        "donor_minus_original": -5.175327301025391,
+        "top_token": 10849
+      }
+    ],
+    "first_top": [
+      33392,
+      33392
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -9.862689018249512,
+          "top_token": 17257
+        },
+        "1": {
+          "donor_minus_original": -10.722867965698242,
+          "top_token": 17257
+        },
+        "2": {
+          "donor_minus_original": -9.327404975891113,
+          "top_token": 17257
+        },
+        "3": {
+          "donor_minus_original": -10.380012512207031,
+          "top_token": 17257
+        },
+        "4": {
+          "donor_minus_original": -10.449334144592285,
+          "top_token": 17257
+        },
+        "5": {
+          "donor_minus_original": -10.48327350616455,
+          "top_token": 17257
+        },
+        "6": {
+          "donor_minus_original": -10.508339881896973,
+          "top_token": 17257
+        },
+        "7": {
+          "donor_minus_original": -10.418787956237793,
+          "top_token": 17257
+        },
+        "8": {
+          "donor_minus_original": -11.499101638793945,
+          "top_token": 17257
+        },
+        "9": {
+          "donor_minus_original": -10.299330711364746,
+          "top_token": 17257
+        },
+        "10": {
+          "donor_minus_original": -9.844635963439941,
+          "top_token": 17257
+        },
+        "11": {
+          "donor_minus_original": -7.260092735290527,
+          "top_token": 17257
+        },
+        "12": {
+          "donor_minus_original": -9.620671272277832,
+          "top_token": 17257
+        },
+        "13": {
+          "donor_minus_original": -10.22889518737793,
+          "top_token": 17257
+        },
+        "14": {
+          "donor_minus_original": -10.89441204071045,
+          "top_token": 17257
+        },
+        "15": {
+          "donor_minus_original": -7.153785705566406,
+          "top_token": 17257
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -4.588285446166992,
+          "top_token": 10849
+        },
+        "1": {
+          "donor_minus_original": -5.247737884521484,
+          "top_token": 10849
+        },
+        "2": {
+          "donor_minus_original": -4.2896270751953125,
+          "top_token": 10849
+        },
+        "3": {
+          "donor_minus_original": -5.194918632507324,
+          "top_token": 10849
+        },
+        "4": {
+          "donor_minus_original": -5.137751579284668,
+          "top_token": 10849
+        },
+        "5": {
+          "donor_minus_original": -5.193744659423828,
+          "top_token": 10849
+        },
+        "6": {
+          "donor_minus_original": -5.134313583374023,
+          "top_token": 10849
+        },
+        "7": {
+          "donor_minus_original": -5.216094017028809,
+          "top_token": 10849
+        },
+        "8": {
+          "donor_minus_original": -5.884683609008789,
+          "top_token": 10849
+        },
+        "9": {
+          "donor_minus_original": -4.924714088439941,
+          "top_token": 10849
+        },
+        "10": {
+          "donor_minus_original": -4.787728309631348,
+          "top_token": 10849
+        },
+        "11": {
+          "donor_minus_original": -3.1944808959960938,
+          "top_token": 10849
+        },
+        "12": {
+          "donor_minus_original": -4.5468950271606445,
+          "top_token": 10849
+        },
+        "13": {
+          "donor_minus_original": -5.048710823059082,
+          "top_token": 10849
+        },
+        "14": {
+          "donor_minus_original": -5.401623725891113,
+          "top_token": 10849
+        },
+        "15": {
+          "donor_minus_original": -2.9229183197021484,
+          "top_token": 10849
+        }
+      }
+    ]
+  },
+  {
+    "people": [
+      "Rose",
+      "Jane"
+    ],
+    "tails": [
+      "stone",
+      "tree"
+    ],
+    "lead": "white",
+    "prompts": [
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Rose is white stone. The code for Jane is white tree.\nWhat is the code for Rose?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "<|im_start|>user\nAnswer with the two lowercase words only.\nThe code for Rose is white stone. The code for Jane is white tree.\nWhat is the code for Jane?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+    ],
+    "tokens": [
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        15492,
+        369,
+        4022,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        20817,
+        369,
+        4022,
+        4757,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        15492,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      [
+        248045,
+        846,
+        198,
+        15666,
+        440,
+        279,
+        1330,
+        40657,
+        4105,
+        1132,
+        13,
+        198,
+        760,
+        1970,
+        364,
+        15492,
+        369,
+        4022,
+        9506,
+        13,
+        561,
+        1970,
+        364,
+        20817,
+        369,
+        4022,
+        4757,
+        13,
+        198,
+        3710,
+        369,
+        279,
+        1970,
+        364,
+        20817,
+        30,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ]
+    ],
+    "first": 5603,
+    "second": [
+      9506,
+      4757
+    ],
+    "clean": [
+      {
+        "donor_minus_original": -8.039819717407227,
+        "top_token": 9506
+      },
+      {
+        "donor_minus_original": -6.9752912521362305,
+        "top_token": 4757
+      }
+    ],
+    "first_top": [
+      5603,
+      1266
+    ],
+    "patches": [
+      {
+        "0": {
+          "donor_minus_original": -7.677367210388184,
+          "top_token": 9506
+        },
+        "1": {
+          "donor_minus_original": -8.205883979797363,
+          "top_token": 9506
+        },
+        "2": {
+          "donor_minus_original": -7.021018981933594,
+          "top_token": 9506
+        },
+        "3": {
+          "donor_minus_original": -7.97196102142334,
+          "top_token": 9506
+        },
+        "4": {
+          "donor_minus_original": -8.024828910827637,
+          "top_token": 9506
+        },
+        "5": {
+          "donor_minus_original": -8.019598007202148,
+          "top_token": 9506
+        },
+        "6": {
+          "donor_minus_original": -8.02133846282959,
+          "top_token": 9506
+        },
+        "7": {
+          "donor_minus_original": -8.070021629333496,
+          "top_token": 9506
+        },
+        "8": {
+          "donor_minus_original": -9.070860862731934,
+          "top_token": 9506
+        },
+        "9": {
+          "donor_minus_original": -6.825493812561035,
+          "top_token": 9506
+        },
+        "10": {
+          "donor_minus_original": -7.723932266235352,
+          "top_token": 9506
+        },
+        "11": {
+          "donor_minus_original": -3.4245853424072266,
+          "top_token": 9506
+        },
+        "12": {
+          "donor_minus_original": -6.920967102050781,
+          "top_token": 9506
+        },
+        "13": {
+          "donor_minus_original": -8.150943756103516,
+          "top_token": 9506
+        },
+        "14": {
+          "donor_minus_original": -8.51679801940918,
+          "top_token": 9506
+        },
+        "15": {
+          "donor_minus_original": -6.168316841125488,
+          "top_token": 9506
+        }
+      },
+      {
+        "0": {
+          "donor_minus_original": -6.676896095275879,
+          "top_token": 4757
+        },
+        "1": {
+          "donor_minus_original": -7.022172927856445,
+          "top_token": 4757
+        },
+        "2": {
+          "donor_minus_original": -6.11992073059082,
+          "top_token": 4757
+        },
+        "3": {
+          "donor_minus_original": -7.015748023986816,
+          "top_token": 4757
+        },
+        "4": {
+          "donor_minus_original": -6.977743148803711,
+          "top_token": 4757
+        },
+        "5": {
+          "donor_minus_original": -6.938385963439941,
+          "top_token": 4757
+        },
+        "6": {
+          "donor_minus_original": -6.904361724853516,
+          "top_token": 4757
+        },
+        "7": {
+          "donor_minus_original": -7.013916969299316,
+          "top_token": 4757
+        },
+        "8": {
+          "donor_minus_original": -7.945430755615234,
+          "top_token": 4757
+        },
+        "9": {
+          "donor_minus_original": -5.963338851928711,
+          "top_token": 4757
+        },
+        "10": {
+          "donor_minus_original": -6.652007102966309,
+          "top_token": 4757
+        },
+        "11": {
+          "donor_minus_original": -3.9375057220458984,
+          "top_token": 4757
+        },
+        "12": {
+          "donor_minus_original": -6.022965431213379,
+          "top_token": 4757
+        },
+        "13": {
+          "donor_minus_original": -6.966775894165039,
+          "top_token": 4757
+        },
+        "14": {
+          "donor_minus_original": -7.274526596069336,
+          "top_token": 4757
+        },
+        "15": {
+          "donor_minus_original": -5.365836143493652,
+          "top_token": 4757
+        }
+      }
+    ]
+  }
+]
