@@ -1,4 +1,5 @@
 """Construct deterministic article-disjoint source edits in original SQuAD questions."""
+
 import argparse
 import hashlib
 import json
@@ -20,15 +21,16 @@ def digest(path):
 
 def encode(tok, context, question):
     content = f"Answer the question with just the answer from the passage.\n{context}\nQuestion: {question}"
-    text = tok.apply_chat_template([{"role": "user", "content": content}],
-                                   tokenize=False, add_generation_prompt=True)
+    text = tok.apply_chat_template(
+        [{"role": "user", "content": content}], tokenize=False, add_generation_prompt=True
+    )
     return tok.encode(text, add_special_tokens=False)
 
 
 def get_ids(tok, row, context, question):
     start, original = row["start"], row["original"]
-    assert context[start:start + len(original)] == original
-    alternate = context[:start] + row["replacement"] + context[start + len(original):]
+    assert context[start : start + len(original)] == original
+    alternate = context[:start] + row["replacement"] + context[start + len(original) :]
     clean, donor = [encode(tok, part, question) for part in (context, alternate)]
     sites = [i for i, (a, b) in enumerate(zip(clean, donor)) if a != b]
     if len(clean) != len(donor) or len(clean) > 248 or len(sites) != 1:
@@ -52,17 +54,30 @@ def make_rows(dataset, tokenizers):
             for q in qas:
                 ans = q["answers"][0]
                 word, start = ans["text"], ans["answer_start"]
-                if (not re.fullmatch("[A-Za-z]{3,}", word) or context.count(word) != 1
-                        or word.casefold() in q["question"].casefold()):
+                if (
+                    not re.fullmatch("[A-Za-z]{3,}", word)
+                    or context.count(word) != 1
+                    or word.casefold() in q["question"].casefold()
+                ):
                     continue
                 # A single-word alternative from another answer in the same paragraph.
                 for other in qas:
                     alt = other["answers"][0]["text"]
-                    if (not re.fullmatch("[A-Za-z]{3,}", alt) or alt.casefold() == word.casefold()
-                            or alt.casefold() in q["question"].casefold() or alt.istitle() != word.istitle()):
+                    if (
+                        not re.fullmatch("[A-Za-z]{3,}", alt)
+                        or alt.casefold() == word.casefold()
+                        or alt.casefold() in q["question"].casefold()
+                        or alt.istitle() != word.istitle()
+                    ):
                         continue
-                    row = dict(article=a["title"], paragraph=pi, qid=q["id"], start=start,
-                               original=word, replacement=alt)
+                    row = dict(
+                        article=a["title"],
+                        paragraph=pi,
+                        qid=q["id"],
+                        start=start,
+                        original=word,
+                        replacement=alt,
+                    )
                     if all(get_ids(tok, row, context, q["question"]) for tok in tokenizers):
                         rows.append(dict(row, split="fit" if len(rows) < TRAIN else "test"))
                         found = True
