@@ -65,6 +65,7 @@ def verify(directory, inputs=None):
         a, b = (np.median(caps[k][1:]) for k in ("pilot_ils_ms", "pilot_batch_ms"))
         np.testing.assert_allclose([caps["tight"], caps["roomy"]], [1.2 * a + b, 1.2 * a + 4 * b])
         groups = read(directory / ("groups-" + model + ".json"))
+        controls = read(directory / ("controls-" + model + ".json"))
         for kind in ("amortize", "cached"):
             timed = read(directory / (kind + "-" + model + ".json"))
             assert len(timed) == 4
@@ -128,6 +129,19 @@ def verify(directory, inputs=None):
             same_refs(groups[task], group[task])
             assert len(groups[task]) == 24
             for n, r in enumerate(groups[task]):
+                ctrl = controls[task][n]
+                assert ctrl["index"] == r["index"] and ctrl["counter"] == r["counter"]
+                for values in ctrl["predictions"].values():
+                    assert len(values) == 7 and np.isfinite(values).all()
+                np.testing.assert_allclose(
+                    ctrl["predictions"]["midpoint"],
+                    r["predictions"]["matched_midpoint"],
+                    atol=6e-4,
+                    rtol=3e-4,
+                )
+                np.testing.assert_allclose(
+                    ctrl["predictions"]["exact_additive"][1], r["gold"][1], atol=6e-4, rtol=3e-4
+                )
                 np.testing.assert_array_equal(
                     r["order"], np.random.default_rng(34399 + n).permutation(heads)
                 )

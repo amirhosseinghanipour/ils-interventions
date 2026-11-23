@@ -147,11 +147,13 @@ def summarize(directory):
     draws = {t: rng.integers(0, 24, (10000, 24)) for t in ("addition", "subtraction")}
     comparisons = []
     anchor_comparisons = []
+    control_comparisons = []
     for model in ("qwen", "large"):
         result["timing"][model] = timings(read(directory / ("amortize-" + model + ".json")))
         result["cached_timing"][model] = timings(read(directory / ("cached-" + model + ".json")))
         caps = read(directory / (model + "-budget.json"))
         groups = read(directory / ("groups-" + model + ".json"))
+        controls = read(directory / ("controls-" + model + ".json"))
         for task in ("addition", "subtraction"):
             cell = model + "-" + task
             records = read(directory / (cell + "-test.json"))
@@ -188,6 +190,27 @@ def summarize(directory):
                 entry = dict(matched_midpoint_mae_advantage=avg)
                 report["matched_midpoint_comparisons"][control] = entry
                 anchor_comparisons.append((entry, b, avg, float(b.std(ddof=1))))
+            report["integration_and_additivity"] = {}
+            exact = np.asarray([r["gold"][1:-1] for r in groups[task]])
+            for method in ("matched_ig5", "exact_additive", "midpoint"):
+                pred = np.asarray([r["predictions"][method][1:-1] for r in controls[task]])
+                error = abs(pred - exact)
+                timed = [
+                    np.median(r["timings_128_ms"][method]) for r in controls[task] if "timings_128_ms" in r
+                ]
+                details = dict(
+                    mae=float(error.mean()),
+                    mae_by_size=error.mean(0).tolist(),
+                    timing_128_median_marginal_ms=float(np.median(timed)),
+                )
+                report["integration_and_additivity"][method] = details
+                if method != "midpoint":
+                    adv = error.mean(1) - per_prompt["matched_midpoint"]
+                    boot = adv[draws[task]].mean(1)
+                    avg = float(adv.mean())
+                    details["midpoint_mae_advantage"] = avg
+                    control_comparisons.append((details, boot, avg, float(boot.std(ddof=1))))
+    simultaneous_intervals(control_comparisons)
     simultaneous_intervals(comparisons)
     simultaneous_intervals(anchor_comparisons)
     return result
