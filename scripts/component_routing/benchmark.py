@@ -37,7 +37,6 @@ def gold(circuit):
     return np.concatenate(values), top
 
 
-
 def rank(x):
     return np.argsort(-np.abs(x), kind="stable")
 
@@ -173,7 +172,14 @@ def main():
         # Never use exhaustive labels in the online policies.
         t = now()
         exact, top = gold(c)
-        record.update(gold=exact.tolist(), patch_top=top, clean_top=c.top[0], donor_top=c.top[1], labels=c.labels, oracle_ms=now() - t)
+        record.update(
+            gold=exact.tolist(),
+            patch_top=top,
+            clean_top=c.top[0],
+            donor_top=c.top[1],
+            labels=c.labels,
+            oracle_ms=now() - t,
+        )
         if not fit:
             for run in record["methods"].values():
                 for batch in run["history"]:
