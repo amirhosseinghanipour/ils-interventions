@@ -31,3 +31,7 @@ Reproduce the calibration and timing diagnostics in the same output directory as
 The calibration-budget replay holds the three-pair support size fixed and takes nested, complement-balanced subsets of the original 32 observations. The chosen budget is the smallest tested budget retaining 90% of the 32-observation MAE improvement over the midpoint on development. The smaller-budget results measure raw prediction and raw top-choice accuracy.
 
     python -m scripts.interaction_search.calibration_budget OUT OUT/calibration-budget.json
+
+A second retrospective diagnostic learns a shared additive or pairwise correction on 18 development prompts using their 576 nontriple observations. Each new prompt supplies only its midpoint gradient. The output includes paired uncertainties and the full per-prompt outcomes.
+
+    python -m scripts.interaction_search.transfer_prior OUT OUT/transfer-prior.json
