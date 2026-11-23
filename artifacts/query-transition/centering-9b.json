@@ -1,0 +1,58 @@
+{
+  "15": {
+    "carrier": {
+      "correct": 0,
+      "within_pair": 61,
+      "rank_median": 29.0,
+      "rank_mean": 28.390625
+    },
+    "crossfit": {
+      "correct": 1,
+      "within_pair": 57,
+      "rank_median": 24.5,
+      "rank_mean": 25.84375
+    }
+  },
+  "23": {
+    "carrier": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    },
+    "crossfit": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    }
+  },
+  "27": {
+    "carrier": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    },
+    "crossfit": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    }
+  },
+  "31": {
+    "carrier": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    },
+    "crossfit": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    }
+  }
+}

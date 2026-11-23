@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "model_sha256": "13c16f426047e2de38cd075bdade4a7bcbc8c774384876f677740cda65f8a983",
+  "suffix_sha256": "c393ac9cf294457abcc801ca4156112cce7148f2eff13ed32bba7708403893ff",
+  "backend": "llama.cpp b12110 CPU, 4 threads, Q4_K_M",
+  "prompt": "A scientist measured the temperature of the water at sunrise and again at noon.",
+  "token_ids": [
+    32,
+    26578,
+    16384,
+    279,
+    9039,
+    314,
+    279,
+    2919,
+    506,
+    61665,
+    321,
+    1495,
+    506,
+    35915,
+    13
+  ],
+  "source_block": 15,
+  "target_block": 31,
+  "source_position": 7,
+  "donor_position": 1,
+  "epsilon": 0.05,
+  "source_direction": "same-prompt residual at donor position minus residual at source position",
+  "output": "final block output before normalization at all prompt positions",
+  "max_abs_error": {
+    "0": 0.0,
+    "1": 0.0,
+    "-1": 0.0
+  },
+  "antithetic_effect_l2_by_position": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.4673552766962885,
+    0.9790292843165924,
+    0.8675291149872297,
+    0.9129911346091395,
+    0.8996377836139059,
+    1.02759575833348,
+    0.81191934673337,
+    1.1997938675867899
+  ],
+  "output_sha256": {
+    "full0.f32": "c9fe4c8cf168fbfa386e5e3c79f6284eedb498e2125ba679a20d9dd9d424bbe7",
+    "full1.f32": "c61e3fbcd080a702a531279383aa63a3d29a9e970a8a33b9e7f23667005a5ce3",
+    "full-1.f32": "6456521fadf2d15a797741a59e1701325ed92723bf630ef05bcb097b8e8b4f2a",
+    "suffix0.f32": "c9fe4c8cf168fbfa386e5e3c79f6284eedb498e2125ba679a20d9dd9d424bbe7",
+    "suffix1.f32": "c61e3fbcd080a702a531279383aa63a3d29a9e970a8a33b9e7f23667005a5ce3",
+    "suffix-1.f32": "6456521fadf2d15a797741a59e1701325ed92723bf630ef05bcb097b8e8b4f2a"
+  }
+}

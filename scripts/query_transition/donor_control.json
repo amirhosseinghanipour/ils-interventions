@@ -1,0 +1,6 @@
+{
+  "purpose": "Check that the block-19 donor advantage survives an equally large edit drawn from another real question pair. This secondary comparison was specified after the synthetic donor-versus-random outcomes and before any external-corpus inference.",
+  "rule": "Use every test prefix; assign the next prefix's positive-direction block-19 update, cyclically. Rescale that vector to the recipient pair's donor-update norm and use its negative for the reverse query. The donor index never depends on token labels or outcomes. Report overlaps in answer-token pairs. Keep the original primary selections and random-control analyses unchanged.",
+  "scope": ["two-person held-out phrases", "SQuAD paired questions"],
+  "uncertainty": "Prefix-level intervals condition on the realized fixed donor assignment. Report the paired mean targeted-donor minus other-donor logit margin."
+}

@@ -1,0 +1,86 @@
+import numpy as np
+from scipy.stats import spearmanr
+from ..fit import r2
+
+def horizon_log_probability_changes(model,plus,minus,weights,position_batch=8):
+    """Read each branch once, then reduce a horizon-by-position weight matrix."""
+    import torch
+    if plus.shape!=minus.shape or weights.ndim!=2 or len(plus)!=weights.shape[1]:raise ValueError('Mismatched target positions')
+    result=plus.new_zeros((len(weights),model.config.vocab_size))
+    with torch.no_grad():
+        for start in range(0,len(plus),position_batch):
+            end=start+position_batch
+            p=model.lm_head(model.model.norm(plus[start:end])).log_softmax(-1)
+            m=model.lm_head(model.model.norm(minus[start:end])).log_softmax(-1)
+            result+=weights[:,start:end]@((p-m)/2)
+    return result
+
+def horizon_log_probability_change(model,plus,minus,weights,position_batch=8):
+    """Single-horizon wrapper, with normalization before position averaging."""
+    return horizon_log_probability_changes(model,plus,minus,weights[None],position_batch)[0]
+
+def token_spearman(predicted,actual,k=1000):
+    ids = actual.abs().topk(min(k,len(actual))).indices
+    if predicted[ids].max()==predicted[ids].min() or actual[ids].max()==actual[ids].min():return float('nan')
+    return float(spearmanr(predicted[ids].detach().cpu().numpy(),actual[ids].detach().cpu().numpy()).statistic)
+
+def bootstrap_r2(y,pred,prompt_ids,repeats=200,seed=0):
+    import torch
+    if not len(y) or y.shape!=pred.shape or len(y)!=len(prompt_ids):raise ValueError('Nonempty matched observations and prompt IDs required')
+    if not torch.isfinite(y).all() or not torch.isfinite(pred).all():raise ValueError('Nonfinite model response or prediction')
+    rng = np.random.default_rng(seed)
+    groups = prompt_ids.unique().cpu().numpy()
+    estimates=[]
+    for _ in range(repeats):
+        indices=torch.cat([torch.where(prompt_ids==int(g))[0] for g in rng.choice(groups,len(groups),replace=True)])
+        estimates.append(r2(y[indices],pred[indices]))
+    value=r2(y,pred);finite=np.asarray(estimates)[np.isfinite(estimates)]
+    return dict(r2=value if np.isfinite(value) else None,
+        ci=np.quantile(finite,[.025,.975]).tolist() if len(finite)>=20 else [None,None],
+        undefined_bootstrap_resamples=repeats-len(finite),
+        r2_status='measured' if np.isfinite(value) else 'undefined_zero_target_variance')
+
+def bootstrap_prompt_mean(values,repeats=200,seed=0):
+    """Aggregate repeated measurements within prompts; report undefined cases."""
+    values=np.asarray(values,dtype=float)
+    if values.ndim!=2:raise ValueError('Expected prompt by repeated-measurement array')
+    finite=np.isfinite(values);counts=finite.sum(1)
+    means=np.where(finite,values,0).sum(1)/np.maximum(counts,1);means=means[counts>0]
+    rng=np.random.default_rng(seed)
+    ci=[None,None] if not len(means) else np.quantile(means[rng.integers(len(means),size=(repeats,len(means)))].mean(1),[.025,.975]).tolist()
+    return dict(mean=float(means.mean()) if len(means) else None,ci=ci,valid_prompts=len(means),
+        undefined_prompts=int((counts==0).sum()),undefined_measurements=int((~finite).sum()))
+
+
+def paired_prompt_r2(y, preds, groups, archive=None, key=None):
+    """Paired, pointwise 95% intervals conditional on trained maps, resampling prompts."""
+    y = y.cpu().double().numpy()
+    groups = groups.cpu().numpy()
+    ids = np.unique(groups)
+    n = np.array([sum(groups == g) for g in ids])
+    sums = np.stack([y[groups == g].sum(0) for g in ids])
+    squares = np.array([np.square(y[groups == g]).sum() for g in ids])
+    counts = np.random.default_rng(0).multinomial(
+        len(ids), np.full(len(ids), 1 / len(ids)), size=2000
+    )
+    counts = np.vstack([np.ones(len(ids)), counts])
+    tss = counts @ squares - np.square(counts @ sums).sum(1) / (counts @ n)
+    assert (tss > 0).all()
+    if archive is not None:
+        archive[key + "/n"] = n
+        archive[key + "/sum_y_gram"] = sums @ sums.T
+        archive[key + "/sum_y2"] = squares
+    estimates = {}
+    for name, pred in preds.items():
+        err = np.square(y - pred.cpu().double().numpy()).sum(1)
+        errors = np.array([err[groups == g].sum() for g in ids])
+        if archive is not None:
+            archive[key + "/SSE/" + name] = errors
+        estimates[name] = 1 - (counts @ errors) / tss
+    for name in preds:
+        if name != "ILS":
+            estimates["ILS minus " + name] = estimates["ILS"] - estimates[name]
+    return {
+        k: dict(estimate=float(v[0]), ci=np.quantile(v[1:], [0.025, 0.975]).tolist())
+        for k, v in estimates.items()
+    }

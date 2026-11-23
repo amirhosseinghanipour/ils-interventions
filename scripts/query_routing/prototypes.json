@@ -1,0 +1,11 @@
+{
+  "timing": "Specified after seeing color and parcel results. Animal-task outcomes and carrier measurements had not been collected or inspected. The animal task is the independent test for this refinement. The earlier tasks provide training or exploratory comparisons.",
+  "primary": "Paired centered R2 gain of a carrier-vector predictor plus a fitted source correction over the original relevance-conditioned source ridge on 48 fresh animal pairs, for 9B and 4B separately. Keep all clean and carrier failures; report gains and absolute R2.",
+  "prototype": "For each eligible answer word, run one neutral instruction: Repeat exactly this lowercase word: WORD. Capture the clean final residual at the first-answer prediction site using the same chat format. Use donor-minus-original carrier differences. No paired task outcome or edited test activation enters a carrier. Report carrier top-1 accuracy and additional forward passes.",
+  "fit": "On original color training only, fit one scalar per query relation mapping the carrier difference to the final edit response. Add a ridge correction from the original source delta to the remaining response, selecting its penalty with the original five prefix folds. Also report scalar carrier alone and a predictor that shares its scalar across both queries. Use unchanged coefficients and original color fits for every evaluation. No animal or parcel task rows in training.",
+  "animals": ["cat","dog","frog","duck","fox","bear","goat","horse","fish","wolf","lion","tiger","mouse","owl","cow","pig","seal","panda"],
+  "names": ["Ron","Meg","Gus","Ned","Jan","Lee","Kit","Pat","Kim","Roy","Ted","Jill"],
+  "seed": 31014, "count": 48,
+  "template": ["At the fair, {name} saw the {color}.","Which animal did {name} see?"],
+  "additional": "Transfer control package from the earlier parcel study. Norm-matched random edit on each animal pair. No head screen on animal data. Record all raw arrays, tokens, margins and top-1 outcomes."
+}

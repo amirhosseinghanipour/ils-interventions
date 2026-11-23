@@ -1,0 +1,11 @@
+{
+  "seed": 31015,
+  "pairs": 64,
+  "foods": ["bread","rice","soup","cake","corn","toast","bean","beef","ham","egg","cheese","pasta","pizza","melon","pear","apple","plum","peach","cream","salt","honey"],
+  "names": ["Ray","May","Sue","Ian","Roy","Kim","Jill","Joe","Leo","Ted","Amy","Eve"],
+  "facts": "For lunch, {name} chose the {color}.",
+  "question": "Which food did {name} choose?",
+  "eligible": "Use all single-token candidates from the previous carrier bank and this food bank. No task-specific filtering in the decoder. Each candidate gets a neutral repetition prompt.",
+  "primary": "At source block 15, given only a displacement and the clean answer-position block-15 residual for an individual question, predict the last-position full donor effect on 64 fresh food pairs. Infer original and replacement as the ordered pair of neutral word-source states whose difference maximizes cosine with the edit. Infer clean answer by centered cosine against neutral answer states at block 15. Predict relevance if inferred answer equals inferred original. Return the frozen color relevance scale times the inferred carrier difference. Score centered R2 and its paired difference against the same inferred identities with the single mean scale.",
+  "secondary": "Repeat query decoding at clean blocks 23, 27 and 31 with unchanged source decoder. Report identity-pair recovery, clean-answer identification, relevance accuracy, oracle R2 with annotated identities and relation, and exact clean first-token accuracy. No model outcomes used to filter items. Bootstrap 10000 entire prefixes, fitted scales fixed. Closed candidate bank, known intervention site and direction. No test-set model selection."
+}

@@ -1,0 +1,9 @@
+{
+  "train_mean_r2": -0.13997229187223126,
+  "affine_scalar_r2": -0.0546630336315268,
+  "affine_ridge_r2": -0.2274291938312587,
+  "affine_corrected_r2": -0.167285018924487,
+  "oracle_odd_r2_max": 0.6918791027577682,
+  "oracle_odd_with_optimal_constant_r2_max": 0.802410335157665,
+  "heldout_odd_fraction_explained_by_scalar": 0.10631625055520011
+}

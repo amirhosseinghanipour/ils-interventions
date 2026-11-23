@@ -1,0 +1,6 @@
+{
+  "timing": "Specified before any block or head outcomes were inspected. Supplementary finite-effect prediction at the block selected by the original 9B development screen.",
+  "sample": "Sixteen two-person development prefixes per model, two symmetric query interventions each. Test on the 64 disjoint two-person phrase prefixes with new names, suffixes and syntax. For 4B keep the original 9B block selection.",
+  "estimand": "Predict the measured change in the last pre-normalization residual from the actual last-position block-increment edit, with zero test query labels and no word dictionary. This is a same-position target, so include direct identity, training-fitted scalar, ordinary ridge, and a ridge correction on top of that scalar. Evaluate the selected donor update only. Score centered R2, paired difference vs scalar, and fractional squared-error reduction over the scalar. Do not infer cross-position transport from this outcome. Fit ridge penalties only by prefix-grouped four-fold development CV.",
+  "replication": "Replay the stored donor logits and confirm that cached traces reproduce the actual intervention. A small training bank limits the fitted model's identifiable subspace. Report negative gains."
+}

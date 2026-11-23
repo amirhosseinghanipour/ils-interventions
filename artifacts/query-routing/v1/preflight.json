@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "pairs": 8,
+    "unique_prefixes": 8,
+    "prompt_lengths": [
+      41
+    ],
+    "prediction_outcomes_accessed": false
+  },
+  "test": {
+    "pairs": 32,
+    "unique_prefixes": 32,
+    "prompt_lengths": [
+      44
+    ],
+    "prediction_outcomes_accessed": false
+  }
+}

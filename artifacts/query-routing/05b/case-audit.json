@@ -1,0 +1,536 @@
+{
+  "exact": 7,
+  "case_insensitive": 43,
+  "both_case_insensitive": 8,
+  "questions": 96,
+  "items": [
+    {
+      "index": 0,
+      "relevant": [
+        "yellow",
+        "Red"
+      ],
+      "irrelevant": [
+        "pink",
+        "Red"
+      ]
+    },
+    {
+      "index": 1,
+      "relevant": [
+        "brown",
+        "Blue"
+      ],
+      "irrelevant": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "index": 2,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "pink",
+        "Red"
+      ]
+    },
+    {
+      "index": 3,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "index": 4,
+      "relevant": [
+        "gold",
+        "Red"
+      ],
+      "irrelevant": [
+        "white",
+        "Blue"
+      ]
+    },
+    {
+      "index": 5,
+      "relevant": [
+        "blue",
+        "blue"
+      ],
+      "irrelevant": [
+        "pink",
+        "Blue"
+      ]
+    },
+    {
+      "index": 6,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "yellow",
+        "Green"
+      ]
+    },
+    {
+      "index": 7,
+      "relevant": [
+        "purple",
+        "purple"
+      ],
+      "irrelevant": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "index": 8,
+      "relevant": [
+        "pink",
+        "Red"
+      ],
+      "irrelevant": [
+        "red",
+        "Red"
+      ]
+    },
+    {
+      "index": 9,
+      "relevant": [
+        "purple",
+        "Red"
+      ],
+      "irrelevant": [
+        "red",
+        "Red"
+      ]
+    },
+    {
+      "index": 10,
+      "relevant": [
+        "white",
+        "Blue"
+      ],
+      "irrelevant": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "index": 11,
+      "relevant": [
+        "brown",
+        "Red"
+      ],
+      "irrelevant": [
+        "yellow",
+        "Blue"
+      ]
+    },
+    {
+      "index": 12,
+      "relevant": [
+        "black",
+        "Black"
+      ],
+      "irrelevant": [
+        "gold",
+        "silver"
+      ]
+    },
+    {
+      "index": 13,
+      "relevant": [
+        "yellow",
+        "Green"
+      ],
+      "irrelevant": [
+        "pink",
+        "Blue"
+      ]
+    },
+    {
+      "index": 14,
+      "relevant": [
+        "gray",
+        "Red"
+      ],
+      "irrelevant": [
+        "orange",
+        "Red"
+      ]
+    },
+    {
+      "index": 15,
+      "relevant": [
+        "yellow",
+        "Yellow"
+      ],
+      "irrelevant": [
+        "gray",
+        "Red"
+      ]
+    },
+    {
+      "index": 16,
+      "relevant": [
+        "red",
+        "Red"
+      ],
+      "irrelevant": [
+        "gray",
+        "Red"
+      ]
+    },
+    {
+      "index": 17,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "orange",
+        "Red"
+      ]
+    },
+    {
+      "index": 18,
+      "relevant": [
+        "yellow",
+        "Red"
+      ],
+      "irrelevant": [
+        "white",
+        "Red"
+      ]
+    },
+    {
+      "index": 19,
+      "relevant": [
+        "pink",
+        "pink"
+      ],
+      "irrelevant": [
+        "orange",
+        "Red"
+      ]
+    },
+    {
+      "index": 20,
+      "relevant": [
+        "blue",
+        "Blue"
+      ],
+      "irrelevant": [
+        "red",
+        "Red"
+      ]
+    },
+    {
+      "index": 21,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "yellow",
+        "Green"
+      ]
+    },
+    {
+      "index": 22,
+      "relevant": [
+        "pink",
+        "Red"
+      ],
+      "irrelevant": [
+        "red",
+        "Red"
+      ]
+    },
+    {
+      "index": 23,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "blue",
+        "blue"
+      ]
+    },
+    {
+      "index": 24,
+      "relevant": [
+        "white",
+        "Blue"
+      ],
+      "irrelevant": [
+        "brown",
+        "Brown"
+      ]
+    },
+    {
+      "index": 25,
+      "relevant": [
+        "orange",
+        "Red"
+      ],
+      "irrelevant": [
+        "purple",
+        "Red"
+      ]
+    },
+    {
+      "index": 26,
+      "relevant": [
+        "yellow",
+        "Red"
+      ],
+      "irrelevant": [
+        "gold",
+        "Red"
+      ]
+    },
+    {
+      "index": 27,
+      "relevant": [
+        "gold",
+        "Red"
+      ],
+      "irrelevant": [
+        "red",
+        "Red"
+      ]
+    },
+    {
+      "index": 28,
+      "relevant": [
+        "white",
+        "Blue"
+      ],
+      "irrelevant": [
+        "gold",
+        "Blue"
+      ]
+    },
+    {
+      "index": 29,
+      "relevant": [
+        "red",
+        "Red"
+      ],
+      "irrelevant": [
+        "brown",
+        "Blue"
+      ]
+    },
+    {
+      "index": 30,
+      "relevant": [
+        "gray",
+        "Blue"
+      ],
+      "irrelevant": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "index": 31,
+      "relevant": [
+        "yellow",
+        "blue"
+      ],
+      "irrelevant": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "index": 32,
+      "relevant": [
+        "pink",
+        "Red"
+      ],
+      "irrelevant": [
+        "orange",
+        "Red"
+      ]
+    },
+    {
+      "index": 33,
+      "relevant": [
+        "yellow",
+        "Green"
+      ],
+      "irrelevant": [
+        "green",
+        "Green"
+      ]
+    },
+    {
+      "index": 34,
+      "relevant": [
+        "gray",
+        "Blue"
+      ],
+      "irrelevant": [
+        "white",
+        "blue"
+      ]
+    },
+    {
+      "index": 35,
+      "relevant": [
+        "yellow",
+        "Yellow"
+      ],
+      "irrelevant": [
+        "pink",
+        "pink"
+      ]
+    },
+    {
+      "index": 36,
+      "relevant": [
+        "gold",
+        "Red"
+      ],
+      "irrelevant": [
+        "purple",
+        "Blue"
+      ]
+    },
+    {
+      "index": 37,
+      "relevant": [
+        "yellow",
+        "Red"
+      ],
+      "irrelevant": [
+        "red",
+        "Red"
+      ]
+    },
+    {
+      "index": 38,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "brown",
+        "Green"
+      ]
+    },
+    {
+      "index": 39,
+      "relevant": [
+        "green",
+        "Green"
+      ],
+      "irrelevant": [
+        "pink",
+        "Red"
+      ]
+    },
+    {
+      "index": 40,
+      "relevant": [
+        "black",
+        "Black"
+      ],
+      "irrelevant": [
+        "gray",
+        "Gray"
+      ]
+    },
+    {
+      "index": 41,
+      "relevant": [
+        "orange",
+        "Orange"
+      ],
+      "irrelevant": [
+        "red",
+        "Red"
+      ]
+    },
+    {
+      "index": 42,
+      "relevant": [
+        "black",
+        "Black"
+      ],
+      "irrelevant": [
+        "purple",
+        "purple"
+      ]
+    },
+    {
+      "index": 43,
+      "relevant": [
+        "pink",
+        "Red"
+      ],
+      "irrelevant": [
+        "purple",
+        "Red"
+      ]
+    },
+    {
+      "index": 44,
+      "relevant": [
+        "gold",
+        "Red"
+      ],
+      "irrelevant": [
+        "blue",
+        "Blue"
+      ]
+    },
+    {
+      "index": 45,
+      "relevant": [
+        "pink",
+        "pink"
+      ],
+      "irrelevant": [
+        "black",
+        "Red"
+      ]
+    },
+    {
+      "index": 46,
+      "relevant": [
+        "gray",
+        "Green"
+      ],
+      "irrelevant": [
+        "green",
+        "Green"
+      ]
+    },
+    {
+      "index": 47,
+      "relevant": [
+        "gold",
+        "Green"
+      ],
+      "irrelevant": [
+        "green",
+        "Green"
+      ]
+    }
+  ]
+}

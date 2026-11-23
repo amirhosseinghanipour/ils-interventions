@@ -1,0 +1,12 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct fp32",
+  "layer": 22,
+  "gamma": 0.9,
+  "epsilon": 0.05,
+  "length": 128,
+  "pairs": 64,
+  "draws_per_pair": 4,
+  "seed": 35043,
+  "selection": "First 128 distinct eligible FineWeb validation documents in the frozen clean local corpus. First 128 tokens, distinct token hashes from all previous primary train/validation, faithfulness and fresh pairs. Alternate source and donor roles. Uniform source and donor positions from 16 through 126.",
+  "contrast": "Transfer the original WikiText direct-path ridge correction and fitted scalar without any FineWeb training or tuning. Primary paired gain over fitted scalar. Report inclusive corrected, scalar, direct, original ILS and R2 on the remaining response. Resample the 64 source-donor pairs jointly. Retain null or negative findings."
+}

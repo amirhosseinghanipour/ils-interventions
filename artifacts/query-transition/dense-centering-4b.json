@@ -1,0 +1,128 @@
+{
+  "15": {
+    "carrier": {
+      "correct": 0,
+      "within_pair": 64,
+      "rank_median": 27.5,
+      "rank_mean": 28.0078125
+    },
+    "crossfit": {
+      "correct": 6,
+      "within_pair": 70,
+      "rank_median": 21.0,
+      "rank_mean": 22.921875
+    }
+  },
+  "16": {
+    "carrier": {
+      "correct": 14,
+      "within_pair": 67,
+      "rank_median": 18.0,
+      "rank_mean": 25.3046875
+    },
+    "crossfit": {
+      "correct": 7,
+      "within_pair": 78,
+      "rank_median": 16.0,
+      "rank_mean": 20.8125
+    }
+  },
+  "17": {
+    "carrier": {
+      "correct": 2,
+      "within_pair": 72,
+      "rank_median": 34.0,
+      "rank_mean": 27.2890625
+    },
+    "crossfit": {
+      "correct": 16,
+      "within_pair": 105,
+      "rank_median": 10.0,
+      "rank_mean": 14.484375
+    }
+  },
+  "18": {
+    "carrier": {
+      "correct": 0,
+      "within_pair": 70,
+      "rank_median": 34.0,
+      "rank_mean": 29.046875
+    },
+    "crossfit": {
+      "correct": 20,
+      "within_pair": 114,
+      "rank_median": 9.5,
+      "rank_mean": 11.828125
+    }
+  },
+  "19": {
+    "carrier": {
+      "correct": 97,
+      "within_pair": 126,
+      "rank_median": 1.0,
+      "rank_mean": 1.609375
+    },
+    "crossfit": {
+      "correct": 120,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.1171875
+    }
+  },
+  "20": {
+    "carrier": {
+      "correct": 79,
+      "within_pair": 121,
+      "rank_median": 1.0,
+      "rank_mean": 2.484375
+    },
+    "crossfit": {
+      "correct": 120,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.109375
+    }
+  },
+  "21": {
+    "carrier": {
+      "correct": 70,
+      "within_pair": 120,
+      "rank_median": 1.0,
+      "rank_mean": 3.90625
+    },
+    "crossfit": {
+      "correct": 120,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.15625
+    }
+  },
+  "22": {
+    "carrier": {
+      "correct": 80,
+      "within_pair": 117,
+      "rank_median": 1.0,
+      "rank_mean": 4.0078125
+    },
+    "crossfit": {
+      "correct": 123,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0859375
+    }
+  },
+  "23": {
+    "carrier": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    },
+    "crossfit": {
+      "correct": 128,
+      "within_pair": 128,
+      "rank_median": 1.0,
+      "rank_mean": 1.0
+    }
+  }
+}

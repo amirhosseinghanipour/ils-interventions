@@ -1,0 +1,14 @@
+{
+  "study": "When does a query-dependent block update control the second answer token?",
+  "layers": [16,17,18,19,20,21,22,23],
+  "dev_pairs": 16, "test_pairs": 64, "dev_seed": 31031, "test_seed": 31032,
+  "lead_dev": ["red","blue","gold","white"], "lead_test": ["silver","black","green","yellow","pink","purple"],
+  "tail_dev": ["moon","lake","stone","cloud","tree","rain","bell","leaf"],
+  "tail_test": ["star","bird","gate","hill","road","rose","fish","ring","book","boat","key","lamp","sand","snow","wave","wind","flame","glass","shell","fox"],
+  "names_dev": ["Ben","Tom","Mary","Sam","Jack","Jane","Rose","Bill"],
+  "names_test": ["John","Kate","Paul","Ann","Jim","Max","Luke","Mark","Beth","Ruth","Dan","Bob"],
+  "task": "Two equal-length questions differ only in a name. The two facts assign two-word passphrases with the same first word and different second words. Measure unconstrained top-1 first token, then top-1 second token after the shared first token. Count failures, keep all pairs. Templates, lead words, suffixes and entity banks are separate across development and test. Retain only entries meeting tokenizer constraints before inference.",
+  "intervention": "At the second-answer prediction site, replace the clean recipient block increment by the opposite query's increment. h_b is the block output. The addition at b is (h_alt[b]-h_alt[b-1])-(h_clean[b]-h_clean[b-1]). All other activations remain those of the recipient until downstream recomputation. Compare a norm-matched isotropic edit for each pair and block, with opposite sign in the reverse direction. Count the top token in the full vocabulary. Include identity edit, whole-state swap, and previous-prompt-position increment swap as controls.",
+  "primary": "Screen 8 layers on 9B development prefixes. Freeze the layer with largest pair-average alternative-minus-original margin gain over random, tie to earlier block, and apply it without reselection to both checkpoints on new test prefixes. Report paired donor-minus-random logit gain for this layer, percentile intervals from 10000 complete-prefix bootstrap draws. Also report the gain over the mean of the seven other layers, eligible and unconditional flip counts. No clean-accuracy filter in primary analysis.",
+  "secondary": "Use archived 64 food pairs and the same 57 neutral carrier words. Decode clean answers at each zero-based block 15 to 23 by nearest centered cosine. Reproduce archived 15/23 counts, report all intermediate depths, with no causal interpretation of accuracy alone. No paper is uploaded."
+}

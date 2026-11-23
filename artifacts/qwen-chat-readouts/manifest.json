@@ -1,0 +1,93 @@
+{
+  "input_sha256": {
+    "configs/readout-chat.yaml": "9f886eade9af2c4250c8dd9c592ced0f21f4e03bd0a8bcd53de297d88150ccaf",
+    "configs/readout-simple.json": "721411870cc97ea9de46545c4729c8bd16942e931990cb9a8db06e739faf3675",
+    "runs/qwen-proposal-v4/manifest.json": "e3f3b6d1ec38d52943f064f5016d271132c2288e074cd1966f779fe6f67c25af",
+    "artifacts/qwen-primary/results.json": "807fa538fc9bb059ebf30efcce4a4413881dae2e5dd3a19fb6681acaae2cddaa",
+    "runs/faithfulness-v1/manifest.json": "b5f88dd5bd634a5c0e8c5f3d91850b4e050a0c38ac481cffe583db9d61416bf0",
+    "runs/faithfulness-v1/results.json": "3e960753c61ae410d9ba4d7ff8fe71cca55d39373e836ca85ec5eed84ba30300",
+    "runs/jpp-chat-v1/J++-label-tuned.pt": "0b88f27b40b5e6d700d7b3b5f09f48e57c92fd3709f24546fabdbc15a5e6ad06",
+    "runs/jpp-chat-v1/metadata.json": "6c7b7d3fc3ba5813d9f4a1437297e89f6b105d80ea6bca598663d8c44ae543be",
+    "runs/corpus-frequencies.pt": "67d2974abc21c6da3f41f739220d8402599a9d056b304d8bb1f0638af6f0460f",
+    "runs/calibration/activation-manifest.json": "beeda8042437f06b3654f015b65e9edf3997968da4caa82f8476ba0e310c3db2",
+    "runs/calibration/timing.json": "fec0eef59288ba630313737005374df431724371a75b24f32fe78d99f68772ee",
+    "scripts/evaluate_readouts.py": "bf7d05357f1fc7460a678368b88df2ef167a074eee5c5141b65ce6dfb665d609",
+    "scripts/report_chat_readouts.py": "590c485d63a204bfabe6602e0deb20d8d8b189c9aef800b553d8d9cd7d5bd932"
+  },
+  "source_sha256": {
+    "runs/readouts-chat/results.json": "664780e378de7afc09b451b98f362a83feb68c19b22ca6465df3df840148755d",
+    "runs/readouts-chat/details.json": "534ee47e0d5d1fc9a3133b0c7a87d6f0aa7ed236487001232f8a3c6b654048f3",
+    "runs/readouts-chat/gates.json": "cfefee11f2836c6024d76461f5ecc35cc75a4fd571fbe5d5e19a99104bcb3801",
+    "runs/readouts-chat/evaluation-items.json": "5df296f8f9fc6bab12a6ad3a5411a1cf6755cdccf8d81fc6a463007e13ff4ccc"
+  },
+  "published_sha256": {
+    "verified-maps.json": "b13fdd6a897b581154e00908cdc165472c9350d32a2914c22b1a55bad7e345e0",
+    "metrics.csv": "07e7247974251176eff2ae461613712d85e7c1bad78422c484c3fdcf611a2153",
+    "item-metrics.csv": "d6a1e541348a5075e8b2983b9e1649ec55db771949f2423b4b8a033c641639b0",
+    "evaluation-items.json": "1a4040b24db9bf760ba6f098281ed38a3b82acf2e54a1337bb6200906463585a"
+  },
+  "protocol": {
+    "prompt_format": "chat",
+    "system_prompt": "Give only the short answer or continuation. Do not repeat the prompt, explain your answer, or provide chain-of-thought."
+  },
+  "metadata": {
+    "fingerprint": "21e8c536054a3098bd675131f7ddb2f3727bcb5d57631df55ce60a594110d11c",
+    "epsilon": 0.05,
+    "gamma": 0.9,
+    "extra_baselines": {
+      "J-released-extra (200 prompts)": {
+        "name": "J-released-extra (200 prompts)",
+        "model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "repository": "MildHotSauce/jlens-qwen2.5-0.5b-instruct",
+        "revision": "400efee5eda91e59327c958c006ec9ac9772b91b",
+        "filename": "lens.pt",
+        "sha256": "838199348701f3f54235f9ee61b341f80aa61802ce92892d566f991fd85f2bb5",
+        "bytes": 36937413,
+        "source_layers": 23,
+        "target_layer": 23,
+        "d_model": 896,
+        "n_prompts": 200,
+        "source": "block_output_zero_based",
+        "target": "final_block_output_pre_norm",
+        "target_reduction": "upstream_sum",
+        "max_sequence_length": 128,
+        "skip_first": 16,
+        "final_position_excluded": true,
+        "stored_dtype": "torch.float16",
+        "producer_load_dtype": "torch.bfloat16",
+        "public_producer": "https://github.com/OphanimLLC/silent-thoughts/blob/844980cd460b1740973d334da3ebc58001640972/fit/fit_lens.py",
+        "producer_revision": "844980cd460b1740973d334da3ebc58001640972",
+        "reference_revision_inspected": "581d398613e5602a5af361e1c34d3a92ea82ba8e",
+        "convention_evidence": "Public producer calls unmodified jlens.fit with max_seq_len=128 and default source/target/skip conventions. Inspected upstream HEAD predates this release and verifies those conventions. Artifact keys independently verify layers, width and prompt count.",
+        "provenance_limit": "The artifact does not embed a fitting-command, model-weight revision, or jlens revision. Public producer code is evidence of intended conventions, not a cryptographic record of execution.",
+        "corpus": "WikiText-103 train; heading/empty-line filtering and >=600-character buffers, truncated at 128 tokens, per public make_prompts.py",
+        "comparison_limit": "Extra baseline only: different corpus preparation, 200 prompts versus 16 local source prompts, BF16 producer and FP16 storage. Casting to fp32 does not restore lost precision.",
+        "label_tuned": false,
+        "license": "apache-2.0",
+        "evaluation_dtype": "torch.float32",
+        "extra_baseline": true,
+        "prior_eligible": false,
+        "final_layer": "Analytic identity appended under the upstream summed-target convention"
+      }
+    },
+    "prior_selection": "interventional_CV_only",
+    "label_tuned": {
+      "logit": false,
+      "J-reference": false,
+      "R-reference": false,
+      "ILS": false,
+      "J-released-extra (200 prompts)": false,
+      "J++ (label-tuned)": true
+    }
+  },
+  "ranking": "score-descending-id-ascending-v2",
+  "sparse_pursuit_protocol": "actual-marginal-gain-v2",
+  "recall_cells": 5400,
+  "dead_rate_rows": 1296,
+  "item_layer_lens_cells": 1296,
+  "retained_test_items": {
+    "multihop": 1,
+    "multilingual": 5,
+    "multihop:simplified": 3
+  }
+}

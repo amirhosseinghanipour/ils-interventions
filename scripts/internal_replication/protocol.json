@@ -1,0 +1,15 @@
+{
+  "models": ["Qwen3.5-4B Q4_K_M", "Qwen3.5-9B Q5_K_M"],
+  "scope": "Budget-limited replication of donor-intervention predictive coverage on quantized checkpoints. Differences between models also include quantization. The identity-prior ridge member of ILS is fixed before measurement. This is not the original full ILS estimator search.",
+  "data": "WikiText-103 raw v1. Random distinct training rows for training and test-split rows for testing. Separate donors per source. Same text rows and positions for both models.",
+  "seed": 35041,
+  "train_prompts": 128,
+  "test_prompts": 64,
+  "tokens": 64,
+  "layers": [7, 15, 23, 30, 31],
+  "epsilon": 0.05,
+  "gammas": [0, 0.5, 0.9, 1],
+  "penalties": [0, 0.000001, 0.0001, 0.01, 1],
+  "controls": ["identity", "horizon_scaled_identity", "zero_prior_ridge"],
+  "metrics": "Held-out pooled residual R2, paired differences with 2000 prompt bootstrap draws. Report all cells. Last block is an analytic control. Five-fold fitting-prompt CV on identical training data. Check whether pre-final coverage rises with depth and falls with horizon; no fitted onset or universal threshold."
+}

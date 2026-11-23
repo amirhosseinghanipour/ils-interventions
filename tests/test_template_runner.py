@@ -1,0 +1,43 @@
+import json,sys,tempfile,unittest
+from pathlib import Path
+from unittest.mock import patch
+import torch,yaml
+from test_core import tiny_model
+from test_runners import script
+from test_stress_runners import TinyTokenizer
+from ilslens.eval.workspacebench import phrase_recall_report
+
+class TemplateRunnerIntegrationTests(unittest.TestCase):
+    def test_role_binding_requires_both_directions_and_bootstraps_pairs(self):
+        rows=[dict(method='ils',family='role_bound_association',layer=0,item_id=f'item-{i}',pair_id=i//2,target='label',rank=rank)
+              for i,rank in enumerate([1,2,1,1,1])]
+        report=phrase_recall_report(rows,[0],seed=1)
+        top1=next(r for r in report if r['k']==1 and r['layer']==0)
+        self.assertEqual(top1['recall'],.5);self.assertEqual(top1['units'],2);self.assertEqual(top1['incomplete_pairs'],1)
+        self.assertEqual(top1['unit'],'pair_both_directions_all_targets')
+
+    def test_collection_fitting_and_causal_phrase_evaluation(self):
+        torch.set_num_threads(2);module=script('run_template_lens');model=tiny_model();tokenizer=TinyTokenizer()
+        config=dict(seed=2,layers=[0],epsilon=.5,source_prompts=16,donor_prompts=16,heldout_prompts=8,
+            samples_multiplier=8,heldout_samples=16,lambdas=[0.,.01],template_eta=.001,probe_suffix='I am thinking about',
+            estimated_seconds=10,estimated_disk_mb=1)
+        sequences=torch.randint(0,32,(48,128))
+        def data(path,tok,split,count,offset=0):
+            start=0 if split=='train' and not offset else 16 if split=='train' else 32 if offset==64 else 40
+            return sequences[start:start+count],[]
+        item=dict(id='tiny',family='relational_multihop',input_ids=list(range(24)),positions=[20],targets=['red house'],
+            contrasts=['blue house'],answers=['red house'],actual_output='red house',pair_id=None)
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'config.yaml').write_text(yaml.safe_dump(config));(root/'items.json').write_text(json.dumps([item]));(root/'phrases.json').write_text('["red house","blue house"]')
+            (root/'dictionary-items.json').write_text(json.dumps([dict(targets=['green tree'])]))
+            argv=['run_template_lens','--config',str(root/'config.yaml'),'--items',str(root/'items.json'),'--dictionary',str(root/'phrases.json'),
+                '--dataset','unused','--output',str(root/'run'),'--device','cpu','--dictionary-items',str(root/'dictionary-items.json')]
+            with patch.object(sys,'argv',argv),patch.object(module,'load_local',return_value=(model,tokenizer)),patch.object(module,'wikitext_sequences',side_effect=data):
+                module.main()
+            result=json.loads((root/'run/results.json').read_text())
+            self.assertEqual(len(result['rows']),2);self.assertEqual(len(result['interventional_faithfulness']),6)
+            artifact=torch.load(root/'run/rows-layer-00.pt',weights_only=True)
+            self.assertIn('green tree',artifact['metadata']['phrases'])
+            self.assertTrue(all(row['target']=='red house' for row in result['rows']))
+            self.assertTrue(all(len(row['gate']['random_effects'])==100 for row in result['rows']))
+            self.assertTrue((root/'run/rows-layer-00.pt').exists())

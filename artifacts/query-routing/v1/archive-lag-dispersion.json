@@ -1,0 +1,67 @@
+{
+  "gamma": 0.9,
+  "pairs": 62,
+  "results": {
+    "4b": {
+      "7": {
+        "min_fraction": 0.6367748016739418,
+        "ci95": [
+          0.5095475761946957,
+          0.712899740831889
+        ]
+      },
+      "15": {
+        "min_fraction": 0.5597593963993239,
+        "ci95": [
+          0.4906877820335973,
+          0.6175653597916502
+        ]
+      },
+      "23": {
+        "min_fraction": 0.5839425210598083,
+        "ci95": [
+          0.5191459119698696,
+          0.6358291908281146
+        ]
+      },
+      "30": {
+        "min_fraction": 0.5253145779966866,
+        "ci95": [
+          0.4512387583291202,
+          0.5990009753595721
+        ]
+      }
+    },
+    "9b": {
+      "7": {
+        "min_fraction": 0.5564966217815356,
+        "ci95": [
+          0.4939812969291822,
+          0.6030182438041627
+        ]
+      },
+      "15": {
+        "min_fraction": 0.5406786746230458,
+        "ci95": [
+          0.4765765729019324,
+          0.592207023839776
+        ]
+      },
+      "23": {
+        "min_fraction": 0.5721561148618246,
+        "ci95": [
+          0.4988745602342871,
+          0.6335471188639168
+        ]
+      },
+      "30": {
+        "min_fraction": 0.5170454451731649,
+        "ci95": [
+          0.4613390855653832,
+          0.5697330241261204
+        ]
+      }
+    }
+  },
+  "metric": "Lower bound, from three stored horizon projections, on the pooled fraction of strictly later gamma-.9 weighted squared response energy lost in the signed average. Variation in magnitude, direction, or both contributes. Percentile intervals resample held-out pairs."
+}

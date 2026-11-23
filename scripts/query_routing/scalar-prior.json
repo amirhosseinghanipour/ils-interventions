@@ -1,0 +1,6 @@
+{
+  "timing": "Added after the 9B ledger fit underperformed the signed lexical baseline and before the parcel scores or runs were inspected. Ledger comparisons are exploratory. Both transfer evaluations use color training only.",
+  "motivation": "Ridge trained on twelve color identities shrinks directions outside its training span towards zero. A scalar copy of a source displacement can extend outside that span, as in the earlier depth study. The source and destination here occupy different positions.",
+  "predictor": "Fit one least-squares origin-constrained scalar per relevance class on training source vectors and final residual responses. Add a separate ridge correction per class, choosing one common penalty by five-fold grouped CV. Refit the scalars within each training fold. Use exactly the prior grid and grouping of the original conditioned ridge. Also report scalar alone.",
+  "evaluation": "Fresh objects, 48 paired prefixes at each larger checkpoint. Compare centered R2 of corrected versus ordinary conditioned ridge. Report all reversals and both score intervals. This is a specified model refinement on the separately defined transfer task."
+}

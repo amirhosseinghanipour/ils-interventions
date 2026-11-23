@@ -1,0 +1,18 @@
+[
+  {
+    "model": "Qwen_Qwen3.5-4B-Q4_K_M.gguf",
+    "tokenizer_sha256": "ad7575edf83171dbba6fc3d6bec6786b0f3ef18ba2918bb3e651baa682b8cb2c",
+    "block_count": 33,
+    "nextn_predict_layers": 1,
+    "embedding_length": 2560,
+    "full_attention_interval": 4
+  },
+  {
+    "model": "Qwen_Qwen3.5-9B-Q5_K_M.gguf",
+    "tokenizer_sha256": "ad7575edf83171dbba6fc3d6bec6786b0f3ef18ba2918bb3e651baa682b8cb2c",
+    "block_count": 33,
+    "nextn_predict_layers": 1,
+    "embedding_length": 4096,
+    "full_attention_interval": 4
+  }
+]

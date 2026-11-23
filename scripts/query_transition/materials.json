@@ -1,0 +1,10 @@
+{
+  "seed": 31037,
+  "pairs": 64,
+  "names": ["John","Kate","Paul","Ann","Jim","Max","Luke","Mark","Beth","Ruth","Dan","Bob"],
+  "words": ["wood","steel","iron","brass","cotton","wool","linen","silk","clay","wax","stone","granite","rubber","plastic","nylon","copper","bronze","lead","tin","zinc","nickel","birch","oak","pine","cedar","bamboo","aluminum","marble","leather","concrete","cement","plaster","resin","latex","asphalt","canvas"],
+  "facts": "{name} selected the {color} for the project.",
+  "question": "What material did {name} select?",
+  "primary": "Fit two block-15 mention-order class centroids on the earlier labeled food questions, without using their edited responses. On fresh material prefixes infer first or second mention from each clean question's block-15 state. The intervention site is known: map its two possible indices in the fixed template to earlier or later mention in ascending order. The predictor receives that numeric index, a source displacement, and one early question state. Infer original and replacement by nearest ordered carrier difference in a mixed 57-word plus new-material dictionary; apply the two amplitudes fixed on colors. Compare held-out centered residual R2 with the identical endpoints times the mean amplitude. Bootstrap 10000 whole prefixes. Replication uses 4B; no fitting or thresholds from material data, no clean filtering.",
+  "secondary": "Report word-pair recovery, exact clean top token, slot accuracy, early generic word readout, later generic block-23 readout and oracle result. Test words exclude every earlier neutral-bank word and all words used in the food calibration texts. Report failure if the primary comparison fails. This completes the early-readout extension."
+}

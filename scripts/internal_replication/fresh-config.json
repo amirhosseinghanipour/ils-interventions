@@ -1,0 +1,12 @@
+{
+  "purpose": "Fresh held-out test of the exploratory direct-path correction on the original fp32 checkpoint, after seeing the original primary validation results.",
+  "checkpoint": "Qwen2.5-0.5B-Instruct",
+  "epsilon": 0.05, "gammas": [0, 0.5, 0.9, 1],
+  "layers": [0, 12, 19, 22, 23],
+  "split": "validation", "source_offset": 320, "donor_offset": 384,
+  "source_prompts": 64, "paired_donors": 64, "draws_per_source": 4,
+  "intervention_seed": 35042, "sequence_length": 128,
+  "primary_comparison": "At block 22, gamma 0.9, compare direct-path plus zero-prior ridge correction against training-fitted two-coefficient scalar transport, using the paired 95 percent interval for held-out R2 difference. Also report the difference from scaled identity and all declared cells. Keep the original primary training examples and five-fold penalty selection fixed. A nonpositive or inconclusive result is retained.",
+  "bootstrap": "2000 draws over 64 source/donor pairs. No test-set tuning.",
+  "final_block": "Report analytic scaled identity as a check; R2 on the theoretically zero remainder is undefined."
+}

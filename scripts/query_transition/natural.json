@@ -1,0 +1,10 @@
+{
+  "dataset": "SQuAD v1.1 development, authors' download",
+  "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json",
+  "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+  "seed": 31034,
+  "pairs": 40,
+  "population": "One paragraph from each of 40 distinct articles. Randomize article, paragraph and question order from the seed. Choose two questions with distinct first answer tokens, all annotators agreeing within each question, with both original prompts within the 256-token native context. Retain full passages, original human questions and all eligible records independent of model correctness. Permit any answer token, multi-token answers and questions of unequal length.",
+  "test": "Test the frozen phrase-selected block's last-position increment against a paired norm-matched isotropic edit. Report alternate-minus-original margin gain, whole-state swap and identity controls. Apply the phrase-selected head from each model's development set and the earlier 23/0, with the three fixed same-block control heads. No fitting, head or layer selection on this corpus.",
+  "primary": "Mean donor-minus-random margin for the fixed block on 9B. Apply to 4B for replication. Report all questions and paired percentile intervals from 10000 article-pair draws. Clean correctness and movement to the donor's human-annotated first answer token are secondary. No claim about completing a full answer or official SQuAD F1."
+}
