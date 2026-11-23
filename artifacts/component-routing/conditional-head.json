@@ -1,0 +1,979 @@
+{
+  "observations": 96,
+  "threshold_counts": {
+    "0.001": {
+      "effect_difference_at_least_threshold": 51,
+      "opposite_signs_both_at_least_threshold": 3
+    },
+    "0.01": {
+      "effect_difference_at_least_threshold": 13,
+      "opposite_signs_both_at_least_threshold": 1
+    },
+    "0.1": {
+      "effect_difference_at_least_threshold": 0,
+      "opposite_signs_both_at_least_threshold": 0
+    }
+  },
+  "rows": [
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 354,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": 1.9073486328125e-06,
+      "with_other_heads": 1.9073486328125e-06
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 268,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": -0.0022869110107421875,
+      "with_other_heads": -0.001880645751953125
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 538,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": -0.02525806427001953,
+      "with_other_heads": -0.025037765502929688
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 624,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 7,
+      "alone": 1.1444091796875e-05,
+      "with_other_heads": 7.62939453125e-06
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 353,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 0,
+      "alone": 0.3065338134765625,
+      "with_other_heads": 0.3199272155761719
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 575,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": -0.0009613037109375,
+      "with_other_heads": -0.0008392333984375
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 932,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 0,
+      "alone": -0.024852752685546875,
+      "with_other_heads": -0.024982452392578125
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 469,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": -0.00189208984375,
+      "with_other_heads": -0.0020084381103515625
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 79,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 9,
+      "alone": -0.0008544921875,
+      "with_other_heads": -0.0005359649658203125
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 437,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.0054225921630859375,
+      "with_other_heads": 0.0036487579345703125
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 962,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": 1.9073486328125e-06,
+      "with_other_heads": 1.9073486328125e-06
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 14,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": 5.7220458984375e-06,
+      "with_other_heads": 1.1444091796875e-05
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 59,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": -0.0365447998046875,
+      "with_other_heads": -0.038646697998046875
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 866,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 5,
+      "alone": 0.06534767150878906,
+      "with_other_heads": 0.06593513488769531
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 518,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.01221466064453125,
+      "with_other_heads": 0.013006210327148438
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 377,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": -6.67572021484375e-06,
+      "with_other_heads": -6.67572021484375e-06
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 847,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 9,
+      "alone": -6.4849853515625e-05,
+      "with_other_heads": -8.0108642578125e-05
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 626,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": 5.7220458984375e-06,
+      "with_other_heads": -1.9073486328125e-06
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 638,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 6,
+      "alone": -0.12016677856445312,
+      "with_other_heads": -0.1290283203125
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 57,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": -0.02279949188232422,
+      "with_other_heads": -0.038115501403808594
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 669,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 5,
+      "alone": -0.007830619812011719,
+      "with_other_heads": -0.010996818542480469
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 968,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": 8.58306884765625e-06,
+      "with_other_heads": 9.5367431640625e-07
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 812,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": -0.0017080307006835938,
+      "with_other_heads": -0.0014600753784179688
+    },
+    {
+      "model": "qwen",
+      "task": "addition",
+      "index": 245,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.025053977966308594,
+      "with_other_heads": 0.021378517150878906
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 329,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": -3.814697265625e-06,
+      "with_other_heads": 3.814697265625e-06
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 480,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.03249931335449219,
+      "with_other_heads": 0.03363227844238281
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 224,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": -0.0056171417236328125,
+      "with_other_heads": -0.00426483154296875
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 393,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 7,
+      "alone": 5.7220458984375e-06,
+      "with_other_heads": 3.814697265625e-06
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 379,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 0,
+      "alone": 0.02414703369140625,
+      "with_other_heads": 0.03482818603515625
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 844,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.012838363647460938,
+      "with_other_heads": 0.01023101806640625
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 384,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 0,
+      "alone": 0.0052051544189453125,
+      "with_other_heads": 0.0222930908203125
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 703,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": 0.00206756591796875,
+      "with_other_heads": 0.0021524429321289062
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 990,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 9,
+      "alone": -0.00077056884765625,
+      "with_other_heads": -0.0009899139404296875
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 825,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.022558212280273438,
+      "with_other_heads": 0.022708892822265625
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 147,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": -3.814697265625e-06,
+      "with_other_heads": 0.0
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 504,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": -5.7220458984375e-06,
+      "with_other_heads": -7.62939453125e-06
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 405,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.011837005615234375,
+      "with_other_heads": 0.010112762451171875
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 279,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 5,
+      "alone": -0.0068912506103515625,
+      "with_other_heads": -0.0072345733642578125
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 827,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": -0.060993194580078125,
+      "with_other_heads": -0.06787300109863281
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 708,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": 0.0,
+      "with_other_heads": 5.7220458984375e-06
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 420,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 9,
+      "alone": 0.0065460205078125,
+      "with_other_heads": 0.023891448974609375
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 605,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": 3.814697265625e-06,
+      "with_other_heads": 1.9073486328125e-06
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 974,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 6,
+      "alone": 0.04571342468261719,
+      "with_other_heads": 0.040805816650390625
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 727,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": -0.0025014877319335938,
+      "with_other_heads": -0.002452850341796875
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 760,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 5,
+      "alone": -0.018568038940429688,
+      "with_other_heads": -0.01579570770263672
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 492,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": -9.5367431640625e-06,
+      "with_other_heads": 0.0
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 939,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.001689910888671875,
+      "with_other_heads": 0.00174713134765625
+    },
+    {
+      "model": "qwen",
+      "task": "subtraction",
+      "index": 162,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.003509521484375,
+      "with_other_heads": 0.0026874542236328125
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 354,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 27,
+      "alone": -0.00363922119140625,
+      "with_other_heads": -0.0036573410034179688
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 268,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 20,
+      "alone": 0.013637542724609375,
+      "with_other_heads": 0.011616706848144531
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 538,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": -0.0057659149169921875,
+      "with_other_heads": -0.003963470458984375
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 624,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 23,
+      "alone": 0.01647472381591797,
+      "with_other_heads": 0.014581680297851562
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 353,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 16,
+      "alone": 0.030437469482421875,
+      "with_other_heads": 0.030317306518554688
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 575,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.018286705017089844,
+      "with_other_heads": 0.008453369140625
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 932,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 16,
+      "alone": -0.012523651123046875,
+      "with_other_heads": -0.012004852294921875
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 469,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": 0.010686874389648438,
+      "with_other_heads": 0.00972747802734375
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 79,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 25,
+      "alone": 0.01682758331298828,
+      "with_other_heads": 0.015390396118164062
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 437,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 19,
+      "alone": 0.0009832382202148438,
+      "with_other_heads": 0.0007982254028320312
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 962,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": -0.06115913391113281,
+      "with_other_heads": -0.06950950622558594
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 14,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": 0.030584335327148438,
+      "with_other_heads": 0.026894569396972656
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 59,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.01871967315673828,
+      "with_other_heads": 0.020288467407226562
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 866,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 21,
+      "alone": -0.0038194656372070312,
+      "with_other_heads": -0.0048351287841796875
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 518,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.034496307373046875,
+      "with_other_heads": 0.03449726104736328
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 377,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 14,
+      "alone": 0.023207664489746094,
+      "with_other_heads": 0.04630279541015625
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 847,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 9,
+      "alone": 0.010263442993164062,
+      "with_other_heads": 0.01180267333984375
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 626,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 29,
+      "alone": 0.006028175354003906,
+      "with_other_heads": 0.0044879913330078125
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 638,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 22,
+      "alone": 0.08121681213378906,
+      "with_other_heads": 0.08938980102539062
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 57,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": 0.07577991485595703,
+      "with_other_heads": 0.11608314514160156
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 669,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 31,
+      "alone": 0.013520240783691406,
+      "with_other_heads": 0.015084266662597656
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 968,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 29,
+      "alone": 0.00128936767578125,
+      "with_other_heads": 0.0010175704956054688
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 812,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.037964820861816406,
+      "with_other_heads": 0.027917861938476562
+    },
+    {
+      "model": "large",
+      "task": "addition",
+      "index": 245,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.03417396545410156,
+      "with_other_heads": 0.012407302856445312
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 329,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 27,
+      "alone": 0.001979827880859375,
+      "with_other_heads": 0.0021467208862304688
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 480,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 20,
+      "alone": 0.009093284606933594,
+      "with_other_heads": 0.005064964294433594
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 224,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.0046977996826171875,
+      "with_other_heads": 0.0029964447021484375
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 393,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 23,
+      "alone": -0.000988006591796875,
+      "with_other_heads": 0.00054168701171875
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 379,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 16,
+      "alone": -0.008069992065429688,
+      "with_other_heads": -0.005893707275390625
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 844,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.0037136077880859375,
+      "with_other_heads": 0.00412750244140625
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 384,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 16,
+      "alone": -0.0034170150756835938,
+      "with_other_heads": -0.012190818786621094
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 703,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": -0.038331031799316406,
+      "with_other_heads": -0.049297332763671875
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 990,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 25,
+      "alone": -0.06892204284667969,
+      "with_other_heads": -0.07249641418457031
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 825,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 19,
+      "alone": -0.0028743743896484375,
+      "with_other_heads": -0.002719879150390625
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 147,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 13,
+      "alone": -0.025014877319335938,
+      "with_other_heads": 0.04246330261230469
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 504,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 11,
+      "alone": -0.033084869384765625,
+      "with_other_heads": -0.041378021240234375
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 405,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": 0.08530044555664062,
+      "with_other_heads": 0.06842994689941406
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 279,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 21,
+      "alone": 0.0049991607666015625,
+      "with_other_heads": 0.003780364990234375
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 827,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": -0.0695648193359375,
+      "with_other_heads": -0.06736373901367188
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 708,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 14,
+      "alone": 0.0023174285888671875,
+      "with_other_heads": -0.00165557861328125
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 420,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 9,
+      "alone": -0.038909912109375,
+      "with_other_heads": -0.03776741027832031
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 605,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 29,
+      "alone": -0.0028638839721679688,
+      "with_other_heads": -0.0035009384155273438
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 974,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 22,
+      "alone": -0.027416229248046875,
+      "with_other_heads": -0.021745681762695312
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 727,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 8,
+      "alone": 0.005791664123535156,
+      "with_other_heads": 0.07191848754882812
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 760,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 31,
+      "alone": 0.006064414978027344,
+      "with_other_heads": 0.0057525634765625
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 492,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 29,
+      "alone": 0.003238677978515625,
+      "with_other_heads": 0.003070831298828125
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 939,
+      "counter": "ones_op1_counterfactual",
+      "layer": 11,
+      "head": 3,
+      "alone": 0.00276947021484375,
+      "with_other_heads": -0.001194000244140625
+    },
+    {
+      "model": "large",
+      "task": "subtraction",
+      "index": 162,
+      "counter": "tens_op2_counterfactual",
+      "layer": 11,
+      "head": 4,
+      "alone": -0.0066852569580078125,
+      "with_other_heads": -0.0074596405029296875
+    }
+  ]
+}

@@ -23,3 +23,5 @@ Run the following commands from the repository root. Supply the original input f
     (cd artifacts/component-routing && sha256sum -c SHA256SUMS)
 
 [Model revisions, dataset sources, estimators and collection commands](../../scripts/component_routing/README.md).
+
+[Conditional head effects](conditional-head.json) compare the last head in each saved permutation alone and after patching every other head in block 12. The solo effect is recovered by subtracting nested sums of exact singleton measurements. The conditional effect is the difference between the native all-head and all-but-one patches. Positive values favor the donor answer token. The 96 observations reuse 48 prompt pairs across models. Thresholds in logits are retrospective sensitivity checks. Reproduce with `python scripts/component_routing/conditional_head.py artifacts/component-routing /tmp/conditional-head.json`.
