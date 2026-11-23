@@ -83,12 +83,38 @@ def grouped(source):
     ), {m: v.mean(axis=1) for m, v in errors.items()}
 
 
+def timings(rows):
+    out = {}
+    for size in ("1", "8", "32", "128"):
+        by_method = {}
+        for method in rows[0]["batches"][size]["values"]:
+            ms, total, ratio, mae = [], [], [], []
+            for r in rows:
+                record = r["batches"][size]
+                oracle = np.asarray(record["values"]["exact"])
+                raw = np.asarray(record["values"][method])
+                elapsed = np.median(record["times"][method])
+                ms.append(elapsed)
+                total.append(elapsed + r["common_ms"])
+                ratio.append((np.median(record["times"]["exact"]) + r["common_ms"]) / total[-1])
+                mae.append(abs(raw - oracle).mean())
+            by_method[method] = dict(
+                median_ms=float(np.median(ms)),
+                median_end_to_end_ms=float(np.median(total)),
+                median_paired_end_to_end_speedup=float(np.median(ratio)),
+                mae=float(np.mean(mae)),
+            )
+        out[size] = by_method
+    return out
+
+
 def summarize(directory):
-    result = dict(behavior={}, groups={})
+    result = dict(behavior={}, groups={}, timing={})
     rng = np.random.default_rng(652194)
     draws = {t: rng.integers(0, 24, (10000, 24)) for t in ("addition", "subtraction")}
     comparisons = []
     for model in ("qwen", "large"):
+        result["timing"][model] = timings(read(directory / ("amortize-" + model + ".json")))
         caps = read(directory / (model + "-budget.json"))
         groups = read(directory / ("groups-" + model + ".json"))
         for task in ("addition", "subtraction"):

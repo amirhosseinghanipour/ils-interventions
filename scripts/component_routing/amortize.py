@@ -8,10 +8,16 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from benchmark import now, save
-from engine import Circuit
-from groups import data, patches, read
-from sampling import WEIGHTS, encode
+if __package__:
+    from .benchmark import now, save
+    from .engine import Circuit
+    from .groups import data, patches, read
+    from .sampling import WEIGHTS, encode
+else:
+    from benchmark import now, save
+    from engine import Circuit
+    from groups import data, patches, read
+    from sampling import WEIGHTS, encode
 
 
 def masks_for(heads, seed, n=128):

@@ -10,9 +10,14 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from benchmark import save
-from engine import Circuit
-from sampling import FILES, WEIGHTS, encode
+if __package__:
+    from .benchmark import save
+    from .engine import Circuit
+    from .sampling import FILES, WEIGHTS, encode
+else:
+    from benchmark import save
+    from engine import Circuit
+    from sampling import FILES, WEIGHTS, encode
 
 
 def read(path):
@@ -68,8 +73,8 @@ def patches(c, layer, masks):
     with ExitStack() as hooks:
         hooks.enter_context(c.layers[layer].self_attn.o_proj.register_forward_pre_hook(replace))
         out = c.decoder(c.ids[0].expand(len(masks), -1), use_cache=False).last_hidden_state[:, -1]
-    logits = c.model.lm_head(out)
-    return logits[:, c.labels[1]] - logits[:, c.labels[0]] - c.outputs[0]
+    logits = torch.nn.functional.linear(out, c.model.lm_head.weight[c.labels])
+    return logits[:, 1] - logits[:, 0] - c.outputs[0]
 
 
 def experiment(c, seed):

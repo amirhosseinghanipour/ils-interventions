@@ -6,7 +6,9 @@ import numpy as np
 import torch
 from transformers import LlamaConfig, LlamaForCausalLM, Qwen2Config, Qwen2ForCausalLM
 
+from scripts.component_routing.amortize import masks_for, predict
 from scripts.component_routing.engine import Circuit
+from scripts.component_routing.groups import experiment
 from scripts.component_routing.score import metrics, snapshot
 
 
@@ -69,3 +71,25 @@ class ComponentRoutingTests(unittest.TestCase):
             same = Circuit(model, [[1, 7, 9], [1, 7, 9]], [3, 4])
             np.testing.assert_allclose(same.estimates("ils", 1.0), 0.0, atol=1e-6)
             np.testing.assert_allclose(same.exact([0, 4, 5]), 0.0, atol=1e-6)
+
+    def test_gram_predictions_match_explicit_head_substitutions(self):
+        masks = masks_for(14, 34399)
+        self.assertEqual(len(np.unique(masks, axis=0)), 128)
+        torch.manual_seed(10)
+        config = LlamaConfig(
+            vocab_size=40,
+            hidden_size=32,
+            num_hidden_layers=4,
+            num_attention_heads=4,
+            num_key_value_heads=2,
+            intermediate_size=64,
+        )
+        config._attn_implementation = "eager"
+        c = Circuit(
+            LlamaForCausalLM(config).eval().requires_grad_(False), [[1, 7, 2, 9], [1, 8, 2, 9]], [3, 4]
+        )
+        measured = experiment(c, 34399)
+        m = torch.tensor(np.argsort(measured["order"])[None, :] < np.array(measured["sizes"])[:, None])
+        for method in ("recipient", "midpoint", "nearest", "smooth", "secant_midpoint"):
+            expected = measured["predictions"]["matched_midpoint" if method == "midpoint" else method]
+            np.testing.assert_allclose(predict(c, m, method).numpy(), expected, atol=5e-7, rtol=2e-5)

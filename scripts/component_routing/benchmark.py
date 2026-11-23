@@ -10,8 +10,12 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from engine import Circuit
-from sampling import FILES, WEIGHTS, encode
+if __package__:
+    from .engine import Circuit
+    from .sampling import FILES, WEIGHTS, encode
+else:
+    from engine import Circuit
+    from sampling import FILES, WEIGHTS, encode
 
 METHODS = ("midpoint", "ils", "guided", "atp", "input_midpoint", "scan")
 STRENGTHS = (0.25, 0.5, 1.0)
