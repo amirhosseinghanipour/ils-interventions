@@ -1,0 +1,82 @@
+{
+  "qwen-ioi": {
+    "prompts": 50,
+    "hits": {
+      "1": {
+        "midpoint": 50,
+        "blend": 50,
+        "mixed": 50
+      },
+      "2": {
+        "midpoint": 50,
+        "blend": 50,
+        "mixed": 50
+      },
+      "3": {
+        "midpoint": 50,
+        "blend": 50,
+        "mixed": 50
+      }
+    }
+  },
+  "qwen-colors": {
+    "prompts": 50,
+    "hits": {
+      "1": {
+        "midpoint": 43,
+        "blend": 25,
+        "mixed": 25
+      },
+      "2": {
+        "midpoint": 50,
+        "blend": 49,
+        "mixed": 49
+      },
+      "3": {
+        "midpoint": 50,
+        "blend": 50,
+        "mixed": 50
+      }
+    }
+  },
+  "smol-ioi": {
+    "prompts": 50,
+    "hits": {
+      "1": {
+        "midpoint": 50,
+        "blend": 50,
+        "mixed": 50
+      },
+      "2": {
+        "midpoint": 50,
+        "blend": 50,
+        "mixed": 50
+      },
+      "3": {
+        "midpoint": 50,
+        "blend": 50,
+        "mixed": 50
+      }
+    }
+  },
+  "smol-colors": {
+    "prompts": 50,
+    "hits": {
+      "1": {
+        "midpoint": 33,
+        "blend": 18,
+        "mixed": 18
+      },
+      "2": {
+        "midpoint": 40,
+        "blend": 27,
+        "mixed": 40
+      },
+      "3": {
+        "midpoint": 45,
+        "blend": 37,
+        "mixed": 46
+      }
+    }
+  }
+}

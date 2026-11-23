@@ -12,3 +12,5 @@ Residual and logit-margin errors have different targets. Each normalized error d
 [Runtime](runtime.json) and [reproduction commands, data sources, and licenses](../../scripts/finite_response/README.md).
 
 The [native step-size sensitivity results](paired/native-sensitivity.json) repeat all native articles at three finite steps. [SHA256SUMS](SHA256SUMS) covers all JSON data files in this directory and its subdirectories.
+
+[Shortlist reanalysis](sites/shortlist.json) counts prompts where the inspected sites include a site with maximal absolute measured effect. Each method inspects one, two, or three distinct positions; estimated ties use sequence order. The mixed rule fills the first slots from midpoint-gradient ranks and the remaining slot from the endpoint blend. These are retrospective hit counts on the four existing test cells. They exclude the time spent computing the rankings. Recompute with `python scripts/finite_response/shortlist.py artifacts/finite-response/sites artifacts/finite-response/sites/shortlist.json`.
