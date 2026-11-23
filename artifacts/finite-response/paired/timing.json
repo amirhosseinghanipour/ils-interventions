@@ -1,0 +1,358 @@
+{
+  "qwen": [
+    {
+      "article": "Chinese_characters",
+      "qid": "5726ddf1f1498d1400e8edff",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 17.042528023011982,
+        "donor_landmark": 8.555896987672895,
+        "donor_jvp": 60.91796001419425,
+        "two_anchor": 120.17309304792434
+      }
+    },
+    {
+      "article": "Chinese_characters",
+      "qid": "5726ddf1f1498d1400e8edfe",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 18.0074879899621,
+        "donor_landmark": 9.181411995086819,
+        "donor_jvp": 61.49970000842586,
+        "two_anchor": 121.51068699313328
+      }
+    },
+    {
+      "article": "Beyonc\u00e9",
+      "qid": "56d4e5922ccc5a1400d83303",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 17.597294005099684,
+        "donor_landmark": 8.877252985257655,
+        "donor_jvp": 60.74334500590339,
+        "two_anchor": 120.46112300595269
+      }
+    },
+    {
+      "article": "Beyonc\u00e9",
+      "qid": "56bec5d53aeaaa14008c93d9",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 17.90717401308939,
+        "donor_landmark": 9.002575010526925,
+        "donor_jvp": 61.35710998205468,
+        "two_anchor": 121.40205502510071
+      }
+    },
+    {
+      "article": "Association_football",
+      "qid": "573057c82461fd1900a9cd91",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 14.021312003023922,
+        "donor_landmark": 7.092161977197975,
+        "donor_jvp": 48.31652203574777,
+        "two_anchor": 95.60472704470158
+      }
+    },
+    {
+      "article": "Association_football",
+      "qid": "573057c82461fd1900a9cd8f",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 14.35651897918433,
+        "donor_landmark": 7.3248379630967975,
+        "donor_jvp": 48.94610302289948,
+        "two_anchor": 96.97750199120492
+      }
+    },
+    {
+      "article": "Economy_of_Greece",
+      "qid": "5731e813e99e3014001e63bf",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 13.029576977714896,
+        "donor_landmark": 6.580399989616126,
+        "donor_jvp": 44.5789439836517,
+        "two_anchor": 88.20267097325996
+      }
+    },
+    {
+      "article": "Economy_of_Greece",
+      "qid": "5731e813e99e3014001e63c0",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 12.998456018976867,
+        "donor_landmark": 6.551776023115963,
+        "donor_jvp": 44.836394023150206,
+        "two_anchor": 88.57556601287797
+      }
+    },
+    {
+      "article": "Buddhism",
+      "qid": "56d1341de7d4791d00901fe2",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 13.784823997411877,
+        "donor_landmark": 6.853530008811504,
+        "donor_jvp": 47.77937999460846,
+        "two_anchor": 94.54414603533223
+      }
+    },
+    {
+      "article": "Buddhism",
+      "qid": "56d0a5bf234ae51400d9c3f2",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 13.692754029762,
+        "donor_landmark": 6.848576012998819,
+        "donor_jvp": 47.993686981499195,
+        "two_anchor": 94.82286596903577
+      }
+    },
+    {
+      "article": "God",
+      "qid": "572c0bcb750c471900ed4c94",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 17.768652993254364,
+        "donor_landmark": 8.977680990938097,
+        "donor_jvp": 61.41251896042377,
+        "two_anchor": 121.44560302840546
+      }
+    },
+    {
+      "article": "God",
+      "qid": "572c0bcb750c471900ed4c90",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 17.71885302150622,
+        "donor_landmark": 9.100827970542014,
+        "donor_jvp": 61.390768038108945,
+        "two_anchor": 121.251507953275
+      }
+    },
+    {
+      "article": "Anthropology",
+      "qid": "5733cf984776f419006612ae",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 13.811659009661525,
+        "donor_landmark": 6.997335993219167,
+        "donor_jvp": 48.33559400867671,
+        "two_anchor": 95.56292498018593
+      }
+    },
+    {
+      "article": "Anthropology",
+      "qid": "5733cf984776f419006612aa",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 13.659771997481585,
+        "donor_landmark": 6.825582997407764,
+        "donor_jvp": 47.4019119865261,
+        "two_anchor": 93.5022080084309
+      }
+    },
+    {
+      "article": "Plymouth",
+      "qid": "56df76f356340a1900b29bbe",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 17.00322498800233,
+        "donor_landmark": 8.553607040084898,
+        "donor_jvp": 61.23620498692617,
+        "two_anchor": 120.48865697579458
+      }
+    },
+    {
+      "article": "Plymouth",
+      "qid": "56df76f356340a1900b29bbc",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 17.756214016117156,
+        "donor_landmark": 8.979506033938378,
+        "donor_jvp": 61.77114002639428,
+        "two_anchor": 121.80069304304197
+      }
+    }
+  ],
+  "smol": [
+    {
+      "article": "Chinese_characters",
+      "qid": "5726ddf1f1498d1400e8edff",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 18.449197988957167,
+        "donor_landmark": 9.293984971009195,
+        "donor_jvp": 66.66781997773796,
+        "two_anchor": 131.93699897965416
+      }
+    },
+    {
+      "article": "Chinese_characters",
+      "qid": "5726ddf1f1498d1400e8edfe",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 18.303008982911706,
+        "donor_landmark": 9.212227014359087,
+        "donor_jvp": 64.03810397023335,
+        "two_anchor": 126.72173901228234
+      }
+    },
+    {
+      "article": "Beyonc\u00e9",
+      "qid": "56d4e5922ccc5a1400d83303",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 18.57559202471748,
+        "donor_landmark": 9.318335971329361,
+        "donor_jvp": 66.67583005037159,
+        "two_anchor": 132.11641798261553
+      }
+    },
+    {
+      "article": "Beyonc\u00e9",
+      "qid": "56bec5d53aeaaa14008c93d9",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 18.582077987957746,
+        "donor_landmark": 9.406565979588777,
+        "donor_jvp": 67.16394197428599,
+        "two_anchor": 133.0607210402377
+      }
+    },
+    {
+      "article": "Association_football",
+      "qid": "573057c82461fd1900a9cd91",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 15.089987020473927,
+        "donor_landmark": 7.590355002321303,
+        "donor_jvp": 53.5144159803167,
+        "two_anchor": 106.12554399995133
+      }
+    },
+    {
+      "article": "Association_football",
+      "qid": "573057c82461fd1900a9cd8f",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 15.277855971362442,
+        "donor_landmark": 7.661001989617944,
+        "donor_jvp": 54.50306099373847,
+        "two_anchor": 107.77057497762144
+      }
+    },
+    {
+      "article": "Economy_of_Greece",
+      "qid": "5731e813e99e3014001e63bf",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 13.389506028033793,
+        "donor_landmark": 6.729584012646228,
+        "donor_jvp": 46.23302904656157,
+        "two_anchor": 91.75897599197924
+      }
+    },
+    {
+      "article": "Economy_of_Greece",
+      "qid": "5731e813e99e3014001e63c0",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 13.542450964450836,
+        "donor_landmark": 6.776055961381644,
+        "donor_jvp": 46.98421899229288,
+        "two_anchor": 93.15903001697734
+      }
+    },
+    {
+      "article": "Buddhism",
+      "qid": "56d1341de7d4791d00901fe2",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 14.747085981070995,
+        "donor_landmark": 7.391510996967554,
+        "donor_jvp": 52.12221102556214,
+        "two_anchor": 103.27932803193107
+      }
+    },
+    {
+      "article": "Buddhism",
+      "qid": "56d0a5bf234ae51400d9c3f2",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 14.799226017203182,
+        "donor_landmark": 7.454156992025673,
+        "donor_jvp": 52.2782810148783,
+        "two_anchor": 103.72476500924677
+      }
+    },
+    {
+      "article": "God",
+      "qid": "572c0bcb750c471900ed4c94",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 18.311668012756854,
+        "donor_landmark": 9.229673014488071,
+        "donor_jvp": 63.81312903249636,
+        "two_anchor": 126.4507959713228
+      }
+    },
+    {
+      "article": "God",
+      "qid": "572c0bcb750c471900ed4c90",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 18.29078095033765,
+        "donor_landmark": 9.243979991879314,
+        "donor_jvp": 63.89454600866884,
+        "two_anchor": 126.53156701708212
+      }
+    },
+    {
+      "article": "Anthropology",
+      "qid": "5733cf984776f419006612ae",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 14.951236022170633,
+        "donor_landmark": 7.5001969817094505,
+        "donor_jvp": 53.170313010923564,
+        "two_anchor": 105.25546199642122
+      }
+    },
+    {
+      "article": "Anthropology",
+      "qid": "5733cf984776f419006612aa",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 14.539194002281874,
+        "donor_landmark": 7.340207986999303,
+        "donor_jvp": 51.3408420374617,
+        "two_anchor": 101.59979603486136
+      }
+    },
+    {
+      "article": "Plymouth",
+      "qid": "56df76f356340a1900b29bbe",
+      "kind": "edited_answer",
+      "ms": {
+        "exact": 18.60771101200953,
+        "donor_landmark": 9.39919101074338,
+        "donor_jvp": 67.45259801391512,
+        "two_anchor": 133.43208900187165
+      }
+    },
+    {
+      "article": "Plymouth",
+      "qid": "56df76f356340a1900b29bbc",
+      "kind": "other_answer",
+      "ms": {
+        "exact": 18.49176996620372,
+        "donor_landmark": 9.309024026151747,
+        "donor_jvp": 67.00832303613424,
+        "two_anchor": 132.47251196298748
+      }
+    }
+  ]
+}
