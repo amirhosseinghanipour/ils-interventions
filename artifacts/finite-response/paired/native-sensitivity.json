@@ -1,0 +1,450 @@
+{
+  "4b": {
+    "0.125": {
+      "fit_donor": {
+        "normalized_error": 0.38158373681937635,
+        "gain_with_two_anchor": 0.1254784748369314,
+        "paired_ci95": [
+          0.08615605198319787,
+          0.17083078774724175
+        ]
+      },
+      "donor_jvp": {
+        "normalized_error": 0.2607173099453105,
+        "gain_with_two_anchor": 0.004612047962865551,
+        "paired_ci95": [
+          0.0017418884453135166,
+          0.008416571337993803
+        ]
+      },
+      "donor_landmark": {
+        "normalized_error": 0.34781742309744634,
+        "gain_with_two_anchor": 0.09171216111500141,
+        "paired_ci95": [
+          0.06041685605402904,
+          0.12860301996412785
+        ]
+      },
+      "two_anchor": {
+        "normalized_error": 0.25610526198244493,
+        "gain_with_two_anchor": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "partial_donor_mix": {
+        "normalized_error": 0.3758626124062603,
+        "gain_with_two_anchor": 0.11975735042381531,
+        "paired_ci95": [
+          0.08215776012055222,
+          0.1637011555829986
+        ]
+      },
+      "fit_clean_jvp": {
+        "normalized_error": 0.9590253157223552,
+        "gain_with_two_anchor": 0.7029200537399102,
+        "paired_ci95": [
+          0.5869484787791277,
+          0.8162818829326075
+        ]
+      },
+      "raw_donor": {
+        "normalized_error": 0.45446076652614403,
+        "gain_with_two_anchor": 0.19835550454369905,
+        "paired_ci95": [
+          0.1369103677155785,
+          0.26941127332719617
+        ]
+      },
+      "donor_jvp_raw": {
+        "normalized_error": 0.35480347752445174,
+        "gain_with_two_anchor": 0.09869821554200679,
+        "paired_ci95": [
+          0.06456708470988519,
+          0.14290980364378286
+        ]
+      },
+      "no_change": {
+        "normalized_error": 1.0,
+        "gain_with_two_anchor": 0.7438947380175551,
+        "paired_ci95": [
+          0.6437565357844462,
+          0.8338833588712309
+        ]
+      }
+    },
+    "0.0625": {
+      "fit_donor": {
+        "normalized_error": 0.38158373681937635,
+        "gain_with_two_anchor": 0.06553237066985157,
+        "paired_ci95": [
+          0.021456962994452166,
+          0.11100413996881207
+        ]
+      },
+      "donor_jvp": {
+        "normalized_error": 0.32308597286274304,
+        "gain_with_two_anchor": 0.007034606713218325,
+        "paired_ci95": [
+          0.004086552473445558,
+          0.010911194941257144
+        ]
+      },
+      "donor_landmark": {
+        "normalized_error": 0.34781742309744634,
+        "gain_with_two_anchor": 0.031766056947921596,
+        "paired_ci95": [
+          -0.007807210148774148,
+          0.06920066239108916
+        ]
+      },
+      "two_anchor": {
+        "normalized_error": 0.3160513661495247,
+        "gain_with_two_anchor": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "partial_donor_mix": {
+        "normalized_error": 0.3758626124062603,
+        "gain_with_two_anchor": 0.05981124625673551,
+        "paired_ci95": [
+          0.016555440857235343,
+          0.1040770809265105
+        ]
+      },
+      "fit_clean_jvp": {
+        "normalized_error": 0.9872187343032554,
+        "gain_with_two_anchor": 0.6711673681537307,
+        "paired_ci95": [
+          0.5460562267103137,
+          0.7909308015001623
+        ]
+      },
+      "raw_donor": {
+        "normalized_error": 0.45446076652614403,
+        "gain_with_two_anchor": 0.13840940037661928,
+        "paired_ci95": [
+          0.07760815129419522,
+          0.2035638644333678
+        ]
+      },
+      "donor_jvp_raw": {
+        "normalized_error": 0.4853825765439221,
+        "gain_with_two_anchor": 0.16933121039439733,
+        "paired_ci95": [
+          0.12245752804062897,
+          0.23520510278624232
+        ]
+      },
+      "no_change": {
+        "normalized_error": 1.0,
+        "gain_with_two_anchor": 0.6839486338504754,
+        "paired_ci95": [
+          0.5812413356583181,
+          0.7768953747169148
+        ]
+      }
+    },
+    "0.25": {
+      "fit_donor": {
+        "normalized_error": 0.38158373681937635,
+        "gain_with_two_anchor": 0.1592963769002174,
+        "paired_ci95": [
+          0.11446112060197527,
+          0.2122937728221029
+        ]
+      },
+      "donor_jvp": {
+        "normalized_error": 0.2256189257090261,
+        "gain_with_two_anchor": 0.0033315657898672023,
+        "paired_ci95": [
+          0.0009895515773653317,
+          0.00645614444618812
+        ]
+      },
+      "donor_landmark": {
+        "normalized_error": 0.34781742309744634,
+        "gain_with_two_anchor": 0.12553006317828744,
+        "paired_ci95": [
+          0.08964495302288203,
+          0.16911415704380012
+        ]
+      },
+      "two_anchor": {
+        "normalized_error": 0.22228735991915893,
+        "gain_with_two_anchor": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "partial_donor_mix": {
+        "normalized_error": 0.3758626124062603,
+        "gain_with_two_anchor": 0.15357525248710135,
+        "paired_ci95": [
+          0.11070809473418732,
+          0.20461919258451913
+        ]
+      },
+      "fit_clean_jvp": {
+        "normalized_error": 0.9209313132893275,
+        "gain_with_two_anchor": 0.6986439533701685,
+        "paired_ci95": [
+          0.588159909999045,
+          0.806012557901401
+        ]
+      },
+      "raw_donor": {
+        "normalized_error": 0.45446076652614403,
+        "gain_with_two_anchor": 0.23217340660698507,
+        "paired_ci95": [
+          0.1652918439390587,
+          0.3092795903554651
+        ]
+      },
+      "donor_jvp_raw": {
+        "normalized_error": 0.2862672191703992,
+        "gain_with_two_anchor": 0.0639798592512403,
+        "paired_ci95": [
+          0.037566359350653805,
+          0.09759024580917763
+        ]
+      },
+      "no_change": {
+        "normalized_error": 1.0,
+        "gain_with_two_anchor": 0.7777126400808412,
+        "paired_ci95": [
+          0.6834439612538072,
+          0.8637276486655858
+        ]
+      }
+    }
+  },
+  "9b": {
+    "0.125": {
+      "fit_donor": {
+        "normalized_error": 0.3394466500141381,
+        "gain_with_two_anchor": 0.04673917559333679,
+        "paired_ci95": [
+          -0.006003372908017742,
+          0.09701893372633642
+        ]
+      },
+      "donor_jvp": {
+        "normalized_error": 0.2997166971181338,
+        "gain_with_two_anchor": 0.007009222697332471,
+        "paired_ci95": [
+          0.0034175969483991923,
+          0.011983376729220148
+        ]
+      },
+      "donor_landmark": {
+        "normalized_error": 0.3018871878576071,
+        "gain_with_two_anchor": 0.009179713436805828,
+        "paired_ci95": [
+          -0.04841734292865286,
+          0.057282064278235734
+        ]
+      },
+      "two_anchor": {
+        "normalized_error": 0.29270747442080125,
+        "gain_with_two_anchor": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "partial_donor_mix": {
+        "normalized_error": 0.33515042232006825,
+        "gain_with_two_anchor": 0.04244294789926697,
+        "paired_ci95": [
+          -0.011215700249006557,
+          0.09252493004685651
+        ]
+      },
+      "fit_clean_jvp": {
+        "normalized_error": 0.9527667279547184,
+        "gain_with_two_anchor": 0.660059253533917,
+        "paired_ci95": [
+          0.4954603055636349,
+          0.8035817255448479
+        ]
+      },
+      "raw_donor": {
+        "normalized_error": 0.41151906496067314,
+        "gain_with_two_anchor": 0.11881159053987188,
+        "paired_ci95": [
+          0.06590670412577108,
+          0.18357778213687923
+        ]
+      },
+      "donor_jvp_raw": {
+        "normalized_error": 0.4659264719659185,
+        "gain_with_two_anchor": 0.17321899754511721,
+        "paired_ci95": [
+          0.09766384996105482,
+          0.29547979005503244
+        ]
+      },
+      "no_change": {
+        "normalized_error": 1.0,
+        "gain_with_two_anchor": 0.7072925255791986,
+        "paired_ci95": [
+          0.5823662379919998,
+          0.7989822406073651
+        ]
+      }
+    },
+    "0.0625": {
+      "fit_donor": {
+        "normalized_error": 0.3394466500141381,
+        "gain_with_two_anchor": -0.04129391694953998,
+        "paired_ci95": [
+          -0.11370188899614073,
+          0.010213197338826464
+        ]
+      },
+      "donor_jvp": {
+        "normalized_error": 0.3907988679269882,
+        "gain_with_two_anchor": 0.01005830096331012,
+        "paired_ci95": [
+          0.005572304967576219,
+          0.016457539522365637
+        ]
+      },
+      "donor_landmark": {
+        "normalized_error": 0.3018871878576071,
+        "gain_with_two_anchor": -0.07885337910607094,
+        "paired_ci95": [
+          -0.15919080047299586,
+          -0.024127878565121497
+        ]
+      },
+      "two_anchor": {
+        "normalized_error": 0.38074056696367803,
+        "gain_with_two_anchor": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "partial_donor_mix": {
+        "normalized_error": 0.33515042232006825,
+        "gain_with_two_anchor": -0.0455901446436098,
+        "paired_ci95": [
+          -0.11938428656155721,
+          0.006271077119978436
+        ]
+      },
+      "fit_clean_jvp": {
+        "normalized_error": 1.0036649250052847,
+        "gain_with_two_anchor": 0.6229243580416067,
+        "paired_ci95": [
+          0.4329688491926703,
+          0.7812537605770995
+        ]
+      },
+      "raw_donor": {
+        "normalized_error": 0.41151906496067314,
+        "gain_with_two_anchor": 0.03077849799699511,
+        "paired_ci95": [
+          -0.031723054253054904,
+          0.08675008975778202
+        ]
+      },
+      "donor_jvp_raw": {
+        "normalized_error": 0.6546344738667684,
+        "gain_with_two_anchor": 0.2738939069030904,
+        "paired_ci95": [
+          0.17502859085500236,
+          0.435020690773692
+        ]
+      },
+      "no_change": {
+        "normalized_error": 1.0,
+        "gain_with_two_anchor": 0.619259433036322,
+        "paired_ci95": [
+          0.46410621732053414,
+          0.7292740838569266
+        ]
+      }
+    },
+    "0.25": {
+      "fit_donor": {
+        "normalized_error": 0.3394466500141381,
+        "gain_with_two_anchor": 0.08564398412812631,
+        "paired_ci95": [
+          0.04807343318853852,
+          0.1318593426798184
+        ]
+      },
+      "donor_jvp": {
+        "normalized_error": 0.2596404370389037,
+        "gain_with_two_anchor": 0.005837771152891963,
+        "paired_ci95": [
+          0.002799711244451259,
+          0.00971767938221718
+        ]
+      },
+      "donor_landmark": {
+        "normalized_error": 0.3018871878576071,
+        "gain_with_two_anchor": 0.04808452197159534,
+        "paired_ci95": [
+          0.009640678991805417,
+          0.08866672234563104
+        ]
+      },
+      "two_anchor": {
+        "normalized_error": 0.2538026658860118,
+        "gain_with_two_anchor": 0.0,
+        "paired_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "partial_donor_mix": {
+        "normalized_error": 0.33515042232006825,
+        "gain_with_two_anchor": 0.08134775643405646,
+        "paired_ci95": [
+          0.043702864151896975,
+          0.12673500065429125
+        ]
+      },
+      "fit_clean_jvp": {
+        "normalized_error": 0.9143701842508873,
+        "gain_with_two_anchor": 0.6605675183648756,
+        "paired_ci95": [
+          0.5192630143341672,
+          0.791509638120389
+        ]
+      },
+      "raw_donor": {
+        "normalized_error": 0.41151906496067314,
+        "gain_with_two_anchor": 0.1577163990746614,
+        "paired_ci95": [
+          0.10819946760385883,
+          0.224699402566267
+        ]
+      },
+      "donor_jvp_raw": {
+        "normalized_error": 0.3802598922518332,
+        "gain_with_two_anchor": 0.12645722636582146,
+        "paired_ci95": [
+          0.06886673793380726,
+          0.21369993217770067
+        ]
+      },
+      "no_change": {
+        "normalized_error": 1.0,
+        "gain_with_two_anchor": 0.7461973341139883,
+        "paired_ci95": [
+          0.6451726037684046,
+          0.8254751446933436
+        ]
+      }
+    }
+  }
+}

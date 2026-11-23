@@ -10,3 +10,5 @@
 Residual and logit-margin errors have different targets. Each normalized error divides squared prediction error by measured squared effect; smaller is better. Text agreement compares the predictor's own capped greedy generation to the exact patched model, using SQuAD normalization. SQuAD answer correctness, token agreement, and text agreement with the patched model are distinct quantities. MIB prompts here evaluate single-position residual patches at one depth.
 
 [Runtime](runtime.json) and [reproduction commands, data sources, and licenses](../../scripts/finite_response/README.md).
+
+The [native step-size sensitivity results](paired/native-sensitivity.json) repeat all native articles at three finite steps. [SHA256SUMS](SHA256SUMS) covers all JSON data files in this directory and its subdirectories.
