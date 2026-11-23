@@ -24,3 +24,21 @@ Use a CUDA-enabled PyTorch environment and Transformers with eager attention. Th
     python -m scripts.panel_scaling.score OUT OUT/summary.json
 
 The study is a held-out test on new wording and entity pairs. Panel selection and budget selection use development data from each checkpoint, including GPT-2.
+
+## Prompt-specific stopping
+
+The supplementary policy reserves the last 32 calibration masks to validate a fit on each new prompt. It checks the midpoint and then fits on 16, 32, 64, 128 and 224 nested observations. The stopping statistic is validation MAE plus one standard error over the 16 complementary pairs. Both sparse and dense regressions use this heuristic. If no stage qualifies, the policy pays for all tried stages and returns 512 new exact evaluations. Each policy and an exact-only control have fresh synchronized timing on every held-out prompt, in randomized order, with one repetition per method. Paired differences resample whole templates. The secondary joint GPT-2 success rule uses six one-sided Bonferroni-adjusted template bootstrap bounds and requires at least one positive-budget accepted sparse fit per task.
+
+    for model in gpt2 qwen large; do
+        python -m scripts.panel_scaling.adaptive collect INPUTS OUT/manifest.json OUT "$model"
+    done
+    python -m scripts.panel_scaling.adaptive score OUT OUT/adaptive-summary.json
+
+The 0.10-logit target required zero calibration on GPT-2 and Qwen development. Before testing any held-out prompt we added a separate target, set at half of the development midpoint MAE for each model and task. This requires an absolute tolerance specific to each cell. We keep the original outcome and run the same budget-selection and three-repetition native timing procedure at the stricter target, including exact fallback for infeasible fits. The packed archive retains these second-run timings and verifies the underlying predictions against the original native observations.
+
+    for model in gpt2 qwen large; do
+        python -m scripts.panel_scaling.half_error configure OUT ALTERNATE "$model"
+        python -m scripts.panel_scaling.run INPUTS OUT/manifest.json ALTERNATE "$model" heldout
+        python -m scripts.panel_scaling.half_error pack OUT ALTERNATE "$model"
+    done
+    python -m scripts.panel_scaling.half_error score OUT OUT/half-summary.json
