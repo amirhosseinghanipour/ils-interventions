@@ -1,0 +1,243 @@
+{
+  "legal_edges": 32491,
+  "modes": {
+    "CPR": {
+      "0.001": {
+        "nominal_edges": 32,
+        "reference_edges_after_pruning": 7,
+        "reference_nodes_after_pruning": 7,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "9b865fee291d82b2c8547eb407fd98426822ea933ac61695539706e30e9db691",
+        "distinct_effective_candidates_of_64": 44,
+        "distinct_effective_measured_of_24": 21,
+        "candidate_edges_after_pruning_range": [
+          7,
+          11
+        ]
+      },
+      "0.002": {
+        "nominal_edges": 64,
+        "reference_edges_after_pruning": 35,
+        "reference_nodes_after_pruning": 19,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "0fc56ee4faebe98082eb10cd7e1092fdbf5698a0ea542cf901932e72df3f9650",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          21,
+          41
+        ]
+      },
+      "0.005": {
+        "nominal_edges": 162,
+        "reference_edges_after_pruning": 128,
+        "reference_nodes_after_pruning": 36,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "a40fc185ad7bff45648276412f6da11ab0082fc9a8b82f64ba7e99f647245a4d",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          94,
+          130
+        ]
+      },
+      "0.01": {
+        "nominal_edges": 324,
+        "reference_edges_after_pruning": 247,
+        "reference_nodes_after_pruning": 54,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "cc2d7b4c21a5d108a90d6e7be00af10ae89ad24b2dee2ef25dea774d55661a22",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          241,
+          254
+        ]
+      },
+      "0.02": {
+        "nominal_edges": 649,
+        "reference_edges_after_pruning": 542,
+        "reference_nodes_after_pruning": 79,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "abbcd5e8c3f07cfe600125680ca6b9243b06ceed7932ca1dee2153e7bcc62e22",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          486,
+          552
+        ]
+      },
+      "0.05": {
+        "nominal_edges": 1624,
+        "reference_edges_after_pruning": 1458,
+        "reference_nodes_after_pruning": 121,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "84cf4dd196ec92049bb34f8ecff98d1df6d8bcfd294cc41509db2af965840953",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          1400,
+          1474
+        ]
+      },
+      "0.1": {
+        "nominal_edges": 3249,
+        "reference_edges_after_pruning": 3041,
+        "reference_nodes_after_pruning": 148,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "fd1801ab1c284b5c2dae4e6cdfcc936dea65e38b3c857057a3a0b5a9470a9626",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          2950,
+          3046
+        ]
+      },
+      "0.2": {
+        "nominal_edges": 6498,
+        "reference_edges_after_pruning": 6007,
+        "reference_nodes_after_pruning": 148,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "ed72311c2fca50aebd26012583381ed5f143211caaff8f5327a4a601eb9d4b75",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          5970,
+          6014
+        ]
+      },
+      "0.5": {
+        "nominal_edges": 16245,
+        "reference_edges_after_pruning": 14486,
+        "reference_nodes_after_pruning": 148,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "4e75f91d5c6c97b60de5ad7232ce857438c240c48993f1b0c5edd33e89bcfebd",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          14431,
+          14529
+        ]
+      }
+    },
+    "CMD": {
+      "0.001": {
+        "nominal_edges": 32,
+        "reference_edges_after_pruning": 21,
+        "reference_nodes_after_pruning": 12,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "f67223306c94f983d086f710477da534cf184fe2d24113b17922af83f3e532cb",
+        "distinct_effective_candidates_of_64": 60,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          13,
+          23
+        ]
+      },
+      "0.002": {
+        "nominal_edges": 64,
+        "reference_edges_after_pruning": 45,
+        "reference_nodes_after_pruning": 17,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "7fd3982934a898efcd00f574630c3bf06195a94196e16ad62a87b309323510bf",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          40,
+          48
+        ]
+      },
+      "0.005": {
+        "nominal_edges": 162,
+        "reference_edges_after_pruning": 146,
+        "reference_nodes_after_pruning": 35,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "c41c9df9978ed19389ce909bb673d81891bb68f53b98d5cee19f06ebfa326338",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          123,
+          149
+        ]
+      },
+      "0.01": {
+        "nominal_edges": 324,
+        "reference_edges_after_pruning": 276,
+        "reference_nodes_after_pruning": 46,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "a1c7d6c691dd4bbce51a1f3fd00c2baa7476cb32c953a490e6b03bdfee89b828",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          276,
+          298
+        ]
+      },
+      "0.02": {
+        "nominal_edges": 649,
+        "reference_edges_after_pruning": 608,
+        "reference_nodes_after_pruning": 72,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "25c4ac5959af2365c521cdf026b2886c7c88e2324efb8fb00418dfd9cd1cc9bb",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          578,
+          615
+        ]
+      },
+      "0.05": {
+        "nominal_edges": 1624,
+        "reference_edges_after_pruning": 1574,
+        "reference_nodes_after_pruning": 114,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "990f3406e635c6866c686cf608a5dd6fb1c49d5a150390bbe021e7632ea0ed42",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          1558,
+          1595
+        ]
+      },
+      "0.1": {
+        "nominal_edges": 3249,
+        "reference_edges_after_pruning": 3212,
+        "reference_nodes_after_pruning": 145,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "cc04b0269faf621e44959e2498ba8dee3a60d35abdd1e5d22516aa08eaf057ae",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          3211,
+          3240
+        ]
+      },
+      "0.2": {
+        "nominal_edges": 6498,
+        "reference_edges_after_pruning": 6498,
+        "reference_nodes_after_pruning": 157,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "427a4b31f2810ed9a259350b96c0f652a3ad607759a3d3e2e24f37a54f710b13",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          6485,
+          6498
+        ]
+      },
+      "0.5": {
+        "nominal_edges": 16245,
+        "reference_edges_after_pruning": 16245,
+        "reference_nodes_after_pruning": 157,
+        "reference_node_and_edge_masks_equal": true,
+        "reference_sha256": "0d859135198c90df764020bd620cd5e6aba2fd37b9bd31f4a59845c8fd99ab6c",
+        "distinct_effective_candidates_of_64": 64,
+        "distinct_effective_measured_of_24": 24,
+        "candidate_edges_after_pruning_range": [
+          16245,
+          16245
+        ]
+      }
+    }
+  }
+}

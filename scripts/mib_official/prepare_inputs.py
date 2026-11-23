@@ -32,6 +32,12 @@ def prepare(root):
     for split in ("dev", "test"):
         download("mib-bench/ioi", IOI, split + ".json", root / (split + ".json"), repo_type="dataset")
     dest = root / "published"
+    download(
+        "mib-bench/mib-circuits-example",
+        "2cc3324f6d3780f5d82fe741cd2fd3e20fc1643b",
+        "importances/pt/ioi_gpt2/importances.pt",
+        dest / "organizer-example.pt",
+    )
     download("aryaman/mattr-mib-circuits", MATTR, "edge/ioi_gpt2/importances.pt", dest / "mattr.pt")
     for mode in ("False", "True"):
         for frac in (0.001, 0.002, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5):

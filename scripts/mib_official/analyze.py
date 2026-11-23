@@ -2,6 +2,7 @@
 
 import argparse
 import gzip
+import hashlib
 import json
 from collections import Counter
 from pathlib import Path
@@ -87,9 +88,46 @@ def summarize(data, draws=4000, seed=30177):
     return out
 
 
+def summarize_additional_example(primary, supplement):
+    key = "organizer_hf_example"
+    assert supplement["method"] == key and supplement["grid"] == primary["grid"]
+    paired = dict(primary)
+    paired["curves"] = {
+        mode: {"pair": methods["pair"], key: supplement["curves"][mode][key]}
+        for mode, methods in primary["curves"].items()
+    }
+    summary = summarize(paired)
+    return {
+        "scope": supplement["scope"],
+        "source": supplement["source"],
+        "revision": supplement["revision"],
+        "primary_sha256": supplement["fingerprint"]["primary_sha256"],
+        "eligible_prompts": summary["eligible_prompts"],
+        "bootstrap": summary["bootstrap"],
+        "graph_comparison": supplement["graph_comparison"],
+        "curves": {
+            mode: {
+                key: curve["methods"][key],
+                "primary_pair_minus_organizer_hf_example": curve["paired_differences"][key],
+            }
+            for mode, curve in summary["curves"].items()
+        },
+    }
+
+
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("artifact", type=Path)
+    p.add_argument(
+        "--additional-example", type=Path, help="Summarize a separate post-primary organizer release"
+    )
     a = p.parse_args()
-    data = json.loads(gzip.decompress(a.artifact.read_bytes()))
-    print(json.dumps(summarize(data), indent=2, allow_nan=False))
+    primary_bytes = a.artifact.read_bytes()
+    data = json.loads(gzip.decompress(primary_bytes))
+    if a.additional_example:
+        supplement = json.loads(gzip.decompress(a.additional_example.read_bytes()))
+        assert supplement["fingerprint"]["primary_sha256"] == hashlib.sha256(primary_bytes).hexdigest()
+        result = summarize_additional_example(data, supplement)
+    else:
+        result = summarize(data)
+    print(json.dumps(result, indent=2, allow_nan=False))
