@@ -1,0 +1,164 @@
+{
+  "scope": "post-primary organizer HF submission example, public GPT-2 IOI",
+  "source": "https://huggingface.co/mib-bench/mib-circuits-example/blob/2cc3324f6d3780f5d82fe741cd2fd3e20fc1643b/importances/pt/ioi_gpt2/importances.pt",
+  "revision": "2cc3324f6d3780f5d82fe741cd2fd3e20fc1643b",
+  "primary_sha256": "d4a8dd052487b58e73546e08b7df5221045931f13a98d6d57fca9b2e6516af1c",
+  "eligible_prompts": 1000,
+  "bootstrap": {
+    "unit": "template",
+    "draws": 4000,
+    "seed": 30177,
+    "clusters": 9,
+    "interval": "paired percentile 95%; conditions on calibration prompts and policy"
+  },
+  "graph_comparison": {
+    "legal_edges": 32491,
+    "finite_hf_scores": 32491,
+    "unique_hf_scores": 32473,
+    "preselected_hf_edges": 0,
+    "preselected_hf_nodes": 0,
+    "signed_pearson": -0.8872533931752601,
+    "signed_spearman": -0.49475598951570565,
+    "top_k_overlap_fraction_before_pruning": {
+      "CPR": {
+        "0.001": 0.0,
+        "0.002": 0.0,
+        "0.005": 0.0,
+        "0.01": 0.012345679012345678,
+        "0.02": 0.026194144838212634,
+        "0.05": 0.06342364532019705,
+        "0.1": 0.09695290858725762,
+        "0.2": 0.14342874730686364,
+        "0.5": 0.325700215450908
+      },
+      "CMD": {
+        "0.001": 0.71875,
+        "0.002": 0.8125,
+        "0.005": 0.7654320987654321,
+        "0.01": 0.7314814814814815,
+        "0.02": 0.7503852080123267,
+        "0.05": 0.749384236453202,
+        "0.1": 0.7386888273314867,
+        "0.2": 0.7317636195752539,
+        "0.5": 0.7841797476146507
+      }
+    }
+  },
+  "runtime": {
+    "scope": "nontrivial native public test graphs; excludes setup and endpoint parity checks",
+    "unique_graphs": 18,
+    "timed_unique_graphs": 18,
+    "seconds_by_graph_sha256": {
+      "64b2e6759580dae48bed7530ebc22c97b22731774d62961940d6b90e6ff4ec88": 46.480828223982826,
+      "0accfc12a1c857fd4694e1c886b4fdfe4888517071b994d28ac80576719a81ea": 48.39904836297501,
+      "bafa1245d19159dd96b5a6cf029ca6da2553b3b8e112151756683d9b162a60e0": 48.90881500497926,
+      "b4b6ee25a47e571dc5f5843f4038c9b320842df64bdd32e5f67ab4f3b5804eda": 49.68424202501774,
+      "6d4d83f6d38581c0c6ab30cedccb73b502119e685a60566b30de7b7daadd46de": 49.707164539024234,
+      "146e02aba4c1a9c63ce5c89a3378942205f91d5d67319ecbae0dbc1c2b11a7a8": 49.76161156303715,
+      "793857a395bd56d38a464eaacd61c3b32e259cf2dc11a0671c92a98ee3ed07ab": 49.76085415802663,
+      "0b46888ccf97ebe9c0375def2a6bbfab4238d3dc333bcd15b727b646a491f8f6": 49.7648180249962,
+      "4b72043f66e8c9b7d4966954d45aadcf6c4c99ad66abefbdd83f5a2c941e6139": 49.77329882601043,
+      "319df0ff6616ee9e21df1af8f6dbb9d84f66380d5b82f1fffd7bdb9a92d974be": 46.54637829196872,
+      "be3b670dd95f59da10e02d90d5d4736f8eea9cd5dbb97154bd2521f5991bd34b": 48.65713226003572,
+      "aec57c457cbf64417877d629048407cdeb2794f23904e7c3f7e74676a6ddb2f5": 49.27196822903352,
+      "dc2bdf38b8474b69ad9393e1495aae78b1f04418c5a143cff1739c67a82a4c2a": 49.619250586023554,
+      "d047443b7e8d2d7d5463197d5b864453f1a01986e1a20d6086458c593427e9bf": 49.88443744299002,
+      "a5d96542c5da4879130afcb5f16f89fbb6df4c2654de2d11d0970f0c52a43d8f": 49.88025462202495,
+      "6001ba8c35d3f029491aba1cbd6377ee66f089ca8f7fa0a50d7cd7c95f5f6f5f": 49.88000721100252,
+      "84774923905efa319790032f619351d97e11c2f443556e927bdbdcc58c7a6488": 49.87350322603015,
+      "aa46deb9aeaaad1fc37bfeea1b013a27db2de6787d3dc0fc09a4dfaf25806006": 49.841716884984635
+    },
+    "median_seconds": 49.73400934852543,
+    "sum_seconds": 885.6953294821433
+  },
+  "curves": {
+    "CPR": {
+      "organizer_hf_example": {
+        "score": 1.2012838097436287,
+        "interval": [
+          1.1478182841381692,
+          1.2549580545907564
+        ],
+        "faithfulness": [
+          0.0,
+          0.22449699294487108,
+          0.5048270885612801,
+          0.7968936943680783,
+          0.9761665708752685,
+          1.2088630536919656,
+          1.2322551756081228,
+          1.265192390689893,
+          1.3237583370549033,
+          1.0
+        ],
+        "retained_edges": [
+          17,
+          40,
+          104,
+          215,
+          487,
+          1403,
+          2873,
+          5739,
+          14577,
+          32491
+        ]
+      },
+      "primary_pair_minus_organizer_hf_example": {
+        "pair_minus_comparator": -0.9577962942649438,
+        "interval": [
+          -1.011620646676885,
+          -0.9033797633180962
+        ],
+        "leave_one_template_out_delta_range": [
+          -0.9783715185675171,
+          -0.9462378624642341
+        ]
+      }
+    },
+    "CMD": {
+      "organizer_hf_example": {
+        "score": 0.0342439381267503,
+        "interval": [
+          0.02888914580257899,
+          0.04036180402820275
+        ],
+        "faithfulness": [
+          0.0,
+          0.037400219509491614,
+          0.2626889943001353,
+          0.5426520540171921,
+          0.8415889601266052,
+          0.8773811736604339,
+          0.901792838524375,
+          0.9574269274731533,
+          0.9962843512974825,
+          1.0
+        ],
+        "retained_edges": [
+          14,
+          40,
+          140,
+          268,
+          595,
+          1580,
+          3225,
+          6498,
+          16245,
+          32491
+        ]
+      },
+      "primary_pair_minus_organizer_hf_example": {
+        "pair_minus_comparator": -0.008108496978896464,
+        "interval": [
+          -0.01217857765529676,
+          -0.004585511169080528
+        ],
+        "leave_one_template_out_delta_range": [
+          -0.009828475567557303,
+          -0.0073207875965042475
+        ]
+      }
+    }
+  }
+}

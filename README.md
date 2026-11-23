@@ -22,6 +22,10 @@ The arithmetic benchmark measures how replacing attention heads and MLPs changes
 
 The two-block benchmark measures every subset of an eight-head panel on 48 indirect object identification prompts and 48 CopyColors prompts at two checkpoints. Across 49,152 native interventions, a midpoint gradient with a sparse pair correction predicted three-head effects more accurately than the same fit with only additive terms in all four cells. On SmolLM2 CopyColors, mean absolute error was 0.0348 versus 0.0711 logits. By the frozen time cutoff, midpoint with exact verification had computed the best triple in all 48 traces, while full ILS calibration had produced only the common fallback. The synchronous verification loop could return later. On a separate timing sample with 222 queries per prompt, ILS was 2.47× faster than the best tested cached exact implementation on Qwen and 3.22× faster on SmolLM2. [Data, scores and checksums](artifacts/interaction-search/README.md) · [Reproduction commands](scripts/interaction_search/README.md)
 
+## GPT-2 circuit benchmark
+
+On all 1,000 public GPT-2 IOI test prompts, fitting pair interactions to exchanges around a released edge ranking gave an integrated circuit performance ratio (CPR) of 0.24349 and an integrated circuit-model difference (CMD) of 0.02614. The equal-data additive fit scored 0.24334 and 0.02565. Paired intervals across nine test templates included zero for both comparisons. The released MAttr graph had the largest CPR, 7.94276, and Technion had the smallest CMD, 0.01518, among the primary comparisons. [Scores and prompt-level evidence](artifacts/mib-official/README.md) · [Benchmark implementation and source revisions](scripts/mib_official/README.md)
+
 ## Install
 
 Use Python 3.11 or newer in a virtual environment:
