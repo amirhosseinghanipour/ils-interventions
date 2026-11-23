@@ -2,6 +2,17 @@
 
 The two-person experiment compares two questions about the same facts. Both answers start with the same word. After that word, replace the recipient's residual update at one block with the update elicited by the other question. Record the change in the alternative-minus-original logit margin and the top token across the full vocabulary. Positive values favor the alternate answer. The four-person test asks for two words recorded in separate lists and intervenes on individual attention heads. A separate fit predicts the last residual change after each two-person block intervention.
 
+## Get the raw measurements
+
+The [transition archive](https://github.com/amirhosseinghanipour/ils-interventions/tree/data/query-transition) holds the new measurements, and the [query-routing archive](https://github.com/amirhosseinghanipour/ils-interventions/tree/data/query-routing) holds the earlier blind food controls.
+
+```sh
+git clone --depth 1 --single-branch --branch data/query-transition https://github.com/amirhosseinghanipour/ils-interventions.git ../ils-transition-data
+git clone --depth 1 --single-branch --branch data/query-routing https://github.com/amirhosseinghanipour/ils-interventions.git ../ils-routing-data
+DATA="$(cd ../ils-transition-data && pwd)"
+BLIND="$(cd ../ils-routing-data/blind && pwd)"
+```
+
 ## Recompute from raw measurements
 
 With Python and NumPy installed, set `DATA` to the measurements checkout, `BLIND` to the previous study's directory containing the two food-task archives, and `SCORES` to a fresh summary directory. From the repository root run

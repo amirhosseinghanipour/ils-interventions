@@ -1,0 +1,32 @@
+{
+  "data_commit": "2305673d3042160d98c0b259612286d67e9c147f",
+  "prior_data_commit": "6575fc4093a60c43a2c180b686e72301015493b8",
+  "code_before_results": "081fc8eb81c995fc112b0e1f277796824bae2ea8",
+  "data_manifest_sha256": "48bda9601aebd7b8c45354ee91a12021478ede3df499d6ed88686349b02e925f",
+  "python": "3.14.4",
+  "numpy": "2.5.3",
+  "system": "Linux x86_64",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "driver": "595.91.07",
+  "backend": "llama.cpp b12110 CUDA",
+  "compiler": "g++ 15.2.0",
+  "shared_probe_sha256": "692b034284b84588451e8da7e7a7dcd8be99e462dfdfb57ff880df34bdf8bcfd",
+  "libllama_sha256": "1bee4801d3ee27efe6ab55a7dab14d030f35b443b5a85708492e29c33e5332c6",
+  "libggml_cuda_sha256": "e3e0ae308af472b40ac6962ecea9d160a0687df3948d404ce6468029d5b8f9b2",
+  "dataset_sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+  "models": {
+    "Qwen3.5-4B-Q4_K_M": "13c16f426047e2de38cd075bdade4a7bcbc8c774384876f677740cda65f8a983",
+    "Qwen3.5-9B-Q5_K_M": "a686d88ec1e6881f9bf161526826cd6d6874b7f0e80e0f79acf6144a132c5d7e"
+  },
+  "configs": {
+    "donor_control.json": "246f799e358e165b431eb590a75d413164a953fd6450274a9ab1db4e350e2325",
+    "head_protocol.json": "0f9196eeb766eeaf921cede8bdcb7a3b4b0ae793077ea83692b4b0b81c063319",
+    "materials.json": "aa3a2e30870094baccde006469cb4660de21c714fc9640a730e04b71c6ef2c1d",
+    "natural.json": "6021d1dd68f508bca3a2e199b1b7467d6b73a0279bea06c0760a4f553d431562",
+    "protocol.json": "aa186be250dff33584bdee6f279be7ef709915bf18f286794da50daa270ec819",
+    "target_center.json": "d3ee12bf43614e04a069e357ce3b46fcf525e9c0cc121abfca7b63c7c7a8a377",
+    "transport.json": "1bea630f5ea3f945bb7d6ad2723f62d8ed43e08e6616b46b8821b41b8710faf8"
+  },
+  "public_data_commit": "5a31ed97fc8ede5a9e4aad56f03ea86b3afd9221",
+  "public_prior_data_commit": "bdb808fd2ae14d9501bc1291b865d7b8e0764b08"
+}

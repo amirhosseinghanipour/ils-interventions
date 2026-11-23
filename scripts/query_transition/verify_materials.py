@@ -23,7 +23,7 @@ def verify(data, food, scales):
     assert food_values.isdisjoint(w for r in rows for w in r["values"]+[r["replacement"]])
     amplitudes=np.array(read(scales)["scales"])
     carriers=dic["query"][:,-1].astype(float)
-    pred=[]; null=[]; correct=pairs=0
+    gains=[]; pred=[]; null=[]; correct=pairs=0
     for i,r in enumerate(rows):
         sim=np.einsum("ijd,d->ij",directions,inputs["delta"][i])
         np.fill_diagonal(sim,-np.inf)
@@ -34,6 +34,7 @@ def verify(data, food, scales):
         choice=dist.argmin(0)
         correct+=int((choice==[r["edited"],1-r["edited"]]).sum())
         gain=carriers[donor]-carriers[original]
+        gains.append(gain)
         pred.append(np.where(choice==s,amplitudes[0],amplitudes[1])[:,None]*gain)
         null.append(np.repeat((amplitudes.mean()*gain)[None],2,axis=0))
     score=read(data/"result.json")
@@ -51,6 +52,24 @@ def verify(data, food, scales):
         batch=y[draws[d]]
         np.testing.assert_allclose(energies[d],np.square(batch-batch.mean((0,1))).sum(),rtol=1e-12)
     np.testing.assert_allclose(np.percentile(counts@(errors[1]-errors[0])/energies,[2.5,97.5]),score["primary"]["ci95"])
+    if (data/"target-center.json").exists():
+        res=read(data/"target-center.json")
+        clean=inputs["clean_query"][:,:,0].astype(float)
+        # Subtract the estimated shift, then compare Euclidean distances to
+        # the original two training centroids, independently of the dot-product scorer.
+        shift=clean[:16].mean((0,1))-centroids.mean(0)
+        corrected=[];right=0
+        for j,r in enumerate(rows[16:],16):
+            z=clean[j]-shift
+            cls=np.square(z[None]-centroids[:,None]).sum(-1).argmin(0)
+            right+=int((cls==[r["edited"],1-r["edited"]]).sum())
+            corrected.append(np.where(cls==sites.index(r["site"]),amplitudes[0],amplitudes[1])[:,None]*gains[j])
+        actual=y[16:]
+        ss=np.square(actual-actual.mean((0,1))).sum()
+        err=np.square(corrected-actual).sum()
+        assert right==res["centered_slot_correct"] and len(actual)==res["test_pairs"]
+        np.testing.assert_allclose(1-err/ss,res["r2"]["centered"]["mean"])
+        np.testing.assert_allclose((errors[1][16:].sum()-err)/ss,res["centered_minus_mean"]["mean"])
     print(f"Verified {len(rows)} material prefixes, disjoint words and names, recovered endpoints, early states, residual predictions and uncertainty.")
 
 
