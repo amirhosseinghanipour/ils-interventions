@@ -74,10 +74,24 @@ def predict(c, masks, method):
     return torch.where(left > right, rev, fwd) if method == "nearest" else fwd + weight * (rev - fwd)
 
 
+@torch.no_grad()
+def exact_suffix(c, masks, batch_size):
+    layer = c.levels[1]
+    heads = next(g[2] for g in c.groups if g[:2] == (layer, "head"))
+    base = c.ends[0][0][layer, "head"]
+    values = []
+    for batch in masks.split(batch_size):
+        displacement = (batch.float() @ heads.flatten(1)).reshape(len(batch), *base.shape[1:])
+        values.append(c.tail(layer, "head", base + displacement) - c.outputs[0])
+    return torch.cat(values)
+
+
 def timed(c, masks, method):
     start = now()
     if method == "exact":
         out = torch.cat([patches(c, c.levels[1], batch) for batch in masks.split(8)])
+    elif method.startswith("exact_suffix"):
+        out = exact_suffix(c, masks, int(method.removeprefix("exact_suffix")))
     else:
         out = predict(c, masks, method)
     values = out.detach().cpu().double().numpy()
@@ -90,6 +104,7 @@ def main():
     p.add_argument("manifest", type=Path)
     p.add_argument("dest", type=Path)
     p.add_argument("model", choices=WEIGHTS)
+    p.add_argument("--cached-exact", action="store_true")
     args = p.parse_args()
     path = args.inputs / args.model
     with (path / "model.safetensors").open("rb") as f:
@@ -107,6 +122,16 @@ def main():
     tok = AutoTokenizer.from_pretrained(path)
     runs = []
     methods = ("exact", "recipient", "midpoint", "secant_midpoint", "nearest", "smooth")
+    if args.cached_exact:
+        methods = (
+            "exact",
+            "exact_suffix8",
+            "exact_suffix32",
+            "exact_suffix128",
+            "midpoint",
+            "secant_midpoint",
+            "smooth",
+        )
     for task, refs in read(args.manifest).items():
         rows = data(args.inputs, task + "-test")
         for n, ref in enumerate(refs[:2]):

@@ -48,3 +48,8 @@ For repeated what-if queries on a fixed prompt and block, the group estimator ca
     python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/amortize-large.json large
 
 The matched-midpoint diagnostic separately compares one midpoint gradient at the reachable all-head endpoint with one gradient at either the natural-donor midpoint or the recipient. The contrast was specified after observing the Qwen group outcomes and before evaluating SmolLM2. Its intervals cover both comparator choices and all four model-task cells. Absolute effect size and sign agreement for effects of at least 0.1 logit supply additional descriptive scale checks.
+
+Repeat the timing diagnostic with `--cached-exact` to allow exact methods to reuse the same residual and head displacements as the estimators. These controls re-evaluate only the downstream suffix, batching up to 8, 32 or 128 masks. Each returns the two answer logits. The strongest measured exact timing per prompt takes the fastest median among the native run and the three suffix batch sizes. This optimistic choice favors exact computation. Added after the Qwen native timing, the diagnostic uses the same four prompts per checkpoint and records a fresh timed run of each comparator.
+
+    python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/cached-qwen.json qwen --cached-exact
+    python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/cached-large.json large --cached-exact
