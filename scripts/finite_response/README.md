@@ -38,3 +38,11 @@ Let h and k be the clean recipient and donor sequence states at half depth, and 
     python scripts/finite_response/paired_score.py PAIRED_RESULTS paired-articles.json articles.json paired-summary.json
 
 All checks compare predictions to exact patches. Residual error is pooled squared error divided by pooled squared effect size (zero prediction scores 1). Each of 10,000 bootstrap draws resamples articles with both questions kept together and the same draws across models. For the main pooled outcome the verifier constructs simultaneous 95% bands across two-anchor comparisons on both models using the bootstrap maximum absolute standardized deviation. These intervals condition on the fixed calibration and models.
+
+The native replication evaluates first-answer-position residuals for the first 24 held-out article pairs that fit both questions in the 256-token GGUF context and have one differing source token. Both sizes must share question IDs. The finite-difference step is 0.125 in either direction. The first four article pairs also use 0.0625 to measure step sensitivity, and a whole-sequence state swap must reproduce the donor output. Report the standalone derivative results as finite-step approximations on these quantized models. This replication measures the actual emitted first tokens for the clean and patched runs. The larger models do not undergo the eight-token candidate rollout.
+
+Use the native build command and pinned backend in `../query_transition/replicate.sh` to compile `../query_routing/probe.cpp` with the added dense-state callback. Invoke once for each GGUF, then summarize both:
+
+    python scripts/finite_response/native.py PROBE.so MODEL.gguf INPUTS/train-v1.1.json artifacts/finite-response/paired-articles.json PAIRED_RESULTS/weights.json PAIRED_RESULTS/native-4b.json 4b
+    python scripts/finite_response/native.py PROBE.so MODEL.gguf INPUTS/train-v1.1.json artifacts/finite-response/paired-articles.json PAIRED_RESULTS/weights.json PAIRED_RESULTS/native-9b.json 9b
+    python scripts/finite_response/native_score.py PAIRED_RESULTS
