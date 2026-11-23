@@ -19,6 +19,11 @@ struct Probe {
     int captured_source = 0, captured_final = 0;
 };
 Probe run{};
+// Optional same-length sequence-state intervention and last-position landmark readout.
+float *block_capture = nullptr, *landmark_capture = nullptr;
+const float *block_replacement = nullptr;
+int landmark_hits = 0;
+
 // Optional clean trace: blocks 15..23 at the last two positions, in block order.
 float *trace = nullptr;
 unsigned trace_mask = 0;
@@ -47,6 +52,13 @@ bool observe(ggml_tensor *node, bool ask, void *) {
         ++head_hits;
         return true;
     }
+    if (landmark_capture && name == "l_out-23") {
+        if (ask) return true;
+        assert(run.layer == 15 && node->type == GGML_TYPE_F32 && ggml_is_contiguous(node));
+        assert(node->ne[0] == width && ggml_nelements(node) == int64_t(width) * run.n);
+        ggml_backend_tensor_get(node, landmark_capture, size_t(run.n-1)*width*sizeof(float), width*sizeof(float));
+        ++landmark_hits;
+    }
     if (trace) {
         for (int layer = 15; layer <= 23; ++layer) {
             if (name != "l_out-" + std::to_string(layer)) continue;
@@ -71,6 +83,12 @@ bool observe(ggml_tensor *node, bool ask, void *) {
         const auto bytes = sizeof(float) * width;
         const auto offset = bytes * run.site;
         ggml_backend_tensor_get(node, run.source, offset, bytes);
+        if (block_capture)
+            ggml_backend_tensor_get(node, block_capture, 0, ggml_nbytes(node));
+        if (block_replacement) {
+            assert(!run.edit);
+            ggml_backend_tensor_set(node, block_replacement, 0, ggml_nbytes(node));
+        }
         if (run.edit) {
             std::vector<float> patched(width);
             for (int j = 0; j < width; ++j) patched[j] = run.source[j] + run.edit[j];
@@ -118,6 +136,12 @@ extern "C" void configure_head(int layer, int head, float *capture, const float 
     head_replacement = replacement;
 }
 
+extern "C" void configure_dense(float *state, const float *replacement, float *landmark) {
+    block_capture = state;
+    block_replacement = replacement;
+    landmark_capture = landmark;
+}
+
 extern "C" void configure_trace(float *capture) {
     trace = capture;
 }
@@ -126,6 +150,7 @@ extern "C" int forward(int *ids, int n, int site, int layer, const float *edit,
                        float *source, float *final, int answer, int foil, float *margin) {
     assert(site >= 0 && site < n && n <= 256 && layer < final_layer);
     head_hits = 0;
+    landmark_hits = 0;
     trace_mask = 0;
     run = {n, site, layer, edit, source, final};
     llama_memory_clear(llama_get_memory(ctx), true);
@@ -135,6 +160,7 @@ extern "C" int forward(int *ids, int n, int site, int layer, const float *edit,
     assert(llama_decode(ctx, batch) == 0);
     llama_synchronize(ctx);
     assert(trace_mask == (trace ? 511u : 0u));
+    assert(landmark_hits == (landmark_capture ? 1 : 0));
     assert(head_hits == (head_layer >= 0 ? 1 : 0));
     assert(run.captured_source == 1 && run.captured_final == 1);
     const auto *logits = llama_get_logits_ith(ctx, n - 1);
