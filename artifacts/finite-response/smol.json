@@ -1,0 +1,322 @@
+{
+  "articles": 80,
+  "measured_answer_changes": 30,
+  "clean_ended_by_cap": 13,
+  "methods": {
+    "no_change": {
+      "normalized_squared_error": {
+        "value": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.7386258063881521,
+        "ci95": [
+          0.674848596333041,
+          0.8025635017303453
+        ]
+      },
+      "switch_true_positive": 0,
+      "switch_false_positive": 0,
+      "switch_true_negative": 50,
+      "switch_false_negative": 30,
+      "first_token_agreement": 71
+    },
+    "clean_donor": {
+      "normalized_squared_error": {
+        "value": 0.09326003400037962,
+        "ci95": [
+          0.06992611184842515,
+          0.1218930493159598
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": -0.16811415961146814,
+        "ci95": [
+          -0.23440447445498572,
+          -0.10494829728928007
+        ]
+      },
+      "switch_true_positive": 27,
+      "switch_false_positive": 6,
+      "switch_true_negative": 44,
+      "switch_false_negative": 3,
+      "first_token_agreement": 76
+    },
+    "fit_donor": {
+      "normalized_squared_error": {
+        "value": 0.08940896858936535,
+        "ci95": [
+          0.06854196349941899,
+          0.11417508840442527
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": -0.1719652250224824,
+        "ci95": [
+          -0.23872480218813066,
+          -0.10948131949027635
+        ]
+      },
+      "switch_true_positive": 26,
+      "switch_false_positive": 4,
+      "switch_true_negative": 46,
+      "switch_false_negative": 4,
+      "first_token_agreement": 75
+    },
+    "local_derivative": {
+      "normalized_squared_error": {
+        "value": 1.0656453074196133,
+        "ci95": [
+          0.9349465107447485,
+          1.1929432802516968
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.8042711138077653,
+        "ci95": [
+          0.6517750868296643,
+          0.9420189793819868
+        ]
+      },
+      "switch_true_positive": 16,
+      "switch_false_positive": 8,
+      "switch_true_negative": 42,
+      "switch_false_negative": 14,
+      "first_token_agreement": 71
+    },
+    "midpoint_derivative": {
+      "normalized_squared_error": {
+        "value": 0.9795229535073154,
+        "ci95": [
+          0.7380581368927821,
+          1.2449159754562855
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.7181487598954679,
+        "ci95": [
+          0.46722455645718414,
+          0.9825125746065808
+        ]
+      },
+      "switch_true_positive": 29,
+      "switch_false_positive": 10,
+      "switch_true_negative": 40,
+      "switch_false_negative": 1,
+      "first_token_agreement": 71
+    },
+    "fit_local_derivative": {
+      "normalized_squared_error": {
+        "value": 0.7906456545859548,
+        "ci95": [
+          0.719389063180209,
+          0.8436794135219126
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.5292714609741072,
+        "ci95": [
+          0.4335668790369463,
+          0.6086458113168394
+        ]
+      },
+      "switch_true_positive": 9,
+      "switch_false_positive": 5,
+      "switch_true_negative": 45,
+      "switch_false_negative": 21,
+      "first_token_agreement": 71
+    },
+    "partial": {
+      "normalized_squared_error": {
+        "value": 0.9987610397959606,
+        "ci95": [
+          0.9901516792644973,
+          1.007776692636741
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.7373868461841131,
+        "ci95": [
+          0.6724517363177469,
+          0.8011792818646568
+        ]
+      },
+      "switch_true_positive": 13,
+      "switch_false_positive": 3,
+      "switch_true_negative": 47,
+      "switch_false_negative": 17,
+      "first_token_agreement": 73
+    },
+    "partial_donor_mix": {
+      "normalized_squared_error": {
+        "value": 0.09034550456828544,
+        "ci95": [
+          0.06950436199573082,
+          0.1150825157019126
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": -0.1710286890435623,
+        "ci95": [
+          -0.23782411958061253,
+          -0.1084139499234121
+        ]
+      },
+      "switch_true_positive": 26,
+      "switch_false_positive": 4,
+      "switch_true_negative": 46,
+      "switch_false_negative": 4,
+      "first_token_agreement": 75
+    },
+    "norm_transport": {
+      "normalized_squared_error": {
+        "value": 0.1505744273150095,
+        "ci95": [
+          0.11616665764844758,
+          0.18567563809946658
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": -0.11079976629683824,
+        "ci95": [
+          -0.16588723143928183,
+          -0.04327479283388222
+        ]
+      },
+      "switch_true_positive": 25,
+      "switch_false_positive": 6,
+      "switch_true_negative": 44,
+      "switch_false_negative": 5,
+      "first_token_agreement": 75
+    },
+    "broyden_identity": {
+      "normalized_squared_error": {
+        "value": 0.25359865339132454,
+        "ci95": [
+          0.1867019629920165,
+          0.32040874126755464
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": -0.007775540220523194,
+        "ci95": [
+          -0.013106991666667804,
+          -0.0028524109635687397
+        ]
+      },
+      "switch_true_positive": 24,
+      "switch_false_positive": 2,
+      "switch_true_negative": 48,
+      "switch_false_negative": 6,
+      "first_token_agreement": 76
+    },
+    "secant_unit_gain": {
+      "normalized_squared_error": {
+        "value": 0.4476416348517963,
+        "ci95": [
+          0.37118662425888344,
+          0.5053003676947201
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.18626744123994848,
+        "ci95": [
+          0.11316857005804878,
+          0.2684769245226103
+        ]
+      },
+      "switch_true_positive": 23,
+      "switch_false_positive": 5,
+      "switch_true_negative": 45,
+      "switch_false_negative": 7,
+      "first_token_agreement": 72
+    },
+    "prefix_ridge": {
+      "normalized_squared_error": {
+        "value": 0.5124276001950788,
+        "ci95": [
+          0.4443766077428515,
+          0.57896019757613
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.2510534065832311,
+        "ci95": [
+          0.22297861788868667,
+          0.2815970047358403
+        ]
+      },
+      "switch_true_positive": 15,
+      "switch_false_positive": 2,
+      "switch_true_negative": 48,
+      "switch_false_negative": 15,
+      "first_token_agreement": 73
+    },
+    "prefix_secants": {
+      "normalized_squared_error": {
+        "value": 0.2564528070665048,
+        "ci95": [
+          0.19052507380433678,
+          0.32391443797039654
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": -0.004921386545342947,
+        "ci95": [
+          -0.01867656730430471,
+          0.011277277286951808
+        ]
+      },
+      "switch_true_positive": 25,
+      "switch_false_positive": 1,
+      "switch_true_negative": 49,
+      "switch_false_negative": 5,
+      "first_token_agreement": 76
+    },
+    "projection_only": {
+      "normalized_squared_error": {
+        "value": 0.2553123274132923,
+        "ci95": [
+          0.1883560770887196,
+          0.3221580878337145
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": -0.006061866198555428,
+        "ci95": [
+          -0.011979148214499129,
+          0.00016851128974340555
+        ]
+      },
+      "switch_true_positive": 23,
+      "switch_false_positive": 3,
+      "switch_true_negative": 47,
+      "switch_false_negative": 7,
+      "first_token_agreement": 76
+    },
+    "secant_transport": {
+      "normalized_squared_error": {
+        "value": 0.26137419361184777,
+        "ci95": [
+          0.1974364982696547,
+          0.32515140366695894
+        ]
+      },
+      "error_reduction_with_secant": {
+        "value": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "switch_true_positive": 24,
+      "switch_false_positive": 2,
+      "switch_true_negative": 48,
+      "switch_false_negative": 6,
+      "first_token_agreement": 76
+    }
+  }
+}

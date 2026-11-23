@@ -1,0 +1,7333 @@
+[
+  {
+    "qid": "57097fd9ed30961900e84235",
+    "article": "Computer_security",
+    "actual_changed": true,
+    "first_token": 2557,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 17782.236719399494,
+    "clean_first": 2557,
+    "source_position": 45,
+    "prompt_length": 189,
+    "checks": {
+      "relative_jvp_check": 0.0034002172760665417,
+      "patched_generation": [
+        2557,
+        1922,
+        274,
+        253,
+        6543,
+        4205,
+        3414,
+        314
+      ],
+      "median_ms": {
+        "exact": 17.31614297023043,
+        "secant": 8.742276986595243,
+        "derivative": 59.261212998535484
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 17782.236719399494,
+        "changed": false,
+        "first_token": 2557
+      },
+      "clean_donor": {
+        "sse": 2276.3527195041065,
+        "changed": true,
+        "first_token": 2557
+      },
+      "fit_donor": {
+        "sse": 2078.206779590935,
+        "changed": true,
+        "first_token": 2557
+      },
+      "local_derivative": {
+        "sse": 10816.705036687945,
+        "changed": false,
+        "first_token": 2557
+      },
+      "midpoint_derivative": {
+        "sse": 6411.209202858425,
+        "changed": true,
+        "first_token": 2557
+      },
+      "fit_local_derivative": {
+        "sse": 13186.84663962208,
+        "changed": false,
+        "first_token": 2557
+      },
+      "partial": {
+        "sse": 16350.677334034735,
+        "changed": true,
+        "first_token": 2557
+      },
+      "partial_donor_mix": {
+        "sse": 2042.809384195045,
+        "changed": true,
+        "first_token": 2557
+      },
+      "norm_transport": {
+        "sse": 2111.641995181027,
+        "changed": true,
+        "first_token": 2557
+      },
+      "broyden_identity": {
+        "sse": 2814.1851591607174,
+        "changed": true,
+        "first_token": 2557
+      },
+      "secant_unit_gain": {
+        "sse": 5431.421033460685,
+        "changed": true,
+        "first_token": 2557
+      },
+      "prefix_ridge": {
+        "sse": 7231.144116895465,
+        "changed": false,
+        "first_token": 2557
+      },
+      "prefix_secants": {
+        "sse": 2857.8633734542927,
+        "changed": false,
+        "first_token": 2557
+      },
+      "projection_only": {
+        "sse": 2975.7098639070578,
+        "changed": false,
+        "first_token": 2557
+      },
+      "secant_transport": {
+        "sse": 2808.661359047028,
+        "changed": true,
+        "first_token": 2557
+      }
+    }
+  },
+  {
+    "qid": "57269b01dd62a815002e8ae1",
+    "article": "Samoa",
+    "actual_changed": false,
+    "first_token": 67,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 21810.1609703051,
+    "clean_first": 67,
+    "source_position": 100,
+    "prompt_length": 181,
+    "checks": {
+      "relative_jvp_check": 0.0020709733944386244,
+      "patched_generation": [
+        67,
+        565,
+        2554,
+        23,
+        89,
+        284,
+        5445,
+        308
+      ],
+      "median_ms": {
+        "exact": 15.012645977549255,
+        "secant": 7.665704993996769,
+        "derivative": 53.28754900256172
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 21810.1609703051,
+        "changed": false,
+        "first_token": 67
+      },
+      "clean_donor": {
+        "sse": 285.8136819039969,
+        "changed": false,
+        "first_token": 67
+      },
+      "fit_donor": {
+        "sse": 526.2920874219549,
+        "changed": false,
+        "first_token": 67
+      },
+      "local_derivative": {
+        "sse": 8270.382535953086,
+        "changed": false,
+        "first_token": 67
+      },
+      "midpoint_derivative": {
+        "sse": 2925.103631741475,
+        "changed": false,
+        "first_token": 67
+      },
+      "fit_local_derivative": {
+        "sse": 10631.36345072927,
+        "changed": false,
+        "first_token": 67
+      },
+      "partial": {
+        "sse": 21633.647871003464,
+        "changed": false,
+        "first_token": 67
+      },
+      "partial_donor_mix": {
+        "sse": 571.9500977831003,
+        "changed": false,
+        "first_token": 67
+      },
+      "norm_transport": {
+        "sse": 1291.8406226853267,
+        "changed": false,
+        "first_token": 67
+      },
+      "broyden_identity": {
+        "sse": 4245.260393964272,
+        "changed": false,
+        "first_token": 67
+      },
+      "secant_unit_gain": {
+        "sse": 6997.179074371278,
+        "changed": false,
+        "first_token": 67
+      },
+      "prefix_ridge": {
+        "sse": 11929.427623675769,
+        "changed": false,
+        "first_token": 67
+      },
+      "prefix_secants": {
+        "sse": 3950.8591457341818,
+        "changed": false,
+        "first_token": 67
+      },
+      "projection_only": {
+        "sse": 4262.0319658361195,
+        "changed": false,
+        "first_token": 67
+      },
+      "secant_transport": {
+        "sse": 4354.461511547521,
+        "changed": false,
+        "first_token": 67
+      }
+    }
+  },
+  {
+    "qid": "570a7e7c4103511400d5977c",
+    "article": "Emotion",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 1407.202229298626,
+    "clean_first": 504,
+    "source_position": 138,
+    "prompt_length": 187,
+    "checks": {
+      "relative_jvp_check": 0.0012655979953706264,
+      "patched_generation": [
+        504,
+        33447,
+        32539,
+        282,
+        10793,
+        359,
+        8258,
+        682
+      ],
+      "median_ms": {
+        "exact": 17.2073440044187,
+        "secant": 8.822160016279668,
+        "derivative": 59.184553974773735
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 1407.202229298626,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 1805.9552958844715,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1387.6946189013263,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 1743.6214493041457,
+        "changed": true,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 1966.7095024032346,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 1222.897095638641,
+        "changed": true,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 1594.0802142367872,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1372.0472225196534,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 919.4089275732027,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 564.6333601500278,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 926.6384566737662,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 787.3115306559014,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 521.7795511576417,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 626.6873335675456,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 563.9093669144493,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "572a6f367a1753140016af4f",
+    "article": "Miami",
+    "actual_changed": false,
+    "first_token": 42300,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 1699.405150386613,
+    "clean_first": 42300,
+    "source_position": 65,
+    "prompt_length": 201,
+    "checks": {
+      "relative_jvp_check": 0.0007059639319777489,
+      "patched_generation": [
+        42300,
+        8119,
+        314,
+        3807,
+        281,
+        260,
+        23739,
+        599
+      ],
+      "median_ms": {
+        "exact": 17.901987012010068,
+        "secant": 8.956186997238547,
+        "derivative": 61.31864798953757
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 1699.405150386613,
+        "changed": false,
+        "first_token": 42300
+      },
+      "clean_donor": {
+        "sse": 879.7298422021387,
+        "changed": false,
+        "first_token": 42300
+      },
+      "fit_donor": {
+        "sse": 634.7697450543128,
+        "changed": false,
+        "first_token": 42300
+      },
+      "local_derivative": {
+        "sse": 2151.7901063848994,
+        "changed": true,
+        "first_token": 42300
+      },
+      "midpoint_derivative": {
+        "sse": 858.1105440885392,
+        "changed": true,
+        "first_token": 42300
+      },
+      "fit_local_derivative": {
+        "sse": 1444.2895979119673,
+        "changed": true,
+        "first_token": 42300
+      },
+      "partial": {
+        "sse": 1688.160234860839,
+        "changed": true,
+        "first_token": 42300
+      },
+      "partial_donor_mix": {
+        "sse": 621.9671222197908,
+        "changed": false,
+        "first_token": 42300
+      },
+      "norm_transport": {
+        "sse": 597.3091461098941,
+        "changed": false,
+        "first_token": 42300
+      },
+      "broyden_identity": {
+        "sse": 1043.2714005523767,
+        "changed": false,
+        "first_token": 42300
+      },
+      "secant_unit_gain": {
+        "sse": 1205.843804875437,
+        "changed": true,
+        "first_token": 42300
+      },
+      "prefix_ridge": {
+        "sse": 1324.7376206537342,
+        "changed": false,
+        "first_token": 42300
+      },
+      "prefix_secants": {
+        "sse": 1016.6634933735043,
+        "changed": false,
+        "first_token": 42300
+      },
+      "projection_only": {
+        "sse": 1052.2554979892825,
+        "changed": false,
+        "first_token": 42300
+      },
+      "secant_transport": {
+        "sse": 1044.076934701477,
+        "changed": false,
+        "first_token": 42300
+      }
+    }
+  },
+  {
+    "qid": "570983a2200fba14003680f6",
+    "article": "Grape",
+    "actual_changed": false,
+    "first_token": 14414,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 6571.0166311565345,
+    "clean_first": 14414,
+    "source_position": 132,
+    "prompt_length": 169,
+    "checks": {
+      "relative_jvp_check": 0.0034646668937057257,
+      "patched_generation": [
+        14414,
+        14526,
+        21114,
+        19180,
+        23,
+        13186,
+        5047,
+        1325
+      ],
+      "median_ms": {
+        "exact": 14.884222007822245,
+        "secant": 7.5685359770432115,
+        "derivative": 51.61262897308916
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 6571.0166311565345,
+        "changed": false,
+        "first_token": 14414
+      },
+      "clean_donor": {
+        "sse": 2407.9627680886506,
+        "changed": false,
+        "first_token": 14414
+      },
+      "fit_donor": {
+        "sse": 1978.3975185178576,
+        "changed": false,
+        "first_token": 14414
+      },
+      "local_derivative": {
+        "sse": 7377.809541990025,
+        "changed": false,
+        "first_token": 14414
+      },
+      "midpoint_derivative": {
+        "sse": 14144.929058538688,
+        "changed": false,
+        "first_token": 14414
+      },
+      "fit_local_derivative": {
+        "sse": 5172.511453289064,
+        "changed": false,
+        "first_token": 14414
+      },
+      "partial": {
+        "sse": 6365.900484300693,
+        "changed": false,
+        "first_token": 14414
+      },
+      "partial_donor_mix": {
+        "sse": 1949.8023163829398,
+        "changed": false,
+        "first_token": 14414
+      },
+      "norm_transport": {
+        "sse": 2265.168463130003,
+        "changed": false,
+        "first_token": 14414
+      },
+      "broyden_identity": {
+        "sse": 3955.4604338758986,
+        "changed": false,
+        "first_token": 14414
+      },
+      "secant_unit_gain": {
+        "sse": 4509.511236277411,
+        "changed": false,
+        "first_token": 14414
+      },
+      "prefix_ridge": {
+        "sse": 4863.390164536429,
+        "changed": false,
+        "first_token": 14414
+      },
+      "prefix_secants": {
+        "sse": 3882.5891865015747,
+        "changed": false,
+        "first_token": 14414
+      },
+      "projection_only": {
+        "sse": 4044.1700897858364,
+        "changed": false,
+        "first_token": 14414
+      },
+      "secant_transport": {
+        "sse": 3933.235318039677,
+        "changed": false,
+        "first_token": 14414
+      }
+    }
+  },
+  {
+    "qid": "57268361708984140094c894",
+    "article": "East_India_Company",
+    "actual_changed": false,
+    "first_token": 55,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 3274.79974671752,
+    "clean_first": 55,
+    "source_position": 120,
+    "prompt_length": 245,
+    "checks": {
+      "relative_jvp_check": 0.001348512596450746,
+      "patched_generation": [
+        55,
+        2310,
+        804,
+        260,
+        5504,
+        282,
+        260,
+        6394
+      ],
+      "median_ms": {
+        "exact": 19.0964910434559,
+        "secant": 9.652865992393345,
+        "derivative": 69.24907502252609
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 3274.79974671752,
+        "changed": false,
+        "first_token": 55
+      },
+      "clean_donor": {
+        "sse": 452.71859587618474,
+        "changed": false,
+        "first_token": 55
+      },
+      "fit_donor": {
+        "sse": 401.69831872436407,
+        "changed": false,
+        "first_token": 55
+      },
+      "local_derivative": {
+        "sse": 2041.7352595548507,
+        "changed": false,
+        "first_token": 55
+      },
+      "midpoint_derivative": {
+        "sse": 1404.7103119989874,
+        "changed": false,
+        "first_token": 55
+      },
+      "fit_local_derivative": {
+        "sse": 1345.523370566651,
+        "changed": false,
+        "first_token": 55
+      },
+      "partial": {
+        "sse": 3373.70985008237,
+        "changed": false,
+        "first_token": 55
+      },
+      "partial_donor_mix": {
+        "sse": 403.6958101766299,
+        "changed": false,
+        "first_token": 55
+      },
+      "norm_transport": {
+        "sse": 452.13815181285804,
+        "changed": false,
+        "first_token": 55
+      },
+      "broyden_identity": {
+        "sse": 475.755505371936,
+        "changed": false,
+        "first_token": 55
+      },
+      "secant_unit_gain": {
+        "sse": 1141.6132841645076,
+        "changed": false,
+        "first_token": 55
+      },
+      "prefix_ridge": {
+        "sse": 1230.3623964934384,
+        "changed": false,
+        "first_token": 55
+      },
+      "prefix_secants": {
+        "sse": 418.9205917620619,
+        "changed": false,
+        "first_token": 55
+      },
+      "projection_only": {
+        "sse": 478.02624110532366,
+        "changed": false,
+        "first_token": 55
+      },
+      "secant_transport": {
+        "sse": 489.6346211184403,
+        "changed": false,
+        "first_token": 55
+      }
+    }
+  },
+  {
+    "qid": "56de4b6dcffd8e1900b4b7c5",
+    "article": "Human_Development_Index",
+    "actual_changed": true,
+    "first_token": 57,
+    "response_tokens": 3,
+    "ended": true,
+    "energy": 108458.6527210752,
+    "clean_first": 27737,
+    "source_position": 55,
+    "prompt_length": 107,
+    "checks": {
+      "relative_jvp_check": 0.0004332418320700526,
+      "patched_generation": [
+        57,
+        16523,
+        2
+      ],
+      "median_ms": {
+        "exact": 10.02817798871547,
+        "secant": 5.119300039950758,
+        "derivative": 33.70259900111705
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 108458.6527210752,
+        "changed": false,
+        "first_token": 27737
+      },
+      "clean_donor": {
+        "sse": 3237.337511535866,
+        "changed": true,
+        "first_token": 57
+      },
+      "fit_donor": {
+        "sse": 4796.8323083635205,
+        "changed": true,
+        "first_token": 57
+      },
+      "local_derivative": {
+        "sse": 152831.92429035137,
+        "changed": false,
+        "first_token": 27737
+      },
+      "midpoint_derivative": {
+        "sse": 32437.20095897358,
+        "changed": true,
+        "first_token": 57
+      },
+      "fit_local_derivative": {
+        "sse": 98058.53919939733,
+        "changed": false,
+        "first_token": 27737
+      },
+      "partial": {
+        "sse": 107976.41509768933,
+        "changed": false,
+        "first_token": 27737
+      },
+      "partial_donor_mix": {
+        "sse": 5020.089939912947,
+        "changed": true,
+        "first_token": 57
+      },
+      "norm_transport": {
+        "sse": 7656.317724878095,
+        "changed": true,
+        "first_token": 57
+      },
+      "broyden_identity": {
+        "sse": 36565.91943381543,
+        "changed": true,
+        "first_token": 57
+      },
+      "secant_unit_gain": {
+        "sse": 64956.814568299334,
+        "changed": true,
+        "first_token": 57
+      },
+      "prefix_ridge": {
+        "sse": 77382.24875376422,
+        "changed": false,
+        "first_token": 27737
+      },
+      "prefix_secants": {
+        "sse": 46806.988489944735,
+        "changed": true,
+        "first_token": 57
+      },
+      "projection_only": {
+        "sse": 36609.194010580584,
+        "changed": true,
+        "first_token": 57
+      },
+      "secant_transport": {
+        "sse": 37948.594660008,
+        "changed": true,
+        "first_token": 57
+      }
+    }
+  },
+  {
+    "qid": "572eae75c246551400ce44fe",
+    "article": "Han_dynasty",
+    "actual_changed": false,
+    "first_token": 49,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 2325.4468031364036,
+    "clean_first": 49,
+    "source_position": 214,
+    "prompt_length": 239,
+    "checks": {
+      "relative_jvp_check": 0.004225955344736576,
+      "patched_generation": [
+        49,
+        16969,
+        10798,
+        981,
+        260,
+        12063,
+        16552,
+        804
+      ],
+      "median_ms": {
+        "exact": 18.832353001926094,
+        "secant": 9.57105599809438,
+        "derivative": 68.20889003574848
+      }
+    },
+    "methods": {
+      "no_change": {
+        "sse": 2325.4468031364036,
+        "changed": false,
+        "first_token": 49
+      },
+      "clean_donor": {
+        "sse": 597.5902830663032,
+        "changed": false,
+        "first_token": 49
+      },
+      "fit_donor": {
+        "sse": 520.817108390256,
+        "changed": false,
+        "first_token": 49
+      },
+      "local_derivative": {
+        "sse": 1485.4889240706432,
+        "changed": false,
+        "first_token": 49
+      },
+      "midpoint_derivative": {
+        "sse": 668.0601068067481,
+        "changed": false,
+        "first_token": 49
+      },
+      "fit_local_derivative": {
+        "sse": 1489.197144114828,
+        "changed": false,
+        "first_token": 49
+      },
+      "partial": {
+        "sse": 2226.484226294635,
+        "changed": false,
+        "first_token": 49
+      },
+      "partial_donor_mix": {
+        "sse": 522.9215862040705,
+        "changed": false,
+        "first_token": 49
+      },
+      "norm_transport": {
+        "sse": 687.9547902839629,
+        "changed": false,
+        "first_token": 49
+      },
+      "broyden_identity": {
+        "sse": 1032.9949044537298,
+        "changed": false,
+        "first_token": 49
+      },
+      "secant_unit_gain": {
+        "sse": 1162.476056000441,
+        "changed": false,
+        "first_token": 49
+      },
+      "prefix_ridge": {
+        "sse": 1521.7752786473231,
+        "changed": false,
+        "first_token": 49
+      },
+      "prefix_secants": {
+        "sse": 1031.6463793143002,
+        "changed": false,
+        "first_token": 49
+      },
+      "projection_only": {
+        "sse": 1058.591003477861,
+        "changed": false,
+        "first_token": 49
+      },
+      "secant_transport": {
+        "sse": 1030.1444172577067,
+        "changed": false,
+        "first_token": 49
+      }
+    }
+  },
+  {
+    "qid": "56fad729f34c681400b0c157",
+    "article": "Somalis",
+    "actual_changed": true,
+    "first_token": 49,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 9722.706742334678,
+    "clean_first": 67,
+    "source_position": 139,
+    "prompt_length": 165,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 9722.706742334678,
+        "changed": false,
+        "first_token": 67
+      },
+      "clean_donor": {
+        "sse": 35.59991026731893,
+        "changed": true,
+        "first_token": 49
+      },
+      "fit_donor": {
+        "sse": 145.44253062498584,
+        "changed": true,
+        "first_token": 49
+      },
+      "local_derivative": {
+        "sse": 6042.295594178816,
+        "changed": false,
+        "first_token": 67
+      },
+      "midpoint_derivative": {
+        "sse": 3805.1682565415003,
+        "changed": true,
+        "first_token": 49
+      },
+      "fit_local_derivative": {
+        "sse": 4949.898668669466,
+        "changed": false,
+        "first_token": 67
+      },
+      "partial": {
+        "sse": 9717.801813836144,
+        "changed": false,
+        "first_token": 67
+      },
+      "partial_donor_mix": {
+        "sse": 165.32028207760453,
+        "changed": true,
+        "first_token": 49
+      },
+      "norm_transport": {
+        "sse": 106.11778114554917,
+        "changed": true,
+        "first_token": 49
+      },
+      "broyden_identity": {
+        "sse": 701.5025421443765,
+        "changed": true,
+        "first_token": 49
+      },
+      "secant_unit_gain": {
+        "sse": 1591.6805678344567,
+        "changed": false,
+        "first_token": 67
+      },
+      "prefix_ridge": {
+        "sse": 3823.4750614161258,
+        "changed": true,
+        "first_token": 49
+      },
+      "prefix_secants": {
+        "sse": 718.2483246254495,
+        "changed": true,
+        "first_token": 49
+      },
+      "projection_only": {
+        "sse": 703.7783228808715,
+        "changed": true,
+        "first_token": 49
+      },
+      "secant_transport": {
+        "sse": 744.4666685031702,
+        "changed": true,
+        "first_token": 49
+      }
+    }
+  },
+  {
+    "qid": "56d8a0ddbfea0914004b7706",
+    "article": "2008_Summer_Olympics_torch_relay",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 10194.049212202422,
+    "clean_first": 14117,
+    "source_position": 94,
+    "prompt_length": 172,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 10194.049212202422,
+        "changed": false,
+        "first_token": 14117
+      },
+      "clean_donor": {
+        "sse": 5705.060991562882,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 4374.036888691615,
+        "changed": true,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 12245.114530215293,
+        "changed": false,
+        "first_token": 14117
+      },
+      "midpoint_derivative": {
+        "sse": 25209.96804409757,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 6412.437589922393,
+        "changed": false,
+        "first_token": 14117
+      },
+      "partial": {
+        "sse": 10031.241200629833,
+        "changed": true,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 4297.243632938149,
+        "changed": true,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 3734.6162147504465,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 5950.363544392194,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 6681.363129315634,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 8015.387422651134,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 5856.134679239633,
+        "changed": true,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 6094.754193479999,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 5921.398201842772,
+        "changed": true,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "5728ab684b864d1900164bf0",
+    "article": "Brigham_Young_University",
+    "actual_changed": false,
+    "first_token": 25466,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 34992.17382870831,
+    "clean_first": 25466,
+    "source_position": 144,
+    "prompt_length": 190,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 34992.17382870831,
+        "changed": false,
+        "first_token": 25466
+      },
+      "clean_donor": {
+        "sse": 194.15602498493374,
+        "changed": false,
+        "first_token": 25466
+      },
+      "fit_donor": {
+        "sse": 613.9457479429033,
+        "changed": false,
+        "first_token": 25466
+      },
+      "local_derivative": {
+        "sse": 10391.805488087846,
+        "changed": false,
+        "first_token": 25466
+      },
+      "midpoint_derivative": {
+        "sse": 2552.3862624070134,
+        "changed": false,
+        "first_token": 25466
+      },
+      "fit_local_derivative": {
+        "sse": 14748.008564367934,
+        "changed": false,
+        "first_token": 25466
+      },
+      "partial": {
+        "sse": 34943.37022569267,
+        "changed": false,
+        "first_token": 25466
+      },
+      "partial_donor_mix": {
+        "sse": 682.981274741555,
+        "changed": false,
+        "first_token": 25466
+      },
+      "norm_transport": {
+        "sse": 6416.568520879166,
+        "changed": false,
+        "first_token": 25466
+      },
+      "broyden_identity": {
+        "sse": 20282.914669133082,
+        "changed": false,
+        "first_token": 25466
+      },
+      "secant_unit_gain": {
+        "sse": 26280.56561062863,
+        "changed": false,
+        "first_token": 25466
+      },
+      "prefix_ridge": {
+        "sse": 27506.795602916383,
+        "changed": false,
+        "first_token": 25466
+      },
+      "prefix_secants": {
+        "sse": 20513.96239940336,
+        "changed": false,
+        "first_token": 25466
+      },
+      "projection_only": {
+        "sse": 20302.52649449736,
+        "changed": false,
+        "first_token": 25466
+      },
+      "secant_transport": {
+        "sse": 20515.04051717588,
+        "changed": false,
+        "first_token": 25466
+      }
+    }
+  },
+  {
+    "qid": "57296ef16aef051400154e9a",
+    "article": "Zinc",
+    "actual_changed": false,
+    "first_token": 22233,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 1650.8504538760837,
+    "clean_first": 22233,
+    "source_position": 92,
+    "prompt_length": 210,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 1650.8504538760837,
+        "changed": false,
+        "first_token": 22233
+      },
+      "clean_donor": {
+        "sse": 487.96573030530885,
+        "changed": false,
+        "first_token": 22233
+      },
+      "fit_donor": {
+        "sse": 483.3176141485642,
+        "changed": false,
+        "first_token": 22233
+      },
+      "local_derivative": {
+        "sse": 1837.4067178101718,
+        "changed": false,
+        "first_token": 22233
+      },
+      "midpoint_derivative": {
+        "sse": 321.7023875218032,
+        "changed": false,
+        "first_token": 22233
+      },
+      "fit_local_derivative": {
+        "sse": 1255.615343947718,
+        "changed": false,
+        "first_token": 22233
+      },
+      "partial": {
+        "sse": 1576.875649450019,
+        "changed": false,
+        "first_token": 22233
+      },
+      "partial_donor_mix": {
+        "sse": 479.0591797817175,
+        "changed": false,
+        "first_token": 22233
+      },
+      "norm_transport": {
+        "sse": 565.9147224677216,
+        "changed": false,
+        "first_token": 22233
+      },
+      "broyden_identity": {
+        "sse": 550.5410171579781,
+        "changed": false,
+        "first_token": 22233
+      },
+      "secant_unit_gain": {
+        "sse": 1090.801531135036,
+        "changed": false,
+        "first_token": 22233
+      },
+      "prefix_ridge": {
+        "sse": 926.4572236189213,
+        "changed": false,
+        "first_token": 22233
+      },
+      "prefix_secants": {
+        "sse": 537.8813803317391,
+        "changed": false,
+        "first_token": 22233
+      },
+      "projection_only": {
+        "sse": 577.8157460868696,
+        "changed": false,
+        "first_token": 22233
+      },
+      "secant_transport": {
+        "sse": 545.8483680873838,
+        "changed": false,
+        "first_token": 22233
+      }
+    }
+  },
+  {
+    "qid": "56fc88d898e8fc14001ea7d2",
+    "article": "Phonology",
+    "actual_changed": false,
+    "first_token": 21909,
+    "response_tokens": 8,
+    "ended": true,
+    "energy": 7108.819342769158,
+    "clean_first": 21909,
+    "source_position": 102,
+    "prompt_length": 125,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 7108.819342769158,
+        "changed": false,
+        "first_token": 21909
+      },
+      "clean_donor": {
+        "sse": 641.9844488918322,
+        "changed": true,
+        "first_token": 21909
+      },
+      "fit_donor": {
+        "sse": 522.9532660793001,
+        "changed": true,
+        "first_token": 21909
+      },
+      "local_derivative": {
+        "sse": 3714.6200418163708,
+        "changed": true,
+        "first_token": 21909
+      },
+      "midpoint_derivative": {
+        "sse": 2588.282616638754,
+        "changed": false,
+        "first_token": 21909
+      },
+      "fit_local_derivative": {
+        "sse": 4244.967338667522,
+        "changed": true,
+        "first_token": 21909
+      },
+      "partial": {
+        "sse": 6434.632477399661,
+        "changed": true,
+        "first_token": 21909
+      },
+      "partial_donor_mix": {
+        "sse": 513.8377331678442,
+        "changed": true,
+        "first_token": 21909
+      },
+      "norm_transport": {
+        "sse": 609.9785348942738,
+        "changed": true,
+        "first_token": 21909
+      },
+      "broyden_identity": {
+        "sse": 602.4106723035195,
+        "changed": true,
+        "first_token": 21909
+      },
+      "secant_unit_gain": {
+        "sse": 1568.7235874485207,
+        "changed": true,
+        "first_token": 21909
+      },
+      "prefix_ridge": {
+        "sse": 2147.264287608532,
+        "changed": true,
+        "first_token": 21909
+      },
+      "prefix_secants": {
+        "sse": 576.8297268301505,
+        "changed": false,
+        "first_token": 21909
+      },
+      "projection_only": {
+        "sse": 665.4000606093844,
+        "changed": true,
+        "first_token": 21909
+      },
+      "secant_transport": {
+        "sse": 604.5572710151795,
+        "changed": true,
+        "first_token": 21909
+      }
+    }
+  },
+  {
+    "qid": "57312c6005b4da19006bce3a",
+    "article": "Red",
+    "actual_changed": false,
+    "first_token": 17423,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 8985.059727623564,
+    "clean_first": 17423,
+    "source_position": 152,
+    "prompt_length": 195,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 8985.059727623564,
+        "changed": false,
+        "first_token": 17423
+      },
+      "clean_donor": {
+        "sse": 358.1538529684028,
+        "changed": false,
+        "first_token": 17423
+      },
+      "fit_donor": {
+        "sse": 381.6426885695211,
+        "changed": false,
+        "first_token": 17423
+      },
+      "local_derivative": {
+        "sse": 17159.452931332926,
+        "changed": false,
+        "first_token": 17423
+      },
+      "midpoint_derivative": {
+        "sse": 48946.376979535635,
+        "changed": false,
+        "first_token": 17423
+      },
+      "fit_local_derivative": {
+        "sse": 9547.273347769464,
+        "changed": false,
+        "first_token": 17423
+      },
+      "partial": {
+        "sse": 8709.81827702272,
+        "changed": false,
+        "first_token": 17423
+      },
+      "partial_donor_mix": {
+        "sse": 395.17152072043825,
+        "changed": false,
+        "first_token": 17423
+      },
+      "norm_transport": {
+        "sse": 564.5994469603838,
+        "changed": false,
+        "first_token": 17423
+      },
+      "broyden_identity": {
+        "sse": 1501.146363517319,
+        "changed": false,
+        "first_token": 17423
+      },
+      "secant_unit_gain": {
+        "sse": 2364.9764502933367,
+        "changed": false,
+        "first_token": 17423
+      },
+      "prefix_ridge": {
+        "sse": 4497.370203180485,
+        "changed": false,
+        "first_token": 17423
+      },
+      "prefix_secants": {
+        "sse": 1698.950317357267,
+        "changed": false,
+        "first_token": 17423
+      },
+      "projection_only": {
+        "sse": 1534.8568528208493,
+        "changed": false,
+        "first_token": 17423
+      },
+      "secant_transport": {
+        "sse": 1503.667492412398,
+        "changed": false,
+        "first_token": 17423
+      }
+    }
+  },
+  {
+    "qid": "570c481ffed7b91900d45825",
+    "article": "Mary_(mother_of_Jesus)",
+    "actual_changed": false,
+    "first_token": 21484,
+    "response_tokens": 4,
+    "ended": true,
+    "energy": 8451.663439491413,
+    "clean_first": 21484,
+    "source_position": 50,
+    "prompt_length": 195,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 8451.663439491413,
+        "changed": false,
+        "first_token": 21484
+      },
+      "clean_donor": {
+        "sse": 356.8055050401158,
+        "changed": false,
+        "first_token": 21484
+      },
+      "fit_donor": {
+        "sse": 380.7517248992721,
+        "changed": false,
+        "first_token": 21484
+      },
+      "local_derivative": {
+        "sse": 8757.87512371336,
+        "changed": false,
+        "first_token": 21484
+      },
+      "midpoint_derivative": {
+        "sse": 30913.043273054675,
+        "changed": false,
+        "first_token": 21484
+      },
+      "fit_local_derivative": {
+        "sse": 5123.24990851447,
+        "changed": false,
+        "first_token": 21484
+      },
+      "partial": {
+        "sse": 8459.239964473069,
+        "changed": false,
+        "first_token": 21484
+      },
+      "partial_donor_mix": {
+        "sse": 387.4640840045189,
+        "changed": false,
+        "first_token": 21484
+      },
+      "norm_transport": {
+        "sse": 356.767164697807,
+        "changed": false,
+        "first_token": 21484
+      },
+      "broyden_identity": {
+        "sse": 503.97062173589313,
+        "changed": false,
+        "first_token": 21484
+      },
+      "secant_unit_gain": {
+        "sse": 1213.514603676408,
+        "changed": false,
+        "first_token": 21484
+      },
+      "prefix_ridge": {
+        "sse": 2698.560382255945,
+        "changed": false,
+        "first_token": 21484
+      },
+      "prefix_secants": {
+        "sse": 426.11892091047923,
+        "changed": false,
+        "first_token": 21484
+      },
+      "projection_only": {
+        "sse": 514.5086638822387,
+        "changed": false,
+        "first_token": 21484
+      },
+      "secant_transport": {
+        "sse": 523.3492346600314,
+        "changed": false,
+        "first_token": 21484
+      }
+    }
+  },
+  {
+    "qid": "57321b19b9d445190005e7ff",
+    "article": "Religion_in_ancient_Rome",
+    "actual_changed": true,
+    "first_token": 46292,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 13530.461572773198,
+    "clean_first": 46292,
+    "source_position": 128,
+    "prompt_length": 172,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 13530.461572773198,
+        "changed": false,
+        "first_token": 46292
+      },
+      "clean_donor": {
+        "sse": 1912.100620770232,
+        "changed": true,
+        "first_token": 46292
+      },
+      "fit_donor": {
+        "sse": 1266.996754069141,
+        "changed": true,
+        "first_token": 46292
+      },
+      "local_derivative": {
+        "sse": 14869.737051468195,
+        "changed": false,
+        "first_token": 46292
+      },
+      "midpoint_derivative": {
+        "sse": 18204.78080007665,
+        "changed": true,
+        "first_token": 46292
+      },
+      "fit_local_derivative": {
+        "sse": 4565.648942443944,
+        "changed": false,
+        "first_token": 46292
+      },
+      "partial": {
+        "sse": 13526.791651654254,
+        "changed": false,
+        "first_token": 46292
+      },
+      "partial_donor_mix": {
+        "sse": 1304.165061933127,
+        "changed": true,
+        "first_token": 46292
+      },
+      "norm_transport": {
+        "sse": 1225.3500680167117,
+        "changed": true,
+        "first_token": 46292
+      },
+      "broyden_identity": {
+        "sse": 1133.012851146993,
+        "changed": true,
+        "first_token": 46292
+      },
+      "secant_unit_gain": {
+        "sse": 2092.5360506504626,
+        "changed": true,
+        "first_token": 46292
+      },
+      "prefix_ridge": {
+        "sse": 4596.621446856081,
+        "changed": true,
+        "first_token": 46292
+      },
+      "prefix_secants": {
+        "sse": 1156.0577076639543,
+        "changed": true,
+        "first_token": 46292
+      },
+      "projection_only": {
+        "sse": 1186.6152325733606,
+        "changed": true,
+        "first_token": 46292
+      },
+      "secant_transport": {
+        "sse": 1133.2160000828308,
+        "changed": true,
+        "first_token": 46292
+      }
+    }
+  },
+  {
+    "qid": "56cedc9caab44d1400b88b2d",
+    "article": "Spectre_(2015_film)",
+    "actual_changed": true,
+    "first_token": 788,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 5957.036171497992,
+    "clean_first": 788,
+    "source_position": 183,
+    "prompt_length": 216,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 5957.036171497992,
+        "changed": false,
+        "first_token": 788
+      },
+      "clean_donor": {
+        "sse": 1217.3398217242914,
+        "changed": true,
+        "first_token": 788
+      },
+      "fit_donor": {
+        "sse": 1209.127141916265,
+        "changed": true,
+        "first_token": 788
+      },
+      "local_derivative": {
+        "sse": 2920.9693584395045,
+        "changed": true,
+        "first_token": 788
+      },
+      "midpoint_derivative": {
+        "sse": 582.6222367364701,
+        "changed": true,
+        "first_token": 788
+      },
+      "fit_local_derivative": {
+        "sse": 3091.205215576893,
+        "changed": true,
+        "first_token": 788
+      },
+      "partial": {
+        "sse": 5913.431812346017,
+        "changed": true,
+        "first_token": 788
+      },
+      "partial_donor_mix": {
+        "sse": 1213.039328117295,
+        "changed": true,
+        "first_token": 788
+      },
+      "norm_transport": {
+        "sse": 1411.5119382032947,
+        "changed": true,
+        "first_token": 788
+      },
+      "broyden_identity": {
+        "sse": 2171.7823728125195,
+        "changed": true,
+        "first_token": 788
+      },
+      "secant_unit_gain": {
+        "sse": 2681.1574462332965,
+        "changed": true,
+        "first_token": 788
+      },
+      "prefix_ridge": {
+        "sse": 2880.163927393604,
+        "changed": false,
+        "first_token": 788
+      },
+      "prefix_secants": {
+        "sse": 1872.2450672339019,
+        "changed": true,
+        "first_token": 788
+      },
+      "projection_only": {
+        "sse": 2195.840758405873,
+        "changed": true,
+        "first_token": 788
+      },
+      "secant_transport": {
+        "sse": 2152.570504579069,
+        "changed": true,
+        "first_token": 788
+      }
+    }
+  },
+  {
+    "qid": "572f896da23a5019007fc70d",
+    "article": "Modern_history",
+    "actual_changed": false,
+    "first_token": 61,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 14206.877835182026,
+    "clean_first": 61,
+    "source_position": 57,
+    "prompt_length": 234,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 14206.877835182026,
+        "changed": false,
+        "first_token": 61
+      },
+      "clean_donor": {
+        "sse": 565.0151316631996,
+        "changed": true,
+        "first_token": 61
+      },
+      "fit_donor": {
+        "sse": 917.4837518486181,
+        "changed": false,
+        "first_token": 61
+      },
+      "local_derivative": {
+        "sse": 7228.059040340209,
+        "changed": false,
+        "first_token": 61
+      },
+      "midpoint_derivative": {
+        "sse": 404.6723270923828,
+        "changed": true,
+        "first_token": 46831
+      },
+      "fit_local_derivative": {
+        "sse": 9879.477607320132,
+        "changed": false,
+        "first_token": 61
+      },
+      "partial": {
+        "sse": 13989.476624600396,
+        "changed": false,
+        "first_token": 61
+      },
+      "partial_donor_mix": {
+        "sse": 947.7126504448198,
+        "changed": false,
+        "first_token": 61
+      },
+      "norm_transport": {
+        "sse": 483.1096092882391,
+        "changed": false,
+        "first_token": 61
+      },
+      "broyden_identity": {
+        "sse": 765.6625347616196,
+        "changed": false,
+        "first_token": 61
+      },
+      "secant_unit_gain": {
+        "sse": 1516.208148031943,
+        "changed": true,
+        "first_token": 61
+      },
+      "prefix_ridge": {
+        "sse": 5362.250184031369,
+        "changed": false,
+        "first_token": 61
+      },
+      "prefix_secants": {
+        "sse": 736.9982139918006,
+        "changed": false,
+        "first_token": 61
+      },
+      "projection_only": {
+        "sse": 771.5204441413018,
+        "changed": false,
+        "first_token": 61
+      },
+      "secant_transport": {
+        "sse": 793.0931593020797,
+        "changed": false,
+        "first_token": 61
+      }
+    }
+  },
+  {
+    "qid": "570729f090286e26004fc975",
+    "article": "Chihuahua_(state)",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 18043.2502619364,
+    "clean_first": 504,
+    "source_position": 93,
+    "prompt_length": 227,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 18043.2502619364,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 1939.4351508356222,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1364.0627486502894,
+        "changed": true,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 17916.697893678764,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 14154.005493150358,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 12073.744073875583,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 17660.491236277267,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1358.3583857837828,
+        "changed": true,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 2195.748928763017,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 4591.369512869855,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 6532.696724713096,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 9413.078710182128,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 3764.866607088638,
+        "changed": true,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 4622.4727822141795,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 4642.910615276931,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "572e7d44dfa6aa1500f8d02b",
+    "article": "Richard_Feynman",
+    "actual_changed": false,
+    "first_token": 11114,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 1920.5317652543085,
+    "clean_first": 11114,
+    "source_position": 111,
+    "prompt_length": 162,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 1920.5317652543085,
+        "changed": false,
+        "first_token": 11114
+      },
+      "clean_donor": {
+        "sse": 561.4331541715919,
+        "changed": false,
+        "first_token": 11114
+      },
+      "fit_donor": {
+        "sse": 468.28335205501355,
+        "changed": false,
+        "first_token": 11114
+      },
+      "local_derivative": {
+        "sse": 1250.6990185068466,
+        "changed": false,
+        "first_token": 11114
+      },
+      "midpoint_derivative": {
+        "sse": 287.68150148544106,
+        "changed": false,
+        "first_token": 11114
+      },
+      "fit_local_derivative": {
+        "sse": 711.9749419892323,
+        "changed": false,
+        "first_token": 11114
+      },
+      "partial": {
+        "sse": 1852.3131223700393,
+        "changed": false,
+        "first_token": 11114
+      },
+      "partial_donor_mix": {
+        "sse": 455.54154101122,
+        "changed": false,
+        "first_token": 11114
+      },
+      "norm_transport": {
+        "sse": 443.2561288762919,
+        "changed": false,
+        "first_token": 11114
+      },
+      "broyden_identity": {
+        "sse": 511.02075990674047,
+        "changed": false,
+        "first_token": 11114
+      },
+      "secant_unit_gain": {
+        "sse": 794.6684282737228,
+        "changed": false,
+        "first_token": 11114
+      },
+      "prefix_ridge": {
+        "sse": 794.6796318592537,
+        "changed": false,
+        "first_token": 11114
+      },
+      "prefix_secants": {
+        "sse": 412.0044365327836,
+        "changed": false,
+        "first_token": 11114
+      },
+      "projection_only": {
+        "sse": 547.8073975025644,
+        "changed": false,
+        "first_token": 11114
+      },
+      "secant_transport": {
+        "sse": 503.2020165098014,
+        "changed": false,
+        "first_token": 11114
+      }
+    }
+  },
+  {
+    "qid": "572a054f6aef0514001551b5",
+    "article": "East_Prussia",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 1987.0446406578844,
+    "clean_first": 504,
+    "source_position": 89,
+    "prompt_length": 227,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 1987.0446406578844,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 564.8266824958864,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 507.2536009254999,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 1263.2233454249563,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 293.1640727950497,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 1477.7004044103828,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 1946.5688873081626,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 501.87136543708476,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 502.5741207925904,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 613.519899975451,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 743.2282984280439,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 1147.6480181840593,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 641.8957190170295,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 646.3457643887941,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 609.991399792104,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "56def0acc65bf219000b3e3b",
+    "article": "Christian",
+    "actual_changed": false,
+    "first_token": 3965,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 4390.277613173844,
+    "clean_first": 3965,
+    "source_position": 44,
+    "prompt_length": 155,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 4390.277613173844,
+        "changed": false,
+        "first_token": 3965
+      },
+      "clean_donor": {
+        "sse": 1057.1005052445698,
+        "changed": false,
+        "first_token": 3965
+      },
+      "fit_donor": {
+        "sse": 741.2685169148447,
+        "changed": false,
+        "first_token": 3965
+      },
+      "local_derivative": {
+        "sse": 3631.9055571921067,
+        "changed": false,
+        "first_token": 3965
+      },
+      "midpoint_derivative": {
+        "sse": 3206.1105317176225,
+        "changed": false,
+        "first_token": 3965
+      },
+      "fit_local_derivative": {
+        "sse": 3493.5810990380296,
+        "changed": false,
+        "first_token": 3965
+      },
+      "partial": {
+        "sse": 3918.7586531370966,
+        "changed": false,
+        "first_token": 3965
+      },
+      "partial_donor_mix": {
+        "sse": 736.3125944396705,
+        "changed": false,
+        "first_token": 3965
+      },
+      "norm_transport": {
+        "sse": 601.4603893538446,
+        "changed": false,
+        "first_token": 3965
+      },
+      "broyden_identity": {
+        "sse": 615.1500177897254,
+        "changed": false,
+        "first_token": 3965
+      },
+      "secant_unit_gain": {
+        "sse": 990.9474753917925,
+        "changed": false,
+        "first_token": 3965
+      },
+      "prefix_ridge": {
+        "sse": 1453.9393265771905,
+        "changed": false,
+        "first_token": 3965
+      },
+      "prefix_secants": {
+        "sse": 563.6824201143777,
+        "changed": false,
+        "first_token": 3965
+      },
+      "projection_only": {
+        "sse": 665.8595181844686,
+        "changed": false,
+        "first_token": 3965
+      },
+      "secant_transport": {
+        "sse": 612.5775439731751,
+        "changed": false,
+        "first_token": 3965
+      }
+    }
+  },
+  {
+    "qid": "572944df6aef051400154c28",
+    "article": "Race_(human_categorization)",
+    "actual_changed": false,
+    "first_token": 23742,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 16349.212359225225,
+    "clean_first": 23742,
+    "source_position": 189,
+    "prompt_length": 213,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 16349.212359225225,
+        "changed": false,
+        "first_token": 23742
+      },
+      "clean_donor": {
+        "sse": 794.3163395532297,
+        "changed": false,
+        "first_token": 23742
+      },
+      "fit_donor": {
+        "sse": 637.092729869024,
+        "changed": false,
+        "first_token": 23742
+      },
+      "local_derivative": {
+        "sse": 13729.247189411391,
+        "changed": false,
+        "first_token": 23742
+      },
+      "midpoint_derivative": {
+        "sse": 16441.863615967293,
+        "changed": false,
+        "first_token": 23742
+      },
+      "fit_local_derivative": {
+        "sse": 14393.451829236383,
+        "changed": false,
+        "first_token": 23742
+      },
+      "partial": {
+        "sse": 16101.08371561344,
+        "changed": false,
+        "first_token": 23742
+      },
+      "partial_donor_mix": {
+        "sse": 648.1087521775748,
+        "changed": false,
+        "first_token": 23742
+      },
+      "norm_transport": {
+        "sse": 1574.6442833038027,
+        "changed": false,
+        "first_token": 23742
+      },
+      "broyden_identity": {
+        "sse": 4304.247252243895,
+        "changed": false,
+        "first_token": 23742
+      },
+      "secant_unit_gain": {
+        "sse": 6179.848698979579,
+        "changed": false,
+        "first_token": 23742
+      },
+      "prefix_ridge": {
+        "sse": 9151.370885142489,
+        "changed": false,
+        "first_token": 23742
+      },
+      "prefix_secants": {
+        "sse": 4415.476166124064,
+        "changed": false,
+        "first_token": 23742
+      },
+      "projection_only": {
+        "sse": 4371.823443257986,
+        "changed": false,
+        "first_token": 23742
+      },
+      "secant_transport": {
+        "sse": 4304.373354936679,
+        "changed": false,
+        "first_token": 23742
+      }
+    }
+  },
+  {
+    "qid": "56de4529cffd8e1900b4b75f",
+    "article": "Separation_of_powers_under_the_United_States_Constitution",
+    "actual_changed": true,
+    "first_token": 41486,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 13157.854562250724,
+    "clean_first": 41486,
+    "source_position": 143,
+    "prompt_length": 216,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 13157.854562250724,
+        "changed": false,
+        "first_token": 41486
+      },
+      "clean_donor": {
+        "sse": 636.2397927805146,
+        "changed": true,
+        "first_token": 41486
+      },
+      "fit_donor": {
+        "sse": 566.5520468550762,
+        "changed": true,
+        "first_token": 41486
+      },
+      "local_derivative": {
+        "sse": 8367.91162167249,
+        "changed": true,
+        "first_token": 41486
+      },
+      "midpoint_derivative": {
+        "sse": 536.6411947698904,
+        "changed": true,
+        "first_token": 41486
+      },
+      "fit_local_derivative": {
+        "sse": 3883.427905024826,
+        "changed": true,
+        "first_token": 41486
+      },
+      "partial": {
+        "sse": 13125.345592552541,
+        "changed": false,
+        "first_token": 41486
+      },
+      "partial_donor_mix": {
+        "sse": 586.3946767324499,
+        "changed": true,
+        "first_token": 41486
+      },
+      "norm_transport": {
+        "sse": 1271.6715741904532,
+        "changed": true,
+        "first_token": 41486
+      },
+      "broyden_identity": {
+        "sse": 2982.3133894931225,
+        "changed": true,
+        "first_token": 41486
+      },
+      "secant_unit_gain": {
+        "sse": 4525.9878323812245,
+        "changed": true,
+        "first_token": 41486
+      },
+      "prefix_ridge": {
+        "sse": 7410.84974025275,
+        "changed": false,
+        "first_token": 41486
+      },
+      "prefix_secants": {
+        "sse": 2884.3528357530895,
+        "changed": true,
+        "first_token": 41486
+      },
+      "projection_only": {
+        "sse": 2969.836841397988,
+        "changed": true,
+        "first_token": 41486
+      },
+      "secant_transport": {
+        "sse": 3055.4242670924277,
+        "changed": true,
+        "first_token": 41486
+      }
+    }
+  },
+  {
+    "qid": "5706ec1e90286e26004fc742",
+    "article": "Letter_case",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 24416.786767857036,
+    "clean_first": 504,
+    "source_position": 136,
+    "prompt_length": 158,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 24416.786767857036,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 46.92034736788732,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 293.63011490366995,
+        "changed": true,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 36662.68753634102,
+        "changed": true,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 13085.86226925642,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 22974.477419629904,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 23116.96362847938,
+        "changed": true,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 324.7832709909596,
+        "changed": true,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 394.79801106323475,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 61.94203018720269,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 577.9439348147146,
+        "changed": true,
+        "first_token": 29721
+      },
+      "prefix_ridge": {
+        "sse": 5676.271587898482,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 75.8960709657863,
+        "changed": true,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 66.80735108695096,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 79.57413470510325,
+        "changed": true,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "572faff7b2c2fd1400568355",
+    "article": "Transistor",
+    "actual_changed": false,
+    "first_token": 2427,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 364.9164141705236,
+    "clean_first": 2427,
+    "source_position": 134,
+    "prompt_length": 199,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 364.9164141705236,
+        "changed": false,
+        "first_token": 2427
+      },
+      "clean_donor": {
+        "sse": 421.68953546824025,
+        "changed": false,
+        "first_token": 2427
+      },
+      "fit_donor": {
+        "sse": 328.8167020252944,
+        "changed": false,
+        "first_token": 2427
+      },
+      "local_derivative": {
+        "sse": 685.4046170822593,
+        "changed": false,
+        "first_token": 2427
+      },
+      "midpoint_derivative": {
+        "sse": 585.6691366597997,
+        "changed": false,
+        "first_token": 2427
+      },
+      "fit_local_derivative": {
+        "sse": 340.14358463504897,
+        "changed": false,
+        "first_token": 2427
+      },
+      "partial": {
+        "sse": 358.32842800896026,
+        "changed": false,
+        "first_token": 2427
+      },
+      "partial_donor_mix": {
+        "sse": 322.4459329699094,
+        "changed": false,
+        "first_token": 2427
+      },
+      "norm_transport": {
+        "sse": 189.7456693385658,
+        "changed": false,
+        "first_token": 2427
+      },
+      "broyden_identity": {
+        "sse": 158.6038394708209,
+        "changed": false,
+        "first_token": 2427
+      },
+      "secant_unit_gain": {
+        "sse": 219.2431957483259,
+        "changed": false,
+        "first_token": 2427
+      },
+      "prefix_ridge": {
+        "sse": 227.2672979418174,
+        "changed": false,
+        "first_token": 2427
+      },
+      "prefix_secants": {
+        "sse": 158.07405529511277,
+        "changed": false,
+        "first_token": 2427
+      },
+      "projection_only": {
+        "sse": 180.61384318054476,
+        "changed": false,
+        "first_token": 2427
+      },
+      "secant_transport": {
+        "sse": 160.02995230100746,
+        "changed": false,
+        "first_token": 2427
+      }
+    }
+  },
+  {
+    "qid": "570a07104103511400d5950e",
+    "article": "Houston",
+    "actual_changed": false,
+    "first_token": 56,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 28973.757872196,
+    "clean_first": 56,
+    "source_position": 136,
+    "prompt_length": 155,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 28973.757872196,
+        "changed": false,
+        "first_token": 56
+      },
+      "clean_donor": {
+        "sse": 4708.574355271201,
+        "changed": true,
+        "first_token": 56
+      },
+      "fit_donor": {
+        "sse": 3286.1119343387345,
+        "changed": true,
+        "first_token": 56
+      },
+      "local_derivative": {
+        "sse": 54152.23071901098,
+        "changed": true,
+        "first_token": 56
+      },
+      "midpoint_derivative": {
+        "sse": 24273.402784527134,
+        "changed": true,
+        "first_token": 56
+      },
+      "fit_local_derivative": {
+        "sse": 18905.73993960247,
+        "changed": false,
+        "first_token": 56
+      },
+      "partial": {
+        "sse": 28345.701652716816,
+        "changed": false,
+        "first_token": 56
+      },
+      "partial_donor_mix": {
+        "sse": 3248.005355960826,
+        "changed": true,
+        "first_token": 56
+      },
+      "norm_transport": {
+        "sse": 3853.927552718177,
+        "changed": true,
+        "first_token": 56
+      },
+      "broyden_identity": {
+        "sse": 6681.928238036993,
+        "changed": false,
+        "first_token": 56
+      },
+      "secant_unit_gain": {
+        "sse": 8708.769476856833,
+        "changed": true,
+        "first_token": 56
+      },
+      "prefix_ridge": {
+        "sse": 14208.806969954348,
+        "changed": false,
+        "first_token": 56
+      },
+      "prefix_secants": {
+        "sse": 6616.645097780536,
+        "changed": false,
+        "first_token": 56
+      },
+      "projection_only": {
+        "sse": 6823.895994217334,
+        "changed": false,
+        "first_token": 56
+      },
+      "secant_transport": {
+        "sse": 6679.05363238181,
+        "changed": false,
+        "first_token": 56
+      }
+    }
+  },
+  {
+    "qid": "572ee666dfa6aa1500f8d4a3",
+    "article": "Post-punk",
+    "actual_changed": false,
+    "first_token": 6101,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 1949.9587066892618,
+    "clean_first": 6101,
+    "source_position": 51,
+    "prompt_length": 245,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 1949.9587066892618,
+        "changed": false,
+        "first_token": 6101
+      },
+      "clean_donor": {
+        "sse": 986.89409441326,
+        "changed": false,
+        "first_token": 6101
+      },
+      "fit_donor": {
+        "sse": 732.3017274321803,
+        "changed": false,
+        "first_token": 6101
+      },
+      "local_derivative": {
+        "sse": 1988.7680024324447,
+        "changed": false,
+        "first_token": 6101
+      },
+      "midpoint_derivative": {
+        "sse": 901.6890284811136,
+        "changed": false,
+        "first_token": 6101
+      },
+      "fit_local_derivative": {
+        "sse": 950.0686668577237,
+        "changed": false,
+        "first_token": 6101
+      },
+      "partial": {
+        "sse": 2072.054651261447,
+        "changed": false,
+        "first_token": 6101
+      },
+      "partial_donor_mix": {
+        "sse": 737.7497255288508,
+        "changed": false,
+        "first_token": 6101
+      },
+      "norm_transport": {
+        "sse": 674.7464225998618,
+        "changed": false,
+        "first_token": 6101
+      },
+      "broyden_identity": {
+        "sse": 445.30958500180344,
+        "changed": false,
+        "first_token": 6101
+      },
+      "secant_unit_gain": {
+        "sse": 615.3702130956849,
+        "changed": false,
+        "first_token": 6101
+      },
+      "prefix_ridge": {
+        "sse": 891.236954137699,
+        "changed": false,
+        "first_token": 6101
+      },
+      "prefix_secants": {
+        "sse": 525.7231652038543,
+        "changed": false,
+        "first_token": 6101
+      },
+      "projection_only": {
+        "sse": 488.0132484583588,
+        "changed": false,
+        "first_token": 6101
+      },
+      "secant_transport": {
+        "sse": 447.4673825707257,
+        "changed": false,
+        "first_token": 6101
+      }
+    }
+  },
+  {
+    "qid": "5727a3762ca10214002d9287",
+    "article": "Crucifixion_of_Jesus",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 13905.995575324683,
+    "clean_first": 504,
+    "source_position": 63,
+    "prompt_length": 204,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 13905.995575324683,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 1418.1495745853547,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1583.2005852876703,
+        "changed": true,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 16699.0330521476,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 8687.451121768241,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 10680.440932475685,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 14253.99573157003,
+        "changed": true,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1602.859272437995,
+        "changed": true,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 2228.1013108551997,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 1558.5396117139371,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 6150.06831993577,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 5433.357070198226,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 2007.2924004021907,
+        "changed": true,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 1569.8161036067236,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 1739.0397626173153,
+        "changed": true,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "57265bcbdd62a815002e8296",
+    "article": "Queen_(band)",
+    "actual_changed": false,
+    "first_token": 5868,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 30731.465180131316,
+    "clean_first": 5868,
+    "source_position": 78,
+    "prompt_length": 238,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 30731.465180131316,
+        "changed": false,
+        "first_token": 5868
+      },
+      "clean_donor": {
+        "sse": 2269.6115977508816,
+        "changed": false,
+        "first_token": 5868
+      },
+      "fit_donor": {
+        "sse": 2754.979577379935,
+        "changed": false,
+        "first_token": 5868
+      },
+      "local_derivative": {
+        "sse": 29065.966818200985,
+        "changed": false,
+        "first_token": 5868
+      },
+      "midpoint_derivative": {
+        "sse": 6280.59697994203,
+        "changed": false,
+        "first_token": 5868
+      },
+      "fit_local_derivative": {
+        "sse": 26041.633164516552,
+        "changed": false,
+        "first_token": 5868
+      },
+      "partial": {
+        "sse": 30548.900233720553,
+        "changed": false,
+        "first_token": 5868
+      },
+      "partial_donor_mix": {
+        "sse": 2815.634307589612,
+        "changed": false,
+        "first_token": 5868
+      },
+      "norm_transport": {
+        "sse": 4444.291989515991,
+        "changed": false,
+        "first_token": 5868
+      },
+      "broyden_identity": {
+        "sse": 9731.9220855967,
+        "changed": false,
+        "first_token": 5868
+      },
+      "secant_unit_gain": {
+        "sse": 13646.5193133553,
+        "changed": false,
+        "first_token": 5868
+      },
+      "prefix_ridge": {
+        "sse": 18940.12666275251,
+        "changed": false,
+        "first_token": 5868
+      },
+      "prefix_secants": {
+        "sse": 10025.222414853859,
+        "changed": false,
+        "first_token": 5868
+      },
+      "projection_only": {
+        "sse": 9763.252086725252,
+        "changed": false,
+        "first_token": 5868
+      },
+      "secant_transport": {
+        "sse": 9860.07883756046,
+        "changed": false,
+        "first_token": 5868
+      }
+    }
+  },
+  {
+    "qid": "57310a3305b4da19006bcd0b",
+    "article": "Namibia",
+    "actual_changed": true,
+    "first_token": 54,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 573.107940593637,
+    "clean_first": 54,
+    "source_position": 146,
+    "prompt_length": 193,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 573.107940593637,
+        "changed": false,
+        "first_token": 54
+      },
+      "clean_donor": {
+        "sse": 67.3875276911092,
+        "changed": true,
+        "first_token": 54
+      },
+      "fit_donor": {
+        "sse": 57.16913096411995,
+        "changed": true,
+        "first_token": 54
+      },
+      "local_derivative": {
+        "sse": 351.893016271877,
+        "changed": true,
+        "first_token": 54
+      },
+      "midpoint_derivative": {
+        "sse": 112.09745962336373,
+        "changed": true,
+        "first_token": 54
+      },
+      "fit_local_derivative": {
+        "sse": 278.3344906036655,
+        "changed": false,
+        "first_token": 54
+      },
+      "partial": {
+        "sse": 559.1387188852335,
+        "changed": true,
+        "first_token": 54
+      },
+      "partial_donor_mix": {
+        "sse": 56.41091951461941,
+        "changed": true,
+        "first_token": 54
+      },
+      "norm_transport": {
+        "sse": 85.56306829539886,
+        "changed": true,
+        "first_token": 54
+      },
+      "broyden_identity": {
+        "sse": 54.90691847691072,
+        "changed": true,
+        "first_token": 54
+      },
+      "secant_unit_gain": {
+        "sse": 66.19770839924973,
+        "changed": true,
+        "first_token": 54
+      },
+      "prefix_ridge": {
+        "sse": 136.41992036152885,
+        "changed": true,
+        "first_token": 54
+      },
+      "prefix_secants": {
+        "sse": 54.79081277881308,
+        "changed": true,
+        "first_token": 54
+      },
+      "projection_only": {
+        "sse": 58.75744867814944,
+        "changed": true,
+        "first_token": 54
+      },
+      "secant_transport": {
+        "sse": 55.1015731502657,
+        "changed": true,
+        "first_token": 54
+      }
+    }
+  },
+  {
+    "qid": "572f0580dfa6aa1500f8d579",
+    "article": "Antenna_(radio)",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 77565.5013334656,
+    "clean_first": 504,
+    "source_position": 191,
+    "prompt_length": 242,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 77565.5013334656,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 9079.005874824303,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 10826.067830344185,
+        "changed": true,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 76693.3441529512,
+        "changed": true,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 170857.0401500891,
+        "changed": true,
+        "first_token": 43859
+      },
+      "fit_local_derivative": {
+        "sse": 70341.2962739873,
+        "changed": true,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 77010.21907660019,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 11005.28119946497,
+        "changed": true,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 12404.244437321282,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 29219.575287438536,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 41770.12455657761,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 46413.23388042612,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 27064.155859495953,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 29583.831209943266,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 29397.355141404678,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "5709fa026d058f1900182c4c",
+    "article": "Hanover",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 373.05917909086503,
+    "clean_first": 504,
+    "source_position": 101,
+    "prompt_length": 189,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 373.05917909086503,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 337.6294637966375,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 253.28053345305975,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 96.92763213147818,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 16.629357673193596,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 201.41637333605513,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 383.68206888023695,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 251.1415877504346,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 138.11286960921424,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 177.3055864931398,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 202.62615072407803,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 277.8783221347866,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 177.61301428210749,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 180.6349549516644,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 177.23651853479782,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "573003bda23a5019007fcc49",
+    "article": "Charleston,_South_Carolina",
+    "actual_changed": false,
+    "first_token": 41867,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 7091.328993394047,
+    "clean_first": 41867,
+    "source_position": 104,
+    "prompt_length": 239,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 7091.328993394047,
+        "changed": false,
+        "first_token": 41867
+      },
+      "clean_donor": {
+        "sse": 491.7037594161814,
+        "changed": false,
+        "first_token": 41867
+      },
+      "fit_donor": {
+        "sse": 492.92672144216806,
+        "changed": false,
+        "first_token": 41867
+      },
+      "local_derivative": {
+        "sse": 1533.7022819392628,
+        "changed": false,
+        "first_token": 41867
+      },
+      "midpoint_derivative": {
+        "sse": 2229.088180935826,
+        "changed": false,
+        "first_token": 41867
+      },
+      "fit_local_derivative": {
+        "sse": 2740.8936077637322,
+        "changed": false,
+        "first_token": 41867
+      },
+      "partial": {
+        "sse": 7148.124247078571,
+        "changed": false,
+        "first_token": 41867
+      },
+      "partial_donor_mix": {
+        "sse": 506.0641153904036,
+        "changed": false,
+        "first_token": 41867
+      },
+      "norm_transport": {
+        "sse": 535.5257594379857,
+        "changed": false,
+        "first_token": 41867
+      },
+      "broyden_identity": {
+        "sse": 1171.044143396886,
+        "changed": false,
+        "first_token": 41867
+      },
+      "secant_unit_gain": {
+        "sse": 2216.4535738611357,
+        "changed": false,
+        "first_token": 41867
+      },
+      "prefix_ridge": {
+        "sse": 3634.8295114286975,
+        "changed": false,
+        "first_token": 41867
+      },
+      "prefix_secants": {
+        "sse": 1198.4368976842038,
+        "changed": false,
+        "first_token": 41867
+      },
+      "projection_only": {
+        "sse": 1165.1031105496504,
+        "changed": false,
+        "first_token": 41867
+      },
+      "secant_transport": {
+        "sse": 1221.9686443622354,
+        "changed": false,
+        "first_token": 41867
+      }
+    }
+  },
+  {
+    "qid": "57061c5c52bb8914006898bb",
+    "article": "Immunology",
+    "actual_changed": true,
+    "first_token": 68,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 13280.984510639224,
+    "clean_first": 68,
+    "source_position": 60,
+    "prompt_length": 90,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 13280.984510639224,
+        "changed": false,
+        "first_token": 68
+      },
+      "clean_donor": {
+        "sse": 1446.7190309466077,
+        "changed": false,
+        "first_token": 68
+      },
+      "fit_donor": {
+        "sse": 1259.6325389191843,
+        "changed": false,
+        "first_token": 68
+      },
+      "local_derivative": {
+        "sse": 11497.006344970781,
+        "changed": true,
+        "first_token": 68
+      },
+      "midpoint_derivative": {
+        "sse": 6772.409553034332,
+        "changed": true,
+        "first_token": 68
+      },
+      "fit_local_derivative": {
+        "sse": 5678.689318479358,
+        "changed": false,
+        "first_token": 68
+      },
+      "partial": {
+        "sse": 12887.370771473867,
+        "changed": true,
+        "first_token": 68
+      },
+      "partial_donor_mix": {
+        "sse": 1260.4319914373136,
+        "changed": false,
+        "first_token": 68
+      },
+      "norm_transport": {
+        "sse": 1892.4973707055387,
+        "changed": false,
+        "first_token": 68
+      },
+      "broyden_identity": {
+        "sse": 3645.7199574575075,
+        "changed": false,
+        "first_token": 68
+      },
+      "secant_unit_gain": {
+        "sse": 4651.079876546174,
+        "changed": true,
+        "first_token": 68
+      },
+      "prefix_ridge": {
+        "sse": 6255.167309449237,
+        "changed": false,
+        "first_token": 68
+      },
+      "prefix_secants": {
+        "sse": 3367.9062915764434,
+        "changed": false,
+        "first_token": 68
+      },
+      "projection_only": {
+        "sse": 3730.149944046657,
+        "changed": false,
+        "first_token": 68
+      },
+      "secant_transport": {
+        "sse": 3601.834152373751,
+        "changed": false,
+        "first_token": 68
+      }
+    }
+  },
+  {
+    "qid": "5731c2fd0fdd8d15006c6518",
+    "article": "Antibiotics",
+    "actual_changed": true,
+    "first_token": 64,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 9209.63504142248,
+    "clean_first": 35750,
+    "source_position": 81,
+    "prompt_length": 199,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 9209.63504142248,
+        "changed": false,
+        "first_token": 35750
+      },
+      "clean_donor": {
+        "sse": 451.6292605672942,
+        "changed": true,
+        "first_token": 64
+      },
+      "fit_donor": {
+        "sse": 604.0051699938017,
+        "changed": true,
+        "first_token": 64
+      },
+      "local_derivative": {
+        "sse": 7493.187679706074,
+        "changed": true,
+        "first_token": 64
+      },
+      "midpoint_derivative": {
+        "sse": 3553.634683776299,
+        "changed": true,
+        "first_token": 64
+      },
+      "fit_local_derivative": {
+        "sse": 7641.98494521537,
+        "changed": true,
+        "first_token": 64
+      },
+      "partial": {
+        "sse": 9505.30361471116,
+        "changed": true,
+        "first_token": 64
+      },
+      "partial_donor_mix": {
+        "sse": 597.0107647323334,
+        "changed": true,
+        "first_token": 64
+      },
+      "norm_transport": {
+        "sse": 792.9444792991848,
+        "changed": true,
+        "first_token": 64
+      },
+      "broyden_identity": {
+        "sse": 389.39388740851786,
+        "changed": true,
+        "first_token": 64
+      },
+      "secant_unit_gain": {
+        "sse": 795.3764999184473,
+        "changed": true,
+        "first_token": 64
+      },
+      "prefix_ridge": {
+        "sse": 2335.544769559004,
+        "changed": true,
+        "first_token": 64
+      },
+      "prefix_secants": {
+        "sse": 410.3299255751566,
+        "changed": true,
+        "first_token": 64
+      },
+      "projection_only": {
+        "sse": 444.782182137723,
+        "changed": true,
+        "first_token": 64
+      },
+      "secant_transport": {
+        "sse": 389.5123926288132,
+        "changed": true,
+        "first_token": 64
+      }
+    }
+  },
+  {
+    "qid": "57345641acc1501500babe07",
+    "article": "Richmond,_Virginia",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 30359.384181904723,
+    "clean_first": 504,
+    "source_position": 217,
+    "prompt_length": 237,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 30359.384181904723,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 67.55538513051602,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 321.75517141310905,
+        "changed": true,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 53088.21263671546,
+        "changed": true,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 36664.35114690058,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 35258.694326494355,
+        "changed": true,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 30361.928695872084,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 375.6257714505804,
+        "changed": true,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 82.71448966068891,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 1521.5160983850442,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 4771.354456263075,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 11393.51337008121,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 1620.7675733685264,
+        "changed": true,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 1533.4417265891507,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 1666.2677959920072,
+        "changed": true,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "572c84d4dfb02c14005c6b92",
+    "article": "Tennessee",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 2358.0182373940315,
+    "clean_first": 504,
+    "source_position": 93,
+    "prompt_length": 164,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 2358.0182373940315,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 120.29361607028206,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 116.51176089536689,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 2024.253584203067,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 655.1407631242937,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 1772.6323871549105,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 2318.8863818459827,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 116.95217292300283,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 151.68764040965902,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 111.45528824419138,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 221.92888402777496,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 746.50366074576,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 109.3892773786874,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 113.75916083198945,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 113.93103266172227,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "56e03c3c7aa994140058e3f1",
+    "article": "Comics",
+    "actual_changed": false,
+    "first_token": 2427,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 22473.648631692235,
+    "clean_first": 2427,
+    "source_position": 124,
+    "prompt_length": 171,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 22473.648631692235,
+        "changed": false,
+        "first_token": 2427
+      },
+      "clean_donor": {
+        "sse": 1016.4672354534596,
+        "changed": true,
+        "first_token": 23491
+      },
+      "fit_donor": {
+        "sse": 1057.727369517211,
+        "changed": true,
+        "first_token": 23491
+      },
+      "local_derivative": {
+        "sse": 28390.985344662084,
+        "changed": true,
+        "first_token": 23491
+      },
+      "midpoint_derivative": {
+        "sse": 14986.953771606964,
+        "changed": true,
+        "first_token": 23491
+      },
+      "fit_local_derivative": {
+        "sse": 17105.140906215776,
+        "changed": true,
+        "first_token": 23491
+      },
+      "partial": {
+        "sse": 21763.286214698473,
+        "changed": false,
+        "first_token": 2427
+      },
+      "partial_donor_mix": {
+        "sse": 1072.336718687502,
+        "changed": true,
+        "first_token": 23491
+      },
+      "norm_transport": {
+        "sse": 972.3707548120761,
+        "changed": true,
+        "first_token": 23491
+      },
+      "broyden_identity": {
+        "sse": 2182.67938098966,
+        "changed": true,
+        "first_token": 23491
+      },
+      "secant_unit_gain": {
+        "sse": 5842.303477652882,
+        "changed": false,
+        "first_token": 2427
+      },
+      "prefix_ridge": {
+        "sse": 8152.772838914474,
+        "changed": true,
+        "first_token": 23491
+      },
+      "prefix_secants": {
+        "sse": 2322.6884902646984,
+        "changed": true,
+        "first_token": 23491
+      },
+      "projection_only": {
+        "sse": 2277.0927058803327,
+        "changed": true,
+        "first_token": 23491
+      },
+      "secant_transport": {
+        "sse": 2247.809368792942,
+        "changed": true,
+        "first_token": 23491
+      }
+    }
+  },
+  {
+    "qid": "5727c075ff5b5019007d945e",
+    "article": "Hindu_philosophy",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 668.1404931352137,
+    "clean_first": 504,
+    "source_position": 60,
+    "prompt_length": 197,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 668.1404931352137,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 47.296724302151986,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 48.261002280720874,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 386.96087826927555,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 90.7188262823743,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 274.69650633631767,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 682.4387249525137,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 48.68614836921793,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 67.15150253320999,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 47.01730246135501,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 151.3236681502052,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 217.65859038296895,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 50.67304460069664,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 48.50586584188888,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 49.658944213549745,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "57307554069b5314008320fc",
+    "article": "51st_state",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 23995.735638497878,
+    "clean_first": 504,
+    "source_position": 99,
+    "prompt_length": 238,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 23995.735638497878,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 1410.9725369303908,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1071.436808659777,
+        "changed": true,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 18568.756721872116,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 36561.50790237459,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 18105.54893842811,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 25569.81545028237,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1109.32847175828,
+        "changed": true,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 1071.4403180244094,
+        "changed": true,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 1761.8739300846905,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 3331.4175761041834,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 9148.934583614915,
+        "changed": true,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 1629.7655011327984,
+        "changed": true,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 1807.6995402878915,
+        "changed": true,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 1770.0161406650413,
+        "changed": true,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "572634c8271a42140099d764",
+    "article": "Freemasonry",
+    "actual_changed": true,
+    "first_token": 2954,
+    "response_tokens": 2,
+    "ended": true,
+    "energy": 10613.329787846109,
+    "clean_first": 37485,
+    "source_position": 39,
+    "prompt_length": 211,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 10613.329787846109,
+        "changed": false,
+        "first_token": 37485
+      },
+      "clean_donor": {
+        "sse": 3322.697208935022,
+        "changed": true,
+        "first_token": 2954
+      },
+      "fit_donor": {
+        "sse": 3004.9688441714507,
+        "changed": true,
+        "first_token": 37485
+      },
+      "local_derivative": {
+        "sse": 5387.538867824029,
+        "changed": true,
+        "first_token": 2954
+      },
+      "midpoint_derivative": {
+        "sse": 841.0056097622066,
+        "changed": true,
+        "first_token": 2954
+      },
+      "fit_local_derivative": {
+        "sse": 5850.883785779473,
+        "changed": false,
+        "first_token": 37485
+      },
+      "partial": {
+        "sse": 10978.991858808535,
+        "changed": true,
+        "first_token": 37485
+      },
+      "partial_donor_mix": {
+        "sse": 3000.3409472047656,
+        "changed": true,
+        "first_token": 37485
+      },
+      "norm_transport": {
+        "sse": 3141.647530170594,
+        "changed": true,
+        "first_token": 37485
+      },
+      "broyden_identity": {
+        "sse": 4315.388395783949,
+        "changed": true,
+        "first_token": 37485
+      },
+      "secant_unit_gain": {
+        "sse": 5601.968008038823,
+        "changed": true,
+        "first_token": 37485
+      },
+      "prefix_ridge": {
+        "sse": 7371.457421181357,
+        "changed": true,
+        "first_token": 37485
+      },
+      "prefix_secants": {
+        "sse": 4441.620447212554,
+        "changed": true,
+        "first_token": 37485
+      },
+      "projection_only": {
+        "sse": 4334.420472844886,
+        "changed": true,
+        "first_token": 37485
+      },
+      "secant_transport": {
+        "sse": 4348.0041884181155,
+        "changed": true,
+        "first_token": 37485
+      }
+    }
+  },
+  {
+    "qid": "56df75d15ca0a614008f9a9a",
+    "article": "Alexander_Graham_Bell",
+    "actual_changed": false,
+    "first_token": 39437,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 21782.63890310652,
+    "clean_first": 39437,
+    "source_position": 87,
+    "prompt_length": 106,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 21782.63890310652,
+        "changed": false,
+        "first_token": 39437
+      },
+      "clean_donor": {
+        "sse": 2214.598609527342,
+        "changed": false,
+        "first_token": 39437
+      },
+      "fit_donor": {
+        "sse": 2216.756604195501,
+        "changed": false,
+        "first_token": 39437
+      },
+      "local_derivative": {
+        "sse": 25794.00246650049,
+        "changed": false,
+        "first_token": 39437
+      },
+      "midpoint_derivative": {
+        "sse": 30468.115656473223,
+        "changed": false,
+        "first_token": 39437
+      },
+      "fit_local_derivative": {
+        "sse": 14675.26625454496,
+        "changed": false,
+        "first_token": 39437
+      },
+      "partial": {
+        "sse": 23139.04635265805,
+        "changed": false,
+        "first_token": 39437
+      },
+      "partial_donor_mix": {
+        "sse": 2214.6122235826465,
+        "changed": false,
+        "first_token": 39437
+      },
+      "norm_transport": {
+        "sse": 2701.706986151966,
+        "changed": false,
+        "first_token": 39437
+      },
+      "broyden_identity": {
+        "sse": 1980.75821173607,
+        "changed": false,
+        "first_token": 39437
+      },
+      "secant_unit_gain": {
+        "sse": 2564.0601296847017,
+        "changed": false,
+        "first_token": 39437
+      },
+      "prefix_ridge": {
+        "sse": 6597.577043077363,
+        "changed": false,
+        "first_token": 39437
+      },
+      "prefix_secants": {
+        "sse": 1922.311053075085,
+        "changed": false,
+        "first_token": 39437
+      },
+      "projection_only": {
+        "sse": 2153.5342433378146,
+        "changed": false,
+        "first_token": 39437
+      },
+      "secant_transport": {
+        "sse": 1988.862838717328,
+        "changed": false,
+        "first_token": 39437
+      }
+    }
+  },
+  {
+    "qid": "573286cbb3a91d1900202e1b",
+    "article": "Humanism",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 6976.88061751321,
+    "clean_first": 504,
+    "source_position": 116,
+    "prompt_length": 205,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 6976.88061751321,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 1611.8945643409404,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1039.0060567507312,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 7796.749920656547,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 3968.3267564816438,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 4773.947795289156,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 6757.036768459076,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1001.0398081725469,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 780.522257657245,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 798.8817190881318,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 1703.5675142851476,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 2877.0603049363413,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 981.1840337756314,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 842.0042332333796,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 796.8430253565084,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "5729353d3f37b31900478102",
+    "article": "States_of_Germany",
+    "actual_changed": false,
+    "first_token": 8600,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 438.8752215004181,
+    "clean_first": 8600,
+    "source_position": 63,
+    "prompt_length": 187,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 438.8752215004181,
+        "changed": false,
+        "first_token": 8600
+      },
+      "clean_donor": {
+        "sse": 90.61137174462486,
+        "changed": false,
+        "first_token": 8600
+      },
+      "fit_donor": {
+        "sse": 60.15275089548537,
+        "changed": false,
+        "first_token": 8600
+      },
+      "local_derivative": {
+        "sse": 285.9111102698158,
+        "changed": false,
+        "first_token": 8600
+      },
+      "midpoint_derivative": {
+        "sse": 205.11438219464708,
+        "changed": true,
+        "first_token": 8600
+      },
+      "fit_local_derivative": {
+        "sse": 289.9877503447407,
+        "changed": false,
+        "first_token": 8600
+      },
+      "partial": {
+        "sse": 484.29544768976604,
+        "changed": false,
+        "first_token": 8600
+      },
+      "partial_donor_mix": {
+        "sse": 59.6815852176824,
+        "changed": false,
+        "first_token": 8600
+      },
+      "norm_transport": {
+        "sse": 72.08866745143425,
+        "changed": true,
+        "first_token": 8600
+      },
+      "broyden_identity": {
+        "sse": 40.896428240089584,
+        "changed": false,
+        "first_token": 8600
+      },
+      "secant_unit_gain": {
+        "sse": 85.68182672619926,
+        "changed": false,
+        "first_token": 8600
+      },
+      "prefix_ridge": {
+        "sse": 157.024683778731,
+        "changed": false,
+        "first_token": 8600
+      },
+      "prefix_secants": {
+        "sse": 45.335457009346584,
+        "changed": false,
+        "first_token": 8600
+      },
+      "projection_only": {
+        "sse": 45.397110570703276,
+        "changed": false,
+        "first_token": 8600
+      },
+      "secant_transport": {
+        "sse": 40.88883298163276,
+        "changed": false,
+        "first_token": 8600
+      }
+    }
+  },
+  {
+    "qid": "57260d97ec44d21400f3d85a",
+    "article": "Arsenal_F.C.",
+    "actual_changed": false,
+    "first_token": 49,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 475.00243408338076,
+    "clean_first": 49,
+    "source_position": 179,
+    "prompt_length": 213,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 475.00243408338076,
+        "changed": false,
+        "first_token": 49
+      },
+      "clean_donor": {
+        "sse": 217.23086207083537,
+        "changed": false,
+        "first_token": 49
+      },
+      "fit_donor": {
+        "sse": 167.63571585627167,
+        "changed": false,
+        "first_token": 49
+      },
+      "local_derivative": {
+        "sse": 375.5860387719267,
+        "changed": false,
+        "first_token": 49
+      },
+      "midpoint_derivative": {
+        "sse": 188.35029107022177,
+        "changed": false,
+        "first_token": 49
+      },
+      "fit_local_derivative": {
+        "sse": 417.53602997855455,
+        "changed": false,
+        "first_token": 49
+      },
+      "partial": {
+        "sse": 441.7506562812914,
+        "changed": false,
+        "first_token": 49
+      },
+      "partial_donor_mix": {
+        "sse": 166.3235524105919,
+        "changed": false,
+        "first_token": 49
+      },
+      "norm_transport": {
+        "sse": 141.6746609796736,
+        "changed": false,
+        "first_token": 49
+      },
+      "broyden_identity": {
+        "sse": 110.76282134189306,
+        "changed": false,
+        "first_token": 49
+      },
+      "secant_unit_gain": {
+        "sse": 164.6497266040327,
+        "changed": false,
+        "first_token": 49
+      },
+      "prefix_ridge": {
+        "sse": 206.17720204068962,
+        "changed": false,
+        "first_token": 49
+      },
+      "prefix_secants": {
+        "sse": 111.7216675712012,
+        "changed": false,
+        "first_token": 49
+      },
+      "projection_only": {
+        "sse": 132.06953302276256,
+        "changed": false,
+        "first_token": 49
+      },
+      "secant_transport": {
+        "sse": 112.73798668284397,
+        "changed": false,
+        "first_token": 49
+      }
+    }
+  },
+  {
+    "qid": "572879b54b864d1900164a21",
+    "article": "History_of_India",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 6927.241088192024,
+    "clean_first": 504,
+    "source_position": 93,
+    "prompt_length": 161,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 6927.241088192024,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 2190.74243237182,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1451.1532002549825,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 10614.134282255141,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 84039.22263410344,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 7482.092154340968,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 6954.2233115006,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1411.6128384762815,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 2549.0466154566043,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 4155.356140777178,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 4680.825887319365,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 5052.932608109073,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 3810.8707814939626,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 4158.4830668411205,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 4172.262663475328,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "57299db76aef051400155032",
+    "article": "Appalachian_Mountains",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 8621.230386279076,
+    "clean_first": 504,
+    "source_position": 49,
+    "prompt_length": 225,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 8621.230386279076,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 1025.5794548154608,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1006.8412942133687,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 14376.092261691909,
+        "changed": true,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 1695.0489903060038,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 7806.593207442437,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 8451.56725222331,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1014.7397289860429,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 1009.24054141836,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 1263.3615364924335,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 2418.1451841257012,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 3658.172565174751,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 1074.754409612745,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 1300.0029137630142,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 1276.2430428808311,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "572709795951b619008f8511",
+    "article": "Tuberculosis",
+    "actual_changed": false,
+    "first_token": 30474,
+    "response_tokens": 3,
+    "ended": true,
+    "energy": 4505.943203750432,
+    "clean_first": 30474,
+    "source_position": 131,
+    "prompt_length": 196,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 4505.943203750432,
+        "changed": false,
+        "first_token": 30474
+      },
+      "clean_donor": {
+        "sse": 387.79674687806465,
+        "changed": false,
+        "first_token": 30474
+      },
+      "fit_donor": {
+        "sse": 330.1456568833737,
+        "changed": false,
+        "first_token": 30474
+      },
+      "local_derivative": {
+        "sse": 5155.276187030002,
+        "changed": false,
+        "first_token": 30474
+      },
+      "midpoint_derivative": {
+        "sse": 5335.659096615908,
+        "changed": true,
+        "first_token": 5690
+      },
+      "fit_local_derivative": {
+        "sse": 4222.5861659203765,
+        "changed": false,
+        "first_token": 30474
+      },
+      "partial": {
+        "sse": 4483.828683430491,
+        "changed": false,
+        "first_token": 30474
+      },
+      "partial_donor_mix": {
+        "sse": 331.50628674761356,
+        "changed": false,
+        "first_token": 30474
+      },
+      "norm_transport": {
+        "sse": 343.5378029063809,
+        "changed": false,
+        "first_token": 30474
+      },
+      "broyden_identity": {
+        "sse": 789.897461628187,
+        "changed": false,
+        "first_token": 30474
+      },
+      "secant_unit_gain": {
+        "sse": 1708.4368141380796,
+        "changed": false,
+        "first_token": 30474
+      },
+      "prefix_ridge": {
+        "sse": 2278.6039402969145,
+        "changed": false,
+        "first_token": 30474
+      },
+      "prefix_secants": {
+        "sse": 842.0681358455627,
+        "changed": false,
+        "first_token": 30474
+      },
+      "projection_only": {
+        "sse": 791.1642647289434,
+        "changed": false,
+        "first_token": 30474
+      },
+      "secant_transport": {
+        "sse": 835.4334379688621,
+        "changed": false,
+        "first_token": 30474
+      }
+    }
+  },
+  {
+    "qid": "57319608497a881900249095",
+    "article": "Steven_Spielberg",
+    "actual_changed": true,
+    "first_token": 47063,
+    "response_tokens": 4,
+    "ended": true,
+    "energy": 162817.27143234602,
+    "clean_first": 52,
+    "source_position": 159,
+    "prompt_length": 212,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 162817.27143234602,
+        "changed": false,
+        "first_token": 52
+      },
+      "clean_donor": {
+        "sse": 5853.403270728882,
+        "changed": true,
+        "first_token": 47063
+      },
+      "fit_donor": {
+        "sse": 8690.429187994732,
+        "changed": false,
+        "first_token": 52
+      },
+      "local_derivative": {
+        "sse": 158156.79073034212,
+        "changed": false,
+        "first_token": 52
+      },
+      "midpoint_derivative": {
+        "sse": 165159.47260119143,
+        "changed": true,
+        "first_token": 47063
+      },
+      "fit_local_derivative": {
+        "sse": 141228.23885137087,
+        "changed": false,
+        "first_token": 52
+      },
+      "partial": {
+        "sse": 163655.00367499056,
+        "changed": false,
+        "first_token": 52
+      },
+      "partial_donor_mix": {
+        "sse": 9025.625048563224,
+        "changed": false,
+        "first_token": 52
+      },
+      "norm_transport": {
+        "sse": 36831.70922641772,
+        "changed": true,
+        "first_token": 47063
+      },
+      "broyden_identity": {
+        "sse": 5659.3928838205,
+        "changed": true,
+        "first_token": 47063
+      },
+      "secant_unit_gain": {
+        "sse": 101787.7883534283,
+        "changed": false,
+        "first_token": 52
+      },
+      "prefix_ridge": {
+        "sse": 45070.07992462297,
+        "changed": false,
+        "first_token": 52
+      },
+      "prefix_secants": {
+        "sse": 10347.260302648556,
+        "changed": true,
+        "first_token": 47063
+      },
+      "projection_only": {
+        "sse": 5744.9057859763325,
+        "changed": true,
+        "first_token": 47063
+      },
+      "secant_transport": {
+        "sse": 10840.537092599166,
+        "changed": true,
+        "first_token": 47063
+      }
+    }
+  },
+  {
+    "qid": "56f8bec89b226e1400dd0f16",
+    "article": "Alps",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 21456.126201524858,
+    "clean_first": 504,
+    "source_position": 83,
+    "prompt_length": 125,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 21456.126201524858,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 977.7015052074835,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1104.4247749618394,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 24417.46591089706,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 30183.309355378336,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 14927.730195931326,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 20939.756712323004,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1128.5329022327533,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 1050.6907379083857,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 3155.0859185117106,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 6707.363428732742,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 11005.982034825636,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 3456.9437249130997,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 3217.5265719250892,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 3229.030048887077,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "5726833add62a815002e87d3",
+    "article": "Korean_War",
+    "actual_changed": false,
+    "first_token": 61,
+    "response_tokens": 3,
+    "ended": true,
+    "energy": 8497.209359406796,
+    "clean_first": 61,
+    "source_position": 119,
+    "prompt_length": 210,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 8497.209359406796,
+        "changed": false,
+        "first_token": 61
+      },
+      "clean_donor": {
+        "sse": 574.7673199882181,
+        "changed": false,
+        "first_token": 61
+      },
+      "fit_donor": {
+        "sse": 611.6613053487862,
+        "changed": false,
+        "first_token": 61
+      },
+      "local_derivative": {
+        "sse": 8943.75545102943,
+        "changed": false,
+        "first_token": 61
+      },
+      "midpoint_derivative": {
+        "sse": 3285.5013646639604,
+        "changed": false,
+        "first_token": 61
+      },
+      "fit_local_derivative": {
+        "sse": 5766.843281550348,
+        "changed": false,
+        "first_token": 61
+      },
+      "partial": {
+        "sse": 8481.773258671461,
+        "changed": true,
+        "first_token": 61
+      },
+      "partial_donor_mix": {
+        "sse": 628.7994955423643,
+        "changed": false,
+        "first_token": 61
+      },
+      "norm_transport": {
+        "sse": 1094.2058638264784,
+        "changed": false,
+        "first_token": 61
+      },
+      "broyden_identity": {
+        "sse": 2592.494262260896,
+        "changed": false,
+        "first_token": 61
+      },
+      "secant_unit_gain": {
+        "sse": 3703.455284412561,
+        "changed": false,
+        "first_token": 61
+      },
+      "prefix_ridge": {
+        "sse": 4916.778174851803,
+        "changed": false,
+        "first_token": 61
+      },
+      "prefix_secants": {
+        "sse": 2441.8170904923354,
+        "changed": false,
+        "first_token": 61
+      },
+      "projection_only": {
+        "sse": 2614.5644637201017,
+        "changed": false,
+        "first_token": 61
+      },
+      "secant_transport": {
+        "sse": 2618.167210453038,
+        "changed": false,
+        "first_token": 61
+      }
+    }
+  },
+  {
+    "qid": "56f98f199e9bad19000a0aca",
+    "article": "Zhejiang",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 50377.69621614211,
+    "clean_first": 504,
+    "source_position": 37,
+    "prompt_length": 122,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 50377.69621614211,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 2857.3769432794347,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 2942.627992701664,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 51759.16302506393,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 70391.12266390295,
+        "changed": true,
+        "first_token": 42772
+      },
+      "fit_local_derivative": {
+        "sse": 46763.685673241824,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 49604.35141566076,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 3001.4638076329647,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 6663.709725874214,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 15456.603442273192,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 21272.937483539303,
+        "changed": true,
+        "first_token": 74
+      },
+      "prefix_ridge": {
+        "sse": 30443.185217336002,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 16056.058127227483,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 15567.88622220296,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 15573.23563307516,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "57275858f1498d1400e8f6a8",
+    "article": "Carnival",
+    "actual_changed": true,
+    "first_token": 788,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 12613.2258669781,
+    "clean_first": 788,
+    "source_position": 141,
+    "prompt_length": 247,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 12613.2258669781,
+        "changed": false,
+        "first_token": 788
+      },
+      "clean_donor": {
+        "sse": 2198.7336448180117,
+        "changed": true,
+        "first_token": 788
+      },
+      "fit_donor": {
+        "sse": 1920.9828115122366,
+        "changed": true,
+        "first_token": 788
+      },
+      "local_derivative": {
+        "sse": 12452.396501109652,
+        "changed": true,
+        "first_token": 888
+      },
+      "midpoint_derivative": {
+        "sse": 4840.401520648258,
+        "changed": true,
+        "first_token": 788
+      },
+      "fit_local_derivative": {
+        "sse": 5482.969361381976,
+        "changed": false,
+        "first_token": 788
+      },
+      "partial": {
+        "sse": 12635.485116933836,
+        "changed": true,
+        "first_token": 788
+      },
+      "partial_donor_mix": {
+        "sse": 1929.699646453104,
+        "changed": true,
+        "first_token": 788
+      },
+      "norm_transport": {
+        "sse": 2418.473921927014,
+        "changed": true,
+        "first_token": 788
+      },
+      "broyden_identity": {
+        "sse": 1870.0176970904595,
+        "changed": true,
+        "first_token": 788
+      },
+      "secant_unit_gain": {
+        "sse": 3236.429856292774,
+        "changed": true,
+        "first_token": 788
+      },
+      "prefix_ridge": {
+        "sse": 4722.513932447575,
+        "changed": true,
+        "first_token": 788
+      },
+      "prefix_secants": {
+        "sse": 1829.4116548839947,
+        "changed": true,
+        "first_token": 788
+      },
+      "projection_only": {
+        "sse": 1907.1799796191021,
+        "changed": true,
+        "first_token": 788
+      },
+      "secant_transport": {
+        "sse": 1883.2463080976904,
+        "changed": true,
+        "first_token": 788
+      }
+    }
+  },
+  {
+    "qid": "572f4d2d04bcaa1900d7682b",
+    "article": "Central_Intelligence_Agency",
+    "actual_changed": false,
+    "first_token": 2122,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 737.890813316211,
+    "clean_first": 2122,
+    "source_position": 78,
+    "prompt_length": 165,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 737.890813316211,
+        "changed": false,
+        "first_token": 2122
+      },
+      "clean_donor": {
+        "sse": 23.908254482018723,
+        "changed": false,
+        "first_token": 2122
+      },
+      "fit_donor": {
+        "sse": 28.220720236879785,
+        "changed": false,
+        "first_token": 2122
+      },
+      "local_derivative": {
+        "sse": 34.59368125500487,
+        "changed": false,
+        "first_token": 2122
+      },
+      "midpoint_derivative": {
+        "sse": 8.381481785817213,
+        "changed": false,
+        "first_token": 2122
+      },
+      "fit_local_derivative": {
+        "sse": 222.15919900830974,
+        "changed": false,
+        "first_token": 2122
+      },
+      "partial": {
+        "sse": 746.0854680262871,
+        "changed": false,
+        "first_token": 2122
+      },
+      "partial_donor_mix": {
+        "sse": 29.43277777212565,
+        "changed": false,
+        "first_token": 2122
+      },
+      "norm_transport": {
+        "sse": 37.86359445749856,
+        "changed": false,
+        "first_token": 2122
+      },
+      "broyden_identity": {
+        "sse": 161.18877446700722,
+        "changed": false,
+        "first_token": 2122
+      },
+      "secant_unit_gain": {
+        "sse": 304.6688049293865,
+        "changed": false,
+        "first_token": 2122
+      },
+      "prefix_ridge": {
+        "sse": 397.9888780837442,
+        "changed": false,
+        "first_token": 2122
+      },
+      "prefix_secants": {
+        "sse": 163.66396831984832,
+        "changed": false,
+        "first_token": 2122
+      },
+      "projection_only": {
+        "sse": 163.62970164620867,
+        "changed": false,
+        "first_token": 2122
+      },
+      "secant_transport": {
+        "sse": 164.86489971437803,
+        "changed": false,
+        "first_token": 2122
+      }
+    }
+  },
+  {
+    "qid": "572719a45951b619008f85f7",
+    "article": "Capacitor",
+    "actual_changed": false,
+    "first_token": 49,
+    "response_tokens": 5,
+    "ended": true,
+    "energy": 7542.233016483574,
+    "clean_first": 49,
+    "source_position": 51,
+    "prompt_length": 185,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 7542.233016483574,
+        "changed": false,
+        "first_token": 49
+      },
+      "clean_donor": {
+        "sse": 6832.926344516262,
+        "changed": false,
+        "first_token": 49
+      },
+      "fit_donor": {
+        "sse": 5433.425089891852,
+        "changed": false,
+        "first_token": 49
+      },
+      "local_derivative": {
+        "sse": 18337.402307716977,
+        "changed": false,
+        "first_token": 49
+      },
+      "midpoint_derivative": {
+        "sse": 30139.169769355853,
+        "changed": false,
+        "first_token": 49
+      },
+      "fit_local_derivative": {
+        "sse": 9717.893776600586,
+        "changed": false,
+        "first_token": 49
+      },
+      "partial": {
+        "sse": 7566.52955902559,
+        "changed": false,
+        "first_token": 49
+      },
+      "partial_donor_mix": {
+        "sse": 5333.4925697783165,
+        "changed": false,
+        "first_token": 49
+      },
+      "norm_transport": {
+        "sse": 4906.871218664874,
+        "changed": false,
+        "first_token": 49
+      },
+      "broyden_identity": {
+        "sse": 7226.043902350859,
+        "changed": false,
+        "first_token": 49
+      },
+      "secant_unit_gain": {
+        "sse": 7712.128339700669,
+        "changed": false,
+        "first_token": 49
+      },
+      "prefix_ridge": {
+        "sse": 7276.369072479244,
+        "changed": false,
+        "first_token": 49
+      },
+      "prefix_secants": {
+        "sse": 7116.164357679181,
+        "changed": false,
+        "first_token": 49
+      },
+      "projection_only": {
+        "sse": 7220.246376164641,
+        "changed": false,
+        "first_token": 49
+      },
+      "secant_transport": {
+        "sse": 7253.44593056584,
+        "changed": false,
+        "first_token": 49
+      }
+    }
+  },
+  {
+    "qid": "5709783fed30961900e841a8",
+    "article": "Identity_(social_science)",
+    "actual_changed": false,
+    "first_token": 52,
+    "response_tokens": 5,
+    "ended": true,
+    "energy": 8002.908141790411,
+    "clean_first": 52,
+    "source_position": 106,
+    "prompt_length": 180,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 8002.908141790411,
+        "changed": false,
+        "first_token": 52
+      },
+      "clean_donor": {
+        "sse": 508.44920957630177,
+        "changed": false,
+        "first_token": 52
+      },
+      "fit_donor": {
+        "sse": 497.29252751092906,
+        "changed": false,
+        "first_token": 52
+      },
+      "local_derivative": {
+        "sse": 4818.303406676232,
+        "changed": false,
+        "first_token": 52
+      },
+      "midpoint_derivative": {
+        "sse": 3699.4007185037776,
+        "changed": false,
+        "first_token": 52
+      },
+      "fit_local_derivative": {
+        "sse": 5059.692509342491,
+        "changed": false,
+        "first_token": 52
+      },
+      "partial": {
+        "sse": 8012.498348847248,
+        "changed": false,
+        "first_token": 52
+      },
+      "partial_donor_mix": {
+        "sse": 507.67246262647336,
+        "changed": false,
+        "first_token": 52
+      },
+      "norm_transport": {
+        "sse": 890.7174338664968,
+        "changed": false,
+        "first_token": 52
+      },
+      "broyden_identity": {
+        "sse": 1938.8618607610656,
+        "changed": false,
+        "first_token": 52
+      },
+      "secant_unit_gain": {
+        "sse": 2823.5135071291866,
+        "changed": false,
+        "first_token": 52
+      },
+      "prefix_ridge": {
+        "sse": 4236.152971999938,
+        "changed": false,
+        "first_token": 52
+      },
+      "prefix_secants": {
+        "sse": 1912.7563261342732,
+        "changed": false,
+        "first_token": 52
+      },
+      "projection_only": {
+        "sse": 1946.4824020302149,
+        "changed": false,
+        "first_token": 52
+      },
+      "secant_transport": {
+        "sse": 1970.0492924564123,
+        "changed": false,
+        "first_token": 52
+      }
+    }
+  },
+  {
+    "qid": "56e14623cd28a01900c67717",
+    "article": "Universal_Studios",
+    "actual_changed": false,
+    "first_token": 33262,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 2594.525082737292,
+    "clean_first": 33262,
+    "source_position": 159,
+    "prompt_length": 243,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 2594.525082737292,
+        "changed": false,
+        "first_token": 33262
+      },
+      "clean_donor": {
+        "sse": 110.14034038458023,
+        "changed": true,
+        "first_token": 34098
+      },
+      "fit_donor": {
+        "sse": 108.81691861193568,
+        "changed": false,
+        "first_token": 33262
+      },
+      "local_derivative": {
+        "sse": 5519.143521743201,
+        "changed": false,
+        "first_token": 33262
+      },
+      "midpoint_derivative": {
+        "sse": 7362.982268376121,
+        "changed": true,
+        "first_token": 34098
+      },
+      "fit_local_derivative": {
+        "sse": 3265.7606396107376,
+        "changed": false,
+        "first_token": 33262
+      },
+      "partial": {
+        "sse": 2543.1955852203414,
+        "changed": false,
+        "first_token": 33262
+      },
+      "partial_donor_mix": {
+        "sse": 112.0448172098031,
+        "changed": false,
+        "first_token": 33262
+      },
+      "norm_transport": {
+        "sse": 470.38257034987623,
+        "changed": false,
+        "first_token": 33262
+      },
+      "broyden_identity": {
+        "sse": 828.2458188665869,
+        "changed": false,
+        "first_token": 33262
+      },
+      "secant_unit_gain": {
+        "sse": 914.9322113193559,
+        "changed": false,
+        "first_token": 33262
+      },
+      "prefix_ridge": {
+        "sse": 1558.680777736818,
+        "changed": false,
+        "first_token": 33262
+      },
+      "prefix_secants": {
+        "sse": 801.2252923456324,
+        "changed": false,
+        "first_token": 33262
+      },
+      "projection_only": {
+        "sse": 837.1143265457014,
+        "changed": false,
+        "first_token": 33262
+      },
+      "secant_transport": {
+        "sse": 817.4639650466569,
+        "changed": false,
+        "first_token": 33262
+      }
+    }
+  },
+  {
+    "qid": "56e197a3cd28a01900c67a02",
+    "article": "Hydrogen",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 8008.163494484864,
+    "clean_first": 504,
+    "source_position": 65,
+    "prompt_length": 187,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 8008.163494484864,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 1437.2675243194783,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 1423.137458676607,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 6910.9468330676755,
+        "changed": true,
+        "first_token": 3473
+      },
+      "midpoint_derivative": {
+        "sse": 1305.8164784628293,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 4918.891577242708,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 7897.230801841856,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 1416.3790429918472,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 1409.9153083706788,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 2716.7266709431924,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 5098.743752941757,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 4946.2400227584985,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 2698.7319475006766,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 2784.6277094330762,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 2742.659251167678,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "571a7b2b10f8ca1400305097",
+    "article": "Ashkenazi_Jews",
+    "actual_changed": false,
+    "first_token": 6101,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 5653.687943157298,
+    "clean_first": 6101,
+    "source_position": 54,
+    "prompt_length": 219,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 5653.687943157298,
+        "changed": false,
+        "first_token": 6101
+      },
+      "clean_donor": {
+        "sse": 222.01384546787096,
+        "changed": false,
+        "first_token": 6101
+      },
+      "fit_donor": {
+        "sse": 198.40433202977675,
+        "changed": false,
+        "first_token": 6101
+      },
+      "local_derivative": {
+        "sse": 3297.013339142092,
+        "changed": false,
+        "first_token": 6101
+      },
+      "midpoint_derivative": {
+        "sse": 2017.865463870354,
+        "changed": false,
+        "first_token": 6101
+      },
+      "fit_local_derivative": {
+        "sse": 3778.579392353682,
+        "changed": false,
+        "first_token": 6101
+      },
+      "partial": {
+        "sse": 5638.005391267243,
+        "changed": false,
+        "first_token": 6101
+      },
+      "partial_donor_mix": {
+        "sse": 201.80012872215121,
+        "changed": false,
+        "first_token": 6101
+      },
+      "norm_transport": {
+        "sse": 247.7657723913042,
+        "changed": false,
+        "first_token": 6101
+      },
+      "broyden_identity": {
+        "sse": 376.735135671531,
+        "changed": false,
+        "first_token": 6101
+      },
+      "secant_unit_gain": {
+        "sse": 1760.1466891872558,
+        "changed": false,
+        "first_token": 6101
+      },
+      "prefix_ridge": {
+        "sse": 2145.1837938417134,
+        "changed": false,
+        "first_token": 6101
+      },
+      "prefix_secants": {
+        "sse": 453.8424679744825,
+        "changed": false,
+        "first_token": 6101
+      },
+      "projection_only": {
+        "sse": 378.59588371109373,
+        "changed": false,
+        "first_token": 6101
+      },
+      "secant_transport": {
+        "sse": 446.3625528508135,
+        "changed": false,
+        "first_token": 6101
+      }
+    }
+  },
+  {
+    "qid": "56de0eadcffd8e1900b4b5a2",
+    "article": "Symbiosis",
+    "actual_changed": true,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 4598.3720320523125,
+    "clean_first": 34082,
+    "source_position": 114,
+    "prompt_length": 165,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 4598.3720320523125,
+        "changed": false,
+        "first_token": 34082
+      },
+      "clean_donor": {
+        "sse": 1754.7619073295373,
+        "changed": false,
+        "first_token": 34082
+      },
+      "fit_donor": {
+        "sse": 1580.709970977532,
+        "changed": false,
+        "first_token": 34082
+      },
+      "local_derivative": {
+        "sse": 2647.8838220686107,
+        "changed": true,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 756.7771777673322,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 3190.8592666370214,
+        "changed": false,
+        "first_token": 34082
+      },
+      "partial": {
+        "sse": 4477.5755471336515,
+        "changed": false,
+        "first_token": 34082
+      },
+      "partial_donor_mix": {
+        "sse": 1567.4996969324188,
+        "changed": false,
+        "first_token": 34082
+      },
+      "norm_transport": {
+        "sse": 1570.9437007307786,
+        "changed": false,
+        "first_token": 34082
+      },
+      "broyden_identity": {
+        "sse": 2727.265269735298,
+        "changed": false,
+        "first_token": 34082
+      },
+      "secant_unit_gain": {
+        "sse": 3611.435027650509,
+        "changed": false,
+        "first_token": 34082
+      },
+      "prefix_ridge": {
+        "sse": 3347.1517340499627,
+        "changed": false,
+        "first_token": 34082
+      },
+      "prefix_secants": {
+        "sse": 2527.985959848364,
+        "changed": false,
+        "first_token": 34082
+      },
+      "projection_only": {
+        "sse": 2774.5037004758437,
+        "changed": false,
+        "first_token": 34082
+      },
+      "secant_transport": {
+        "sse": 2719.0873156201196,
+        "changed": false,
+        "first_token": 34082
+      }
+    }
+  },
+  {
+    "qid": "5729604faf94a219006aa343",
+    "article": "Green",
+    "actual_changed": true,
+    "first_token": 2083,
+    "response_tokens": 4,
+    "ended": true,
+    "energy": 20573.447089228925,
+    "clean_first": 2083,
+    "source_position": 158,
+    "prompt_length": 180,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 20573.447089228925,
+        "changed": false,
+        "first_token": 2083
+      },
+      "clean_donor": {
+        "sse": 352.2928575498505,
+        "changed": true,
+        "first_token": 2083
+      },
+      "fit_donor": {
+        "sse": 464.41569877803136,
+        "changed": true,
+        "first_token": 2083
+      },
+      "local_derivative": {
+        "sse": 29402.61818519456,
+        "changed": true,
+        "first_token": 2083
+      },
+      "midpoint_derivative": {
+        "sse": 14483.874460266845,
+        "changed": true,
+        "first_token": 2083
+      },
+      "fit_local_derivative": {
+        "sse": 11712.712304536944,
+        "changed": true,
+        "first_token": 2083
+      },
+      "partial": {
+        "sse": 20385.281511905283,
+        "changed": false,
+        "first_token": 2083
+      },
+      "partial_donor_mix": {
+        "sse": 492.95010492099425,
+        "changed": true,
+        "first_token": 2083
+      },
+      "norm_transport": {
+        "sse": 336.10566689542645,
+        "changed": true,
+        "first_token": 2083
+      },
+      "broyden_identity": {
+        "sse": 1429.9973135900602,
+        "changed": true,
+        "first_token": 2083
+      },
+      "secant_unit_gain": {
+        "sse": 4912.414771679645,
+        "changed": true,
+        "first_token": 2083
+      },
+      "prefix_ridge": {
+        "sse": 8362.335258297206,
+        "changed": true,
+        "first_token": 2083
+      },
+      "prefix_secants": {
+        "sse": 1410.933006093266,
+        "changed": true,
+        "first_token": 2083
+      },
+      "projection_only": {
+        "sse": 1464.7009329313064,
+        "changed": true,
+        "first_token": 2083
+      },
+      "secant_transport": {
+        "sse": 1546.7327042465174,
+        "changed": true,
+        "first_token": 2083
+      }
+    }
+  },
+  {
+    "qid": "57301a30b2c2fd140056886d",
+    "article": "Tucson,_Arizona",
+    "actual_changed": true,
+    "first_token": 33,
+    "response_tokens": 5,
+    "ended": true,
+    "energy": 75648.52399092684,
+    "clean_first": 36,
+    "source_position": 136,
+    "prompt_length": 161,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 75648.52399092684,
+        "changed": false,
+        "first_token": 36
+      },
+      "clean_donor": {
+        "sse": 807.9072728161711,
+        "changed": true,
+        "first_token": 33
+      },
+      "fit_donor": {
+        "sse": 1275.499860420842,
+        "changed": true,
+        "first_token": 33
+      },
+      "local_derivative": {
+        "sse": 126753.02785374623,
+        "changed": false,
+        "first_token": 36
+      },
+      "midpoint_derivative": {
+        "sse": 169151.8443987883,
+        "changed": true,
+        "first_token": 33552
+      },
+      "fit_local_derivative": {
+        "sse": 78152.00776001718,
+        "changed": false,
+        "first_token": 36
+      },
+      "partial": {
+        "sse": 75734.2789406793,
+        "changed": true,
+        "first_token": 12186
+      },
+      "partial_donor_mix": {
+        "sse": 1399.3031875121942,
+        "changed": true,
+        "first_token": 33
+      },
+      "norm_transport": {
+        "sse": 12226.379169570093,
+        "changed": false,
+        "first_token": 36
+      },
+      "broyden_identity": {
+        "sse": 28557.608090890753,
+        "changed": false,
+        "first_token": 36
+      },
+      "secant_unit_gain": {
+        "sse": 38951.38504329631,
+        "changed": false,
+        "first_token": 36
+      },
+      "prefix_ridge": {
+        "sse": 50102.607884620156,
+        "changed": false,
+        "first_token": 36
+      },
+      "prefix_secants": {
+        "sse": 27800.54283322871,
+        "changed": false,
+        "first_token": 36
+      },
+      "projection_only": {
+        "sse": 28526.949845037252,
+        "changed": false,
+        "first_token": 36
+      },
+      "secant_transport": {
+        "sse": 29309.658884639553,
+        "changed": false,
+        "first_token": 36
+      }
+    }
+  },
+  {
+    "qid": "56e17b08cd28a01900c679ab",
+    "article": "Catalan_language",
+    "actual_changed": true,
+    "first_token": 2122,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 12131.522399904297,
+    "clean_first": 2122,
+    "source_position": 46,
+    "prompt_length": 119,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 12131.522399904297,
+        "changed": false,
+        "first_token": 2122
+      },
+      "clean_donor": {
+        "sse": 1826.9574275897803,
+        "changed": true,
+        "first_token": 2122
+      },
+      "fit_donor": {
+        "sse": 1440.6582268337136,
+        "changed": true,
+        "first_token": 2122
+      },
+      "local_derivative": {
+        "sse": 11986.409260809045,
+        "changed": false,
+        "first_token": 2122
+      },
+      "midpoint_derivative": {
+        "sse": 6228.289821467213,
+        "changed": true,
+        "first_token": 2122
+      },
+      "fit_local_derivative": {
+        "sse": 5894.670235500473,
+        "changed": false,
+        "first_token": 2122
+      },
+      "partial": {
+        "sse": 11970.558859891848,
+        "changed": false,
+        "first_token": 2122
+      },
+      "partial_donor_mix": {
+        "sse": 1446.4809893654592,
+        "changed": true,
+        "first_token": 2122
+      },
+      "norm_transport": {
+        "sse": 2126.696029597372,
+        "changed": true,
+        "first_token": 2122
+      },
+      "broyden_identity": {
+        "sse": 3504.9324741235896,
+        "changed": true,
+        "first_token": 2122
+      },
+      "secant_unit_gain": {
+        "sse": 4322.000988472239,
+        "changed": true,
+        "first_token": 2122
+      },
+      "prefix_ridge": {
+        "sse": 7403.206463524165,
+        "changed": false,
+        "first_token": 2122
+      },
+      "prefix_secants": {
+        "sse": 3445.412789557586,
+        "changed": true,
+        "first_token": 2122
+      },
+      "projection_only": {
+        "sse": 3547.046130933596,
+        "changed": true,
+        "first_token": 2122
+      },
+      "secant_transport": {
+        "sse": 3510.3242953713943,
+        "changed": true,
+        "first_token": 2122
+      }
+    }
+  },
+  {
+    "qid": "572f2049a23a5019007fc4a1",
+    "article": "Santa_Monica,_California",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 12848.411248921142,
+    "clean_first": 504,
+    "source_position": 51,
+    "prompt_length": 154,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 12848.411248921142,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 5527.6050607077395,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 4067.416426871187,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 8190.321778600627,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 956.3040751701856,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 6875.133431071552,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 12725.944642944227,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 3984.557302638652,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 3773.159823840358,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 9080.894726386809,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 11553.684885207074,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 10104.468498712446,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 8344.237926120686,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 9127.06267585259,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 9134.491941034381,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "56d39a7759d6e414001467fb",
+    "article": "To_Kill_a_Mockingbird",
+    "actual_changed": false,
+    "first_token": 10595,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 27137.339156548085,
+    "clean_first": 10595,
+    "source_position": 58,
+    "prompt_length": 248,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 27137.339156548085,
+        "changed": false,
+        "first_token": 10595
+      },
+      "clean_donor": {
+        "sse": 943.6035267134553,
+        "changed": false,
+        "first_token": 10595
+      },
+      "fit_donor": {
+        "sse": 848.8770426270916,
+        "changed": false,
+        "first_token": 10595
+      },
+      "local_derivative": {
+        "sse": 42853.83287023395,
+        "changed": false,
+        "first_token": 10595
+      },
+      "midpoint_derivative": {
+        "sse": 19220.626823756153,
+        "changed": false,
+        "first_token": 10595
+      },
+      "fit_local_derivative": {
+        "sse": 23954.65002544676,
+        "changed": false,
+        "first_token": 10595
+      },
+      "partial": {
+        "sse": 26295.105916586253,
+        "changed": false,
+        "first_token": 10595
+      },
+      "partial_donor_mix": {
+        "sse": 878.6005848737509,
+        "changed": false,
+        "first_token": 10595
+      },
+      "norm_transport": {
+        "sse": 889.561802106036,
+        "changed": false,
+        "first_token": 10595
+      },
+      "broyden_identity": {
+        "sse": 1085.7419201101604,
+        "changed": false,
+        "first_token": 10595
+      },
+      "secant_unit_gain": {
+        "sse": 2461.308423837207,
+        "changed": false,
+        "first_token": 10595
+      },
+      "prefix_ridge": {
+        "sse": 7161.057668812459,
+        "changed": false,
+        "first_token": 10595
+      },
+      "prefix_secants": {
+        "sse": 1490.6790729705358,
+        "changed": false,
+        "first_token": 10595
+      },
+      "projection_only": {
+        "sse": 1116.6853857974895,
+        "changed": false,
+        "first_token": 10595
+      },
+      "secant_transport": {
+        "sse": 1109.0343282206845,
+        "changed": false,
+        "first_token": 10595
+      }
+    }
+  },
+  {
+    "qid": "572e8567cb0c0d14000f1236",
+    "article": "Canadian_football",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 3648.7897087810134,
+    "clean_first": 504,
+    "source_position": 55,
+    "prompt_length": 222,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 3648.7897087810134,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 950.6372885407696,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 809.9694685287498,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 3234.21839951506,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 4232.2316309589205,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 2446.7606067835914,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 3658.7454239306617,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 802.0224905694115,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 829.1581774754561,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 2457.2059178820173,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 4765.722135417668,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 2638.315513491283,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 2416.1109716277433,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 2473.67881502459,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 2542.389000163591,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "57342084d058e614000b6990",
+    "article": "Portugal",
+    "actual_changed": true,
+    "first_token": 16870,
+    "response_tokens": 2,
+    "ended": true,
+    "energy": 139467.12074732114,
+    "clean_first": 38963,
+    "source_position": 133,
+    "prompt_length": 179,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 139467.12074732114,
+        "changed": false,
+        "first_token": 38963
+      },
+      "clean_donor": {
+        "sse": 21897.667448744953,
+        "changed": true,
+        "first_token": 16870
+      },
+      "fit_donor": {
+        "sse": 24535.74387977607,
+        "changed": true,
+        "first_token": 16870
+      },
+      "local_derivative": {
+        "sse": 195627.78795438303,
+        "changed": false,
+        "first_token": 38963
+      },
+      "midpoint_derivative": {
+        "sse": 148141.13557319745,
+        "changed": true,
+        "first_token": 16870
+      },
+      "fit_local_derivative": {
+        "sse": 136621.10829725344,
+        "changed": false,
+        "first_token": 38963
+      },
+      "partial": {
+        "sse": 145471.25960063544,
+        "changed": false,
+        "first_token": 38963
+      },
+      "partial_donor_mix": {
+        "sse": 24987.82859580122,
+        "changed": true,
+        "first_token": 16870
+      },
+      "norm_transport": {
+        "sse": 21523.249106651027,
+        "changed": true,
+        "first_token": 16870
+      },
+      "broyden_identity": {
+        "sse": 36932.52385478794,
+        "changed": true,
+        "first_token": 16870
+      },
+      "secant_unit_gain": {
+        "sse": 81260.54310309418,
+        "changed": true,
+        "first_token": 16870
+      },
+      "prefix_ridge": {
+        "sse": 59163.057729415734,
+        "changed": false,
+        "first_token": 38963
+      },
+      "prefix_secants": {
+        "sse": 31380.441946611805,
+        "changed": true,
+        "first_token": 16870
+      },
+      "projection_only": {
+        "sse": 36089.10440075734,
+        "changed": true,
+        "first_token": 16870
+      },
+      "secant_transport": {
+        "sse": 39231.826777693306,
+        "changed": true,
+        "first_token": 16870
+      }
+    }
+  },
+  {
+    "qid": "57318f33a5e9cc1400cdc081",
+    "article": "Mosaic",
+    "actual_changed": false,
+    "first_token": 504,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 56939.973665612415,
+    "clean_first": 504,
+    "source_position": 78,
+    "prompt_length": 170,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 56939.973665612415,
+        "changed": false,
+        "first_token": 504
+      },
+      "clean_donor": {
+        "sse": 2762.56397197847,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_donor": {
+        "sse": 2091.604527291888,
+        "changed": false,
+        "first_token": 504
+      },
+      "local_derivative": {
+        "sse": 32196.08562090589,
+        "changed": false,
+        "first_token": 504
+      },
+      "midpoint_derivative": {
+        "sse": 30745.7928291799,
+        "changed": false,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 30769.82366096359,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial": {
+        "sse": 56953.62838042699,
+        "changed": false,
+        "first_token": 504
+      },
+      "partial_donor_mix": {
+        "sse": 2125.737490543566,
+        "changed": false,
+        "first_token": 504
+      },
+      "norm_transport": {
+        "sse": 10608.815844731162,
+        "changed": false,
+        "first_token": 504
+      },
+      "broyden_identity": {
+        "sse": 18833.321206110722,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_unit_gain": {
+        "sse": 22841.530165760538,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_ridge": {
+        "sse": 35027.4345556372,
+        "changed": false,
+        "first_token": 504
+      },
+      "prefix_secants": {
+        "sse": 19697.648033913287,
+        "changed": false,
+        "first_token": 504
+      },
+      "projection_only": {
+        "sse": 18848.459559186515,
+        "changed": false,
+        "first_token": 504
+      },
+      "secant_transport": {
+        "sse": 19005.360456556053,
+        "changed": false,
+        "first_token": 504
+      }
+    }
+  },
+  {
+    "qid": "56eaa6a30030b61400a35009",
+    "article": "Political_corruption",
+    "actual_changed": false,
+    "first_token": 2705,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 5710.4463463568845,
+    "clean_first": 2705,
+    "source_position": 81,
+    "prompt_length": 132,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 5710.4463463568845,
+        "changed": false,
+        "first_token": 2705
+      },
+      "clean_donor": {
+        "sse": 396.30945621097794,
+        "changed": false,
+        "first_token": 2705
+      },
+      "fit_donor": {
+        "sse": 379.16238748470187,
+        "changed": false,
+        "first_token": 2705
+      },
+      "local_derivative": {
+        "sse": 4802.252529590022,
+        "changed": false,
+        "first_token": 2705
+      },
+      "midpoint_derivative": {
+        "sse": 2006.7282177447178,
+        "changed": false,
+        "first_token": 2705
+      },
+      "fit_local_derivative": {
+        "sse": 2731.5257137870244,
+        "changed": false,
+        "first_token": 2705
+      },
+      "partial": {
+        "sse": 5652.049132132983,
+        "changed": false,
+        "first_token": 2705
+      },
+      "partial_donor_mix": {
+        "sse": 383.7171369812771,
+        "changed": false,
+        "first_token": 2705
+      },
+      "norm_transport": {
+        "sse": 994.3491882366645,
+        "changed": false,
+        "first_token": 2705
+      },
+      "broyden_identity": {
+        "sse": 2404.036427729419,
+        "changed": false,
+        "first_token": 2705
+      },
+      "secant_unit_gain": {
+        "sse": 3067.520565540085,
+        "changed": false,
+        "first_token": 2705
+      },
+      "prefix_ridge": {
+        "sse": 3859.842118118326,
+        "changed": false,
+        "first_token": 2705
+      },
+      "prefix_secants": {
+        "sse": 2485.66869199287,
+        "changed": false,
+        "first_token": 2705
+      },
+      "projection_only": {
+        "sse": 2426.580430320655,
+        "changed": false,
+        "first_token": 2705
+      },
+      "secant_transport": {
+        "sse": 2397.79211978027,
+        "changed": false,
+        "first_token": 2705
+      }
+    }
+  },
+  {
+    "qid": "570cf2c1fed7b91900d45b41",
+    "article": "Macintosh",
+    "actual_changed": false,
+    "first_token": 39080,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 5471.262687529335,
+    "clean_first": 39080,
+    "source_position": 112,
+    "prompt_length": 196,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 5471.262687529335,
+        "changed": false,
+        "first_token": 39080
+      },
+      "clean_donor": {
+        "sse": 1343.258905415838,
+        "changed": false,
+        "first_token": 39080
+      },
+      "fit_donor": {
+        "sse": 1030.3251193880178,
+        "changed": false,
+        "first_token": 39080
+      },
+      "local_derivative": {
+        "sse": 6872.244181721619,
+        "changed": true,
+        "first_token": 39080
+      },
+      "midpoint_derivative": {
+        "sse": 15943.591614726176,
+        "changed": false,
+        "first_token": 39080
+      },
+      "fit_local_derivative": {
+        "sse": 5489.905822594303,
+        "changed": true,
+        "first_token": 39080
+      },
+      "partial": {
+        "sse": 5090.953341855899,
+        "changed": false,
+        "first_token": 39080
+      },
+      "partial_donor_mix": {
+        "sse": 1054.026673916548,
+        "changed": false,
+        "first_token": 39080
+      },
+      "norm_transport": {
+        "sse": 917.5497331243989,
+        "changed": false,
+        "first_token": 39080
+      },
+      "broyden_identity": {
+        "sse": 962.8411022052347,
+        "changed": false,
+        "first_token": 39080
+      },
+      "secant_unit_gain": {
+        "sse": 1327.2303250318523,
+        "changed": false,
+        "first_token": 39080
+      },
+      "prefix_ridge": {
+        "sse": 2182.2498242851534,
+        "changed": false,
+        "first_token": 39080
+      },
+      "prefix_secants": {
+        "sse": 977.8890367883901,
+        "changed": false,
+        "first_token": 39080
+      },
+      "projection_only": {
+        "sse": 977.0164067822207,
+        "changed": false,
+        "first_token": 39080
+      },
+      "secant_transport": {
+        "sse": 963.9537442157839,
+        "changed": false,
+        "first_token": 39080
+      }
+    }
+  },
+  {
+    "qid": "573367eed058e614000b5a5e",
+    "article": "Saint_Barth%C3%A9lemy",
+    "actual_changed": true,
+    "first_token": 3733,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 682.5970945556307,
+    "clean_first": 3733,
+    "source_position": 119,
+    "prompt_length": 170,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 682.5970945556307,
+        "changed": false,
+        "first_token": 3733
+      },
+      "clean_donor": {
+        "sse": 360.25636827158144,
+        "changed": true,
+        "first_token": 3733
+      },
+      "fit_donor": {
+        "sse": 289.6208368110433,
+        "changed": true,
+        "first_token": 3733
+      },
+      "local_derivative": {
+        "sse": 1272.7568567538472,
+        "changed": false,
+        "first_token": 3733
+      },
+      "midpoint_derivative": {
+        "sse": 119.79555178092404,
+        "changed": true,
+        "first_token": 3733
+      },
+      "fit_local_derivative": {
+        "sse": 337.0320867628405,
+        "changed": false,
+        "first_token": 3733
+      },
+      "partial": {
+        "sse": 716.8893848092267,
+        "changed": false,
+        "first_token": 3733
+      },
+      "partial_donor_mix": {
+        "sse": 286.34959183211373,
+        "changed": true,
+        "first_token": 3733
+      },
+      "norm_transport": {
+        "sse": 227.07542957730925,
+        "changed": true,
+        "first_token": 3733
+      },
+      "broyden_identity": {
+        "sse": 281.87678883487985,
+        "changed": true,
+        "first_token": 3733
+      },
+      "secant_unit_gain": {
+        "sse": 434.51795219776074,
+        "changed": true,
+        "first_token": 3733
+      },
+      "prefix_ridge": {
+        "sse": 430.3286517756714,
+        "changed": false,
+        "first_token": 3733
+      },
+      "prefix_secants": {
+        "sse": 274.3466966537743,
+        "changed": true,
+        "first_token": 3733
+      },
+      "projection_only": {
+        "sse": 287.52226311715003,
+        "changed": true,
+        "first_token": 3733
+      },
+      "secant_transport": {
+        "sse": 281.95268990608236,
+        "changed": true,
+        "first_token": 3733
+      }
+    }
+  },
+  {
+    "qid": "5728f5716aef0514001548cd",
+    "article": "Samurai",
+    "actual_changed": false,
+    "first_token": 2089,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 15918.119091086768,
+    "clean_first": 2089,
+    "source_position": 130,
+    "prompt_length": 204,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 15918.119091086768,
+        "changed": false,
+        "first_token": 2089
+      },
+      "clean_donor": {
+        "sse": 35.62705098719003,
+        "changed": false,
+        "first_token": 2089
+      },
+      "fit_donor": {
+        "sse": 217.62726423592318,
+        "changed": false,
+        "first_token": 2089
+      },
+      "local_derivative": {
+        "sse": 14145.745296969759,
+        "changed": false,
+        "first_token": 2089
+      },
+      "midpoint_derivative": {
+        "sse": 2625.117700317909,
+        "changed": false,
+        "first_token": 2089
+      },
+      "fit_local_derivative": {
+        "sse": 6950.33125253012,
+        "changed": false,
+        "first_token": 2089
+      },
+      "partial": {
+        "sse": 15904.20162770052,
+        "changed": false,
+        "first_token": 2089
+      },
+      "partial_donor_mix": {
+        "sse": 248.51258609717868,
+        "changed": false,
+        "first_token": 2089
+      },
+      "norm_transport": {
+        "sse": 36.28580304175273,
+        "changed": false,
+        "first_token": 2089
+      },
+      "broyden_identity": {
+        "sse": 1045.4698485598392,
+        "changed": false,
+        "first_token": 2089
+      },
+      "secant_unit_gain": {
+        "sse": 4346.59823421597,
+        "changed": false,
+        "first_token": 2089
+      },
+      "prefix_ridge": {
+        "sse": 6166.6528960494325,
+        "changed": false,
+        "first_token": 2089
+      },
+      "prefix_secants": {
+        "sse": 1204.3709188571374,
+        "changed": false,
+        "first_token": 2089
+      },
+      "projection_only": {
+        "sse": 1049.333103234778,
+        "changed": false,
+        "first_token": 2089
+      },
+      "secant_transport": {
+        "sse": 1221.435798008973,
+        "changed": false,
+        "first_token": 2089
+      }
+    }
+  },
+  {
+    "qid": "570f945f5ab6b81900390f24",
+    "article": "Elizabeth_II",
+    "actual_changed": true,
+    "first_token": 33,
+    "response_tokens": 3,
+    "ended": true,
+    "energy": 88040.20118078555,
+    "clean_first": 33,
+    "source_position": 153,
+    "prompt_length": 213,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 88040.20118078555,
+        "changed": false,
+        "first_token": 33
+      },
+      "clean_donor": {
+        "sse": 12626.043007777193,
+        "changed": true,
+        "first_token": 2122
+      },
+      "fit_donor": {
+        "sse": 9466.687165928171,
+        "changed": true,
+        "first_token": 2122
+      },
+      "local_derivative": {
+        "sse": 74414.59036203269,
+        "changed": true,
+        "first_token": 33
+      },
+      "midpoint_derivative": {
+        "sse": 47394.125057469806,
+        "changed": true,
+        "first_token": 504
+      },
+      "fit_local_derivative": {
+        "sse": 64848.79457363108,
+        "changed": true,
+        "first_token": 33
+      },
+      "partial": {
+        "sse": 87623.09166933622,
+        "changed": true,
+        "first_token": 33
+      },
+      "partial_donor_mix": {
+        "sse": 9311.169224313639,
+        "changed": true,
+        "first_token": 2122
+      },
+      "norm_transport": {
+        "sse": 8917.051968102296,
+        "changed": true,
+        "first_token": 2122
+      },
+      "broyden_identity": {
+        "sse": 15071.576233771228,
+        "changed": true,
+        "first_token": 33
+      },
+      "secant_unit_gain": {
+        "sse": 28430.13111601108,
+        "changed": true,
+        "first_token": 35
+      },
+      "prefix_ridge": {
+        "sse": 41813.84642049307,
+        "changed": true,
+        "first_token": 33
+      },
+      "prefix_secants": {
+        "sse": 13533.359920502015,
+        "changed": true,
+        "first_token": 33
+      },
+      "projection_only": {
+        "sse": 15537.039992359492,
+        "changed": true,
+        "first_token": 33
+      },
+      "secant_transport": {
+        "sse": 15249.156274506737,
+        "changed": true,
+        "first_token": 33
+      }
+    }
+  },
+  {
+    "qid": "570b1f6b6b8089140040f747",
+    "article": "Videoconferencing",
+    "actual_changed": true,
+    "first_token": 70,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 81818.01397362055,
+    "clean_first": 70,
+    "source_position": 103,
+    "prompt_length": 204,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 81818.01397362055,
+        "changed": false,
+        "first_token": 70
+      },
+      "clean_donor": {
+        "sse": 6444.530446997175,
+        "changed": true,
+        "first_token": 70
+      },
+      "fit_donor": {
+        "sse": 5460.06227665026,
+        "changed": true,
+        "first_token": 70
+      },
+      "local_derivative": {
+        "sse": 61945.81888060751,
+        "changed": true,
+        "first_token": 70
+      },
+      "midpoint_derivative": {
+        "sse": 57914.879144090686,
+        "changed": true,
+        "first_token": 63
+      },
+      "fit_local_derivative": {
+        "sse": 70470.77459594009,
+        "changed": false,
+        "first_token": 70
+      },
+      "partial": {
+        "sse": 81583.56711761813,
+        "changed": false,
+        "first_token": 70
+      },
+      "partial_donor_mix": {
+        "sse": 5487.8137379373575,
+        "changed": true,
+        "first_token": 70
+      },
+      "norm_transport": {
+        "sse": 32112.915924065543,
+        "changed": false,
+        "first_token": 70
+      },
+      "broyden_identity": {
+        "sse": 50784.20959834462,
+        "changed": false,
+        "first_token": 70
+      },
+      "secant_unit_gain": {
+        "sse": 54692.9428882659,
+        "changed": false,
+        "first_token": 70
+      },
+      "prefix_ridge": {
+        "sse": 63319.258575990534,
+        "changed": true,
+        "first_token": 70
+      },
+      "prefix_secants": {
+        "sse": 50649.17617843537,
+        "changed": true,
+        "first_token": 70
+      },
+      "projection_only": {
+        "sse": 50907.28603688067,
+        "changed": false,
+        "first_token": 70
+      },
+      "secant_transport": {
+        "sse": 50759.32387701818,
+        "changed": false,
+        "first_token": 70
+      }
+    }
+  },
+  {
+    "qid": "572aba19f75d5e190021fc78",
+    "article": "Philadelphia",
+    "actual_changed": true,
+    "first_token": 2122,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 16796.86333234953,
+    "clean_first": 2122,
+    "source_position": 60,
+    "prompt_length": 214,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 16796.86333234953,
+        "changed": false,
+        "first_token": 2122
+      },
+      "clean_donor": {
+        "sse": 130.8010196652732,
+        "changed": true,
+        "first_token": 2122
+      },
+      "fit_donor": {
+        "sse": 265.37364251680594,
+        "changed": true,
+        "first_token": 2122
+      },
+      "local_derivative": {
+        "sse": 8639.375775699726,
+        "changed": true,
+        "first_token": 2122
+      },
+      "midpoint_derivative": {
+        "sse": 2805.0518153376697,
+        "changed": true,
+        "first_token": 2122
+      },
+      "fit_local_derivative": {
+        "sse": 11459.894218058194,
+        "changed": true,
+        "first_token": 2122
+      },
+      "partial": {
+        "sse": 16963.012855404893,
+        "changed": true,
+        "first_token": 2122
+      },
+      "partial_donor_mix": {
+        "sse": 297.5087111010024,
+        "changed": true,
+        "first_token": 2122
+      },
+      "norm_transport": {
+        "sse": 144.2331093602415,
+        "changed": true,
+        "first_token": 2122
+      },
+      "broyden_identity": {
+        "sse": 801.5496906371252,
+        "changed": true,
+        "first_token": 2122
+      },
+      "secant_unit_gain": {
+        "sse": 2048.734926956191,
+        "changed": true,
+        "first_token": 2122
+      },
+      "prefix_ridge": {
+        "sse": 7240.674339392839,
+        "changed": true,
+        "first_token": 2122
+      },
+      "prefix_secants": {
+        "sse": 895.7153376320324,
+        "changed": true,
+        "first_token": 2122
+      },
+      "projection_only": {
+        "sse": 803.4340163056049,
+        "changed": true,
+        "first_token": 2122
+      },
+      "secant_transport": {
+        "sse": 861.2387414664179,
+        "changed": true,
+        "first_token": 2122
+      }
+    }
+  },
+  {
+    "qid": "572fc827b2c2fd1400568463",
+    "article": "Armenia",
+    "actual_changed": true,
+    "first_token": 73,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 14922.465509790869,
+    "clean_first": 73,
+    "source_position": 170,
+    "prompt_length": 196,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 14922.465509790869,
+        "changed": false,
+        "first_token": 73
+      },
+      "clean_donor": {
+        "sse": 494.58842538513784,
+        "changed": true,
+        "first_token": 73
+      },
+      "fit_donor": {
+        "sse": 432.51801189095136,
+        "changed": true,
+        "first_token": 73
+      },
+      "local_derivative": {
+        "sse": 11049.13159974451,
+        "changed": false,
+        "first_token": 73
+      },
+      "midpoint_derivative": {
+        "sse": 10451.007721450824,
+        "changed": true,
+        "first_token": 73
+      },
+      "fit_local_derivative": {
+        "sse": 9517.281029704942,
+        "changed": false,
+        "first_token": 73
+      },
+      "partial": {
+        "sse": 14874.791768160381,
+        "changed": false,
+        "first_token": 73
+      },
+      "partial_donor_mix": {
+        "sse": 446.33079709256026,
+        "changed": true,
+        "first_token": 73
+      },
+      "norm_transport": {
+        "sse": 2181.9680556173475,
+        "changed": true,
+        "first_token": 73
+      },
+      "broyden_identity": {
+        "sse": 4421.985649203606,
+        "changed": true,
+        "first_token": 73
+      },
+      "secant_unit_gain": {
+        "sse": 5482.004383978219,
+        "changed": true,
+        "first_token": 73
+      },
+      "prefix_ridge": {
+        "sse": 9255.50152449534,
+        "changed": false,
+        "first_token": 73
+      },
+      "prefix_secants": {
+        "sse": 4530.793865666413,
+        "changed": true,
+        "first_token": 73
+      },
+      "projection_only": {
+        "sse": 4446.032955351015,
+        "changed": true,
+        "first_token": 73
+      },
+      "secant_transport": {
+        "sse": 4427.031308923505,
+        "changed": true,
+        "first_token": 73
+      }
+    }
+  },
+  {
+    "qid": "56cebae8aab44d1400b8893e",
+    "article": "2008_Sichuan_earthquake",
+    "actual_changed": true,
+    "first_token": 61,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 19057.350316114378,
+    "clean_first": 61,
+    "source_position": 60,
+    "prompt_length": 161,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 19057.350316114378,
+        "changed": false,
+        "first_token": 61
+      },
+      "clean_donor": {
+        "sse": 1058.8193873352889,
+        "changed": true,
+        "first_token": 61
+      },
+      "fit_donor": {
+        "sse": 978.3339067298937,
+        "changed": true,
+        "first_token": 61
+      },
+      "local_derivative": {
+        "sse": 16602.923849996514,
+        "changed": true,
+        "first_token": 61
+      },
+      "midpoint_derivative": {
+        "sse": 7362.503290667288,
+        "changed": true,
+        "first_token": 61
+      },
+      "fit_local_derivative": {
+        "sse": 13761.446486092578,
+        "changed": true,
+        "first_token": 61
+      },
+      "partial": {
+        "sse": 18851.404883564923,
+        "changed": false,
+        "first_token": 61
+      },
+      "partial_donor_mix": {
+        "sse": 1003.4729728520902,
+        "changed": true,
+        "first_token": 61
+      },
+      "norm_transport": {
+        "sse": 2131.5630846683744,
+        "changed": true,
+        "first_token": 61
+      },
+      "broyden_identity": {
+        "sse": 5236.415767309587,
+        "changed": true,
+        "first_token": 61
+      },
+      "secant_unit_gain": {
+        "sse": 7717.805049138979,
+        "changed": true,
+        "first_token": 61
+      },
+      "prefix_ridge": {
+        "sse": 10991.879307101157,
+        "changed": true,
+        "first_token": 61
+      },
+      "prefix_secants": {
+        "sse": 4771.549132406458,
+        "changed": true,
+        "first_token": 61
+      },
+      "projection_only": {
+        "sse": 5260.275154644081,
+        "changed": true,
+        "first_token": 61
+      },
+      "secant_transport": {
+        "sse": 5320.745430252364,
+        "changed": true,
+        "first_token": 61
+      }
+    }
+  },
+  {
+    "qid": "56f7c779aef2371900625c09",
+    "article": "Szlachta",
+    "actual_changed": false,
+    "first_token": 4449,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 1189.1219514362574,
+    "clean_first": 4449,
+    "source_position": 46,
+    "prompt_length": 113,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 1189.1219514362574,
+        "changed": false,
+        "first_token": 4449
+      },
+      "clean_donor": {
+        "sse": 960.2638187691014,
+        "changed": false,
+        "first_token": 4449
+      },
+      "fit_donor": {
+        "sse": 785.0905690603297,
+        "changed": false,
+        "first_token": 4449
+      },
+      "local_derivative": {
+        "sse": 2519.083955133785,
+        "changed": false,
+        "first_token": 4449
+      },
+      "midpoint_derivative": {
+        "sse": 579.090605277574,
+        "changed": false,
+        "first_token": 4449
+      },
+      "fit_local_derivative": {
+        "sse": 767.9837846163307,
+        "changed": false,
+        "first_token": 4449
+      },
+      "partial": {
+        "sse": 1226.2941998751517,
+        "changed": false,
+        "first_token": 4449
+      },
+      "partial_donor_mix": {
+        "sse": 776.1354707803048,
+        "changed": false,
+        "first_token": 4449
+      },
+      "norm_transport": {
+        "sse": 592.0031216134722,
+        "changed": false,
+        "first_token": 4449
+      },
+      "broyden_identity": {
+        "sse": 565.9151965749834,
+        "changed": false,
+        "first_token": 4449
+      },
+      "secant_unit_gain": {
+        "sse": 797.4046972278692,
+        "changed": false,
+        "first_token": 4449
+      },
+      "prefix_ridge": {
+        "sse": 646.9675660347234,
+        "changed": false,
+        "first_token": 4449
+      },
+      "prefix_secants": {
+        "sse": 503.9080154321099,
+        "changed": false,
+        "first_token": 4449
+      },
+      "projection_only": {
+        "sse": 594.5001340158176,
+        "changed": false,
+        "first_token": 4449
+      },
+      "secant_transport": {
+        "sse": 565.4014058450916,
+        "changed": false,
+        "first_token": 4449
+      }
+    }
+  },
+  {
+    "qid": "570db8dedf2f5219002ed118",
+    "article": "Eritrea",
+    "actual_changed": false,
+    "first_token": 64,
+    "response_tokens": 8,
+    "ended": false,
+    "energy": 640.9190239858249,
+    "clean_first": 64,
+    "source_position": 123,
+    "prompt_length": 191,
+    "checks": {},
+    "methods": {
+      "no_change": {
+        "sse": 640.9190239858249,
+        "changed": false,
+        "first_token": 64
+      },
+      "clean_donor": {
+        "sse": 113.56184934850478,
+        "changed": false,
+        "first_token": 64
+      },
+      "fit_donor": {
+        "sse": 94.71737456220801,
+        "changed": false,
+        "first_token": 64
+      },
+      "local_derivative": {
+        "sse": 472.61790433152356,
+        "changed": false,
+        "first_token": 64
+      },
+      "midpoint_derivative": {
+        "sse": 85.40792942345146,
+        "changed": false,
+        "first_token": 64
+      },
+      "fit_local_derivative": {
+        "sse": 297.07506010988857,
+        "changed": false,
+        "first_token": 64
+      },
+      "partial": {
+        "sse": 629.0993430902884,
+        "changed": false,
+        "first_token": 64
+      },
+      "partial_donor_mix": {
+        "sse": 94.05007496607243,
+        "changed": false,
+        "first_token": 64
+      },
+      "norm_transport": {
+        "sse": 100.54059500738376,
+        "changed": false,
+        "first_token": 64
+      },
+      "broyden_identity": {
+        "sse": 181.40518866749258,
+        "changed": false,
+        "first_token": 64
+      },
+      "secant_unit_gain": {
+        "sse": 262.7360430741261,
+        "changed": false,
+        "first_token": 64
+      },
+      "prefix_ridge": {
+        "sse": 317.6687388919731,
+        "changed": false,
+        "first_token": 64
+      },
+      "prefix_secants": {
+        "sse": 168.585829184916,
+        "changed": false,
+        "first_token": 64
+      },
+      "projection_only": {
+        "sse": 188.56287211841334,
+        "changed": false,
+        "first_token": 64
+      },
+      "secant_transport": {
+        "sse": 180.8732440161991,
+        "changed": false,
+        "first_token": 64
+      }
+    }
+  }
+]

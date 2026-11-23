@@ -1,0 +1,36 @@
+{
+  "fit_checkpoint": "qwen",
+  "manifest_sha256": "787ee22f95d0eb5f272ee80f4ec692c6e9850423b983f96b20faa72e4a843caf",
+  "weights": {
+    "no_change": [],
+    "clean_donor": [],
+    "fit_donor": [
+      0.8916515152581602
+    ],
+    "local_derivative": [],
+    "midpoint_derivative": [],
+    "fit_local_derivative": [
+      0.44455601454368965
+    ],
+    "partial": [
+      2.22690881124703
+    ],
+    "partial_donor_mix": [
+      0.19163376670894422,
+      0.8828627714996946
+    ],
+    "norm_transport": [
+      1.1387724036473768
+    ],
+    "broyden_identity": [],
+    "secant_unit_gain": [],
+    "prefix_ridge": [],
+    "prefix_secants": [
+      0.2554296791525739
+    ],
+    "projection_only": [],
+    "secant_transport": [
+      0.25725123637432284
+    ]
+  }
+}

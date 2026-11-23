@@ -1,0 +1,6311 @@
+[
+  {
+    "qid": "57097fd9ed30961900e84235",
+    "article": "Computer_security",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        30133,
+        264,
+        10924,
+        4711,
+        311,
+        3359,
+        2441,
+        2169
+      ],
+      "secant_transport": [
+        30133,
+        264,
+        10924,
+        4711,
+        311,
+        3359,
+        2441,
+        2169
+      ],
+      "prefix_secants": [
+        30133,
+        264,
+        10924,
+        4711,
+        311,
+        3359,
+        2441,
+        2169
+      ],
+      "partial_donor_mix": [
+        30133,
+        264,
+        10924,
+        4711,
+        311,
+        3359,
+        2441,
+        2169
+      ],
+      "midpoint_derivative": [
+        30133,
+        264,
+        10924,
+        4711,
+        311,
+        3359,
+        2441,
+        2169
+      ],
+      "no_change": [
+        30133,
+        264,
+        10924,
+        4711,
+        311,
+        3359,
+        2441,
+        2169
+      ]
+    }
+  },
+  {
+    "qid": "57269b01dd62a815002e8ae1",
+    "article": "Samoa",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        23950,
+        19533,
+        702,
+        3040,
+        22707,
+        36501,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        23950,
+        19533,
+        702,
+        3040,
+        22707,
+        36501,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        23950,
+        19533,
+        702,
+        3040,
+        22707,
+        36501,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        23950,
+        19533,
+        702,
+        3040,
+        22707,
+        36501,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        23950,
+        19533,
+        702,
+        3040,
+        22707,
+        36501,
+        13,
+        151645
+      ],
+      "no_change": [
+        23950,
+        19533,
+        702,
+        44214,
+        22707,
+        36501,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "570a7e7c4103511400d5977c",
+    "article": "Emotion",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        8328,
+        21618,
+        40153,
+        288,
+        315,
+        55569,
+        525
+      ],
+      "secant_transport": [
+        785,
+        8328,
+        21618,
+        40153,
+        288,
+        315,
+        55569,
+        525
+      ],
+      "prefix_secants": [
+        785,
+        8328,
+        21618,
+        40153,
+        288,
+        315,
+        55569,
+        525
+      ],
+      "partial_donor_mix": [
+        785,
+        8328,
+        21618,
+        40153,
+        288,
+        315,
+        55569,
+        525
+      ],
+      "midpoint_derivative": [
+        785,
+        1379,
+        315,
+        279,
+        8328,
+        21618,
+        40153,
+        288
+      ],
+      "no_change": [
+        785,
+        8328,
+        21618,
+        40153,
+        288,
+        315,
+        55569,
+        525
+      ]
+    }
+  },
+  {
+    "qid": "572a6f367a1753140016af4f",
+    "article": "Miami",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        84150,
+        374,
+        7407,
+        389,
+        279,
+        22375,
+        13648,
+        304
+      ],
+      "secant_transport": [
+        84150,
+        374,
+        7407,
+        304,
+        279,
+        82109,
+        949,
+        315
+      ],
+      "prefix_secants": [
+        84150,
+        374,
+        7407,
+        304,
+        279,
+        82109,
+        949,
+        315
+      ],
+      "partial_donor_mix": [
+        84150,
+        374,
+        7407,
+        389,
+        279,
+        22375,
+        13648,
+        304
+      ],
+      "midpoint_derivative": [
+        84150,
+        374,
+        7407,
+        304,
+        36377,
+        9589,
+        13,
+        151645
+      ],
+      "no_change": [
+        84150,
+        374,
+        7407,
+        304,
+        82109,
+        9589,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "570983a2200fba14003680f6",
+    "article": "Grape",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        24566,
+        25246,
+        65149,
+        2010,
+        594,
+        12518,
+        10320,
+        1717
+      ],
+      "secant_transport": [
+        24566,
+        25246,
+        65149,
+        2010,
+        594,
+        12518,
+        10320,
+        1717
+      ],
+      "prefix_secants": [
+        24566,
+        25246,
+        65149,
+        2010,
+        594,
+        12518,
+        10320,
+        1717
+      ],
+      "partial_donor_mix": [
+        24566,
+        25246,
+        65149,
+        2010,
+        594,
+        12518,
+        10320,
+        1717
+      ],
+      "midpoint_derivative": [
+        24566,
+        25246,
+        65149,
+        2010,
+        594,
+        12518,
+        10320,
+        1717
+      ],
+      "no_change": [
+        24566,
+        25246,
+        65149,
+        2010,
+        594,
+        12518,
+        10320,
+        1717
+      ]
+    }
+  },
+  {
+    "qid": "57268361708984140094c894",
+    "article": "East_India_Company",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        38,
+        2425,
+        374,
+        1483,
+        369,
+        279,
+        5312,
+        13
+      ],
+      "secant_transport": [
+        38,
+        2425,
+        374,
+        1483,
+        311,
+        4009,
+        279,
+        1894
+      ],
+      "prefix_secants": [
+        38,
+        2425,
+        374,
+        1483,
+        311,
+        4009,
+        279,
+        1894
+      ],
+      "partial_donor_mix": [
+        38,
+        2425,
+        374,
+        264,
+        1894,
+        1483,
+        304,
+        64106
+      ],
+      "midpoint_derivative": [
+        38,
+        2425,
+        374,
+        1483,
+        369,
+        279,
+        5312,
+        13
+      ],
+      "no_change": [
+        38,
+        2425,
+        374,
+        1483,
+        311,
+        4009,
+        279,
+        1894
+      ]
+    }
+  },
+  {
+    "qid": "56de4b6dcffd8e1900b4b7c5",
+    "article": "Human_Development_Index",
+    "clean_correct": false,
+    "exact_matches_replacement": true,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        40,
+        35216,
+        151645
+      ],
+      "secant_transport": [
+        40,
+        35216,
+        151645
+      ],
+      "prefix_secants": [
+        40,
+        35216,
+        151645
+      ],
+      "partial_donor_mix": [
+        40,
+        35216,
+        151645
+      ],
+      "midpoint_derivative": [
+        40,
+        35216,
+        151645
+      ],
+      "no_change": [
+        40,
+        35216,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "572eae75c246551400ce44fe",
+    "article": "Han_dynasty",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        32,
+        511,
+        2142,
+        20408,
+        2337,
+        279,
+        20644,
+        66846
+      ],
+      "secant_transport": [
+        785,
+        511,
+        2142,
+        20408,
+        2337,
+        279,
+        20644,
+        66846
+      ],
+      "prefix_secants": [
+        785,
+        511,
+        2142,
+        20408,
+        2337,
+        279,
+        20644,
+        66846
+      ],
+      "partial_donor_mix": [
+        785,
+        511,
+        2142,
+        20408,
+        2337,
+        279,
+        20644,
+        66846
+      ],
+      "midpoint_derivative": [
+        32,
+        511,
+        2142,
+        20408,
+        2337,
+        279,
+        20644,
+        66846
+      ],
+      "no_change": [
+        785,
+        511,
+        2142,
+        20408,
+        2337,
+        279,
+        20644,
+        66846
+      ]
+    }
+  },
+  {
+    "qid": "56fad729f34c681400b0c157",
+    "article": "Somalis",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        4226,
+        374,
+        279,
+        55010,
+        8870,
+        315,
+        14910
+      ],
+      "secant_transport": [
+        785,
+        4226,
+        374,
+        279,
+        55010,
+        8870,
+        315,
+        14910
+      ],
+      "prefix_secants": [
+        785,
+        4226,
+        374,
+        279,
+        55010,
+        8870,
+        315,
+        14910
+      ],
+      "partial_donor_mix": [
+        785,
+        4226,
+        374,
+        279,
+        55010,
+        8870,
+        315,
+        14910
+      ],
+      "midpoint_derivative": [
+        785,
+        4226,
+        374,
+        279,
+        55010,
+        8870,
+        315,
+        14910
+      ],
+      "no_change": [
+        785,
+        4226,
+        374,
+        279,
+        77409,
+        10240,
+        94936,
+        13
+      ]
+    }
+  },
+  {
+    "qid": "56d8a0ddbfea0914004b7706",
+    "article": "2008_Summer_Olympics_torch_relay",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        220,
+        16,
+        15
+      ],
+      "secant_transport": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        1052,
+        1033,
+        3807
+      ],
+      "prefix_secants": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        1052,
+        1033,
+        3807
+      ],
+      "partial_donor_mix": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        279,
+        1372,
+        315
+      ],
+      "midpoint_derivative": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        58210,
+        389,
+        279
+      ],
+      "no_change": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        1052,
+        1033,
+        3807
+      ]
+    }
+  },
+  {
+    "qid": "5728ab684b864d1900164bf0",
+    "article": "Brigham_Young_University",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        92354,
+        63460,
+        26668,
+        24883,
+        5832,
+        374,
+        2114
+      ],
+      "secant_transport": [
+        785,
+        92354,
+        63460,
+        26668,
+        24883,
+        5832,
+        374,
+        2114
+      ],
+      "prefix_secants": [
+        785,
+        92354,
+        63460,
+        26668,
+        24883,
+        5832,
+        374,
+        2114
+      ],
+      "partial_donor_mix": [
+        785,
+        92354,
+        63460,
+        26668,
+        24883,
+        5832,
+        374,
+        2114
+      ],
+      "midpoint_derivative": [
+        11613,
+        12425,
+        5670,
+        41695,
+        13,
+        151645
+      ],
+      "no_change": [
+        785,
+        92354,
+        63460,
+        26668,
+        24883,
+        5832,
+        374,
+        2114
+      ]
+    }
+  },
+  {
+    "qid": "57296ef16aef051400154e9a",
+    "article": "Zinc",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        23513,
+        5904,
+        315,
+        10526,
+        48501,
+        4041,
+        504
+      ],
+      "secant_transport": [
+        785,
+        23513,
+        5904,
+        315,
+        10526,
+        48501,
+        4041,
+        504
+      ],
+      "prefix_secants": [
+        785,
+        23513,
+        5904,
+        315,
+        10526,
+        48501,
+        4041,
+        504
+      ],
+      "partial_donor_mix": [
+        785,
+        23513,
+        5904,
+        315,
+        10526,
+        48501,
+        4041,
+        504
+      ],
+      "midpoint_derivative": [
+        49,
+        1630,
+        71549,
+        151645
+      ],
+      "no_change": [
+        785,
+        23513,
+        5904,
+        315,
+        10526,
+        48501,
+        4041,
+        504
+      ]
+    }
+  },
+  {
+    "qid": "56fc88d898e8fc14001ea7d2",
+    "article": "Phonology",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        13806,
+        8692,
+        17601,
+        279,
+        1616,
+        12677,
+        1882,
+        323
+      ],
+      "secant_transport": [
+        13806,
+        8692,
+        17601,
+        279,
+        1616,
+        279,
+        3738,
+        8109
+      ],
+      "prefix_secants": [
+        13806,
+        8692,
+        17601,
+        279,
+        1616,
+        279,
+        3738,
+        8109
+      ],
+      "partial_donor_mix": [
+        13806,
+        8692,
+        17601,
+        279,
+        1616,
+        12677,
+        1882,
+        323
+      ],
+      "midpoint_derivative": [
+        13806,
+        8692,
+        17601,
+        279,
+        1616,
+        12677,
+        1882,
+        323
+      ],
+      "no_change": [
+        13806,
+        8692,
+        17601,
+        279,
+        1616,
+        279,
+        3738,
+        8109
+      ]
+    }
+  },
+  {
+    "qid": "57312c6005b4da19006bce3a",
+    "article": "Red",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        26716,
+        98806,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        7442,
+        4693,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        7442,
+        4693,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        26716,
+        98806,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        26716,
+        25455,
+        151645
+      ],
+      "no_change": [
+        785,
+        2530,
+        315,
+        272,
+        6130,
+        94560,
+        369,
+        279
+      ]
+    }
+  },
+  {
+    "qid": "570c481ffed7b91900d45825",
+    "article": "Mary_(mother_of_Jesus)",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        36,
+        759,
+        42393,
+        374,
+        7407,
+        304,
+        17009,
+        13
+      ],
+      "secant_transport": [
+        36,
+        759,
+        42393,
+        374,
+        7407,
+        304,
+        17009,
+        13
+      ],
+      "prefix_secants": [
+        36,
+        759,
+        42393,
+        374,
+        7407,
+        304,
+        17009,
+        13
+      ],
+      "partial_donor_mix": [
+        36,
+        759,
+        42393,
+        374,
+        7407,
+        304,
+        17009,
+        13
+      ],
+      "midpoint_derivative": [
+        13079,
+        279,
+        54706,
+        380,
+        572,
+        9223,
+        304,
+        68372
+      ],
+      "no_change": [
+        36,
+        759,
+        42393,
+        374,
+        7407,
+        304,
+        17009,
+        13
+      ]
+    }
+  },
+  {
+    "qid": "57321b19b9d445190005e7ff",
+    "article": "Religion_in_ancient_Rome",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        1359,
+        279,
+        1852,
+        3950,
+        11,
+        279,
+        2937,
+        48680
+      ],
+      "secant_transport": [
+        1359,
+        279,
+        1852,
+        3950,
+        11,
+        279,
+        2937,
+        48680
+      ],
+      "prefix_secants": [
+        1359,
+        279,
+        1852,
+        3950,
+        11,
+        279,
+        2937,
+        48680
+      ],
+      "partial_donor_mix": [
+        785,
+        21085,
+        1558,
+        537,
+        20975,
+        1584,
+        1128,
+        21718
+      ],
+      "midpoint_derivative": [
+        22812,
+        9826,
+        409,
+        1361,
+        323,
+        4511,
+        12378,
+        13
+      ],
+      "no_change": [
+        60980,
+        32679,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "56cedc9caab44d1400b88b2d",
+    "article": "Spectre_(2015_film)",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        4531,
+        10321,
+        22707,
+        4714,
+        448,
+        2205,
+        11276
+      ],
+      "secant_transport": [
+        785,
+        4531,
+        10321,
+        22707,
+        4714,
+        448,
+        2205,
+        11276
+      ],
+      "prefix_secants": [
+        785,
+        4531,
+        10321,
+        22707,
+        4714,
+        448,
+        2205,
+        11276
+      ],
+      "partial_donor_mix": [
+        785,
+        4531,
+        10321,
+        22707,
+        4714,
+        448,
+        2205,
+        11276
+      ],
+      "midpoint_derivative": [
+        785,
+        4531,
+        10321,
+        22707,
+        4714,
+        448,
+        2205,
+        11276
+      ],
+      "no_change": [
+        785,
+        4531,
+        10321,
+        22707,
+        4714,
+        448,
+        2205,
+        11276
+      ]
+    }
+  },
+  {
+    "qid": "572f896da23a5019007fc70d",
+    "article": "Modern_history",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        1156,
+        311,
+        74172,
+        2363,
+        331,
+        74784,
+        572
+      ],
+      "secant_transport": [
+        785,
+        1156,
+        311,
+        74172,
+        2363,
+        331,
+        74784,
+        572
+      ],
+      "prefix_secants": [
+        785,
+        1156,
+        311,
+        74172,
+        2363,
+        331,
+        74784,
+        572
+      ],
+      "partial_donor_mix": [
+        785,
+        1156,
+        311,
+        74172,
+        2363,
+        331,
+        74784,
+        572
+      ],
+      "midpoint_derivative": [
+        785,
+        1156,
+        311,
+        74172,
+        2363,
+        331,
+        74784,
+        572
+      ],
+      "no_change": [
+        785,
+        1156,
+        311,
+        74172,
+        2363,
+        331,
+        74784,
+        572
+      ]
+    }
+  },
+  {
+    "qid": "570729f090286e26004fc975",
+    "article": "Chihuahua_(state)",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        23603,
+        10143,
+        594,
+        1909,
+        5696,
+        374,
+        10008
+      ],
+      "secant_transport": [
+        785,
+        23603,
+        10143,
+        594,
+        1909,
+        5696,
+        374,
+        10008
+      ],
+      "prefix_secants": [
+        785,
+        23603,
+        10143,
+        594,
+        1909,
+        5696,
+        374,
+        10008
+      ],
+      "partial_donor_mix": [
+        785,
+        23603,
+        10143,
+        594,
+        1909,
+        5696,
+        374,
+        10008
+      ],
+      "midpoint_derivative": [
+        25221,
+        13,
+        151645
+      ],
+      "no_change": [
+        785,
+        23603,
+        10143,
+        594,
+        1909,
+        5696,
+        374,
+        10008
+      ]
+    }
+  },
+  {
+    "qid": "572e7d44dfa6aa1500f8d02b",
+    "article": "Richard_Feynman",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        2121,
+        264,
+        1682,
+        11,
+        88220,
+        77,
+        1515,
+        51734
+      ],
+      "secant_transport": [
+        2121,
+        264,
+        1682,
+        11,
+        88220,
+        77,
+        1515,
+        51734
+      ],
+      "prefix_secants": [
+        2121,
+        264,
+        1682,
+        11,
+        88220,
+        77,
+        1515,
+        51734
+      ],
+      "partial_donor_mix": [
+        2121,
+        264,
+        1682,
+        11,
+        88220,
+        77,
+        1515,
+        51734
+      ],
+      "midpoint_derivative": [
+        2121,
+        264,
+        1682,
+        11,
+        88220,
+        77,
+        1515,
+        51734
+      ],
+      "no_change": [
+        2121,
+        264,
+        1682,
+        11,
+        88220,
+        77,
+        1515,
+        51734
+      ]
+    }
+  },
+  {
+    "qid": "572a054f6aef0514001551b5",
+    "article": "East_Prussia",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        19420,
+        2576,
+        1033,
+        26024,
+        16099,
+        311,
+        279
+      ],
+      "secant_transport": [
+        785,
+        19420,
+        2576,
+        1033,
+        26024,
+        16099,
+        311,
+        31086
+      ],
+      "prefix_secants": [
+        785,
+        19420,
+        2576,
+        1033,
+        26024,
+        16099,
+        311,
+        279
+      ],
+      "partial_donor_mix": [
+        785,
+        19420,
+        2576,
+        1033,
+        26024,
+        16099,
+        311,
+        31086
+      ],
+      "midpoint_derivative": [
+        785,
+        19420,
+        2576,
+        1033,
+        26024,
+        16099,
+        311,
+        279
+      ],
+      "no_change": [
+        785,
+        19420,
+        2576,
+        1033,
+        26024,
+        16099,
+        311,
+        31086
+      ]
+    }
+  },
+  {
+    "qid": "56def0acc65bf219000b3e3b",
+    "article": "Christian",
+    "clean_correct": true,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        1371,
+        2155,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        1371,
+        2155,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        1371,
+        2155,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        1371,
+        2155,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        7752,
+        99004,
+        13,
+        151645
+      ],
+      "no_change": [
+        6135,
+        21242,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "572944df6aef051400154c28",
+    "article": "Race_(human_categorization)",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        36634,
+        26893,
+        6872,
+        151645
+      ],
+      "secant_transport": [
+        36634,
+        26893,
+        6872,
+        151645
+      ],
+      "prefix_secants": [
+        36634,
+        26893,
+        6872,
+        151645
+      ],
+      "partial_donor_mix": [
+        36634,
+        26893,
+        6872,
+        151645
+      ],
+      "midpoint_derivative": [
+        36634,
+        26893,
+        6872,
+        151645
+      ],
+      "no_change": [
+        36634,
+        26893,
+        6872,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "56de4529cffd8e1900b4b75f",
+    "article": "Separation_of_powers_under_the_United_States_Constitution",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        40498,
+        13658,
+        47860,
+        291,
+        1378,
+        18610,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        40498,
+        13658,
+        47860,
+        291,
+        220,
+        17,
+        18610,
+        13
+      ],
+      "prefix_secants": [
+        40498,
+        13658,
+        47860,
+        291,
+        220,
+        17,
+        18610,
+        13
+      ],
+      "partial_donor_mix": [
+        40498,
+        13658,
+        47860,
+        291,
+        1378,
+        18610,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        40498,
+        13658,
+        47860,
+        291,
+        220,
+        22,
+        18610,
+        13
+      ],
+      "no_change": [
+        40498,
+        13658,
+        47860,
+        291,
+        29235,
+        18610,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "5706ec1e90286e26004fc742",
+    "article": "Letter_case",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        28583,
+        315,
+        6722,
+        11931,
+        3259,
+        432,
+        4135
+      ],
+      "secant_transport": [
+        785,
+        28583,
+        315,
+        6722,
+        11931,
+        3259,
+        432,
+        4135
+      ],
+      "prefix_secants": [
+        785,
+        28583,
+        315,
+        6722,
+        11931,
+        3259,
+        432,
+        4135
+      ],
+      "partial_donor_mix": [
+        785,
+        28583,
+        315,
+        6722,
+        11931,
+        3259,
+        432,
+        4135
+      ],
+      "midpoint_derivative": [
+        785,
+        28583,
+        315,
+        6722,
+        11931,
+        3259,
+        432,
+        4135
+      ],
+      "no_change": [
+        785,
+        28583,
+        315,
+        6722,
+        11931,
+        3259,
+        432,
+        4135
+      ]
+    }
+  },
+  {
+    "qid": "572faff7b2c2fd1400568355",
+    "article": "Transistor",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        4498,
+        9315,
+        374,
+        9226,
+        11,
+        279,
+        48241,
+        4637
+      ],
+      "secant_transport": [
+        4498,
+        9315,
+        374,
+        9226,
+        11,
+        279,
+        48241,
+        4637
+      ],
+      "prefix_secants": [
+        4498,
+        9315,
+        374,
+        9226,
+        11,
+        279,
+        48241,
+        4637
+      ],
+      "partial_donor_mix": [
+        4498,
+        9315,
+        374,
+        9226,
+        11,
+        279,
+        48241,
+        4637
+      ],
+      "midpoint_derivative": [
+        4498,
+        9315,
+        374,
+        9226,
+        11,
+        279,
+        48241,
+        4637
+      ],
+      "no_change": [
+        4498,
+        9315,
+        374,
+        9226,
+        11,
+        279,
+        48241,
+        4637
+      ]
+    }
+  },
+  {
+    "qid": "570a07104103511400d5950e",
+    "article": "Houston",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        78794,
+        374,
+        279,
+        7167,
+        476,
+        835,
+        1459,
+        315
+      ],
+      "secant_transport": [
+        785,
+        5128,
+        429,
+        3161,
+        476,
+        835,
+        304,
+        16003
+      ],
+      "prefix_secants": [
+        785,
+        5128,
+        429,
+        3161,
+        476,
+        835,
+        304,
+        16003
+      ],
+      "partial_donor_mix": [
+        785,
+        5128,
+        429,
+        3161,
+        476,
+        835,
+        304,
+        16003
+      ],
+      "midpoint_derivative": [
+        785,
+        5128,
+        429,
+        3161,
+        476,
+        835,
+        304,
+        16003
+      ],
+      "no_change": [
+        78794,
+        374,
+        279,
+        7167,
+        476,
+        835,
+        1459,
+        315
+      ]
+    }
+  },
+  {
+    "qid": "572ee666dfa6aa1500f8d4a3",
+    "article": "Post-punk",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        24493,
+        5926,
+        11,
+        304,
+        1429,
+        9023,
+        4378,
+        11
+      ],
+      "secant_transport": [
+        24493,
+        5926,
+        11,
+        304,
+        1429,
+        9023,
+        4378,
+        11
+      ],
+      "prefix_secants": [
+        24493,
+        5926,
+        11,
+        304,
+        1429,
+        9023,
+        4378,
+        11
+      ],
+      "partial_donor_mix": [
+        24493,
+        5926,
+        11,
+        304,
+        1429,
+        9023,
+        4378,
+        11
+      ],
+      "midpoint_derivative": [
+        24493,
+        5926,
+        11,
+        304,
+        1429,
+        9023,
+        4378,
+        11
+      ],
+      "no_change": [
+        24493,
+        5926,
+        11,
+        304,
+        1429,
+        9023,
+        4378,
+        11
+      ]
+    }
+  },
+  {
+    "qid": "5727a3762ca10214002d9287",
+    "article": "Crucifixion_of_Jesus",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        1655,
+        264,
+        2937,
+        2400,
+        11,
+        279,
+        13350,
+        1531
+      ],
+      "secant_transport": [
+        785,
+        2692,
+        572,
+        29911,
+        518,
+        264,
+        2937,
+        2400
+      ],
+      "prefix_secants": [
+        1655,
+        264,
+        2937,
+        2400,
+        11,
+        279,
+        2692,
+        572
+      ],
+      "partial_donor_mix": [
+        1655,
+        264,
+        2937,
+        2400,
+        11,
+        279,
+        13350,
+        323
+      ],
+      "midpoint_derivative": [
+        1655,
+        264,
+        2937,
+        2400,
+        11,
+        279,
+        13350,
+        1531
+      ],
+      "no_change": [
+        1655,
+        264,
+        2937,
+        2400,
+        11,
+        279,
+        2692,
+        572
+      ]
+    }
+  },
+  {
+    "qid": "57265bcbdd62a815002e8296",
+    "article": "Queen_(band)",
+    "clean_correct": true,
+    "exact_matches_replacement": true,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        34,
+        11705,
+        151645
+      ],
+      "secant_transport": [
+        1912,
+        22379,
+        323,
+        16439,
+        6094,
+        279,
+        1147,
+        56886
+      ],
+      "prefix_secants": [
+        1912,
+        22379,
+        323,
+        16439,
+        6094,
+        279,
+        1147,
+        56886
+      ],
+      "partial_donor_mix": [
+        1912,
+        22379,
+        323,
+        16439,
+        6094,
+        279,
+        1147,
+        56886
+      ],
+      "midpoint_derivative": [
+        34,
+        11705,
+        151645
+      ],
+      "no_change": [
+        98667,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "57310a3305b4da19006bcd0b",
+    "article": "Namibia",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        2120,
+        5064,
+        17899,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        2120,
+        5064,
+        17899,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        2120,
+        5064,
+        17899,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        2120,
+        5064,
+        17899,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        2120,
+        5064,
+        17899,
+        13,
+        151645
+      ],
+      "no_change": [
+        2120,
+        5064,
+        17899,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "572f0580dfa6aa1500f8d579",
+    "article": "Antenna_(radio)",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        20638,
+        6366,
+        3545,
+        702,
+        458,
+        39932,
+        429
+      ],
+      "secant_transport": [
+        785,
+        20638,
+        6366,
+        3545,
+        702,
+        458,
+        39932,
+        429
+      ],
+      "prefix_secants": [
+        785,
+        20638,
+        6366,
+        3545,
+        702,
+        458,
+        39932,
+        8177
+      ],
+      "partial_donor_mix": [
+        785,
+        39932,
+        4766,
+        264,
+        20638,
+        6366,
+        6147,
+        369
+      ],
+      "midpoint_derivative": [
+        63176,
+        151645
+      ],
+      "no_change": [
+        785,
+        20638,
+        6366,
+        3545,
+        702,
+        458,
+        39932,
+        11
+      ]
+    }
+  },
+  {
+    "qid": "5709fa026d058f1900182c4c",
+    "article": "Hanover",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        6364,
+        21355,
+        2319,
+        315,
+        20644,
+        1975,
+        58523
+      ],
+      "secant_transport": [
+        785,
+        6364,
+        21355,
+        2319,
+        315,
+        20644,
+        1975,
+        58523
+      ],
+      "prefix_secants": [
+        785,
+        6364,
+        21355,
+        2319,
+        315,
+        20644,
+        1975,
+        58523
+      ],
+      "partial_donor_mix": [
+        785,
+        6364,
+        21355,
+        2319,
+        315,
+        20644,
+        1975,
+        58523
+      ],
+      "midpoint_derivative": [
+        785,
+        6364,
+        21355,
+        2319,
+        315,
+        20644,
+        1975,
+        58523
+      ],
+      "no_change": [
+        785,
+        6364,
+        21355,
+        2319,
+        315,
+        20644,
+        1975,
+        58523
+      ]
+    }
+  },
+  {
+    "qid": "573003bda23a5019007fcc49",
+    "article": "Charleston,_South_Carolina",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        49772,
+        151645
+      ],
+      "secant_transport": [
+        49772,
+        151645
+      ],
+      "prefix_secants": [
+        12472,
+        151645
+      ],
+      "partial_donor_mix": [
+        49772,
+        151645
+      ],
+      "midpoint_derivative": [
+        49772,
+        151645
+      ],
+      "no_change": [
+        12472,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "57061c5c52bb8914006898bb",
+    "article": "Immunology",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        38781,
+        525,
+        51158,
+        2878,
+        279,
+        2487,
+        304
+      ],
+      "secant_transport": [
+        785,
+        38781,
+        525,
+        51158,
+        2878,
+        279,
+        2487,
+        304
+      ],
+      "prefix_secants": [
+        785,
+        38781,
+        525,
+        51158,
+        2878,
+        279,
+        2487,
+        304
+      ],
+      "partial_donor_mix": [
+        785,
+        38781,
+        525,
+        51158,
+        2878,
+        279,
+        2487,
+        304
+      ],
+      "midpoint_derivative": [
+        785,
+        38781,
+        525,
+        51158,
+        2878,
+        279,
+        2487,
+        304
+      ],
+      "no_change": [
+        785,
+        38781,
+        525,
+        51158,
+        2878,
+        279,
+        2487,
+        304
+      ]
+    }
+  },
+  {
+    "qid": "5731c2fd0fdd8d15006c6518",
+    "article": "Antibiotics",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        28205,
+        292,
+        483,
+        1330,
+        525,
+        8947,
+        553,
+        279
+      ],
+      "secant_transport": [
+        28205,
+        292,
+        483,
+        1330,
+        525,
+        8947,
+        553,
+        279
+      ],
+      "prefix_secants": [
+        28205,
+        292,
+        483,
+        1330,
+        525,
+        8947,
+        553,
+        279
+      ],
+      "partial_donor_mix": [
+        28205,
+        292,
+        483,
+        1330,
+        525,
+        8947,
+        553,
+        279
+      ],
+      "midpoint_derivative": [
+        28205,
+        292,
+        483,
+        1330,
+        525,
+        8947,
+        553,
+        38875
+      ],
+      "no_change": [
+        28205,
+        292,
+        483,
+        1330,
+        525,
+        8947,
+        553,
+        80440
+      ]
+    }
+  },
+  {
+    "qid": "57345641acc1501500babe07",
+    "article": "Richmond,_Virginia",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        34248,
+        70677,
+        7726,
+        311,
+        20761,
+        8953,
+        37158
+      ],
+      "secant_transport": [
+        785,
+        34248,
+        70677,
+        7726,
+        311,
+        279,
+        19440,
+        70677
+      ],
+      "prefix_secants": [
+        785,
+        34248,
+        70677,
+        7726,
+        311,
+        279,
+        19440,
+        70677
+      ],
+      "partial_donor_mix": [
+        785,
+        34248,
+        70677,
+        7726,
+        311,
+        279,
+        19440,
+        70677
+      ],
+      "midpoint_derivative": [
+        785,
+        34248,
+        70677,
+        7726,
+        311,
+        20761,
+        13,
+        151645
+      ],
+      "no_change": [
+        785,
+        34248,
+        70677,
+        7726,
+        311,
+        15893,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "572c84d4dfb02c14005c6b92",
+    "article": "Tennessee",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        9257,
+        315,
+        4264,
+        323,
+        576,
+        9257,
+        315
+      ],
+      "secant_transport": [
+        785,
+        9257,
+        315,
+        4264,
+        323,
+        576,
+        9257,
+        315
+      ],
+      "prefix_secants": [
+        785,
+        9257,
+        315,
+        4264,
+        323,
+        576,
+        9257,
+        315
+      ],
+      "partial_donor_mix": [
+        785,
+        9257,
+        315,
+        4264,
+        323,
+        576,
+        9257,
+        315
+      ],
+      "midpoint_derivative": [
+        785,
+        9257,
+        315,
+        4264,
+        323,
+        576,
+        9257,
+        315
+      ],
+      "no_change": [
+        785,
+        9257,
+        315,
+        4264,
+        323,
+        576,
+        9257,
+        315
+      ]
+    }
+  },
+  {
+    "qid": "56e03c3c7aa994140058e3f1",
+    "article": "Comics",
+    "clean_correct": true,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        6945,
+        374,
+        6509,
+        311,
+        387,
+        264,
+        3070
+      ],
+      "secant_transport": [
+        785,
+        6945,
+        374,
+        6509,
+        311,
+        387,
+        264,
+        330
+      ],
+      "prefix_secants": [
+        785,
+        6945,
+        374,
+        6509,
+        311,
+        387,
+        264,
+        3070
+      ],
+      "partial_donor_mix": [
+        785,
+        6945,
+        374,
+        6509,
+        311,
+        387,
+        264,
+        3070
+      ],
+      "midpoint_derivative": [
+        785,
+        6945,
+        374,
+        6509,
+        311,
+        387,
+        264,
+        3070
+      ],
+      "no_change": [
+        2121,
+        27834,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "5727c075ff5b5019007d945e",
+    "article": "Hindu_philosophy",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        1640,
+        306,
+        1167,
+        572,
+        6509,
+        311,
+        387
+      ],
+      "secant_transport": [
+        785,
+        1640,
+        306,
+        1167,
+        572,
+        6509,
+        311,
+        387
+      ],
+      "prefix_secants": [
+        785,
+        1640,
+        306,
+        1167,
+        572,
+        6509,
+        311,
+        387
+      ],
+      "partial_donor_mix": [
+        785,
+        1640,
+        306,
+        1167,
+        572,
+        6509,
+        311,
+        387
+      ],
+      "midpoint_derivative": [
+        785,
+        1640,
+        306,
+        1167,
+        572,
+        6509,
+        311,
+        387
+      ],
+      "no_change": [
+        785,
+        1640,
+        306,
+        1167,
+        572,
+        6509,
+        311,
+        387
+      ]
+    }
+  },
+  {
+    "qid": "57307554069b5314008320fc",
+    "article": "51st_state",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        24554,
+        2151,
+        17689,
+        64230,
+        304,
+        85875,
+        39182
+      ],
+      "secant_transport": [
+        785,
+        24554,
+        2151,
+        429,
+        64230,
+        304,
+        85875,
+        39182
+      ],
+      "prefix_secants": [
+        785,
+        24554,
+        2151,
+        429,
+        64230,
+        304,
+        85875,
+        39182
+      ],
+      "partial_donor_mix": [
+        785,
+        24554,
+        2151,
+        17689,
+        64230,
+        304,
+        85875,
+        39182
+      ],
+      "midpoint_derivative": [
+        785,
+        24554,
+        2151,
+        17689,
+        64230,
+        304,
+        85875,
+        39182
+      ],
+      "no_change": [
+        785,
+        24554,
+        2151,
+        29790,
+        64230,
+        304,
+        85875,
+        39182
+      ]
+    }
+  },
+  {
+    "qid": "572634c8271a42140099d764",
+    "article": "Freemasonry",
+    "clean_correct": false,
+    "exact_matches_replacement": true,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        1336,
+        1944,
+        517,
+        151645
+      ],
+      "secant_transport": [
+        1336,
+        1944,
+        517,
+        151645
+      ],
+      "prefix_secants": [
+        1336,
+        1944,
+        517,
+        151645
+      ],
+      "partial_donor_mix": [
+        1336,
+        1944,
+        517,
+        151645
+      ],
+      "midpoint_derivative": [
+        1336,
+        1944,
+        517,
+        151645
+      ],
+      "no_change": [
+        1336,
+        1944,
+        517,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "56df75d15ca0a614008f9a9a",
+    "article": "Alexander_Graham_Bell",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        84138,
+        374,
+        1429,
+        11245,
+        369,
+        17023,
+        287,
+        279
+      ],
+      "secant_transport": [
+        84138,
+        374,
+        1429,
+        11245,
+        369,
+        17023,
+        287,
+        279
+      ],
+      "prefix_secants": [
+        84138,
+        374,
+        1429,
+        11245,
+        369,
+        17023,
+        287,
+        279
+      ],
+      "partial_donor_mix": [
+        84138,
+        374,
+        1429,
+        11245,
+        369,
+        17023,
+        287,
+        279
+      ],
+      "midpoint_derivative": [
+        84138,
+        374,
+        1429,
+        11245,
+        369,
+        17023,
+        287,
+        279
+      ],
+      "no_change": [
+        84138,
+        374,
+        1429,
+        11245,
+        369,
+        17023,
+        287,
+        279
+      ]
+    }
+  },
+  {
+    "qid": "573286cbb3a91d1900202e1b",
+    "article": "Humanism",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        16266,
+        315,
+        3920,
+        429,
+        5420,
+        369,
+        279
+      ],
+      "secant_transport": [
+        785,
+        16266,
+        315,
+        3920,
+        429,
+        5420,
+        369,
+        279
+      ],
+      "prefix_secants": [
+        785,
+        16266,
+        315,
+        3920,
+        429,
+        5420,
+        369,
+        279
+      ],
+      "partial_donor_mix": [
+        785,
+        16266,
+        315,
+        3920,
+        429,
+        5420,
+        369,
+        279
+      ],
+      "midpoint_derivative": [
+        785,
+        16266,
+        315,
+        3920,
+        429,
+        5420,
+        369,
+        279
+      ],
+      "no_change": [
+        785,
+        16266,
+        315,
+        3920,
+        429,
+        5420,
+        369,
+        279
+      ]
+    }
+  },
+  {
+    "qid": "5729353d3f37b31900478102",
+    "article": "States_of_Germany",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        93268,
+        26438,
+        525,
+        58489,
+        304,
+        862,
+        1828,
+        1290
+      ],
+      "secant_transport": [
+        93268,
+        26438,
+        525,
+        58489,
+        304,
+        862,
+        1828,
+        1290
+      ],
+      "prefix_secants": [
+        93268,
+        26438,
+        525,
+        58489,
+        304,
+        862,
+        1828,
+        1290
+      ],
+      "partial_donor_mix": [
+        93268,
+        26438,
+        525,
+        58489,
+        304,
+        862,
+        1828,
+        1290
+      ],
+      "midpoint_derivative": [
+        93268,
+        26438,
+        525,
+        58489,
+        304,
+        862,
+        1828,
+        1290
+      ],
+      "no_change": [
+        93268,
+        9290,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "57260d97ec44d21400f3d85a",
+    "article": "Arsenal_F.C.",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        82973,
+        74397,
+        594,
+        2432,
+        1899,
+        12957,
+        374,
+        6938
+      ],
+      "secant_transport": [
+        82973,
+        74397,
+        594,
+        2432,
+        1899,
+        12957,
+        374,
+        6938
+      ],
+      "prefix_secants": [
+        82973,
+        74397,
+        594,
+        2432,
+        1899,
+        12957,
+        374,
+        6938
+      ],
+      "partial_donor_mix": [
+        82973,
+        74397,
+        594,
+        2432,
+        1899,
+        12957,
+        374,
+        6938
+      ],
+      "midpoint_derivative": [
+        82973,
+        74397,
+        594,
+        2432,
+        1899,
+        12957,
+        315,
+        6938
+      ],
+      "no_change": [
+        82973,
+        74397,
+        594,
+        2432,
+        1899,
+        12957,
+        374,
+        6938
+      ]
+    }
+  },
+  {
+    "qid": "572879b54b864d1900164a21",
+    "article": "History_of_India",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        1707,
+        315,
+        23916,
+        315,
+        35042,
+        43775,
+        572
+      ],
+      "secant_transport": [
+        785,
+        1707,
+        315,
+        23916,
+        315,
+        35042,
+        43775,
+        572
+      ],
+      "prefix_secants": [
+        785,
+        1707,
+        315,
+        23916,
+        315,
+        35042,
+        43775,
+        572
+      ],
+      "partial_donor_mix": [
+        785,
+        1707,
+        315,
+        23916,
+        315,
+        35042,
+        43775,
+        572
+      ],
+      "midpoint_derivative": [
+        11095,
+        1123,
+        278,
+        26752,
+        151645
+      ],
+      "no_change": [
+        785,
+        1707,
+        315,
+        23916,
+        315,
+        35042,
+        43775,
+        572
+      ]
+    }
+  },
+  {
+    "qid": "57299db76aef051400155032",
+    "article": "Appalachian_Mountains",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        97927,
+        23501,
+        13036,
+        1119,
+        82109,
+        88296,
+        11
+      ],
+      "secant_transport": [
+        785,
+        97927,
+        23501,
+        13036,
+        1119,
+        82109,
+        88296,
+        11
+      ],
+      "prefix_secants": [
+        785,
+        97927,
+        23501,
+        13036,
+        1119,
+        82109,
+        88296,
+        11
+      ],
+      "partial_donor_mix": [
+        785,
+        97927,
+        23501,
+        13036,
+        1119,
+        82109,
+        88296,
+        11
+      ],
+      "midpoint_derivative": [
+        785,
+        97927,
+        23501,
+        13036,
+        1119,
+        82109,
+        88296,
+        11
+      ],
+      "no_change": [
+        785,
+        97927,
+        23501,
+        13036,
+        1119,
+        82109,
+        6864,
+        13
+      ]
+    }
+  },
+  {
+    "qid": "572709795951b619008f8511",
+    "article": "Tuberculosis",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        11737,
+        11416,
+        48548,
+        315,
+        87134,
+        320,
+        31160
+      ],
+      "secant_transport": [
+        50437,
+        10546,
+        1862,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        50437,
+        10546,
+        1862,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        785,
+        11737,
+        11416,
+        48548,
+        315,
+        87134,
+        320,
+        31160
+      ],
+      "midpoint_derivative": [
+        785,
+        11737,
+        11416,
+        48548,
+        315,
+        87134,
+        320,
+        31160
+      ],
+      "no_change": [
+        785,
+        11737,
+        11416,
+        48548,
+        315,
+        87134,
+        320,
+        31160
+      ]
+    }
+  },
+  {
+    "qid": "57319608497a881900249095",
+    "article": "Steven_Spielberg",
+    "clean_correct": true,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        64354,
+        37683,
+        151645
+      ],
+      "secant_transport": [
+        64354,
+        37683,
+        151645
+      ],
+      "prefix_secants": [
+        64354,
+        37683,
+        151645
+      ],
+      "partial_donor_mix": [
+        64354,
+        37683,
+        151645
+      ],
+      "midpoint_derivative": [
+        66208,
+        11,
+        448,
+        8711,
+        17829,
+        37683,
+        1865,
+        264
+      ],
+      "no_change": [
+        71665,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "56f8bec89b226e1400dd0f16",
+    "article": "Alps",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        15806,
+        85,
+        5298,
+        5429,
+        572,
+        9555,
+        304
+      ],
+      "secant_transport": [
+        785,
+        15806,
+        85,
+        5298,
+        5429,
+        572,
+        9555,
+        304
+      ],
+      "prefix_secants": [
+        785,
+        15806,
+        85,
+        5298,
+        5429,
+        572,
+        9555,
+        304
+      ],
+      "partial_donor_mix": [
+        785,
+        15806,
+        85,
+        5298,
+        5429,
+        572,
+        9555,
+        304
+      ],
+      "midpoint_derivative": [
+        785,
+        15806,
+        85,
+        5298,
+        5429,
+        572,
+        9555,
+        304
+      ],
+      "no_change": [
+        785,
+        15806,
+        85,
+        5298,
+        5429,
+        572,
+        9555,
+        304
+      ]
+    }
+  },
+  {
+    "qid": "5726833add62a815002e87d3",
+    "article": "Korean_War",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        19390,
+        9145,
+        4362,
+        5896,
+        323,
+        6277,
+        12296
+      ],
+      "secant_transport": [
+        785,
+        8453,
+        4362,
+        19390,
+        5896,
+        323,
+        6277,
+        12296
+      ],
+      "prefix_secants": [
+        785,
+        8453,
+        4362,
+        19390,
+        5896,
+        323,
+        6277,
+        12296
+      ],
+      "partial_donor_mix": [
+        785,
+        8453,
+        4362,
+        19390,
+        5896,
+        323,
+        6277,
+        12296
+      ],
+      "midpoint_derivative": [
+        44,
+        3441,
+        4362,
+        19390,
+        5896,
+        323,
+        6277,
+        12296
+      ],
+      "no_change": [
+        785,
+        8453,
+        4362,
+        19390,
+        5896,
+        323,
+        6277,
+        12296
+      ]
+    }
+  },
+  {
+    "qid": "56f98f199e9bad19000a0aca",
+    "article": "Zhejiang",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        641,
+        220,
+        17,
+        15,
+        16,
+        20,
+        11,
+        279
+      ],
+      "secant_transport": [
+        641,
+        220,
+        17,
+        15,
+        16,
+        20,
+        11,
+        279
+      ],
+      "prefix_secants": [
+        641,
+        220,
+        17,
+        15,
+        16,
+        20,
+        11,
+        279
+      ],
+      "partial_donor_mix": [
+        17,
+        15,
+        16,
+        20,
+        151645
+      ],
+      "midpoint_derivative": [
+        75796,
+        12,
+        16183,
+        151645
+      ],
+      "no_change": [
+        641,
+        5099,
+        12,
+        17,
+        15,
+        16,
+        20,
+        13
+      ]
+    }
+  },
+  {
+    "qid": "57275858f1498d1400e8f6a8",
+    "article": "Carnival",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        840,
+        86628,
+        15293,
+        315,
+        584,
+        11,
+        13041,
+        11
+      ],
+      "secant_transport": [
+        840,
+        86628,
+        15293,
+        315,
+        584,
+        11,
+        13041,
+        11
+      ],
+      "prefix_secants": [
+        840,
+        86628,
+        15293,
+        315,
+        584,
+        11,
+        13041,
+        11
+      ],
+      "partial_donor_mix": [
+        840,
+        86628,
+        15293,
+        315,
+        584,
+        11,
+        13041,
+        11
+      ],
+      "midpoint_derivative": [
+        12676,
+        11,
+        13041,
+        11,
+        323,
+        1008,
+        15298,
+        13
+      ],
+      "no_change": [
+        840,
+        86628,
+        15293,
+        315,
+        12904,
+        11,
+        13041,
+        11
+      ]
+    }
+  },
+  {
+    "qid": "572f4d2d04bcaa1900d7682b",
+    "article": "Central_Intelligence_Agency",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        3862,
+        374,
+        458,
+        5163,
+        12235,
+        311,
+        11093,
+        13
+      ],
+      "secant_transport": [
+        3862,
+        374,
+        458,
+        5163,
+        12235,
+        311,
+        11093,
+        13
+      ],
+      "prefix_secants": [
+        3862,
+        374,
+        458,
+        5163,
+        12235,
+        311,
+        11093,
+        13
+      ],
+      "partial_donor_mix": [
+        3862,
+        374,
+        458,
+        5163,
+        12235,
+        311,
+        11093,
+        13
+      ],
+      "midpoint_derivative": [
+        3862,
+        374,
+        458,
+        5163,
+        12235,
+        311,
+        11093,
+        13
+      ],
+      "no_change": [
+        3862,
+        374,
+        458,
+        5163,
+        12235,
+        311,
+        11093,
+        13
+      ]
+    }
+  },
+  {
+    "qid": "572719a45951b619008f85f7",
+    "article": "Capacitor",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        37842,
+        530,
+        151645
+      ],
+      "secant_transport": [
+        3966,
+        943,
+        315,
+        6546,
+        304,
+        892,
+        264,
+        84425
+      ],
+      "prefix_secants": [
+        3966,
+        943,
+        315,
+        6546,
+        304,
+        892,
+        264,
+        84425
+      ],
+      "partial_donor_mix": [
+        3966,
+        943,
+        315,
+        6546,
+        304,
+        892,
+        264,
+        84425
+      ],
+      "midpoint_derivative": [
+        41931,
+        530,
+        11508,
+        13,
+        151645
+      ],
+      "no_change": [
+        37842,
+        530,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "5709783fed30961900e841a8",
+    "article": "Identity_(social_science)",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        2620,
+        4025,
+        31050,
+        12,
+        91577,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        2620,
+        4025,
+        31050,
+        12,
+        91577,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        2620,
+        4025,
+        31050,
+        12,
+        91577,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        2620,
+        4025,
+        31050,
+        12,
+        91577,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        2620,
+        4025,
+        31050,
+        12,
+        91577,
+        13,
+        151645
+      ],
+      "no_change": [
+        2620,
+        4025,
+        31050,
+        12,
+        91577,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "56e14623cd28a01900c67717",
+    "article": "Universal_Studios",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        76164,
+        4929,
+        72419,
+        273,
+        572,
+        6398,
+        304,
+        279
+      ],
+      "secant_transport": [
+        76164,
+        4929,
+        72419,
+        273,
+        572,
+        6398,
+        304,
+        279
+      ],
+      "prefix_secants": [
+        76164,
+        4929,
+        72419,
+        273,
+        572,
+        6398,
+        304,
+        279
+      ],
+      "partial_donor_mix": [
+        76164,
+        4929,
+        72419,
+        273,
+        572,
+        6398,
+        304,
+        279
+      ],
+      "midpoint_derivative": [
+        76164,
+        4929,
+        72419,
+        273,
+        572,
+        6398,
+        304,
+        279
+      ],
+      "no_change": [
+        76164,
+        4929,
+        72419,
+        273,
+        572,
+        6398,
+        304,
+        279
+      ]
+    }
+  },
+  {
+    "qid": "56e197a3cd28a01900c67a02",
+    "article": "Hydrogen",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        1655,
+        279,
+        30647,
+        534,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        1655,
+        279,
+        30647,
+        534,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        1655,
+        279,
+        30647,
+        534,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        1655,
+        279,
+        30647,
+        534,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        1655,
+        279,
+        30647,
+        534,
+        13,
+        151645
+      ],
+      "no_change": [
+        1655,
+        279,
+        458,
+        534,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "571a7b2b10f8ca1400305097",
+    "article": "Ashkenazi_Jews",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        25221,
+        5159,
+        151645
+      ],
+      "secant_transport": [
+        25221,
+        5159,
+        151645
+      ],
+      "prefix_secants": [
+        25221,
+        5159,
+        151645
+      ],
+      "partial_donor_mix": [
+        25221,
+        5159,
+        151645
+      ],
+      "midpoint_derivative": [
+        25221,
+        5159,
+        151645
+      ],
+      "no_change": [
+        25221,
+        5159,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "56de0eadcffd8e1900b4b5a2",
+    "article": "Symbiosis",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        835,
+        436,
+        3356,
+        290,
+        2576,
+        429,
+        3887
+      ],
+      "secant_transport": [
+        785,
+        835,
+        436,
+        3356,
+        290,
+        2576,
+        429,
+        3887
+      ],
+      "prefix_secants": [
+        785,
+        835,
+        436,
+        3356,
+        290,
+        2576,
+        429,
+        3887
+      ],
+      "partial_donor_mix": [
+        785,
+        835,
+        436,
+        3356,
+        290,
+        2576,
+        429,
+        3887
+      ],
+      "midpoint_derivative": [
+        785,
+        835,
+        436,
+        3356,
+        290,
+        2576,
+        429,
+        3887
+      ],
+      "no_change": [
+        785,
+        835,
+        436,
+        3356,
+        290,
+        2576,
+        429,
+        3887
+      ]
+    }
+  },
+  {
+    "qid": "5729604faf94a219006aa343",
+    "article": "Green",
+    "clean_correct": true,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        1143,
+        9566,
+        5127,
+        24705,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        1143,
+        9566,
+        5127,
+        24705,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        1143,
+        9566,
+        5127,
+        24705,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        1143,
+        9566,
+        5127,
+        24705,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        56788,
+        151645
+      ],
+      "no_change": [
+        1143,
+        77859,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "57301a30b2c2fd140056886d",
+    "article": "Tucson,_Arizona",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        279,
+        7341,
+        32107
+      ],
+      "secant_transport": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        279,
+        7341,
+        32107
+      ],
+      "prefix_secants": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        279,
+        7341,
+        32107
+      ],
+      "partial_donor_mix": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        279,
+        7341,
+        32107
+      ],
+      "midpoint_derivative": [
+        785,
+        21085,
+        5302,
+        429,
+        52242,
+        315,
+        279,
+        3283
+      ],
+      "no_change": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        279,
+        7341,
+        32107
+      ]
+    }
+  },
+  {
+    "qid": "56e17b08cd28a01900c679ab",
+    "article": "Catalan_language",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        3862,
+        525,
+        220,
+        18,
+        11046,
+        64790,
+        14378,
+        78456
+      ],
+      "secant_transport": [
+        3862,
+        525,
+        220,
+        18,
+        11046,
+        64790,
+        14378,
+        78456
+      ],
+      "prefix_secants": [
+        3862,
+        525,
+        220,
+        18,
+        11046,
+        64790,
+        14378,
+        78456
+      ],
+      "partial_donor_mix": [
+        3862,
+        525,
+        220,
+        18,
+        11046,
+        64790,
+        14378,
+        78456
+      ],
+      "midpoint_derivative": [
+        3862,
+        525,
+        220,
+        18,
+        11046,
+        64790,
+        14378,
+        78456
+      ],
+      "no_change": [
+        3862,
+        525,
+        2326,
+        11046,
+        64790,
+        14378,
+        78456,
+        304
+      ]
+    }
+  },
+  {
+    "qid": "572f2049a23a5019007fc4a1",
+    "article": "Santa_Monica,_California",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        64847,
+        1874,
+        429,
+        13938,
+        304,
+        279,
+        220
+      ],
+      "secant_transport": [
+        785,
+        64847,
+        1874,
+        429,
+        13938,
+        304,
+        279,
+        220
+      ],
+      "prefix_secants": [
+        785,
+        64847,
+        1874,
+        429,
+        13938,
+        304,
+        279,
+        220
+      ],
+      "partial_donor_mix": [
+        785,
+        64847,
+        1874,
+        429,
+        13938,
+        304,
+        279,
+        220
+      ],
+      "midpoint_derivative": [
+        785,
+        64847,
+        1874,
+        429,
+        13938,
+        304,
+        279,
+        220
+      ],
+      "no_change": [
+        785,
+        64847,
+        1874,
+        429,
+        13938,
+        304,
+        279,
+        220
+      ]
+    }
+  },
+  {
+    "qid": "56d39a7759d6e414001467fb",
+    "article": "To_Kill_a_Mockingbird",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        10456,
+        58244,
+        95233,
+        374,
+        264,
+        1614,
+        315,
+        15417
+      ],
+      "secant_transport": [
+        10456,
+        58244,
+        95233,
+        374,
+        264,
+        1614,
+        315,
+        16614
+      ],
+      "prefix_secants": [
+        10456,
+        58244,
+        95233,
+        374,
+        264,
+        1614,
+        315,
+        16614
+      ],
+      "partial_donor_mix": [
+        10456,
+        58244,
+        95233,
+        374,
+        264,
+        1614,
+        315,
+        15417
+      ],
+      "midpoint_derivative": [
+        10456,
+        58244,
+        95233,
+        374,
+        264,
+        1614,
+        15417,
+        369
+      ],
+      "no_change": [
+        10456,
+        58244,
+        95233,
+        374,
+        264,
+        1614,
+        315,
+        16614
+      ]
+    }
+  },
+  {
+    "qid": "572e8567cb0c0d14000f1236",
+    "article": "Canadian_football",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        2083,
+        429,
+        6738,
+        14629,
+        476,
+        63514,
+        304
+      ],
+      "secant_transport": [
+        785,
+        3946,
+        6738,
+        14629,
+        304,
+        279,
+        16254,
+        18287
+      ],
+      "prefix_secants": [
+        785,
+        3946,
+        6738,
+        14629,
+        304,
+        279,
+        16254,
+        18287
+      ],
+      "partial_donor_mix": [
+        785,
+        2083,
+        429,
+        6738,
+        14629,
+        476,
+        63514,
+        304
+      ],
+      "midpoint_derivative": [
+        785,
+        2083,
+        429,
+        6738,
+        14629,
+        476,
+        63514,
+        304
+      ],
+      "no_change": [
+        785,
+        3946,
+        6738,
+        14629,
+        304,
+        279,
+        16254,
+        18287
+      ]
+    }
+  },
+  {
+    "qid": "57342084d058e614000b6990",
+    "article": "Portugal",
+    "clean_correct": true,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        3146,
+        448,
+        279,
+        7772,
+        1372,
+        315,
+        9867
+      ],
+      "secant_transport": [
+        785,
+        3146,
+        448,
+        279,
+        7772,
+        1372,
+        315,
+        9867
+      ],
+      "prefix_secants": [
+        67199,
+        151645
+      ],
+      "partial_donor_mix": [
+        785,
+        3146,
+        448,
+        279,
+        7772,
+        1372,
+        315,
+        9867
+      ],
+      "midpoint_derivative": [
+        7084,
+        44184,
+        151645
+      ],
+      "no_change": [
+        67199,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "57318f33a5e9cc1400cdc081",
+    "article": "Mosaic",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        785,
+        1429,
+        4185,
+        5383,
+        369,
+        42188,
+        64342,
+        374
+      ],
+      "secant_transport": [
+        785,
+        1429,
+        4185,
+        5383,
+        369,
+        42188,
+        64342,
+        374
+      ],
+      "prefix_secants": [
+        785,
+        1429,
+        4185,
+        5383,
+        369,
+        42188,
+        64342,
+        374
+      ],
+      "partial_donor_mix": [
+        785,
+        1429,
+        4185,
+        5383,
+        369,
+        42188,
+        64342,
+        374
+      ],
+      "midpoint_derivative": [
+        785,
+        1429,
+        4185,
+        5383,
+        369,
+        42188,
+        64342,
+        374
+      ],
+      "no_change": [
+        785,
+        1429,
+        4185,
+        5383,
+        369,
+        42188,
+        64342,
+        374
+      ]
+    }
+  },
+  {
+    "qid": "56eaa6a30030b61400a35009",
+    "article": "Political_corruption",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        34625,
+        22874,
+        315,
+        806,
+        1828,
+        3753,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        34625,
+        22874,
+        315,
+        806,
+        1828,
+        3753,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        34625,
+        22874,
+        315,
+        806,
+        1828,
+        3753,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        34625,
+        22874,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        34625,
+        22874,
+        315,
+        806,
+        1828,
+        3753,
+        13,
+        151645
+      ],
+      "no_change": [
+        34027,
+        990,
+        315,
+        85282,
+        3033,
+        4963,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "570cf2c1fed7b91900d45b41",
+    "article": "Macintosh",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        26567,
+        594,
+        3081,
+        4332,
+        4623,
+        24938,
+        448,
+        279
+      ],
+      "secant_transport": [
+        26567,
+        594,
+        3081,
+        4332,
+        4623,
+        18758,
+        448,
+        279
+      ],
+      "prefix_secants": [
+        26567,
+        594,
+        3081,
+        4332,
+        4623,
+        24938,
+        448,
+        279
+      ],
+      "partial_donor_mix": [
+        26567,
+        594,
+        3081,
+        4332,
+        4623,
+        53082,
+        448,
+        279
+      ],
+      "midpoint_derivative": [
+        26567,
+        594,
+        3081,
+        4332,
+        45960,
+        27922,
+        4152,
+        311
+      ],
+      "no_change": [
+        26567,
+        594,
+        3081,
+        4332,
+        4623,
+        27115,
+        4152,
+        311
+      ]
+    }
+  },
+  {
+    "qid": "573367eed058e614000b5a5e",
+    "article": "Saint_Barth%C3%A9lemy",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        785,
+        21085,
+        5302,
+        429,
+        330,
+        693,
+        43962,
+        525
+      ],
+      "secant_transport": [
+        785,
+        21085,
+        5302,
+        429,
+        330,
+        693,
+        43962,
+        525
+      ],
+      "prefix_secants": [
+        785,
+        21085,
+        5302,
+        429,
+        330,
+        693,
+        43962,
+        525
+      ],
+      "partial_donor_mix": [
+        785,
+        21085,
+        5302,
+        429,
+        330,
+        693,
+        43962,
+        525
+      ],
+      "midpoint_derivative": [
+        9004,
+        20520,
+        151645
+      ],
+      "no_change": [
+        2016,
+        7183,
+        20520,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "5728f5716aef0514001548cd",
+    "article": "Samurai",
+    "clean_correct": true,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        55,
+        30648,
+        12290,
+        10769,
+        311,
+        1527,
+        7754,
+        299
+      ],
+      "secant_transport": [
+        7084,
+        768,
+        35454,
+        151645
+      ],
+      "prefix_secants": [
+        7084,
+        768,
+        35454,
+        151645
+      ],
+      "partial_donor_mix": [
+        785,
+        21085,
+        1558,
+        537,
+        20975,
+        1584,
+        429,
+        1527
+      ],
+      "midpoint_derivative": [
+        55,
+        30648,
+        12290,
+        8394,
+        351,
+        6405,
+        311,
+        1527
+      ],
+      "no_change": [
+        7084,
+        768,
+        35454,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "570f945f5ab6b81900390f24",
+    "article": "Elizabeth_II",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        264,
+        22532,
+        3601
+      ],
+      "secant_transport": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        264,
+        22532,
+        3601
+      ],
+      "prefix_secants": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        264,
+        22532,
+        3601
+      ],
+      "partial_donor_mix": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        264,
+        22532,
+        18178
+      ],
+      "midpoint_derivative": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        22532,
+        18178,
+        1817
+      ],
+      "no_change": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        264,
+        3526,
+        1251
+      ]
+    }
+  },
+  {
+    "qid": "570b1f6b6b8089140040f747",
+    "article": "Videoconferencing",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        10724,
+        443,
+        802,
+        11373,
+        374,
+        7945,
+        23699,
+        304
+      ],
+      "secant_transport": [
+        10724,
+        443,
+        802,
+        11373,
+        374,
+        7945,
+        23699,
+        304
+      ],
+      "prefix_secants": [
+        10724,
+        443,
+        802,
+        11373,
+        374,
+        7945,
+        23699,
+        304
+      ],
+      "partial_donor_mix": [
+        10724,
+        443,
+        802,
+        11373,
+        374,
+        7945,
+        23699,
+        369
+      ],
+      "midpoint_derivative": [
+        65117,
+        151645
+      ],
+      "no_change": [
+        10724,
+        443,
+        802,
+        11373,
+        374,
+        7945,
+        23699,
+        304
+      ]
+    }
+  },
+  {
+    "qid": "572aba19f75d5e190021fc78",
+    "article": "Philadelphia",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        89424,
+        3055,
+        38956,
+        4743,
+        30619,
+        26438,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        89424,
+        3055,
+        38956,
+        4743,
+        30619,
+        26438,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        89424,
+        3055,
+        38956,
+        4743,
+        30619,
+        26438,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        89424,
+        3055,
+        38956,
+        4743,
+        30619,
+        26438,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        89424,
+        3055,
+        38956,
+        4743,
+        30619,
+        26438,
+        13,
+        151645
+      ],
+      "no_change": [
+        89424,
+        3055,
+        38956,
+        4743,
+        30619,
+        26438,
+        13,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "572fc827b2c2fd1400568463",
+    "article": "Armenia",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": false,
+      "midpoint_derivative": false,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        56,
+        485,
+        15649,
+        702,
+        220,
+        18,
+        18267,
+        45123
+      ],
+      "secant_transport": [
+        56,
+        485,
+        15649,
+        702,
+        220,
+        16,
+        17,
+        18267
+      ],
+      "prefix_secants": [
+        56,
+        485,
+        15649,
+        702,
+        220,
+        16,
+        17,
+        26438
+      ],
+      "partial_donor_mix": [
+        56,
+        485,
+        15649,
+        702,
+        220,
+        16,
+        17,
+        26438
+      ],
+      "midpoint_derivative": [
+        56,
+        485,
+        15649,
+        702,
+        220,
+        20,
+        19082,
+        18267
+      ],
+      "no_change": [
+        56,
+        485,
+        15649,
+        702,
+        29235,
+        18267,
+        45123,
+        29846
+      ]
+    }
+  },
+  {
+    "qid": "56cebae8aab44d1400b8893e",
+    "article": "2008_Sichuan_earthquake",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": true,
+    "text_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "token_agreement": {
+      "secant_transport": false,
+      "prefix_secants": false,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": false
+    },
+    "tokens": {
+      "exact": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        518,
+        3245,
+        220
+      ],
+      "secant_transport": [
+        641,
+        386,
+        1103,
+        40245,
+        4311,
+        11,
+        220,
+        16
+      ],
+      "prefix_secants": [
+        641,
+        386,
+        1103,
+        40245,
+        4311,
+        11,
+        220,
+        22
+      ],
+      "partial_donor_mix": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        518,
+        3245,
+        220
+      ],
+      "midpoint_derivative": [
+        11190,
+        311,
+        279,
+        21085,
+        11,
+        518,
+        3245,
+        220
+      ],
+      "no_change": [
+        22,
+        151645
+      ]
+    }
+  },
+  {
+    "qid": "56f7c779aef2371900625c09",
+    "article": "Szlachta",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": false,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        8373,
+        7988,
+        31984,
+        13049,
+        642,
+        1033,
+        13862,
+        311
+      ],
+      "secant_transport": [
+        8373,
+        7988,
+        31984,
+        13049,
+        642,
+        1033,
+        13862,
+        311
+      ],
+      "prefix_secants": [
+        8373,
+        7988,
+        31984,
+        13049,
+        642,
+        1033,
+        13862,
+        311
+      ],
+      "partial_donor_mix": [
+        8373,
+        7988,
+        31984,
+        13049,
+        642,
+        1033,
+        13862,
+        311
+      ],
+      "midpoint_derivative": [
+        8373,
+        7988,
+        31984,
+        13049,
+        642,
+        1033,
+        13862,
+        311
+      ],
+      "no_change": [
+        8373,
+        7988,
+        31984,
+        13049,
+        642,
+        1033,
+        13862,
+        311
+      ]
+    }
+  },
+  {
+    "qid": "570db8dedf2f5219002ed118",
+    "article": "Eritrea",
+    "clean_correct": false,
+    "exact_matches_replacement": false,
+    "exact_ended": true,
+    "actual_text_change": false,
+    "text_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "token_agreement": {
+      "secant_transport": true,
+      "prefix_secants": true,
+      "partial_donor_mix": true,
+      "midpoint_derivative": true,
+      "no_change": true
+    },
+    "tokens": {
+      "exact": [
+        641,
+        279,
+        34235,
+        5671,
+        13,
+        151645
+      ],
+      "secant_transport": [
+        641,
+        279,
+        34235,
+        5671,
+        13,
+        151645
+      ],
+      "prefix_secants": [
+        641,
+        279,
+        34235,
+        5671,
+        13,
+        151645
+      ],
+      "partial_donor_mix": [
+        641,
+        279,
+        34235,
+        5671,
+        13,
+        151645
+      ],
+      "midpoint_derivative": [
+        641,
+        279,
+        34235,
+        5671,
+        13,
+        151645
+      ],
+      "no_change": [
+        641,
+        279,
+        34235,
+        5671,
+        13,
+        151645
+      ]
+    }
+  }
+]
