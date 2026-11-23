@@ -1,0 +1,962 @@
+[
+  {
+    "article": "Airport",
+    "paragraph": 22,
+    "qid": "573096972461fd1900a9cecf",
+    "start": 632,
+    "original": "India",
+    "replacement": "Norway",
+    "split": "fit",
+    "other_qid": "573096972461fd1900a9cecb"
+  },
+  {
+    "article": "PlayStation_3",
+    "paragraph": 27,
+    "qid": "572833d64b864d190016470f",
+    "start": 212,
+    "original": "apartments",
+    "replacement": "premium",
+    "split": "fit",
+    "other_qid": "572833d64b864d190016470c"
+  },
+  {
+    "article": "The_Sun_(United_Kingdom)",
+    "paragraph": 40,
+    "qid": "5726b8ab708984140094cf0b",
+    "start": 49,
+    "original": "collapsed",
+    "replacement": "suspended",
+    "split": "fit",
+    "other_qid": "5726b8ab708984140094cf0c"
+  },
+  {
+    "article": "Oklahoma",
+    "paragraph": 22,
+    "qid": "5727d5953acd2414000dedb5",
+    "start": 416,
+    "original": "six",
+    "replacement": "third",
+    "split": "fit",
+    "other_qid": "5727d5953acd2414000dedb2"
+  },
+  {
+    "article": "Raleigh,_North_Carolina",
+    "paragraph": 3,
+    "qid": "5726acc95951b619008f79bf",
+    "start": 726,
+    "original": "Shaw",
+    "replacement": "Duke",
+    "split": "fit",
+    "other_qid": "5726acc95951b619008f79be"
+  },
+  {
+    "article": "Exhibition_game",
+    "paragraph": 12,
+    "qid": "5727c1593acd2414000debbc",
+    "start": 343,
+    "original": "Minnesota",
+    "replacement": "Phoenix",
+    "split": "fit",
+    "other_qid": "5727c1593acd2414000debbb"
+  },
+  {
+    "article": "Central_African_Republic",
+    "paragraph": 19,
+    "qid": "572820623acd2414000df510",
+    "start": 283,
+    "original": "ivory",
+    "replacement": "diamonds",
+    "split": "fit",
+    "other_qid": "572820623acd2414000df50d"
+  },
+  {
+    "article": "Strasbourg",
+    "paragraph": 10,
+    "qid": "5727f7313acd2414000df106",
+    "start": 576,
+    "original": "tin",
+    "replacement": "statues",
+    "split": "fit",
+    "other_qid": "5727f7313acd2414000df103"
+  },
+  {
+    "article": "Mexico_City",
+    "paragraph": 13,
+    "qid": "572672d9708984140094c66d",
+    "start": 3,
+    "original": "Thursday",
+    "replacement": "September",
+    "split": "fit",
+    "other_qid": "572672d9708984140094c66e"
+  },
+  {
+    "article": "Web_browser",
+    "paragraph": 4,
+    "qid": "56e0cae4231d4119001ac3a4",
+    "start": 149,
+    "original": "Windows",
+    "replacement": "Microsoft",
+    "split": "fit",
+    "other_qid": "56e0cae4231d4119001ac3a3"
+  },
+  {
+    "article": "Kanye_West",
+    "paragraph": 43,
+    "qid": "56d4647c2ccc5a1400d83134",
+    "start": 497,
+    "original": "August",
+    "replacement": "Chicago",
+    "split": "fit",
+    "other_qid": "56cf7c394df3c31400b0d83b"
+  },
+  {
+    "article": "Nintendo_Entertainment_System",
+    "paragraph": 27,
+    "qid": "57112331b654c5140001fbb1",
+    "start": 456,
+    "original": "artwork",
+    "replacement": "marketing",
+    "split": "fit",
+    "other_qid": "57112331b654c5140001fbaf"
+  },
+  {
+    "article": "Nigeria",
+    "paragraph": 38,
+    "qid": "5726ed805951b619008f8293",
+    "start": 47,
+    "original": "rural",
+    "replacement": "indigenous",
+    "split": "fit",
+    "other_qid": "5726ed805951b619008f8291"
+  },
+  {
+    "article": "Wood",
+    "paragraph": 16,
+    "qid": "56f9fe9b8f12f31900630047",
+    "start": 202,
+    "original": "crown",
+    "replacement": "narrow",
+    "split": "fit",
+    "other_qid": "56f9fe9b8f12f31900630049"
+  },
+  {
+    "article": "Nanjing",
+    "paragraph": 46,
+    "qid": "56e7aec600c9c71400d774d5",
+    "start": 17,
+    "original": "four",
+    "replacement": "intellectuals",
+    "split": "fit",
+    "other_qid": "56e7aec600c9c71400d774d7"
+  },
+  {
+    "article": "Pain",
+    "paragraph": 7,
+    "qid": "572f706ab2c2fd140056811c",
+    "start": 123,
+    "original": "permanently",
+    "replacement": "relief",
+    "split": "fit",
+    "other_qid": "572f706ab2c2fd140056811b"
+  },
+  {
+    "article": "Boston",
+    "paragraph": 53,
+    "qid": "56e15fabcd28a01900c67829",
+    "start": 196,
+    "original": "air",
+    "replacement": "dropping",
+    "split": "fit",
+    "other_qid": "56e15fabcd28a01900c67827"
+  },
+  {
+    "article": "Middle_Ages",
+    "paragraph": 70,
+    "qid": "56fb869f8ddada1400cd64bd",
+    "start": 125,
+    "original": "begging",
+    "replacement": "poverty",
+    "split": "fit",
+    "other_qid": "56fb869f8ddada1400cd64bb"
+  },
+  {
+    "article": "Northwestern_University",
+    "paragraph": 26,
+    "qid": "572800904b864d19001641d3",
+    "start": 157,
+    "original": "students",
+    "replacement": "nine",
+    "split": "fit",
+    "other_qid": "572800904b864d19001641d2"
+  },
+  {
+    "article": "Premier_League",
+    "paragraph": 5,
+    "qid": "5733e3bfd058e614000b64e3",
+    "start": 102,
+    "original": "two",
+    "replacement": "four",
+    "split": "fit",
+    "other_qid": "572fbd86b2c2fd14005683cb"
+  },
+  {
+    "article": "Dwight_D._Eisenhower",
+    "paragraph": 56,
+    "qid": "57327187b9d445190005eb24",
+    "start": 529,
+    "original": "NASA",
+    "replacement": "illegal",
+    "split": "fit",
+    "other_qid": "57327187b9d445190005eb21"
+  },
+  {
+    "article": "Pacific_War",
+    "paragraph": 6,
+    "qid": "5731bfc80fdd8d15006c64f4",
+    "start": 226,
+    "original": "Netherlands",
+    "replacement": "Australia",
+    "split": "fit",
+    "other_qid": "572fc83804bcaa1900d76d19"
+  },
+  {
+    "article": "Neptune",
+    "paragraph": 12,
+    "qid": "572e945cc246551400ce4373",
+    "start": 162,
+    "original": "icy",
+    "replacement": "electrical",
+    "split": "fit",
+    "other_qid": "572e945cc246551400ce4372"
+  },
+  {
+    "article": "Sanskrit",
+    "paragraph": 6,
+    "qid": "570e31310dc6ce1900204e62",
+    "start": 365,
+    "original": "conservative",
+    "replacement": "change",
+    "split": "fit",
+    "other_qid": "570e31310dc6ce1900204e5f"
+  },
+  {
+    "article": "Imperial_College_London",
+    "paragraph": 5,
+    "qid": "570a4f184103511400d59604",
+    "start": 117,
+    "original": "dismissal",
+    "replacement": "bullying",
+    "split": "fit",
+    "other_qid": "5709e5336d058f1900182bfa"
+  },
+  {
+    "article": "List_of_numbered_streets_in_Manhattan",
+    "paragraph": 45,
+    "qid": "56f972499b226e1400dd1469",
+    "start": 343,
+    "original": "Harlem",
+    "replacement": "East",
+    "split": "fit",
+    "other_qid": "56f972499b226e1400dd1466"
+  },
+  {
+    "article": "Westminster_Abbey",
+    "paragraph": 6,
+    "qid": "56e8d85b0b45c0140094cd0e",
+    "start": 608,
+    "original": "secular",
+    "replacement": "government",
+    "split": "fit",
+    "other_qid": "56e8d85b0b45c0140094cd0b"
+  },
+  {
+    "article": "Pitch_(music)",
+    "paragraph": 5,
+    "qid": "57097cb6200fba1400368075",
+    "start": 34,
+    "original": "ambiguous",
+    "replacement": "two",
+    "split": "fit",
+    "other_qid": "57097cb6200fba1400368077"
+  },
+  {
+    "article": "Child_labour",
+    "paragraph": 8,
+    "qid": "57276917708984140094dd1c",
+    "start": 324,
+    "original": "poor",
+    "replacement": "mines",
+    "split": "fit",
+    "other_qid": "57276917708984140094dd1b"
+  },
+  {
+    "article": "Hyderabad",
+    "paragraph": 52,
+    "qid": "572fc6fbb2c2fd1400568452",
+    "start": 72,
+    "original": "six",
+    "replacement": "three",
+    "split": "fit",
+    "other_qid": "572fc6fbb2c2fd1400568453"
+  },
+  {
+    "article": "Pope_Paul_VI",
+    "paragraph": 51,
+    "qid": "5726ef98708984140094d66d",
+    "start": 217,
+    "original": "five",
+    "replacement": "all",
+    "split": "fit",
+    "other_qid": "5726ef98708984140094d66e"
+  },
+  {
+    "article": "Alaska",
+    "paragraph": 39,
+    "qid": "57293ccf3f37b31900478167",
+    "start": 245,
+    "original": "seven",
+    "replacement": "five",
+    "split": "fit",
+    "other_qid": "57293ccf3f37b31900478165"
+  },
+  {
+    "article": "Chinese_characters",
+    "paragraph": 22,
+    "qid": "5726ddf1f1498d1400e8edff",
+    "start": 389,
+    "original": "Taiwan",
+    "replacement": "Mandarin",
+    "split": "test",
+    "other_qid": "5726ddf1f1498d1400e8edfe"
+  },
+  {
+    "article": "Beyoncé",
+    "paragraph": 45,
+    "qid": "56d4e5922ccc5a1400d83303",
+    "start": 154,
+    "original": "People",
+    "replacement": "Complex",
+    "split": "test",
+    "other_qid": "56bec5d53aeaaa14008c93d9"
+  },
+  {
+    "article": "Association_football",
+    "paragraph": 23,
+    "qid": "573057c82461fd1900a9cd91",
+    "start": 114,
+    "original": "good",
+    "replacement": "appeals",
+    "split": "test",
+    "other_qid": "573057c82461fd1900a9cd8f"
+  },
+  {
+    "article": "Economy_of_Greece",
+    "paragraph": 1,
+    "qid": "5731e813e99e3014001e63bf",
+    "start": 89,
+    "original": "economy",
+    "replacement": "agricultural",
+    "split": "test",
+    "other_qid": "5731e813e99e3014001e63c0"
+  },
+  {
+    "article": "Buddhism",
+    "paragraph": 19,
+    "qid": "56d1341de7d4791d00901fe2",
+    "start": 151,
+    "original": "craving",
+    "replacement": "ignorance",
+    "split": "test",
+    "other_qid": "56d0a5bf234ae51400d9c3f2"
+  },
+  {
+    "article": "God",
+    "paragraph": 20,
+    "qid": "572c0bcb750c471900ed4c94",
+    "start": 307,
+    "original": "forgiving",
+    "replacement": "forgiveness",
+    "split": "test",
+    "other_qid": "572c0bcb750c471900ed4c90"
+  },
+  {
+    "article": "Anthropology",
+    "paragraph": 25,
+    "qid": "5733cf984776f419006612ae",
+    "start": 513,
+    "original": "marriage",
+    "replacement": "anthropology",
+    "split": "test",
+    "other_qid": "5733cf984776f419006612aa"
+  },
+  {
+    "article": "Plymouth",
+    "paragraph": 61,
+    "qid": "56df76f356340a1900b29bbe",
+    "start": 503,
+    "original": "free",
+    "replacement": "six",
+    "split": "test",
+    "other_qid": "56df76f356340a1900b29bbc"
+  },
+  {
+    "article": "Seattle",
+    "paragraph": 0,
+    "qid": "5719c35b10f8ca1400304e52",
+    "start": 146,
+    "original": "Alaska",
+    "replacement": "Microsoft",
+    "split": "test",
+    "other_qid": "5719c35b10f8ca1400304e51"
+  },
+  {
+    "article": "Matter",
+    "paragraph": 1,
+    "qid": "56e6d6556fe0821900b8ebb2",
+    "start": 91,
+    "original": "atoms",
+    "replacement": "volume",
+    "split": "test",
+    "other_qid": "56e6d6556fe0821900b8ebb5"
+  },
+  {
+    "article": "Bermuda",
+    "paragraph": 5,
+    "qid": "5726c54d708984140094d0fd",
+    "start": 110,
+    "original": "three",
+    "replacement": "two",
+    "split": "test",
+    "other_qid": "5726c54d708984140094d0fe"
+  },
+  {
+    "article": "War_on_Terror",
+    "paragraph": 14,
+    "qid": "572847c4ff5b5019007da0bc",
+    "start": 256,
+    "original": "western",
+    "replacement": "competition",
+    "split": "test",
+    "other_qid": "572847c4ff5b5019007da0ba"
+  },
+  {
+    "article": "Dominican_Order",
+    "paragraph": 25,
+    "qid": "5727d8773acd2414000dedf6",
+    "start": 464,
+    "original": "Aristotle",
+    "replacement": "Great",
+    "split": "test",
+    "other_qid": "5727d8773acd2414000dedf7"
+  },
+  {
+    "article": "John_Kerry",
+    "paragraph": 3,
+    "qid": "572a992f111d821400f38c2c",
+    "start": 468,
+    "original": "Margaret",
+    "replacement": "Catholic",
+    "split": "test",
+    "other_qid": "572a992f111d821400f38c28"
+  },
+  {
+    "article": "George_VI",
+    "paragraph": 11,
+    "qid": "572819ff3acd2414000df48d",
+    "start": 571,
+    "original": "Two",
+    "replacement": "Delhi",
+    "split": "test",
+    "other_qid": "572819ff3acd2414000df48b"
+  },
+  {
+    "article": "Greece",
+    "paragraph": 92,
+    "qid": "57269063f1498d1400e8e3f1",
+    "start": 93,
+    "original": "four",
+    "replacement": "eleven",
+    "split": "test",
+    "other_qid": "57269063f1498d1400e8e3f0"
+  },
+  {
+    "article": "The_Legend_of_Zelda:_Twilight_Princess",
+    "paragraph": 6,
+    "qid": "56cd8e2362d2951400fa66fd",
+    "start": 74,
+    "original": "enemies",
+    "replacement": "nine",
+    "split": "test",
+    "other_qid": "56cd8e2362d2951400fa66fe"
+  },
+  {
+    "article": "Copper",
+    "paragraph": 17,
+    "qid": "57097747200fba140036802c",
+    "start": 655,
+    "original": "corrosion",
+    "replacement": "silver",
+    "split": "test",
+    "other_qid": "57097747200fba1400368029"
+  },
+  {
+    "article": "National_Archives_and_Records_Administration",
+    "paragraph": 16,
+    "qid": "56e78acb37bdd419002c40f0",
+    "start": 549,
+    "original": "destroyed",
+    "replacement": "research",
+    "split": "test",
+    "other_qid": "56e78acb37bdd419002c40ed"
+  },
+  {
+    "article": "Classical_music",
+    "paragraph": 8,
+    "qid": "56f6f5e1711bf01900a44898",
+    "start": 126,
+    "original": "wood",
+    "replacement": "bas",
+    "split": "test",
+    "other_qid": "56f6f5e1711bf01900a44899"
+  },
+  {
+    "article": "Bacteria",
+    "paragraph": 39,
+    "qid": "572fdb47947a6a140053cd58",
+    "start": 215,
+    "original": "purple",
+    "replacement": "pink",
+    "split": "test",
+    "other_qid": "572fdb47947a6a140053cd56"
+  },
+  {
+    "article": "Age_of_Enlightenment",
+    "paragraph": 32,
+    "qid": "571091d6a58dae1900cd6a4d",
+    "start": 767,
+    "original": "poetry",
+    "replacement": "anonymity",
+    "split": "test",
+    "other_qid": "571091d6a58dae1900cd6a4b"
+  },
+  {
+    "article": "Gamal_Abdel_Nasser",
+    "paragraph": 54,
+    "qid": "572822d04b864d1900164536",
+    "start": 118,
+    "original": "elites",
+    "replacement": "press",
+    "split": "test",
+    "other_qid": "572822d04b864d1900164537"
+  },
+  {
+    "article": "Turner_Classic_Movies",
+    "paragraph": 14,
+    "qid": "572787c4f1498d1400e8fb10",
+    "start": 594,
+    "original": "Sunday",
+    "replacement": "August",
+    "split": "test",
+    "other_qid": "572787c4f1498d1400e8fb0c"
+  },
+  {
+    "article": "Uranium",
+    "paragraph": 35,
+    "qid": "570e4fe50b85d914000d7e07",
+    "start": 262,
+    "original": "silk",
+    "replacement": "wood",
+    "split": "test",
+    "other_qid": "570e4fe50b85d914000d7e03"
+  },
+  {
+    "article": "Infection",
+    "paragraph": 20,
+    "qid": "57342b4c4776f419006619ea",
+    "start": 266,
+    "original": "prevention",
+    "replacement": "avoiding",
+    "split": "test",
+    "other_qid": "57342b4c4776f419006619e7"
+  },
+  {
+    "article": "Canon_law",
+    "paragraph": 18,
+    "qid": "56e11661e3433e1400422bb9",
+    "start": 442,
+    "original": "living",
+    "replacement": "unity",
+    "split": "test",
+    "other_qid": "56e11661e3433e1400422bb6"
+  },
+  {
+    "article": "New_Haven,_Connecticut",
+    "paragraph": 58,
+    "qid": "5727e1cfff5b5019007d9770",
+    "start": 128,
+    "original": "two",
+    "replacement": "four",
+    "split": "test",
+    "other_qid": "5727e1cfff5b5019007d9771"
+  },
+  {
+    "article": "Protestantism",
+    "paragraph": 5,
+    "qid": "5731bcb9e17f3d1400422354",
+    "start": 188,
+    "original": "four",
+    "replacement": "necessity",
+    "split": "test",
+    "other_qid": "5731bcb9e17f3d1400422353"
+  },
+  {
+    "article": "Planck_constant",
+    "paragraph": 4,
+    "qid": "572925caaf94a219006aa103",
+    "start": 44,
+    "original": "thermal",
+    "replacement": "colour",
+    "split": "test",
+    "other_qid": "57270064f1498d1400e8f205"
+  },
+  {
+    "article": "Data_compression",
+    "paragraph": 16,
+    "qid": "5726872b5951b619008f75c3",
+    "start": 50,
+    "original": "voltage",
+    "replacement": "data",
+    "split": "test",
+    "other_qid": "5726872b5951b619008f75c5"
+  },
+  {
+    "article": "Old_English",
+    "paragraph": 13,
+    "qid": "570a88dd6d058f1900182f6c",
+    "start": 59,
+    "original": "third",
+    "replacement": "past",
+    "split": "test",
+    "other_qid": "570a88dd6d058f1900182f6b"
+  },
+  {
+    "article": "Czech_language",
+    "paragraph": 23,
+    "qid": "572ba75ff75d5e190021fe70",
+    "start": 297,
+    "original": "completed",
+    "replacement": "marks",
+    "split": "test",
+    "other_qid": "572ba75ff75d5e190021fe6f"
+  },
+  {
+    "article": "Jehovah%27s_Witnesses",
+    "paragraph": 14,
+    "qid": "57324681e99e3014001e6628",
+    "start": 699,
+    "original": "favor",
+    "replacement": "organization",
+    "split": "test",
+    "other_qid": "57324681e99e3014001e6624"
+  },
+  {
+    "article": "Light-emitting_diode",
+    "paragraph": 4,
+    "qid": "5730c6cbf6cb411900e2448b",
+    "start": 298,
+    "original": "yellow",
+    "replacement": "red",
+    "split": "test",
+    "other_qid": "5730c6cbf6cb411900e24488"
+  },
+  {
+    "article": "Endangered_Species_Act",
+    "paragraph": 25,
+    "qid": "572ec623dfa6aa1500f8d384",
+    "start": 113,
+    "original": "seven",
+    "replacement": "six",
+    "split": "test",
+    "other_qid": "572ec623dfa6aa1500f8d383"
+  },
+  {
+    "article": "Communications_in_Somalia",
+    "paragraph": 12,
+    "qid": "56e1c042cd28a01900c67b22",
+    "start": 44,
+    "original": "six",
+    "replacement": "one",
+    "split": "test",
+    "other_qid": "56e1c042cd28a01900c67b23"
+  },
+  {
+    "article": "North_Carolina",
+    "paragraph": 26,
+    "qid": "5727871b708984140094e001",
+    "start": 136,
+    "original": "passage",
+    "replacement": "slaves",
+    "split": "test",
+    "other_qid": "5727871b708984140094dfff"
+  },
+  {
+    "article": "Wayback_Machine",
+    "paragraph": 17,
+    "qid": "56ddcf4166d3e219004dacf7",
+    "start": 10,
+    "original": "technical",
+    "replacement": "forms",
+    "split": "test",
+    "other_qid": "56ddcf4166d3e219004dacf8"
+  },
+  {
+    "article": "United_Nations_Population_Fund",
+    "paragraph": 19,
+    "qid": "56df76205ca0a614008f9aa5",
+    "start": 363,
+    "original": "Luxembourg",
+    "replacement": "Japan",
+    "split": "test",
+    "other_qid": "56df76205ca0a614008f9aa4"
+  },
+  {
+    "article": "Glass",
+    "paragraph": 11,
+    "qid": "572946226aef051400154c3c",
+    "start": 669,
+    "original": "astronomers",
+    "replacement": "solar",
+    "split": "test",
+    "other_qid": "572946226aef051400154c38"
+  },
+  {
+    "article": "Police",
+    "paragraph": 14,
+    "qid": "5732a92f328d981900601ff6",
+    "start": 323,
+    "original": "Brazil",
+    "replacement": "French",
+    "split": "test",
+    "other_qid": "5732a92f328d981900601ff3"
+  },
+  {
+    "article": "Melbourne",
+    "paragraph": 43,
+    "qid": "570e79000dc6ce19002050c4",
+    "start": 151,
+    "original": "Six",
+    "replacement": "Three",
+    "split": "test",
+    "other_qid": "570e79000dc6ce19002050c5"
+  },
+  {
+    "article": "England_national_football_team",
+    "paragraph": 8,
+    "qid": "570987d5200fba1400368151",
+    "start": 406,
+    "original": "Spain",
+    "replacement": "Mexico",
+    "split": "test",
+    "other_qid": "570987d5200fba140036814d"
+  },
+  {
+    "article": "IPod",
+    "paragraph": 33,
+    "qid": "56cca3676d243a140015f055",
+    "start": 397,
+    "original": "iOS",
+    "replacement": "not",
+    "split": "test",
+    "other_qid": "56cca3676d243a140015f052"
+  },
+  {
+    "article": "Treaty",
+    "paragraph": 10,
+    "qid": "56f7188d711bf01900a44952",
+    "start": 337,
+    "original": "attack",
+    "replacement": "region",
+    "split": "test",
+    "other_qid": "56f7188d711bf01900a44950"
+  },
+  {
+    "article": "Nutrition",
+    "paragraph": 21,
+    "qid": "5726ce98f1498d1400e8ebcf",
+    "start": 91,
+    "original": "beans",
+    "replacement": "discarded",
+    "split": "test",
+    "other_qid": "5726ce98f1498d1400e8ebce"
+  },
+  {
+    "article": "Architecture",
+    "paragraph": 11,
+    "qid": "56e47fc539bdeb1400347956",
+    "start": 435,
+    "original": "rural",
+    "replacement": "rapidly",
+    "split": "test",
+    "other_qid": "56de326dcffd8e1900b4b65e"
+  },
+  {
+    "article": "Avicenna",
+    "paragraph": 6,
+    "qid": "5726bff8708984140094d06c",
+    "start": 13,
+    "original": "medicine",
+    "replacement": "mathematics",
+    "split": "test",
+    "other_qid": "5726bff8708984140094d06b"
+  },
+  {
+    "article": "YouTube",
+    "paragraph": 24,
+    "qid": "5731b629b9d445190005e494",
+    "start": 153,
+    "original": "unauthorized",
+    "replacement": "view",
+    "split": "test",
+    "other_qid": "5731b629b9d445190005e493"
+  },
+  {
+    "article": "Israel",
+    "paragraph": 57,
+    "qid": "5725c6cd271a42140099d19b",
+    "start": 36,
+    "original": "six",
+    "replacement": "fifteen",
+    "split": "test",
+    "other_qid": "5725c6cd271a42140099d19c"
+  },
+  {
+    "article": "Alfred_North_Whitehead",
+    "paragraph": 20,
+    "qid": "573013b0b2c2fd1400568820",
+    "start": 186,
+    "original": "metaphysical",
+    "replacement": "metaphysics",
+    "split": "test",
+    "other_qid": "573013b0b2c2fd140056881d"
+  },
+  {
+    "article": "Saint_Helena",
+    "paragraph": 30,
+    "qid": "56e067a27aa994140058e456",
+    "start": 263,
+    "original": "West",
+    "replacement": "South",
+    "split": "test",
+    "other_qid": "56e067a27aa994140058e453"
+  },
+  {
+    "article": "Beer",
+    "paragraph": 10,
+    "qid": "570a3bf74103511400d595db",
+    "start": 130,
+    "original": "malt",
+    "replacement": "hops",
+    "split": "test",
+    "other_qid": "570a3bf74103511400d595dc"
+  },
+  {
+    "article": "Southern_Europe",
+    "paragraph": 19,
+    "qid": "56de51f9cffd8e1900b4b802",
+    "start": 259,
+    "original": "Slovenia",
+    "replacement": "Bulgarian",
+    "split": "test",
+    "other_qid": "56de51f9cffd8e1900b4b7ff"
+  },
+  {
+    "article": "Literature",
+    "paragraph": 16,
+    "qid": "5726e302f1498d1400e8eeab",
+    "start": 479,
+    "original": "logic",
+    "replacement": "mathematics",
+    "split": "test",
+    "other_qid": "5726e302f1498d1400e8eea8"
+  },
+  {
+    "article": "Bird_migration",
+    "paragraph": 11,
+    "qid": "5705f85275f01819005e77e8",
+    "start": 382,
+    "original": "autumn",
+    "replacement": "food",
+    "split": "test",
+    "other_qid": "5705f85275f01819005e77e7"
+  },
+  {
+    "article": "Guinea-Bissau",
+    "paragraph": 4,
+    "qid": "56f8a8539b226e1400dd0d70",
+    "start": 356,
+    "original": "Europeans",
+    "replacement": "Arabs",
+    "split": "test",
+    "other_qid": "56f8a8539b226e1400dd0d6f"
+  },
+  {
+    "article": "Botany",
+    "paragraph": 46,
+    "qid": "57278a735951b619008f8cd2",
+    "start": 208,
+    "original": "Species",
+    "replacement": "Kingdom",
+    "split": "test",
+    "other_qid": "57278a735951b619008f8cd3"
+  },
+  {
+    "article": "Black_people",
+    "paragraph": 10,
+    "qid": "5706602375f01819005e7b8a",
+    "start": 211,
+    "original": "blacks",
+    "replacement": "economist",
+    "split": "test",
+    "other_qid": "5706602375f01819005e7b88"
+  },
+  {
+    "article": "Law_of_the_United_States",
+    "paragraph": 11,
+    "qid": "5727e6ab4b864d1900163f92",
+    "start": 509,
+    "original": "law",
+    "replacement": "statutes",
+    "split": "test",
+    "other_qid": "5727e6ab4b864d1900163f91"
+  },
+  {
+    "article": "BeiDou_Navigation_Satellite_System",
+    "paragraph": 12,
+    "qid": "56e105afcd28a01900c6744b",
+    "start": 120,
+    "original": "one",
+    "replacement": "four",
+    "split": "test",
+    "other_qid": "56e105afcd28a01900c67449"
+  },
+  {
+    "article": "Dialect",
+    "paragraph": 3,
+    "qid": "56e81f4f37bdd419002c443d",
+    "start": 222,
+    "original": "accent",
+    "replacement": "vocabulary",
+    "split": "test",
+    "other_qid": "56e81f4f37bdd419002c443f"
+  },
+  {
+    "article": "Separation_of_church_and_state_in_the_United_States",
+    "paragraph": 25,
+    "qid": "5731ce3ee99e3014001e62be",
+    "start": 61,
+    "original": "three",
+    "replacement": "religion",
+    "split": "test",
+    "other_qid": "5731ce3ee99e3014001e62c0"
+  }
+]
