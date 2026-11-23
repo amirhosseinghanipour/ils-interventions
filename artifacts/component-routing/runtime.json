@@ -1,0 +1,35 @@
+{
+  "python": "3.14.4",
+  "pytorch": "2.14.0+cu130",
+  "numpy": "2.5.3",
+  "transformers": "5.17.0",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "dtype": "float32",
+  "attention": "eager",
+  "tf32": false,
+  "threads": 1,
+  "models": {
+    "qwen": {
+      "repository": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775"
+    },
+    "large": {
+      "repository": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "revision": "31b70e2e869a7173562077fd711b654946d38674"
+    }
+  },
+  "weight_sha256": {
+    "qwen": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+    "large": "f55217be716b6a997b97b9d8d7eb6fad02e00858f5010ec24f64603c3a98a0e8"
+  },
+  "source_sha256": {
+    "addition-validation": "407448e75fad3daf20f6ae38313d356bb07e12926daf0952d76b93098bf003a1",
+    "addition-test": "84373e6ee8d3eb440bb29ee365e20de58d8b700ba0869b763b64eb478752d954",
+    "subtraction-test": "0826ad98e453ba4c1c75ec3f33bc3d3aafd55e9e11e55f3609b96374d279e1b5"
+  },
+  "component_protocol_commit": "0b508e2",
+  "frozen_coefficient_commit": "1b21fa4",
+  "group_protocol_commit": "3084b38",
+  "timing_protocol_commit": "ade5cd5"
+}
