@@ -53,3 +53,24 @@ if __name__ == "__main__":
     assert [r["qid"] for r in read("4b")] == [r["qid"] for r in read("9b")]
     out = {name: scores(args.dir / f"native-{name}.json") for name in ("4b", "9b")}
     (args.dir / "native-summary.json").write_text(json.dumps(out, indent=2, allow_nan=False) + "\n")
+    if (args.dir / "step-0.0625-4b.json").exists():
+        sensitivity = {}
+        for name in ("4b", "9b"):
+            primary = read(name)
+            by_step = {"0.125": out[name]["all"]["methods"]}
+            for step in ("0.0625", "0.25"):
+                file = args.dir / f"step-{step}-{name}.json"
+                repeat = json.loads(file.read_text())
+                for first, second in zip(primary, repeat, strict=True):
+                    for key in ("qid", "source", "reference_first", "exact_top", "clean_top", "donor_top"):
+                        assert first[key] == second[key]
+                    assert second["finite_step"] == float(step)
+                    np.testing.assert_allclose(first["energy"], second["energy"], rtol=1e-5)
+                    np.testing.assert_allclose(
+                        first["sse"]["fit_donor"], second["sse"]["fit_donor"], rtol=1e-5
+                    )
+                by_step[step] = scores(file)["all"]["methods"]
+            sensitivity[name] = by_step
+        (args.dir / "native-sensitivity.json").write_text(
+            json.dumps(sensitivity, indent=2, allow_nan=False) + "\n"
+        )

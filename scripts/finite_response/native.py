@@ -159,7 +159,9 @@ if __name__ == "__main__":
     results = []
     for i, pair in enumerate(examples(model, rows, articles)):
         for meta, ids, donor, site in pair:
-            results.append(dict(**meta, **measure(model, ids, donor, site, weights, i < 4, a.step), finite_step=a.step))
+            results.append(
+                dict(**meta, **measure(model, ids, donor, site, weights, i < 4, a.step), finite_step=a.step)
+            )
         if i == 23:
             break
     assert len(results) == 48
