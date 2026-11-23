@@ -8,7 +8,7 @@ import numpy as np
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from ilslens.finite_response import partial_response, secant_transport
+from ilslens.finite_response import partial_response, prefix_secants, secant_transport
 from ilslens.hooks import tensor_output
 from ilslens.suffix import DecoderSuffix
 from sample import SQUAD_SHA, digest, get_ids
@@ -68,6 +68,12 @@ def collect(model, clean, donor, site, stops, audit):
     p = intermediate()
     mid = r.states[landmark][0, start:]
     z = d.states[landmark][0, start:] - mid
+    def multi(part):
+        # Prefix ending at each individual readout, from the first differing token.
+        zm = (d.states[landmark] - r.states[landmark])[0, site:]
+        ye = (d.states[depth-1] - r.states[depth-1])[0, site:]
+        return prefix_secants(part, zm, ye, start-site)
+    constrained, gain, ridge = multi(p)
     def jvp(at):
         return torch.autograd.functional.jvp(suffix, at, delta)[1]
     tangent = jvp(h)
@@ -103,7 +109,7 @@ def collect(model, clean, donor, site, stops, audit):
                     timings[name].append(1000 * (time.perf_counter() - begin))
             check["median_ms"] = {k:float(np.median(v)) for k,v in timings.items()}
     arrays = dict(base=base, target=target, endpoint=endpoint, partial=p, direction=z,
-                  tangent=tangent, midpoint=midpoint)
+                  tangent=tangent, midpoint=midpoint, constrained=constrained, gain=gain, ridge=ridge)
     return {k:v.cpu().detach().numpy() for k,v in arrays.items()}, dict(
         source=site, tokens=len(clean), block=layer, landmark=landmark, clean_generation=answer,
         ended=answer[-1] in stops, gold_along_clean=exact, **check)

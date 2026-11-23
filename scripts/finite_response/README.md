@@ -21,3 +21,5 @@ Use CUDA, PyTorch, Transformers, and NumPy. From the repository root set `PYTHON
     python scripts/finite_response/score.py INPUTS articles.json CACHE RESULTS
 
 Data from Rajpurkar et al., [SQuAD v1.1](https://rajpurkar.github.io/SQuAD-explorer/), CC BY-SA 4.0. Article metadata and derived data retain [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+The single-anchor formula is a rank-one Broyden secant update to a scaled identity. Controls include the classical identity initialization, unit norm-scaled gain, projection alone and the exact directional derivative at the clean and half-edited states. A secondary estimator uses all preceding clean token differences within the same prompt. It regularizes their projected landmark Gram matrix with a unit diagonal penalty while preserving the answer-position secant. A corresponding unconstrained prefix ridge predictor uses the same clean pairs. Both additions were fixed before inference on either benchmark model. No prediction sees a future answer token.

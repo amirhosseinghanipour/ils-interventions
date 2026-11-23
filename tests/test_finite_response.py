@@ -20,3 +20,13 @@ class FiniteResponseTests(unittest.TestCase):
         mid = torch.tensor([[2., 0.], [0., 0.]])
         end = torch.tensor([[0., 4.], [0., 0.]])
         torch.testing.assert_close(secant_transport(p, mid, end, .5), torch.tensor([[0., 5.], [1., -1.]]))
+
+    def test_prefix_estimator_reproduces_anchor_and_excludes_future_states(self):
+        from ilslens.finite_response import prefix_secants
+        torch.manual_seed(712)
+        z, y = torch.randn(6, 7), torch.randn(6, 7)
+        offset, gain, ridge = prefix_secants(z[3:], z, y, 3)
+        torch.testing.assert_close(offset + .7*gain, y[3:])
+        patch = torch.randn(1,7)
+        for full, prefix in zip(prefix_secants(patch,z,y,3), prefix_secants(patch,z[:4],y[:4],3)):
+            torch.testing.assert_close(full,prefix)

@@ -30,6 +30,10 @@ def features(row):
         "partial": (zero, [p]),
         "partial_donor_mix": (zero, [p, end]),
         "norm_transport": (zero, [np.linalg.norm(p, axis=-1, keepdims=True)/np.sqrt(denom)*end]),
+        "broyden_identity": (parallel + p - alpha*z, []),
+        "secant_unit_gain": (parallel + orthogonal, []),
+        "prefix_ridge": (row["ridge"], []),
+        "prefix_secants": (row["constrained"], [row["gain"]]),
         "projection_only": (parallel, []),
         "secant_transport": (parallel, [orthogonal]),
     }
