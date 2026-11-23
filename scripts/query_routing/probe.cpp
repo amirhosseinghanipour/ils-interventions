@@ -58,6 +58,7 @@ bool observe(ggml_tensor *node, bool ask, void *) {
         assert(node->ne[0] == width && ggml_nelements(node) == int64_t(width) * run.n);
         ggml_backend_tensor_get(node, landmark_capture, size_t(run.n-1)*width*sizeof(float), width*sizeof(float));
         ++landmark_hits;
+        if (!trace) return true;
     }
     if (trace) {
         for (int layer = 15; layer <= 23; ++layer) {
