@@ -3,7 +3,7 @@
 import numpy as np
 import pytest
 
-from scripts.mib_official.analyze import summarize
+from scripts.mib_official.analyze import summarize, summarize_additional_example
 
 
 def test_mib_template_bootstrap_recomputes_shared_denominator_and_objective():
@@ -46,6 +46,24 @@ def test_mib_template_bootstrap_recomputes_shared_denominator_and_objective():
         assert delta["pair_minus_comparator"] == pytest.approx(0.45 * 4 / 16)
         assert delta["interval"] == pytest.approx([0.0, 0.45 * 4 / 6])
         assert delta["leave_one_template_out_delta_range"] == pytest.approx([0.0, 0.45 * 4 / 6])
+    key = "organizer_hf_example"
+    supplement = {
+        "method": key,
+        "scope": "post-primary",
+        "source": "fixture",
+        "revision": "fixture",
+        "grid": grid,
+        "fingerprint": {"primary_sha256": "fixture"},
+        "graph_comparison": {},
+        "runtime": {},
+        "curves": {m: {key: curves["linear"]} for m, curves in data["curves"].items()},
+    }
+    additional = summarize_additional_example(data, supplement)
+    assert additional["bootstrap"]["draws"] == 4000
+    for mode in ("CPR", "CMD"):
+        new = additional["curves"][mode]["primary_pair_minus_organizer_hf_example"]
+        assert new["pair_minus_comparator"] == pytest.approx(0.45 * 4 / 16)
+        assert new["interval"] == pytest.approx([0.0, 0.45 * 4 / 6])
     # The same positive difference favors pair on CPR and linear on CMD.
     assert summary["curves"]["CPR"]["methods"]["linear"]["score"] == pytest.approx(0.9)
     assert summary["curves"]["CMD"]["methods"]["linear"]["score"] == pytest.approx(0.0)

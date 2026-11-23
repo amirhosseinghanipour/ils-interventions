@@ -18,6 +18,7 @@ from torch.utils.data import DataLoader
 from transformer_lens import HookedTransformer
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from scripts.mib_official.audit_masks import mask_hash
 from scripts.mib_official.public_ioi import (
     GRID,
     MODES,
@@ -138,6 +139,7 @@ def main():
         "grid": GRID,
         "curves": {},
     }
+    mask_runtimes = {}
     native_full = np.array(primary["curves"]["CPR"]["eap_ig"]["points"][-1]["margins"])
     for mode in MODES:
         points = []
@@ -147,9 +149,16 @@ def main():
             else:
                 g.apply_topn(int(fraction * len(g.edges)), absolute=mode == "CMD")
                 count = g.count_included_edges()
+                key = mask_hash(g)
+                timing = a.cache / ("timing-" + key + ".json")
+                already_measured = (a.cache / ("test-" + key + ".json")).exists()
                 started = monotonic()
                 values = measure(model, g, data, a.cache, "test")
-                print(mode, fraction, round(monotonic() - started, 1), flush=True)
+                elapsed = monotonic() - started
+                if not already_measured:
+                    save(timing, elapsed)
+                mask_runtimes[key] = read(timing) if timing.exists() else None
+                print(mode, fraction, round(elapsed, 1), flush=True)
             points.append(
                 {
                     "edges": count,
@@ -161,6 +170,15 @@ def main():
             KEY: {"points": points, "score": curve_scores([p["faithfulness"] for p in points])[mode]}
         }
         print(mode, KEY, out["curves"][mode][KEY]["score"], flush=True)
+    recorded = [t for t in mask_runtimes.values() if t is not None]
+    out["runtime"] = {
+        "scope": "nontrivial native public test graphs; excludes setup and endpoint parity checks",
+        "unique_graphs": len(mask_runtimes),
+        "timed_unique_graphs": len(recorded),
+        "seconds_by_graph_sha256": mask_runtimes,
+        "median_seconds": float(np.median(recorded)) if recorded else None,
+        "sum_seconds": sum(recorded),
+    }
     a.out.parent.mkdir(parents=True, exist_ok=True)
     a.out.write_bytes(
         gzip.compress(json.dumps(out, separators=(",", ":"), allow_nan=False).encode(), mtime=0)

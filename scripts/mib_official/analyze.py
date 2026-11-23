@@ -105,6 +105,7 @@ def summarize_additional_example(primary, supplement):
         "eligible_prompts": summary["eligible_prompts"],
         "bootstrap": summary["bootstrap"],
         "graph_comparison": supplement["graph_comparison"],
+        "runtime": supplement["runtime"],
         "curves": {
             mode: {
                 key: curve["methods"][key],
