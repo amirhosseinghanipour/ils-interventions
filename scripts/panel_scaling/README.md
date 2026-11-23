@@ -34,11 +34,9 @@ The supplementary policy reserves the last 32 calibration masks to validate a fi
     done
     python -m scripts.panel_scaling.adaptive score OUT OUT/adaptive-summary.json
 
-The 0.10-logit target required zero calibration on GPT-2 and Qwen development. Before testing any held-out prompt we added a separate target, set at half of the development midpoint MAE for each model and task. This requires an absolute tolerance specific to each cell. We keep the original outcome and run the same budget-selection and three-repetition native timing procedure at the stricter target, including exact fallback for infeasible fits. The packed archive retains these second-run timings and verifies the underlying predictions against the original native observations.
+The 0.10-logit target required zero calibration on GPT-2 and Qwen development. Before testing any held-out prompt we added a separate target, set at half of the development midpoint MAE for each model and task. This requires an absolute tolerance specific to each cell. We keep the original outcome and run the same budget-selection and three-repetition native timing procedure at the stricter target, including exact fallback for infeasible fits. Each timed repetition preserves its actual gradient, calibration labels and forecast. The scorer reconstructs that forecast and verifies the native measurements against the independent table. A batched remeasurement can differ slightly numerically and change which pair a sparse fit selects.
 
     for model in gpt2 qwen large; do
-        python -m scripts.panel_scaling.half_error configure OUT ALTERNATE "$model"
-        python -m scripts.panel_scaling.run INPUTS OUT/manifest.json ALTERNATE "$model" heldout
-        python -m scripts.panel_scaling.half_error pack OUT ALTERNATE "$model"
+        python -m scripts.panel_scaling.half_error collect INPUTS OUT "$model"
     done
     python -m scripts.panel_scaling.half_error score OUT OUT/half-summary.json
