@@ -1,0 +1,226 @@
+{
+  "index": 6,
+  "people": [
+    "Jack",
+    "Bill"
+  ],
+  "values": [
+    "gray",
+    "red"
+  ],
+  "edited": 0,
+  "replacement": "orange",
+  "texts": [
+    "<|im_start|>user\nAnswer with only the lowercase color word.\nJack has the gray card. Bill has the red card.\nWhich color card does Jack have?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+    "<|im_start|>user\nAnswer with only the lowercase color word.\nJack has the gray card. Bill has the red card.\nWhich color card does Bill have?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+    "<|im_start|>user\nAnswer with only the lowercase color word.\nJack has the orange card. Bill has the red card.\nWhich color card does Jack have?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+  ],
+  "site": 15,
+  "cue": 29,
+  "length": 41,
+  "tokens": [
+    [
+      248045,
+      846,
+      198,
+      15666,
+      440,
+      1132,
+      279,
+      40657,
+      1829,
+      3299,
+      13,
+      198,
+      31551,
+      682,
+      279,
+      17024,
+      3575,
+      13,
+      8333,
+      682,
+      279,
+      2438,
+      3575,
+      13,
+      198,
+      22365,
+      1829,
+      3575,
+      1503,
+      7366,
+      599,
+      30,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    [
+      248045,
+      846,
+      198,
+      15666,
+      440,
+      1132,
+      279,
+      40657,
+      1829,
+      3299,
+      13,
+      198,
+      31551,
+      682,
+      279,
+      17024,
+      3575,
+      13,
+      8333,
+      682,
+      279,
+      2438,
+      3575,
+      13,
+      198,
+      22365,
+      1829,
+      3575,
+      1503,
+      8333,
+      599,
+      30,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    [
+      248045,
+      846,
+      198,
+      15666,
+      440,
+      1132,
+      279,
+      40657,
+      1829,
+      3299,
+      13,
+      198,
+      31551,
+      682,
+      279,
+      18016,
+      3575,
+      13,
+      8333,
+      682,
+      279,
+      2438,
+      3575,
+      13,
+      198,
+      22365,
+      1829,
+      3575,
+      1503,
+      7366,
+      599,
+      30,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ]
+  ],
+  "correct": [
+    11314,
+    1114
+  ],
+  "donor_token": 33034,
+  "measurements": {
+    "relevant": {
+      "clean": {
+        "donor_minus_original": -12.445603370666504,
+        "top_token": 11314
+      },
+      "donor1_plus": {
+        "donor_minus_original": 11.727214813232422,
+        "top_token": 33034
+      },
+      "donor1_minus": {
+        "donor_minus_original": -13.911152839660645,
+        "top_token": 11314
+      },
+      "donor005_plus": {
+        "donor_minus_original": -12.411584854125977,
+        "top_token": 11314
+      },
+      "donor005_minus": {
+        "donor_minus_original": -12.650274276733398,
+        "top_token": 11314
+      },
+      "random1_plus": {
+        "donor_minus_original": -12.661683082580566,
+        "top_token": 11314
+      },
+      "random1_minus": {
+        "donor_minus_original": -12.283647537231445,
+        "top_token": 11314
+      }
+    },
+    "irrelevant": {
+      "clean": {
+        "donor_minus_original": -1.4839630126953125,
+        "top_token": 1114
+      },
+      "donor1_plus": {
+        "donor_minus_original": 2.2313385009765625,
+        "top_token": 1114
+      },
+      "donor1_minus": {
+        "donor_minus_original": -1.483602523803711,
+        "top_token": 1114
+      },
+      "donor005_plus": {
+        "donor_minus_original": -1.4715776443481445,
+        "top_token": 1114
+      },
+      "donor005_minus": {
+        "donor_minus_original": -1.493657112121582,
+        "top_token": 1114
+      },
+      "random1_plus": {
+        "donor_minus_original": -1.385457992553711,
+        "top_token": 1114
+      },
+      "random1_minus": {
+        "donor_minus_original": -1.315908432006836,
+        "top_token": 1114
+      }
+    }
+  },
+  "correct_both": true,
+  "correct_each": [
+    true,
+    true
+  ],
+  "primary": 20.45751667022705,
+  "random_control": -0.31458473205566406
+}
