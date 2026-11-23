@@ -70,15 +70,30 @@ def behavioral(rows, keys, caps, training):
 def grouped(source):
     methods = list(source[0]["predictions"])
     oracle = np.array([r["gold"][1:-1] for r in source])
-    errors = {m: abs(np.array([r["predictions"][m][1:-1] for r in source]) - oracle) for m in methods}
+    predictions = {m: np.array([r["predictions"][m][1:-1] for r in source]) for m in methods}
+    errors = {m: abs(pred - oracle) for m, pred in predictions.items()}
+    baseline = float(abs(oracle).mean())
+    material = abs(oracle) >= 0.1
     return dict(
         prompts=len(source),
         interior_masks_per_prompt=oracle.shape[1],
         sizes=source[0]["sizes"][1:-1],
+        zero_prediction_mae=baseline,
+        effects_of_at_least_point_one_logit=int(material.sum()),
         maximum_native_cut_disagreement=max(r["max_native_cut_error"] for r in source),
         native_effect_mean_absolute_by_size=abs(oracle).mean(axis=0).tolist(),
         methods={
-            m: dict(mae=float(v.mean()), mae_by_size=v.mean(axis=0).tolist()) for m, v in errors.items()
+            m: dict(
+                mae=float(v.mean()),
+                mae_by_size=v.mean(axis=0).tolist(),
+                mae_relative_to_zero=float(v.mean() / baseline) if baseline else None,
+                sign_accuracy_on_material_effects=float(
+                    (np.sign(predictions[m][material]) == np.sign(oracle[material])).mean()
+                )
+                if material.any()
+                else None,
+            )
+            for m, v in errors.items()
         },
     ), {m: v.mean(axis=1) for m, v in errors.items()}
 
@@ -108,11 +123,19 @@ def timings(rows):
     return out
 
 
+def simultaneous_intervals(comparisons):
+    maxima = np.max([abs(b - avg) / se for _, b, avg, se in comparisons if se > 1e-12], axis=0)
+    critical = float(np.quantile(maxima, 0.95))
+    for entry, _, avg, se in comparisons:
+        entry["simultaneous_ci95"] = [avg - critical * se, avg + critical * se]
+
+
 def summarize(directory):
     result = dict(behavior={}, groups={}, timing={})
     rng = np.random.default_rng(652194)
     draws = {t: rng.integers(0, 24, (10000, 24)) for t in ("addition", "subtraction")}
     comparisons = []
+    anchor_comparisons = []
     for model in ("qwen", "large"):
         result["timing"][model] = timings(read(directory / ("amortize-" + model + ".json")))
         caps = read(directory / (model + "-budget.json"))
@@ -145,10 +168,16 @@ def summarize(directory):
                 comparisons.append(
                     (report["methods"][method], b, float(advantage.mean()), float(b.std(ddof=1)))
                 )
-    maxima = np.max([abs(b - avg) / se for _, b, avg, se in comparisons if se > 1e-12], axis=0)
-    critical = float(np.quantile(maxima, 0.95))
-    for entry, _, avg, se in comparisons:
-        entry["simultaneous_ci95"] = [avg - critical * se, avg + critical * se]
+            report["matched_midpoint_comparisons"] = {}
+            for control in ("natural_midpoint", "recipient"):
+                advantage = per_prompt[control] - per_prompt["matched_midpoint"]
+                b = advantage[draws[task]].mean(axis=1)
+                avg = float(advantage.mean())
+                entry = dict(matched_midpoint_mae_advantage=avg)
+                report["matched_midpoint_comparisons"][control] = entry
+                anchor_comparisons.append((entry, b, avg, float(b.std(ddof=1))))
+    simultaneous_intervals(comparisons)
+    simultaneous_intervals(anchor_comparisons)
     return result
 
 

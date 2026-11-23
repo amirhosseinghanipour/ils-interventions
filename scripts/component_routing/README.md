@@ -46,3 +46,5 @@ For repeated what-if queries on a fixed prompt and block, the group estimator ca
 
     python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/amortize-qwen.json qwen
     python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/amortize-large.json large
+
+The matched-midpoint diagnostic separately compares one midpoint gradient at the reachable all-head endpoint with one gradient at either the natural-donor midpoint or the recipient. The contrast was specified after observing the Qwen group outcomes and before evaluating SmolLM2. Its intervals cover both comparator choices and all four model-task cells. Absolute effect size and sign agreement for effects of at least 0.1 logit supply additional descriptive scale checks.
