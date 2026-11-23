@@ -53,3 +53,8 @@ Repeat the timing diagnostic with `--cached-exact` to allow exact methods to reu
 
     python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/cached-qwen.json qwen --cached-exact
     python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/cached-large.json large --cached-exact
+
+Two accuracy controls on the same group masks compare the matched midpoint with a five-node midpoint quadrature of gradients along the reachable all-head path and with the sum of exact single-head effects. The latter's error directly measures the departure from additive single-head effects. Both share one setup across masks. Four prompts per model additionally repeat the 128-mask timings with the same cut capture excluded. These controls were added after the first Qwen group analysis and before SmolLM2 evaluation. Path integration is established in [integrated gradients](https://proceedings.mlr.press/v70/sundararajan17a.html) and [EAP-IG](https://arxiv.org/abs/2403.17806); these within-block masks use a reachable all-head endpoint.
+
+    python scripts/component_routing/group_controls.py INPUTS OUT/groups-qwen.json OUT/controls-qwen.json qwen
+    python scripts/component_routing/group_controls.py INPUTS OUT/groups-large.json OUT/controls-large.json large

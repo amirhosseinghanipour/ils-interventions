@@ -53,6 +53,12 @@ def predict(c, masks, method):
         grad = torch.autograd.grad(value.sum(), v)[0]
         return value.detach() - c.outputs[0], features @ grad.reshape(-1)
 
+    if method == "exact_additive":
+        singles = torch.eye(c.heads, device=h.device, dtype=torch.bool)
+        return m @ exact_suffix(c, singles, c.heads)
+    if method == "matched_ig5":
+        gradients = [tangent(torch.lerp(h, end, alpha))[1] for alpha in (0.1, 0.3, 0.5, 0.7, 0.9)]
+        return m @ torch.stack(gradients).mean(0)
     if method == "recipient":
         return m @ tangent(h)[1]
     if method == "midpoint":
