@@ -64,6 +64,7 @@ def summarize(directory):
             source = read(directory / (model + "-" + task + "-test.json"))
             rows = source["rows"]
             keys = source["keys"]
+            mlp = np.array([v == keys[-1][1] for _, v in keys])
             methods = rows[0]["methods"].keys()
             cell = model + "-" + task
             report = dict(
@@ -85,10 +86,7 @@ def summarize(directory):
                         pred, known, elapsed, miss = snapshot(run, cap)
                         y = np.array(row["gold"])
                         vals = metrics(y, pred, known)
-                        for kind, mask in (
-                            ("heads", np.array([v != max(j for _, j in keys) for _, v in keys])),
-                            ("mlps", np.array([v == max(j for _, j in keys) for _, v in keys])),
-                        ):
+                        for kind, mask in (("heads", ~mlp), ("mlps", mlp)):
                             vals[kind + "_mae"] = float(np.abs(y[mask] - pred[mask]).mean())
                             vals[kind + "_directional"] = metrics(y[mask], pred[mask], known[mask])[
                                 "directional"
