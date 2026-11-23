@@ -7,10 +7,13 @@ import torch
 from .hooks import tensor_output
 from .sampling import horizon_weights,valid_positions
 
-class QwenSuffix:
+class DecoderSuffix:
+    """Replay compatible eager-attention decoder blocks with captured position inputs."""
+    model_types = ('llama', 'qwen2')
+
     def __init__(self,model,ids):
-        if model.config.model_type!='qwen2' or model.training:
-            raise ValueError('Requires an eval-mode Qwen2 model')
+        if model.config.model_type not in self.model_types or model.training:
+            raise ValueError(f'Requires an eval-mode model of type {self.model_types}')
         self.model=model
         self.ids=ids.to(model.model.embed_tokens.weight.device)
         self.states={};self.kwargs={}
@@ -65,3 +68,7 @@ class QwenSuffix:
         return torch.stack([torch.einsum('t,ntd->nd',
             horizon_weights(position,self.ids.shape[1],g,skip).to(effect.device),
             effect[:,position:-1]) for g in gammas],dim=1)
+
+
+class QwenSuffix(DecoderSuffix):
+    model_types = ('qwen2',)
