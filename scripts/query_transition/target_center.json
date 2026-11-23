@@ -1,0 +1,5 @@
+{
+  "trigger": "The 9B food-trained mention-order readout scored 64/128 on materials, below the pooled-amplitude predictor. This diagnostic was fixed after the 9B aggregate and before the 4B material outcomes. The two checkpoints share test texts.",
+  "calibration": "Use the first 16 complete materials prefixes for unlabeled task centering only; score the remaining 48. Keep the food-trained slot direction, original word endpoint inference, known source index and color amplitudes fixed. Estimate the target-template center by averaging both clean block-15 question states over the sixteen calibration prefixes.",
+  "comparison": "Paired change in held-out residual R2 over a single mean amplitude, on 48 scoring prefixes. Report frozen uncentered and re-centered slot counts, R2 and intervals plus the late-word and oracle scores on these same records. Also report sign ordering within each scoring pair as a diagnostic requiring both questions. No further parameter selection."
+}

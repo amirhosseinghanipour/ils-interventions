@@ -18,6 +18,7 @@ for size in 9b 4b; do
     "$PYTHON" "$study/heads.py" "$OUT/probe.so" "$model" "$selection" "$OUT/heads/$size"
     scales="$study/../../artifacts/query-routing/animals/$size/prototypes.json"
     "$PYTHON" "$study/materials.py" "$OUT/probe.so" "$model" "$BLIND/$size" "$scales" "$OUT/materials/$size"
+    "$PYTHON" "$study/target_center.py" "$BLIND/$size" "$OUT/materials/$size" "$scales" "$OUT/materials/$size/target-center.json"
     "$PYTHON" "$study/verify_materials.py" "$OUT/materials/$size" "$BLIND/$size" "$scales"
     "$PYTHON" "$study/transport.py" "$OUT/probe.so" "$model" "$OUT/blocks/$size" "$selection" "$OUT/transport/$size"
 done
