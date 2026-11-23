@@ -1,0 +1,121 @@
+{
+  "articles": 40,
+  "questions": 80,
+  "clean_first": 66,
+  "unique_tokens": 67,
+  "block_minus_random": {
+    "mean": 4.170508414506912,
+    "ci95": [
+      3.4102523586153985,
+      4.972922226339578
+    ]
+  },
+  "selected_minus_controls": {
+    "mean": 0.2768999954064687,
+    "ci95": [
+      0.1570605686803659,
+      0.4080180158714453
+    ]
+  },
+  "interventions": {
+    "update": {
+      "gain": {
+        "mean": 4.238058423995971,
+        "ci95": [
+          3.5055974572896957,
+          5.0105500024557115
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    },
+    "random": {
+      "gain": {
+        "mean": 0.06755000948905945,
+        "ci95": [
+          -0.07147005349397659,
+          0.21885206893086429
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    },
+    "whole": {
+      "gain": {
+        "mean": 9.234093701839447,
+        "ci95": [
+          8.16414898753166,
+          10.312575362622738
+        ]
+      },
+      "donor_top": 5,
+      "flips_from_clean_correct": 3
+    },
+    "sham": {
+      "gain": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    },
+    "11": {
+      "gain": {
+        "mean": 0.41577787399291993,
+        "ci95": [
+          0.2886521565914154,
+          0.5658289751410484
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    },
+    "14": {
+      "gain": {
+        "mean": -0.6576356589794159,
+        "ci95": [
+          -0.8206599181890488,
+          -0.5100064523518086
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    },
+    "2": {
+      "gain": {
+        "mean": 1.054983174800873,
+        "ci95": [
+          0.8203289595246315,
+          1.326934585273266
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    },
+    "6": {
+      "gain": {
+        "mean": 0.01928611993789673,
+        "ci95": [
+          -0.0023227754235267636,
+          0.04051689416170119
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    },
+    "prior": {
+      "gain": {
+        "mean": 0.7693538904190064,
+        "ci95": [
+          0.5967055496573448,
+          0.9547524622082708
+        ]
+      },
+      "donor_top": 0,
+      "flips_from_clean_correct": 0
+    }
+  }
+}

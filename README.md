@@ -6,3 +6,5 @@ These arrays and JSON records accompany the ILS Interventions experiments. [Repr
 * `heads` contains interventions on the two-word development and four-person assembly tasks, head selection scores, and the post-gate activations for the selected block.
 * `transport` contains block-edit displacements paired with their final residual responses and out-of-sample prediction scores.
 * `SHA256SUMS` lists the content digests of all measured files.
+
+The completed archive also contains `natural`, numerical interventions and identifiers for SQuAD v1.1 questions indexed by article and paragraph, and `crossed`, the replayed same-size interventions from unrelated question pairs, and `materials`, the early slot-predictor inputs, gold targets, dictionary, word bank, and observed responses. Regenerate and check these using `scripts/query_transition` in the code checkout. The SQuAD source file is identified by SHA-256 in the corresponding configuration.

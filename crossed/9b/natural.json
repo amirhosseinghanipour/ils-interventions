@@ -1,0 +1,1164 @@
+[
+  {
+    "index": 0,
+    "other": 1,
+    "answers": [
+      22,
+      3138
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -9.390386581420898,
+        "top_token": 22
+      },
+      {
+        "donor_minus_original": -4.273120880126953,
+        "top_token": 3138
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -13.003633499145508,
+        "top_token": 22
+      },
+      {
+        "donor_minus_original": -9.408620834350586,
+        "top_token": 3138
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "other": 2,
+    "answers": [
+      23202,
+      33
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -3.095365524291992,
+        "top_token": 23202
+      },
+      {
+        "donor_minus_original": -4.6353912353515625,
+        "top_token": 33
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -5.350149154663086,
+        "top_token": 23202
+      },
+      {
+        "donor_minus_original": -9.628315925598145,
+        "top_token": 33
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "other": 3,
+    "answers": [
+      6755,
+      2096
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -8.330551147460938,
+        "top_token": 6755
+      },
+      {
+        "donor_minus_original": -0.16455459594726562,
+        "top_token": 3217
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -15.218764305114746,
+        "top_token": 6755
+      },
+      {
+        "donor_minus_original": -6.640024185180664,
+        "top_token": 3217
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "other": 4,
+    "answers": [
+      85996,
+      2229
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -5.424150466918945,
+        "top_token": 85996
+      },
+      {
+        "donor_minus_original": -16.033811569213867,
+        "top_token": 2229
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -9.930573463439941,
+        "top_token": 85996
+      },
+      {
+        "donor_minus_original": -20.35451316833496,
+        "top_token": 2229
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "other": 5,
+    "answers": [
+      45,
+      61506
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -9.91237735748291,
+        "top_token": 49513
+      },
+      {
+        "donor_minus_original": -11.958988189697266,
+        "top_token": 61506
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -13.567206382751465,
+        "top_token": 49513
+      },
+      {
+        "donor_minus_original": -13.696657180786133,
+        "top_token": 61506
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "other": 6,
+    "answers": [
+      16,
+      211085
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -12.910909652709961,
+        "top_token": 16
+      },
+      {
+        "donor_minus_original": -8.812677383422852,
+        "top_token": 211085
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -18.499500274658203,
+        "top_token": 16
+      },
+      {
+        "donor_minus_original": -12.6278657913208,
+        "top_token": 211085
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "other": 7,
+    "answers": [
+      742,
+      5816
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -11.888055801391602,
+        "top_token": 742
+      },
+      {
+        "donor_minus_original": -7.216721534729004,
+        "top_token": 1465
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -12.817656517028809,
+        "top_token": 43
+      },
+      {
+        "donor_minus_original": -8.176350593566895,
+        "top_token": 1465
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "other": 8,
+    "answers": [
+      528,
+      54
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -8.751884460449219,
+        "top_token": 528
+      },
+      {
+        "donor_minus_original": -6.133399963378906,
+        "top_token": 54
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -10.348007202148438,
+        "top_token": 528
+      },
+      {
+        "donor_minus_original": -12.282923698425293,
+        "top_token": 37838
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "other": 9,
+    "answers": [
+      6082,
+      42608
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -4.789207458496094,
+        "top_token": 44439
+      },
+      {
+        "donor_minus_original": -13.055914878845215,
+        "top_token": 42608
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -8.452322006225586,
+        "top_token": 44439
+      },
+      {
+        "donor_minus_original": -13.917566299438477,
+        "top_token": 42608
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "other": 10,
+    "answers": [
+      92510,
+      24037
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -11.004670143127441,
+        "top_token": 92510
+      },
+      {
+        "donor_minus_original": -7.774324417114258,
+        "top_token": 24037
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -14.716428756713867,
+        "top_token": 92510
+      },
+      {
+        "donor_minus_original": -11.983098030090332,
+        "top_token": 24037
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "other": 11,
+    "answers": [
+      20,
+      50656
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -15.856539726257324,
+        "top_token": 20
+      },
+      {
+        "donor_minus_original": -5.45366096496582,
+        "top_token": 50656
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -20.469039916992188,
+        "top_token": 20
+      },
+      {
+        "donor_minus_original": -14.109600067138672,
+        "top_token": 50656
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "other": 12,
+    "answers": [
+      396,
+      31271
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -2.7619476318359375,
+        "top_token": 396
+      },
+      {
+        "donor_minus_original": -3.281099319458008,
+        "top_token": 31271
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -2.691019058227539,
+        "top_token": 396
+      },
+      {
+        "donor_minus_original": -3.636615753173828,
+        "top_token": 31271
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "other": 13,
+    "answers": [
+      44,
+      21
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -10.839217185974121,
+        "top_token": 44
+      },
+      {
+        "donor_minus_original": -7.595836639404297,
+        "top_token": 10957
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -14.465027809143066,
+        "top_token": 44
+      },
+      {
+        "donor_minus_original": -11.97293472290039,
+        "top_token": 10957
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "other": 14,
+    "answers": [
+      17,
+      16
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -9.140718460083008,
+        "top_token": 17
+      },
+      {
+        "donor_minus_original": -9.519546508789062,
+        "top_token": 16
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -10.237444877624512,
+        "top_token": 17
+      },
+      {
+        "donor_minus_original": -11.153990745544434,
+        "top_token": 16
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "other": 15,
+    "answers": [
+      15103,
+      35778
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -8.279865264892578,
+        "top_token": 15103
+      },
+      {
+        "donor_minus_original": -13.838981628417969,
+        "top_token": 35778
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -10.762410163879395,
+        "top_token": 15103
+      },
+      {
+        "donor_minus_original": -15.0473051071167,
+        "top_token": 35778
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "other": 16,
+    "answers": [
+      11553,
+      49
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -5.990339279174805,
+        "top_token": 11553
+      },
+      {
+        "donor_minus_original": -7.929482460021973,
+        "top_token": 49
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -8.941401481628418,
+        "top_token": 11553
+      },
+      {
+        "donor_minus_original": -12.321459770202637,
+        "top_token": 49
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "other": 17,
+    "answers": [
+      11124,
+      16
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -5.250566482543945,
+        "top_token": 11124
+      },
+      {
+        "donor_minus_original": -8.506044387817383,
+        "top_token": 16
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -12.098844528198242,
+        "top_token": 11124
+      },
+      {
+        "donor_minus_original": -19.127349853515625,
+        "top_token": 16
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "other": 18,
+    "answers": [
+      5649,
+      34499
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -8.548419952392578,
+        "top_token": 5649
+      },
+      {
+        "donor_minus_original": -0.2528190612792969,
+        "top_token": 34499
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -13.684061050415039,
+        "top_token": 5649
+      },
+      {
+        "donor_minus_original": -1.7260608673095703,
+        "top_token": 1719
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "other": 19,
+    "answers": [
+      4913,
+      61226
+    ],
+    "shared": [
+      61226
+    ],
+    "correct_donor": [
+      {
+        "donor_minus_original": -14.595560073852539,
+        "top_token": 4913
+      },
+      {
+        "donor_minus_original": -14.415264129638672,
+        "top_token": 61226
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -15.009896278381348,
+        "top_token": 4913
+      },
+      {
+        "donor_minus_original": -14.28470516204834,
+        "top_token": 61226
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "other": 20,
+    "answers": [
+      43,
+      61226
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -9.550276756286621,
+        "top_token": 43
+      },
+      {
+        "donor_minus_original": -6.275529861450195,
+        "top_token": 61226
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -14.075607299804688,
+        "top_token": 43
+      },
+      {
+        "donor_minus_original": -11.44412899017334,
+        "top_token": 61226
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "other": 21,
+    "answers": [
+      21,
+      3446
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -11.38375473022461,
+        "top_token": 21
+      },
+      {
+        "donor_minus_original": -9.362234115600586,
+        "top_token": 3446
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -14.88672161102295,
+        "top_token": 21
+      },
+      {
+        "donor_minus_original": -16.295185089111328,
+        "top_token": 3446
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "other": 22,
+    "answers": [
+      55670,
+      1719
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -8.188896179199219,
+        "top_token": 55670
+      },
+      {
+        "donor_minus_original": -10.941644668579102,
+        "top_token": 61229
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -11.617949485778809,
+        "top_token": 55670
+      },
+      {
+        "donor_minus_original": -17.1016788482666,
+        "top_token": 1719
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "other": 23,
+    "answers": [
+      49531,
+      727
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -4.260814666748047,
+        "top_token": 49531
+      },
+      {
+        "donor_minus_original": -8.053768157958984,
+        "top_token": 727
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -13.78384780883789,
+        "top_token": 49531
+      },
+      {
+        "donor_minus_original": -16.46297264099121,
+        "top_token": 727
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "other": 24,
+    "answers": [
+      77720,
+      12702
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -8.9050931930542,
+        "top_token": 48055
+      },
+      {
+        "donor_minus_original": -18.29709243774414,
+        "top_token": 12702
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -11.33227825164795,
+        "top_token": 48055
+      },
+      {
+        "donor_minus_original": -19.38986587524414,
+        "top_token": 12702
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "other": 25,
+    "answers": [
+      57413,
+      1719
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -7.202211380004883,
+        "top_token": 57413
+      },
+      {
+        "donor_minus_original": -16.178863525390625,
+        "top_token": 1719
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -9.539019584655762,
+        "top_token": 57413
+      },
+      {
+        "donor_minus_original": -16.6374568939209,
+        "top_token": 12195
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "other": 26,
+    "answers": [
+      14913,
+      26863
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -3.378371238708496,
+        "top_token": 61501
+      },
+      {
+        "donor_minus_original": -9.559144020080566,
+        "top_token": 64
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -5.841533660888672,
+        "top_token": 61501
+      },
+      {
+        "donor_minus_original": -8.521337509155273,
+        "top_token": 64
+      }
+    ]
+  },
+  {
+    "index": 26,
+    "other": 27,
+    "answers": [
+      42005,
+      16
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -7.5083208084106445,
+        "top_token": 42005
+      },
+      {
+        "donor_minus_original": -9.808063507080078,
+        "top_token": 16
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -11.488165855407715,
+        "top_token": 42005
+      },
+      {
+        "donor_minus_original": -15.996007919311523,
+        "top_token": 16
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "other": 28,
+    "answers": [
+      19,
+      77420
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -10.186718940734863,
+        "top_token": 19
+      },
+      {
+        "donor_minus_original": -5.659294128417969,
+        "top_token": 77420
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -17.24184799194336,
+        "top_token": 19
+      },
+      {
+        "donor_minus_original": -7.501705169677734,
+        "top_token": 77420
+      }
+    ]
+  },
+  {
+    "index": 28,
+    "other": 29,
+    "answers": [
+      27174,
+      50
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -15.255549430847168,
+        "top_token": 27174
+      },
+      {
+        "donor_minus_original": -13.283447265625,
+        "top_token": 50
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -15.493666648864746,
+        "top_token": 27174
+      },
+      {
+        "donor_minus_original": -15.413494110107422,
+        "top_token": 50
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "other": 30,
+    "answers": [
+      329,
+      8679
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -6.044902801513672,
+        "top_token": 64
+      },
+      {
+        "donor_minus_original": -10.334772109985352,
+        "top_token": 64
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -11.561641693115234,
+        "top_token": 760
+      },
+      {
+        "donor_minus_original": -11.355266571044922,
+        "top_token": 64
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "other": 31,
+    "answers": [
+      1719,
+      44
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -6.371599197387695,
+        "top_token": 1719
+      },
+      {
+        "donor_minus_original": -0.21794891357421875,
+        "top_token": 44
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -11.398612022399902,
+        "top_token": 1719
+      },
+      {
+        "donor_minus_original": -3.1587963104248047,
+        "top_token": 44
+      }
+    ]
+  },
+  {
+    "index": 31,
+    "other": 32,
+    "answers": [
+      64500,
+      12365
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -10.447420120239258,
+        "top_token": 64500
+      },
+      {
+        "donor_minus_original": -11.401482582092285,
+        "top_token": 12365
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -14.008267402648926,
+        "top_token": 64500
+      },
+      {
+        "donor_minus_original": -14.448208808898926,
+        "top_token": 12365
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "other": 33,
+    "answers": [
+      86,
+      41327
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -10.777894973754883,
+        "top_token": 86
+      },
+      {
+        "donor_minus_original": -1.0081787109375,
+        "top_token": 760
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -12.831232070922852,
+        "top_token": 86
+      },
+      {
+        "donor_minus_original": -3.5186500549316406,
+        "top_token": 760
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "other": 34,
+    "answers": [
+      276,
+      33
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -6.885622024536133,
+        "top_token": 276
+      },
+      {
+        "donor_minus_original": -6.666248321533203,
+        "top_token": 33
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -10.209672927856445,
+        "top_token": 276
+      },
+      {
+        "donor_minus_original": -10.617234230041504,
+        "top_token": 33
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "other": 35,
+    "answers": [
+      16,
+      60969
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -4.598188400268555,
+        "top_token": 16
+      },
+      {
+        "donor_minus_original": -2.2952442169189453,
+        "top_token": 60969
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -17.24273109436035,
+        "top_token": 16
+      },
+      {
+        "donor_minus_original": -11.170769691467285,
+        "top_token": 60969
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "other": 36,
+    "answers": [
+      43298,
+      35
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -6.003023147583008,
+        "top_token": 43298
+      },
+      {
+        "donor_minus_original": -5.174388885498047,
+        "top_token": 35
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -11.739489555358887,
+        "top_token": 43298
+      },
+      {
+        "donor_minus_original": -14.870926856994629,
+        "top_token": 35
+      }
+    ]
+  },
+  {
+    "index": 36,
+    "other": 37,
+    "answers": [
+      1893,
+      19186
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -9.20419692993164,
+        "top_token": 1893
+      },
+      {
+        "donor_minus_original": -3.6077442169189453,
+        "top_token": 19186
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -11.122756004333496,
+        "top_token": 1893
+      },
+      {
+        "donor_minus_original": -6.507328033447266,
+        "top_token": 19186
+      }
+    ]
+  },
+  {
+    "index": 37,
+    "other": 38,
+    "answers": [
+      58768,
+      54
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -5.743243217468262,
+        "top_token": 58768
+      },
+      {
+        "donor_minus_original": -10.5092134475708,
+        "top_token": 64
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -4.92083740234375,
+        "top_token": 58768
+      },
+      {
+        "donor_minus_original": -13.09709358215332,
+        "top_token": 64
+      }
+    ]
+  },
+  {
+    "index": 38,
+    "other": 39,
+    "answers": [
+      16,
+      59212
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -8.366594314575195,
+        "top_token": 16
+      },
+      {
+        "donor_minus_original": -5.002521514892578,
+        "top_token": 59212
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -12.671496391296387,
+        "top_token": 16
+      },
+      {
+        "donor_minus_original": -11.53722095489502,
+        "top_token": 59212
+      }
+    ]
+  },
+  {
+    "index": 39,
+    "other": 0,
+    "answers": [
+      17,
+      442
+    ],
+    "shared": [],
+    "correct_donor": [
+      {
+        "donor_minus_original": -13.719986915588379,
+        "top_token": 17
+      },
+      {
+        "donor_minus_original": -7.304039001464844,
+        "top_token": 760
+      }
+    ],
+    "other_donor": [
+      {
+        "donor_minus_original": -16.420658111572266,
+        "top_token": 17
+      },
+      {
+        "donor_minus_original": -7.641521453857422,
+        "top_token": 760
+      }
+    ]
+  }
+]
