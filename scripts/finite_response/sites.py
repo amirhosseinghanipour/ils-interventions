@@ -117,20 +117,34 @@ def measure(model, ids):
     )
 
 
+def top_credit(y, prediction):
+    """Expected single-site hit with uniform tie breaking."""
+    pred = abs(prediction) == abs(prediction).max()
+    truth = abs(y) == abs(y).max()
+    return float((pred & truth).sum() / pred.sum())
+
+
 def summarize(rows):
     draws = np.random.default_rng(38219).integers(len(rows), size=(10000, len(rows)))
     output = {}
     gold = [np.asarray(r["gold"]) for r in rows]
     energy = np.array([np.square(y).sum() for y in gold])
     scores = {}
-    for name in rows[0]["estimates"]:
-        preds = [np.asarray(r["estimates"][name]) for r in rows]
+    estimates = []
+    for row in rows:
+        end = row["donor_margin"] - row["clean_margin"]
+        share = np.asarray(row["share"])
+        first = np.zeros_like(share)
+        first[0] = end
+        estimates.append({**row["estimates"], "energy_only": end * share, "first_active": first})
+    for name in estimates[0]:
+        preds = [np.asarray(r[name]) for r in estimates]
         sse = np.array([np.square(y - p).sum() for y, p in zip(gold, preds)])
         scores[name] = sse
         output[name] = dict(
             normalized_error=float(sse.sum() / energy.sum()),
             mae=float(sum(abs(p - y).sum() for y, p in zip(gold, preds)) / sum(map(len, gold))),
-            top_site_correct=sum(int(np.argmax(abs(y)) == np.argmax(abs(p))) for y, p in zip(gold, preds)),
+            top_site_correct=sum(top_credit(y, p) for y, p in zip(gold, preds)),
         )
     for k, err in scores.items():
         diff = err - scores["endpoint_blend"]

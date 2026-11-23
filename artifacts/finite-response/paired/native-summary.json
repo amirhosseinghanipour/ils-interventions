@@ -1,0 +1,500 @@
+{
+  "4b": {
+    "all": {
+      "questions": 48,
+      "clean_first_correct": 33,
+      "patch_changes_first": 17,
+      "methods": {
+        "fit_donor": {
+          "normalized_error": 0.38158373681937635,
+          "gain_with_two_anchor": 0.1254784748369314,
+          "paired_ci95": [
+            0.08615605198319787,
+            0.17083078774724175
+          ]
+        },
+        "donor_jvp": {
+          "normalized_error": 0.2607173099453105,
+          "gain_with_two_anchor": 0.004612047962865551,
+          "paired_ci95": [
+            0.0017418884453135166,
+            0.008416571337993803
+          ]
+        },
+        "donor_landmark": {
+          "normalized_error": 0.34781742309744634,
+          "gain_with_two_anchor": 0.09171216111500141,
+          "paired_ci95": [
+            0.06041685605402904,
+            0.12860301996412785
+          ]
+        },
+        "two_anchor": {
+          "normalized_error": 0.25610526198244493,
+          "gain_with_two_anchor": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "partial_donor_mix": {
+          "normalized_error": 0.3758626124062603,
+          "gain_with_two_anchor": 0.11975735042381531,
+          "paired_ci95": [
+            0.08215776012055222,
+            0.1637011555829986
+          ]
+        },
+        "fit_clean_jvp": {
+          "normalized_error": 0.9590253157223552,
+          "gain_with_two_anchor": 0.7029200537399102,
+          "paired_ci95": [
+            0.5869484787791277,
+            0.8162818829326075
+          ]
+        },
+        "raw_donor": {
+          "normalized_error": 0.45446076652614403,
+          "gain_with_two_anchor": 0.19835550454369905,
+          "paired_ci95": [
+            0.1369103677155785,
+            0.26941127332719617
+          ]
+        },
+        "donor_jvp_raw": {
+          "normalized_error": 0.35480347752445174,
+          "gain_with_two_anchor": 0.09869821554200679,
+          "paired_ci95": [
+            0.06456708470988519,
+            0.14290980364378286
+          ]
+        },
+        "no_change": {
+          "normalized_error": 1.0,
+          "gain_with_two_anchor": 0.7438947380175551,
+          "paired_ci95": [
+            0.6437565357844462,
+            0.8338833588712309
+          ]
+        }
+      }
+    },
+    "edited_answer": {
+      "questions": 24,
+      "clean_first_correct": 18,
+      "patch_changes_first": 17,
+      "methods": {
+        "fit_donor": {
+          "normalized_error": 0.36596842389690915,
+          "gain_with_two_anchor": 0.13023904703470573,
+          "paired_ci95": [
+            0.08876530796998162,
+            0.18116876961655146
+          ]
+        },
+        "donor_jvp": {
+          "normalized_error": 0.23962175162412136,
+          "gain_with_two_anchor": 0.003892374761918006,
+          "paired_ci95": [
+            0.0011942216319789783,
+            0.00747834413911124
+          ]
+        },
+        "donor_landmark": {
+          "normalized_error": 0.3325692140656526,
+          "gain_with_two_anchor": 0.09683983720344924,
+          "paired_ci95": [
+            0.0638418193014634,
+            0.13793240489679018
+          ]
+        },
+        "two_anchor": {
+          "normalized_error": 0.23572937686220335,
+          "gain_with_two_anchor": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "partial_donor_mix": {
+          "normalized_error": 0.3605898405192244,
+          "gain_with_two_anchor": 0.12486046365702096,
+          "paired_ci95": [
+            0.08502265197599278,
+            0.1743581227892536
+          ]
+        },
+        "fit_clean_jvp": {
+          "normalized_error": 0.9503790802151333,
+          "gain_with_two_anchor": 0.7146497033529299,
+          "paired_ci95": [
+            0.5986153920792895,
+            0.8293089810439213
+          ]
+        },
+        "raw_donor": {
+          "normalized_error": 0.4341370115702123,
+          "gain_with_two_anchor": 0.19840763470800893,
+          "paired_ci95": [
+            0.13630197389892004,
+            0.2722565699264177
+          ]
+        },
+        "donor_jvp_raw": {
+          "normalized_error": 0.3188997099889194,
+          "gain_with_two_anchor": 0.08317033312671605,
+          "paired_ci95": [
+            0.049743607124227165,
+            0.12679246298080246
+          ]
+        },
+        "no_change": {
+          "normalized_error": 1.0,
+          "gain_with_two_anchor": 0.7642706231377966,
+          "paired_ci95": [
+            0.6626284224425143,
+            0.8544082548466511
+          ]
+        }
+      }
+    },
+    "other_answer": {
+      "questions": 24,
+      "clean_first_correct": 15,
+      "patch_changes_first": 0,
+      "methods": {
+        "fit_donor": {
+          "normalized_error": 1.0306550934926233,
+          "gain_with_two_anchor": -0.07240107264908631,
+          "paired_ci95": [
+            -1.261452098651029,
+            0.7419451777916192
+          ]
+        },
+        "donor_jvp": {
+          "normalized_error": 1.1375823927841655,
+          "gain_with_two_anchor": 0.034526226642455936,
+          "paired_ci95": [
+            0.014056467047033757,
+            0.15992396685405258
+          ]
+        },
+        "donor_landmark": {
+          "normalized_error": 0.981629615798602,
+          "gain_with_two_anchor": -0.12142655034310765,
+          "paired_ci95": [
+            -1.32802572911999,
+            0.5582737551011502
+          ]
+        },
+        "two_anchor": {
+          "normalized_error": 1.1030561661417095,
+          "gain_with_two_anchor": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "partial_donor_mix": {
+          "normalized_error": 1.0106957930219695,
+          "gain_with_two_anchor": -0.09236037311974019,
+          "paired_ci95": [
+            -1.285834576028332,
+            0.6503417718242129
+          ]
+        },
+        "fit_clean_jvp": {
+          "normalized_error": 1.3184176531448353,
+          "gain_with_two_anchor": 0.2153614870031258,
+          "paired_ci95": [
+            -3.049087559101439,
+            0.7658400203599811
+          ]
+        },
+        "raw_donor": {
+          "normalized_error": 1.2992448107165926,
+          "gain_with_two_anchor": 0.1961886445748832,
+          "paired_ci95": [
+            -0.9821750726098819,
+            2.0993235443950025
+          ]
+        },
+        "donor_jvp_raw": {
+          "normalized_error": 1.8471915724462704,
+          "gain_with_two_anchor": 0.7441354063045609,
+          "paired_ci95": [
+            0.48116070157047824,
+            2.7856596876855617
+          ]
+        },
+        "no_change": {
+          "normalized_error": 1.0,
+          "gain_with_two_anchor": -0.10305616614170973,
+          "paired_ci95": [
+            -4.038972511359441,
+            0.5347524524849611
+          ]
+        }
+      }
+    },
+    "relative_step_disagreement": {
+      "clean_jvp": {
+        "median": 1.1138845086097717,
+        "maximum": 2.3898961544036865
+      },
+      "donor_jvp": {
+        "median": 1.26691472530365,
+        "maximum": 2.603888511657715
+      }
+    }
+  },
+  "9b": {
+    "all": {
+      "questions": 48,
+      "clean_first_correct": 33,
+      "patch_changes_first": 13,
+      "methods": {
+        "fit_donor": {
+          "normalized_error": 0.3394466500141381,
+          "gain_with_two_anchor": 0.04673917559333679,
+          "paired_ci95": [
+            -0.006003372908017742,
+            0.09701893372633642
+          ]
+        },
+        "donor_jvp": {
+          "normalized_error": 0.2997166971181338,
+          "gain_with_two_anchor": 0.007009222697332471,
+          "paired_ci95": [
+            0.0034175969483991923,
+            0.011983376729220148
+          ]
+        },
+        "donor_landmark": {
+          "normalized_error": 0.3018871878576071,
+          "gain_with_two_anchor": 0.009179713436805828,
+          "paired_ci95": [
+            -0.04841734292865286,
+            0.057282064278235734
+          ]
+        },
+        "two_anchor": {
+          "normalized_error": 0.29270747442080125,
+          "gain_with_two_anchor": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "partial_donor_mix": {
+          "normalized_error": 0.33515042232006825,
+          "gain_with_two_anchor": 0.04244294789926697,
+          "paired_ci95": [
+            -0.011215700249006557,
+            0.09252493004685651
+          ]
+        },
+        "fit_clean_jvp": {
+          "normalized_error": 0.9527667279547184,
+          "gain_with_two_anchor": 0.660059253533917,
+          "paired_ci95": [
+            0.4954603055636349,
+            0.8035817255448479
+          ]
+        },
+        "raw_donor": {
+          "normalized_error": 0.41151906496067314,
+          "gain_with_two_anchor": 0.11881159053987188,
+          "paired_ci95": [
+            0.06590670412577108,
+            0.18357778213687923
+          ]
+        },
+        "donor_jvp_raw": {
+          "normalized_error": 0.4659264719659185,
+          "gain_with_two_anchor": 0.17321899754511721,
+          "paired_ci95": [
+            0.09766384996105482,
+            0.29547979005503244
+          ]
+        },
+        "no_change": {
+          "normalized_error": 1.0,
+          "gain_with_two_anchor": 0.7072925255791986,
+          "paired_ci95": [
+            0.5823662379919998,
+            0.7989822406073651
+          ]
+        }
+      }
+    },
+    "edited_answer": {
+      "questions": 24,
+      "clean_first_correct": 17,
+      "patch_changes_first": 13,
+      "methods": {
+        "fit_donor": {
+          "normalized_error": 0.32460403712094105,
+          "gain_with_two_anchor": 0.045546239137829674,
+          "paired_ci95": [
+            -0.006329549165210078,
+            0.0954966778418858
+          ]
+        },
+        "donor_jvp": {
+          "normalized_error": 0.2855715203936213,
+          "gain_with_two_anchor": 0.006513722410509946,
+          "paired_ci95": [
+            0.0029031775599363003,
+            0.011545152995756962
+          ]
+        },
+        "donor_landmark": {
+          "normalized_error": 0.2885826463041713,
+          "gain_with_two_anchor": 0.00952484832105988,
+          "paired_ci95": [
+            -0.04719899346129084,
+            0.057842074875142625
+          ]
+        },
+        "two_anchor": {
+          "normalized_error": 0.2790577979831114,
+          "gain_with_two_anchor": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "partial_donor_mix": {
+          "normalized_error": 0.3206138286669017,
+          "gain_with_two_anchor": 0.04155603068379034,
+          "paired_ci95": [
+            -0.011426247485297102,
+            0.09163856247439156
+          ]
+        },
+        "fit_clean_jvp": {
+          "normalized_error": 0.9451403622777427,
+          "gain_with_two_anchor": 0.6660825642946312,
+          "paired_ci95": [
+            0.49879119435134855,
+            0.811463608642176
+          ]
+        },
+        "raw_donor": {
+          "normalized_error": 0.3925502962566222,
+          "gain_with_two_anchor": 0.11349249827351084,
+          "paired_ci95": [
+            0.06304487216570502,
+            0.17648890833974762
+          ]
+        },
+        "donor_jvp_raw": {
+          "normalized_error": 0.4357926410935951,
+          "gain_with_two_anchor": 0.15673484311048372,
+          "paired_ci95": [
+            0.0817218990147172,
+            0.28067330166776294
+          ]
+        },
+        "no_change": {
+          "normalized_error": 1.0,
+          "gain_with_two_anchor": 0.7209422020168886,
+          "paired_ci95": [
+            0.5960939195770038,
+            0.8122659183602537
+          ]
+        }
+      }
+    },
+    "other_answer": {
+      "questions": 24,
+      "clean_first_correct": 16,
+      "patch_changes_first": 0,
+      "methods": {
+        "fit_donor": {
+          "normalized_error": 1.182397821900394,
+          "gain_with_two_anchor": 0.1144891863489545,
+          "paired_ci95": [
+            -0.8834771912394215,
+            0.4694587121043234
+          ]
+        },
+        "donor_jvp": {
+          "normalized_error": 1.103058627697692,
+          "gain_with_two_anchor": 0.03514999214625225,
+          "paired_ci95": [
+            0.018053408309219792,
+            0.14036964093584045
+          ]
+        },
+        "donor_landmark": {
+          "normalized_error": 1.0574872277278426,
+          "gain_with_two_anchor": -0.010421407823597104,
+          "paired_ci95": [
+            -1.1118364786931698,
+            0.2752919515224343
+          ]
+        },
+        "two_anchor": {
+          "normalized_error": 1.0679086355514398,
+          "gain_with_two_anchor": 0.0,
+          "paired_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "partial_donor_mix": {
+          "normalized_error": 1.1607219536497964,
+          "gain_with_two_anchor": 0.09281331809835656,
+          "paired_ci95": [
+            -0.9381719731895959,
+            0.4291660969042418
+          ]
+        },
+        "fit_clean_jvp": {
+          "normalized_error": 1.3858881689636957,
+          "gain_with_two_anchor": 0.31797953341225577,
+          "paired_ci95": [
+            -1.309306066710045,
+            0.6588260088895727
+          ]
+        },
+        "raw_donor": {
+          "normalized_error": 1.488805518725688,
+          "gain_with_two_anchor": 0.420896883174248,
+          "paired_ci95": [
+            -0.3684952151324817,
+            1.1483438385213982
+          ]
+        },
+        "donor_jvp_raw": {
+          "normalized_error": 2.1773062829215593,
+          "gain_with_two_anchor": 1.1093976473701197,
+          "paired_ci95": [
+            0.6181501521339737,
+            3.7275714190357654
+          ]
+        },
+        "no_change": {
+          "normalized_error": 1.0,
+          "gain_with_two_anchor": -0.06790863555143971,
+          "paired_ci95": [
+            -2.8545157315207277,
+            0.3722088300057224
+          ]
+        }
+      }
+    },
+    "relative_step_disagreement": {
+      "clean_jvp": {
+        "median": 1.2434795200824738,
+        "maximum": 2.2844607830047607
+      },
+      "donor_jvp": {
+        "median": 0.9199819564819336,
+        "maximum": 2.0066099166870117
+      }
+    }
+  }
+}
