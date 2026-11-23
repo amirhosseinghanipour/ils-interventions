@@ -41,3 +41,8 @@ The reachable endpoint is the state produced by swapping every head in that bloc
     for model in qwen large; do
       python scripts/component_routing/groups.py INPUTS OUT/group-manifest.json OUT/groups-"$model".json "$model"
     done
+
+For repeated what-if queries on a fixed prompt and block, the group estimator can reuse head projections and their Gram matrix. If the rows of H are the head edits and m is a binary mask, the squared edit norm is mᵀHHᵀm. Two suffix gradients suffice for any number of masks in the smooth and nearest predictors. The timing diagnostic uses the first two independent group prompts per operation, random unique masks, and 1, 8, 32 or 128 queries in a batch. Each method pays its complete per-prompt setup on every batch. Exact substitutions run in up to eight lanes. Three timed executions follow one warm-up per batch, with shuffled method order. Recipient and donor capture is shared and reported separately. This diagnostic reuses four group prompts per model and measures speed on one GPU.
+
+    python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/amortize-qwen.json qwen
+    python scripts/component_routing/amortize.py INPUTS OUT/group-manifest.json OUT/amortize-large.json large
