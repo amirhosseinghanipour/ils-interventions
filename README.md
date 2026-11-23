@@ -14,6 +14,10 @@ At block 19, replacing a two-word query's residual update with the update from t
 
 On 64 fresh material prefixes, a food-trained block-15 mention-order classifier and independently calibrated word vectors gave held-out residual R² of 0.685 on 4B and 0.173 on 9B. Using 16 unlabeled material prefixes to re-center the classifier increased 9B residual R² from 0.167 to 0.555 on the other 48 prefixes. The 4B classifier identified all 96 mentions with either center. Across paired human questions from 40 SQuAD articles, the block-19 donor update shifted the alternative first-token margin by 6.41 logits over random on 4B and 4.17 on 9B. It switched the clean-correct first token to the other human answer on 1/58 and 0/66 questions, respectively. [New raw measurements](https://github.com/amirhosseinghanipour/ils-interventions/tree/data/query-transition) · [Earlier raw measurements](https://github.com/amirhosseinghanipour/ils-interventions/tree/data/query-routing)
 
+## Arithmetic component interventions
+
+The arithmetic benchmark measures how replacing attention heads and MLPs changes an answer-token margin. Its single-site experiment compares component selection under equal time budgets. Its group experiment measures the accuracy and speed of predicting many simultaneous head substitutions on one prompt. [Measurements and checksums](artifacts/component-routing/README.md) · [Reproduction commands](scripts/component_routing/README.md)
+
 ## Install
 
 Use Python 3.11 or newer in a virtual environment:

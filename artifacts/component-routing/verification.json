@@ -1,0 +1,7 @@
+{
+  "validation_patches": 900,
+  "test_patches": 13824,
+  "timed_queries_checked": 45445,
+  "interior_group_patches": 480,
+  "group_endpoint_controls": 192
+}
