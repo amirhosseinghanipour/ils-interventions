@@ -10,7 +10,7 @@ The repository also retains the numerical validation, toy model, and historical 
 
 ## Query-conditioned interventions
 
-At block 19, replacing a two-word query's residual update with the update from the other query increased the alternative answer margin by 7.73 logits over a norm-matched random edit on Qwen3.5-9B and 8.10 on 4B. The substitution switched 38 and 23 of 128 greedy second tokens, respectively. The complete block state switched all 128 on both models. Reproduction scripts, metrics and raw-data schemas accompany the held-out comparisons. [Experimental code](scripts/query_transition/README.md) · [Numerical results](artifacts/query-transition)
+At block 19, replacing a two-word query's residual update with the update from the other query increased the alternative answer margin by 7.73 logits over a norm-matched random edit on Qwen3.5-9B and 8.10 on 4B. The substitution switched 38 and 23 of 128 greedy second tokens, respectively. The complete block state switched all 128 on both models. Reproduction scripts, metrics and raw-data schemas accompany the held-out comparisons. [Experimental code](scripts/query_transition/README.md) · [Numerical results](artifacts/query-transition) · [Paired measurements](https://github.com/amirhosseinghanipour/ils-interventions/tree/data/query-transition)
 
 ## Install
 
