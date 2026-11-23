@@ -73,7 +73,7 @@ def examples(model, rows, articles):
             yield pair
 
 
-def measure(model, ids, donor, site, weights, audit):
+def measure(model, ids, donor, site, weights, audit, step):
     def run(tokens, *, capture=False, replacement=None, patch=None):
         block = np.empty((len(tokens), model.width), np.float32) if capture else None
         landmark = np.empty(model.width, np.float32)
@@ -103,15 +103,15 @@ def measure(model, ids, donor, site, weights, audit):
         minus = run(tokens, replacement=state - eps * move)[2]
         return (plus - minus) / (2 * eps)
 
-    cols["clean_jvp"] = tangent(ids, h, delta, 0.125)
-    cols["donor_jvp"] = tangent(donor, k, complement, 0.125)
+    cols["clean_jvp"] = tangent(ids, h, delta, step)
+    cols["donor_jvp"] = tangent(donor, k, complement, step)
     diag = {}
     if audit:
         swapped = run(ids, replacement=k)
         assert swapped[3] == donor_top
         np.testing.assert_allclose(swapped[2], f1, rtol=5e-4, atol=5e-4)
         for name, t, state, move in (("clean_jvp", ids, h, delta), ("donor_jvp", donor, k, complement)):
-            short = tangent(t, state, move, 0.0625)
+            short = tangent(t, state, move, step / 2)
             diag[name] = float(np.linalg.norm(short - cols[name]) / max(np.linalg.norm(cols[name]), 1e-8))
     keys = {
         "fit_donor": ["end"],
@@ -142,6 +142,7 @@ if __name__ == "__main__":
     for key in ("library", "model", "dataset", "manifest", "weights", "out"):
         parser.add_argument(key, type=Path)
     parser.add_argument("size", choices=HASHES)
+    parser.add_argument("--step", type=float, choices=(0.0625, 0.125, 0.25), default=0.125)
     a = parser.parse_args()
     with a.model.open("rb") as f:
         assert hashlib.file_digest(f, "sha256").hexdigest() == HASHES[a.size]
@@ -158,7 +159,7 @@ if __name__ == "__main__":
     results = []
     for i, pair in enumerate(examples(model, rows, articles)):
         for meta, ids, donor, site in pair:
-            results.append(dict(**meta, **measure(model, ids, donor, site, weights, i < 4)))
+            results.append(dict(**meta, **measure(model, ids, donor, site, weights, i < 4, a.step), finite_step=a.step))
         if i == 23:
             break
     assert len(results) == 48
