@@ -23,11 +23,11 @@ def measure(model, ids, weights):
     r, d = replay(clean), replay(donor)
     depth = len(r.states)
     layer, mid, last = depth // 2 - 1, 3 * depth // 4 - 1, depth - 1
-    h, k = r.states[layer], d.states[layer]
+    h, donor_state = r.states[layer], d.states[layer]
     delta = torch.zeros_like(h)
-    delta[:, site] = k[:, site] - h[:, site]
+    delta[:, site] = donor_state[:, site] - h[:, site]
     hybrid = h + delta
-    complement = hybrid - k
+    complement = hybrid - donor_state
     base = r.states[last][0, -1:]
     end = d.states[last][0, -1:] - base
     z = (d.states[mid] - r.states[mid])[0, -1:]
@@ -44,11 +44,11 @@ def measure(model, ids, weights):
 
     def reverse():
         a, b = weights["donor_jvp"]
-        return a * end + b * jvp(k, complement)
+        return a * end + b * jvp(donor_state, complement)
 
     def both():
         a, b, c = weights["two_anchor"]
-        return a * end + b * jvp(k, complement) + c * jvp(h, delta)
+        return a * end + b * jvp(donor_state, complement) + c * jvp(h, delta)
 
     ops = {
         "exact": lambda: tail(hybrid) - base,
