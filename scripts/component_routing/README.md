@@ -30,3 +30,14 @@ The primary comparison is SmolLM on subtraction at the tight allowance. Evaluate
       done
     done
     python scripts/component_routing/score.py OUT OUT/summary.json
+
+## Matched attention endpoints
+
+A separate test uses 24 further pairs per arithmetic task, excluding every operand pair used in the component benchmark. It predicts the effect of simultaneously swapping a random subset of native attention heads in the middle sampled block. Each prompt has one seeded head permutation. Five nontrivial prefix sizes range from one head through all but one. Empty and complete sets are implementation checks and excluded from scores.
+
+The reachable endpoint is the state produced by swapping every head in that block on the recipient. A smooth two-endpoint predictor combines first-order estimates around the untouched recipient and the all-head patch. The weight on the reverse estimate is the fourth power of distance from the recipient divided by the sum of fourth powers of distance from both endpoints. No coefficient is fitted. Controls include the closer endpoint alone, a midpoint gradient between reachable endpoints, and a midpoint corrected to reproduce the exact all-head effect by projecting the edit onto the all-head displacement. We also measure a secant-only projection, each endpoint tangent, and the original natural-donor methods. All methods share their anchors across five queries. This comparison tests signed-effect accuracy without an equal-time claim. The all-head effect is an additional observation for methods that use the reachable endpoint's output. Each group label comes from an actual simultaneous substitution. The comparison uses prompt-level MAE on the five interior masks and paired uncertainty; reporting by mask size is descriptive.
+
+    python scripts/component_routing/groups.py INPUTS artifacts/component-routing/manifest.json OUT/group-manifest.json select
+    for model in qwen large; do
+      python scripts/component_routing/groups.py INPUTS OUT/group-manifest.json OUT/groups-"$model".json "$model"
+    done
