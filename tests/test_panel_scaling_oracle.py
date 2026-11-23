@@ -66,7 +66,18 @@ class PanelOracleTests(unittest.TestCase):
             initializer_range=0.08,
         )
         architectures = [
-            (GPT2LMHeadModel, GPT2Config(n_embd=40, n_head=10, n_layer=4, vocab_size=37, n_positions=24)),
+            (
+                GPT2LMHeadModel,
+                GPT2Config(
+                    n_embd=40,
+                    n_head=10,
+                    n_layer=4,
+                    vocab_size=37,
+                    n_positions=24,
+                    bos_token_id=1,
+                    eos_token_id=2,
+                ),
+            ),
             (LlamaForCausalLM, LlamaConfig(**kwargs)),
             (Qwen2ForCausalLM, Qwen2Config(**kwargs)),
         ]
