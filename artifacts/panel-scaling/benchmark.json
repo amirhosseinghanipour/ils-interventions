@@ -1,0 +1,33 @@
+{
+  "sites": 16,
+  "heads_per_block": 8,
+  "heldout_queries": 512,
+  "models": [
+    "gpt2",
+    "qwen",
+    "large"
+  ],
+  "tasks": [
+    "gift",
+    "route"
+  ],
+  "mean_absolute_error_tolerance_logits": 0.1,
+  "calibration_counts": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    256
+  ],
+  "budget_rule": "smallest qualifying mean error on eight development prompts per task and model, otherwise exact evaluation",
+  "primary_model": "gpt2",
+  "timing_repeats": 3,
+  "inference_unit": "prompt",
+  "primary_uncertainty": "paired whole-template bootstrap; independent task draws; joint one-sided 95% lower bounds on tolerance minus ILS error and time saved versus dense and exact for both tasks",
+  "success": "positive fitted calibration budget and all six lower bounds strictly positive"
+}

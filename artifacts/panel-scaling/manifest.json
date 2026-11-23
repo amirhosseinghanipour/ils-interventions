@@ -1,0 +1,1112 @@
+{
+  "tokenizers": {
+    "qwen": {
+      "tokenizer_json_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "rows_validated": 64,
+      "min_prefix_tokens": 11,
+      "max_prefix_tokens": 24
+    },
+    "smol": {
+      "tokenizer_json_sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+      "rows_validated": 64,
+      "min_prefix_tokens": 11,
+      "max_prefix_tokens": 25
+    },
+    "gpt2": {
+      "tokenizer_json_sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+      "rows_validated": 64,
+      "min_prefix_tokens": 11,
+      "max_prefix_tokens": 25
+    }
+  },
+  "rows": [
+    {
+      "id": "gift-00-0",
+      "task": "gift",
+      "template": "gift-00",
+      "split": "development",
+      "clean": "The candle was given to Tony, and the clock was given to Tom. The person who got the candle was",
+      "donor": "The candle was given to Tom, and the clock was given to Tony. The person who got the candle was",
+      "original_answer": "Tony",
+      "donor_answer": "Tom",
+      "entity_pair": [
+        "Tony",
+        "Tom"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "candle",
+        "clock"
+      ]
+    },
+    {
+      "id": "gift-00-1",
+      "task": "gift",
+      "template": "gift-00",
+      "split": "development",
+      "clean": "The lamp was given to Sam, and the clock was given to Anna. The person who got the clock was",
+      "donor": "The lamp was given to Anna, and the clock was given to Sam. The person who got the clock was",
+      "original_answer": "Anna",
+      "donor_answer": "Sam",
+      "entity_pair": [
+        "Sam",
+        "Anna"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "lamp",
+        "clock"
+      ]
+    },
+    {
+      "id": "gift-00-2",
+      "task": "gift",
+      "template": "gift-00",
+      "split": "development",
+      "clean": "The candle was given to James, and the wallet was given to Bob. The person who got the candle was",
+      "donor": "The candle was given to Bob, and the wallet was given to James. The person who got the candle was",
+      "original_answer": "James",
+      "donor_answer": "Bob",
+      "entity_pair": [
+        "James",
+        "Bob"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "candle",
+        "wallet"
+      ]
+    },
+    {
+      "id": "gift-00-3",
+      "task": "gift",
+      "template": "gift-00",
+      "split": "development",
+      "clean": "The vase was given to John, and the painting was given to Bob. The person who got the painting was",
+      "donor": "The vase was given to Bob, and the painting was given to John. The person who got the painting was",
+      "original_answer": "Bob",
+      "donor_answer": "John",
+      "entity_pair": [
+        "John",
+        "Bob"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "vase",
+        "painting"
+      ]
+    },
+    {
+      "id": "gift-01-0",
+      "task": "gift",
+      "template": "gift-01",
+      "split": "development",
+      "clean": "The present for Tony was the clock. The present for Bob was the vase. The vase was a present for",
+      "donor": "The present for Bob was the clock. The present for Tony was the vase. The vase was a present for",
+      "original_answer": "Bob",
+      "donor_answer": "Tony",
+      "entity_pair": [
+        "Tony",
+        "Bob"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "clock",
+        "vase"
+      ]
+    },
+    {
+      "id": "gift-01-1",
+      "task": "gift",
+      "template": "gift-01",
+      "split": "development",
+      "clean": "The present for Mary was the book. The present for Tony was the clock. The book was a present for",
+      "donor": "The present for Tony was the book. The present for Mary was the clock. The book was a present for",
+      "original_answer": "Mary",
+      "donor_answer": "Tony",
+      "entity_pair": [
+        "Mary",
+        "Tony"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "book",
+        "clock"
+      ]
+    },
+    {
+      "id": "gift-01-2",
+      "task": "gift",
+      "template": "gift-01",
+      "split": "development",
+      "clean": "The present for Sam was the ring. The present for Paul was the coat. The coat was a present for",
+      "donor": "The present for Paul was the ring. The present for Sam was the coat. The coat was a present for",
+      "original_answer": "Paul",
+      "donor_answer": "Sam",
+      "entity_pair": [
+        "Sam",
+        "Paul"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "ring",
+        "coat"
+      ]
+    },
+    {
+      "id": "gift-01-3",
+      "task": "gift",
+      "template": "gift-01",
+      "split": "development",
+      "clean": "The present for John was the hat. The present for James was the clock. The hat was a present for",
+      "donor": "The present for James was the hat. The present for John was the clock. The hat was a present for",
+      "original_answer": "John",
+      "donor_answer": "James",
+      "entity_pair": [
+        "John",
+        "James"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "hat",
+        "clock"
+      ]
+    },
+    {
+      "id": "gift-02-0",
+      "task": "gift",
+      "template": "gift-02",
+      "split": "heldout",
+      "clean": "Gift labels: the coat is for Paul; the painting is for James. The label on the coat names",
+      "donor": "Gift labels: the coat is for James; the painting is for Paul. The label on the coat names",
+      "original_answer": "Paul",
+      "donor_answer": "James",
+      "entity_pair": [
+        "Paul",
+        "James"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "coat",
+        "painting"
+      ]
+    },
+    {
+      "id": "gift-02-1",
+      "task": "gift",
+      "template": "gift-02",
+      "split": "heldout",
+      "clean": "Gift labels: the hat is for Mary; the lamp is for James. The label on the lamp names",
+      "donor": "Gift labels: the hat is for James; the lamp is for Mary. The label on the lamp names",
+      "original_answer": "James",
+      "donor_answer": "Mary",
+      "entity_pair": [
+        "Mary",
+        "James"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "hat",
+        "lamp"
+      ]
+    },
+    {
+      "id": "gift-02-2",
+      "task": "gift",
+      "template": "gift-02",
+      "split": "heldout",
+      "clean": "Gift labels: the hat is for Tony; the mug is for David. The label on the hat names",
+      "donor": "Gift labels: the hat is for David; the mug is for Tony. The label on the hat names",
+      "original_answer": "Tony",
+      "donor_answer": "David",
+      "entity_pair": [
+        "Tony",
+        "David"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "hat",
+        "mug"
+      ]
+    },
+    {
+      "id": "gift-02-3",
+      "task": "gift",
+      "template": "gift-02",
+      "split": "heldout",
+      "clean": "Gift labels: the wallet is for Mark; the lamp is for Mary. The label on the lamp names",
+      "donor": "Gift labels: the wallet is for Mary; the lamp is for Mark. The label on the lamp names",
+      "original_answer": "Mary",
+      "donor_answer": "Mark",
+      "entity_pair": [
+        "Mark",
+        "Mary"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "wallet",
+        "lamp"
+      ]
+    },
+    {
+      "id": "gift-03-0",
+      "task": "gift",
+      "template": "gift-03",
+      "split": "heldout",
+      "clean": "At the party, the host handed the mug to George and the mirror to Mary. The mirror went to",
+      "donor": "At the party, the host handed the mug to Mary and the mirror to George. The mirror went to",
+      "original_answer": "Mary",
+      "donor_answer": "George",
+      "entity_pair": [
+        "George",
+        "Mary"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "mug",
+        "mirror"
+      ]
+    },
+    {
+      "id": "gift-03-1",
+      "task": "gift",
+      "template": "gift-03",
+      "split": "heldout",
+      "clean": "At the party, the host handed the scarf to Mark and the candle to Bob. The scarf went to",
+      "donor": "At the party, the host handed the scarf to Bob and the candle to Mark. The scarf went to",
+      "original_answer": "Mark",
+      "donor_answer": "Bob",
+      "entity_pair": [
+        "Mark",
+        "Bob"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "scarf",
+        "candle"
+      ]
+    },
+    {
+      "id": "gift-03-2",
+      "task": "gift",
+      "template": "gift-03",
+      "split": "heldout",
+      "clean": "At the party, the host handed the pillow to Lucy and the lamp to Bob. The lamp went to",
+      "donor": "At the party, the host handed the pillow to Bob and the lamp to Lucy. The lamp went to",
+      "original_answer": "Bob",
+      "donor_answer": "Lucy",
+      "entity_pair": [
+        "Lucy",
+        "Bob"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "pillow",
+        "lamp"
+      ]
+    },
+    {
+      "id": "gift-03-3",
+      "task": "gift",
+      "template": "gift-03",
+      "split": "heldout",
+      "clean": "At the party, the host handed the camera to Sam and the pillow to Rose. The camera went to",
+      "donor": "At the party, the host handed the camera to Rose and the pillow to Sam. The camera went to",
+      "original_answer": "Sam",
+      "donor_answer": "Rose",
+      "entity_pair": [
+        "Sam",
+        "Rose"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "camera",
+        "pillow"
+      ]
+    },
+    {
+      "id": "gift-04-0",
+      "task": "gift",
+      "template": "gift-04",
+      "split": "heldout",
+      "clean": "Someone packed a mirror for Paul and a painting for Mark. In this parcel list the mirror belongs to",
+      "donor": "Someone packed a mirror for Mark and a painting for Paul. In this parcel list the mirror belongs to",
+      "original_answer": "Paul",
+      "donor_answer": "Mark",
+      "entity_pair": [
+        "Paul",
+        "Mark"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "mirror",
+        "painting"
+      ]
+    },
+    {
+      "id": "gift-04-1",
+      "task": "gift",
+      "template": "gift-04",
+      "split": "heldout",
+      "clean": "Someone packed a lamp for David and a book for Paul. In this parcel list the book belongs to",
+      "donor": "Someone packed a lamp for Paul and a book for David. In this parcel list the book belongs to",
+      "original_answer": "Paul",
+      "donor_answer": "David",
+      "entity_pair": [
+        "David",
+        "Paul"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "lamp",
+        "book"
+      ]
+    },
+    {
+      "id": "gift-04-2",
+      "task": "gift",
+      "template": "gift-04",
+      "split": "heldout",
+      "clean": "Someone packed a ring for Alice and a scarf for Julia. In this parcel list the ring belongs to",
+      "donor": "Someone packed a ring for Julia and a scarf for Alice. In this parcel list the ring belongs to",
+      "original_answer": "Alice",
+      "donor_answer": "Julia",
+      "entity_pair": [
+        "Alice",
+        "Julia"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "ring",
+        "scarf"
+      ]
+    },
+    {
+      "id": "gift-04-3",
+      "task": "gift",
+      "template": "gift-04",
+      "split": "heldout",
+      "clean": "Someone packed a coat for Alice and a lamp for George. In this parcel list the lamp belongs to",
+      "donor": "Someone packed a coat for George and a lamp for Alice. In this parcel list the lamp belongs to",
+      "original_answer": "George",
+      "donor_answer": "Alice",
+      "entity_pair": [
+        "Alice",
+        "George"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "coat",
+        "lamp"
+      ]
+    },
+    {
+      "id": "gift-05-0",
+      "task": "gift",
+      "template": "gift-05",
+      "split": "heldout",
+      "clean": "The winners were John, who won the vase, and Lucy, who won the book. The winner of the book was",
+      "donor": "The winners were Lucy, who won the vase, and John, who won the book. The winner of the book was",
+      "original_answer": "Lucy",
+      "donor_answer": "John",
+      "entity_pair": [
+        "John",
+        "Lucy"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "vase",
+        "book"
+      ]
+    },
+    {
+      "id": "gift-05-1",
+      "task": "gift",
+      "template": "gift-05",
+      "split": "heldout",
+      "clean": "The winners were Tom, who won the mirror, and Paul, who won the camera. The winner of the mirror was",
+      "donor": "The winners were Paul, who won the mirror, and Tom, who won the camera. The winner of the mirror was",
+      "original_answer": "Tom",
+      "donor_answer": "Paul",
+      "entity_pair": [
+        "Tom",
+        "Paul"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "mirror",
+        "camera"
+      ]
+    },
+    {
+      "id": "gift-05-2",
+      "task": "gift",
+      "template": "gift-05",
+      "split": "heldout",
+      "clean": "The winners were Julia, who won the painting, and Rose, who won the camera. The winner of the camera was",
+      "donor": "The winners were Rose, who won the painting, and Julia, who won the camera. The winner of the camera was",
+      "original_answer": "Rose",
+      "donor_answer": "Julia",
+      "entity_pair": [
+        "Julia",
+        "Rose"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "painting",
+        "camera"
+      ]
+    },
+    {
+      "id": "gift-05-3",
+      "task": "gift",
+      "template": "gift-05",
+      "split": "heldout",
+      "clean": "The winners were James, who won the hat, and Anna, who won the painting. The winner of the hat was",
+      "donor": "The winners were Anna, who won the hat, and James, who won the painting. The winner of the hat was",
+      "original_answer": "James",
+      "donor_answer": "Anna",
+      "entity_pair": [
+        "James",
+        "Anna"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "hat",
+        "painting"
+      ]
+    },
+    {
+      "id": "gift-06-0",
+      "task": "gift",
+      "template": "gift-06",
+      "split": "heldout",
+      "clean": "On the wrapping paper she wrote John on the wallet and Rose on the painting. The name on the wallet was",
+      "donor": "On the wrapping paper she wrote Rose on the wallet and John on the painting. The name on the wallet was",
+      "original_answer": "John",
+      "donor_answer": "Rose",
+      "entity_pair": [
+        "John",
+        "Rose"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "wallet",
+        "painting"
+      ]
+    },
+    {
+      "id": "gift-06-1",
+      "task": "gift",
+      "template": "gift-06",
+      "split": "heldout",
+      "clean": "On the wrapping paper she wrote Tony on the coat and Mark on the camera. The name on the camera was",
+      "donor": "On the wrapping paper she wrote Mark on the coat and Tony on the camera. The name on the camera was",
+      "original_answer": "Mark",
+      "donor_answer": "Tony",
+      "entity_pair": [
+        "Tony",
+        "Mark"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "coat",
+        "camera"
+      ]
+    },
+    {
+      "id": "gift-06-2",
+      "task": "gift",
+      "template": "gift-06",
+      "split": "heldout",
+      "clean": "On the wrapping paper she wrote Mark on the ring and Tom on the mug. The name on the ring was",
+      "donor": "On the wrapping paper she wrote Tom on the ring and Mark on the mug. The name on the ring was",
+      "original_answer": "Mark",
+      "donor_answer": "Tom",
+      "entity_pair": [
+        "Mark",
+        "Tom"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "ring",
+        "mug"
+      ]
+    },
+    {
+      "id": "gift-06-3",
+      "task": "gift",
+      "template": "gift-06",
+      "split": "heldout",
+      "clean": "On the wrapping paper she wrote Mark on the wallet and John on the scarf. The name on the scarf was",
+      "donor": "On the wrapping paper she wrote John on the wallet and Mark on the scarf. The name on the scarf was",
+      "original_answer": "John",
+      "donor_answer": "Mark",
+      "entity_pair": [
+        "Mark",
+        "John"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "wallet",
+        "scarf"
+      ]
+    },
+    {
+      "id": "gift-07-0",
+      "task": "gift",
+      "template": "gift-07",
+      "split": "heldout",
+      "clean": "The shop sent the wallet to Lucy. It sent the mirror to George. According to the receipt it sent the mirror to",
+      "donor": "The shop sent the wallet to George. It sent the mirror to Lucy. According to the receipt it sent the mirror to",
+      "original_answer": "George",
+      "donor_answer": "Lucy",
+      "entity_pair": [
+        "Lucy",
+        "George"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "wallet",
+        "mirror"
+      ]
+    },
+    {
+      "id": "gift-07-1",
+      "task": "gift",
+      "template": "gift-07",
+      "split": "heldout",
+      "clean": "The shop sent the painting to Paul. It sent the pillow to Bob. According to the receipt it sent the painting to",
+      "donor": "The shop sent the painting to Bob. It sent the pillow to Paul. According to the receipt it sent the painting to",
+      "original_answer": "Paul",
+      "donor_answer": "Bob",
+      "entity_pair": [
+        "Paul",
+        "Bob"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "painting",
+        "pillow"
+      ]
+    },
+    {
+      "id": "gift-07-2",
+      "task": "gift",
+      "template": "gift-07",
+      "split": "heldout",
+      "clean": "The shop sent the scarf to Mary. It sent the pillow to Paul. According to the receipt it sent the pillow to",
+      "donor": "The shop sent the scarf to Paul. It sent the pillow to Mary. According to the receipt it sent the pillow to",
+      "original_answer": "Paul",
+      "donor_answer": "Mary",
+      "entity_pair": [
+        "Mary",
+        "Paul"
+      ],
+      "target_position": 1,
+      "gift_pair": [
+        "scarf",
+        "pillow"
+      ]
+    },
+    {
+      "id": "gift-07-3",
+      "task": "gift",
+      "template": "gift-07",
+      "split": "heldout",
+      "clean": "The shop sent the camera to Sam. It sent the book to John. According to the receipt it sent the camera to",
+      "donor": "The shop sent the camera to John. It sent the book to Sam. According to the receipt it sent the camera to",
+      "original_answer": "Sam",
+      "donor_answer": "John",
+      "entity_pair": [
+        "Sam",
+        "John"
+      ],
+      "target_position": 0,
+      "gift_pair": [
+        "camera",
+        "book"
+      ]
+    },
+    {
+      "id": "route-00-0",
+      "task": "route",
+      "template": "route-00",
+      "split": "development",
+      "clean": "The trip ran from Athens to Paris. Its starting point was",
+      "donor": "The trip ran from Paris to Athens. Its starting point was",
+      "original_answer": "Athens",
+      "donor_answer": "Paris",
+      "entity_pair": [
+        "Athens",
+        "Paris"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-00-1",
+      "task": "route",
+      "template": "route-00",
+      "split": "development",
+      "clean": "The trip ran from Dublin to London. Its endpoint was",
+      "donor": "The trip ran from London to Dublin. Its endpoint was",
+      "original_answer": "London",
+      "donor_answer": "Dublin",
+      "entity_pair": [
+        "Dublin",
+        "London"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-00-2",
+      "task": "route",
+      "template": "route-00",
+      "split": "development",
+      "clean": "The trip ran from Rome to Paris. Its starting point was",
+      "donor": "The trip ran from Paris to Rome. Its starting point was",
+      "original_answer": "Rome",
+      "donor_answer": "Paris",
+      "entity_pair": [
+        "Rome",
+        "Paris"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-00-3",
+      "task": "route",
+      "template": "route-00",
+      "split": "development",
+      "clean": "The trip ran from Milan to Chicago. Its endpoint was",
+      "donor": "The trip ran from Chicago to Milan. Its endpoint was",
+      "original_answer": "Chicago",
+      "donor_answer": "Milan",
+      "entity_pair": [
+        "Milan",
+        "Chicago"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-01-0",
+      "task": "route",
+      "template": "route-01",
+      "split": "development",
+      "clean": "The itinerary lists Boston as the origin and Madrid as the destination. The journey ended in",
+      "donor": "The itinerary lists Madrid as the origin and Boston as the destination. The journey ended in",
+      "original_answer": "Madrid",
+      "donor_answer": "Boston",
+      "entity_pair": [
+        "Boston",
+        "Madrid"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-01-1",
+      "task": "route",
+      "template": "route-01",
+      "split": "development",
+      "clean": "The itinerary lists Tokyo as the origin and Miami as the destination. The journey began in",
+      "donor": "The itinerary lists Miami as the origin and Tokyo as the destination. The journey began in",
+      "original_answer": "Tokyo",
+      "donor_answer": "Miami",
+      "entity_pair": [
+        "Tokyo",
+        "Miami"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-01-2",
+      "task": "route",
+      "template": "route-01",
+      "split": "development",
+      "clean": "The itinerary lists Dallas as the origin and Milan as the destination. The journey ended in",
+      "donor": "The itinerary lists Milan as the origin and Dallas as the destination. The journey ended in",
+      "original_answer": "Milan",
+      "donor_answer": "Dallas",
+      "entity_pair": [
+        "Dallas",
+        "Milan"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-01-3",
+      "task": "route",
+      "template": "route-01",
+      "split": "development",
+      "clean": "The itinerary lists Miami as the origin and Toronto as the destination. The journey began in",
+      "donor": "The itinerary lists Toronto as the origin and Miami as the destination. The journey began in",
+      "original_answer": "Miami",
+      "donor_answer": "Toronto",
+      "entity_pair": [
+        "Miami",
+        "Toronto"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-02-0",
+      "task": "route",
+      "template": "route-02",
+      "split": "heldout",
+      "clean": "The plane took off in Toronto, then landed in Dallas. The departure city was",
+      "donor": "The plane took off in Dallas, then landed in Toronto. The departure city was",
+      "original_answer": "Toronto",
+      "donor_answer": "Dallas",
+      "entity_pair": [
+        "Toronto",
+        "Dallas"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-02-1",
+      "task": "route",
+      "template": "route-02",
+      "split": "heldout",
+      "clean": "The plane took off in Dublin, then landed in Paris. The arrival city was",
+      "donor": "The plane took off in Paris, then landed in Dublin. The arrival city was",
+      "original_answer": "Paris",
+      "donor_answer": "Dublin",
+      "entity_pair": [
+        "Dublin",
+        "Paris"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-02-2",
+      "task": "route",
+      "template": "route-02",
+      "split": "heldout",
+      "clean": "The plane took off in Berlin, then landed in Miami. The departure city was",
+      "donor": "The plane took off in Miami, then landed in Berlin. The departure city was",
+      "original_answer": "Berlin",
+      "donor_answer": "Miami",
+      "entity_pair": [
+        "Berlin",
+        "Miami"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-02-3",
+      "task": "route",
+      "template": "route-02",
+      "split": "heldout",
+      "clean": "The plane took off in Chicago, then landed in Dallas. The arrival city was",
+      "donor": "The plane took off in Dallas, then landed in Chicago. The arrival city was",
+      "original_answer": "Dallas",
+      "donor_answer": "Chicago",
+      "entity_pair": [
+        "Chicago",
+        "Dallas"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-03-0",
+      "task": "route",
+      "template": "route-03",
+      "split": "heldout",
+      "clean": "The traveler left London before reaching Tokyo. The last city on the trip was",
+      "donor": "The traveler left Tokyo before reaching London. The last city on the trip was",
+      "original_answer": "Tokyo",
+      "donor_answer": "London",
+      "entity_pair": [
+        "London",
+        "Tokyo"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-03-1",
+      "task": "route",
+      "template": "route-03",
+      "split": "heldout",
+      "clean": "The traveler left Athens before reaching Dallas. The first city on the trip was",
+      "donor": "The traveler left Dallas before reaching Athens. The first city on the trip was",
+      "original_answer": "Athens",
+      "donor_answer": "Dallas",
+      "entity_pair": [
+        "Athens",
+        "Dallas"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-03-2",
+      "task": "route",
+      "template": "route-03",
+      "split": "heldout",
+      "clean": "The traveler left London before reaching Rome. The last city on the trip was",
+      "donor": "The traveler left Rome before reaching London. The last city on the trip was",
+      "original_answer": "Rome",
+      "donor_answer": "London",
+      "entity_pair": [
+        "London",
+        "Rome"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-03-3",
+      "task": "route",
+      "template": "route-03",
+      "split": "heldout",
+      "clean": "The traveler left Madrid before reaching Vienna. The first city on the trip was",
+      "donor": "The traveler left Vienna before reaching Madrid. The first city on the trip was",
+      "original_answer": "Madrid",
+      "donor_answer": "Vienna",
+      "entity_pair": [
+        "Madrid",
+        "Vienna"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-04-0",
+      "task": "route",
+      "template": "route-04",
+      "split": "heldout",
+      "clean": "The ticket says: depart from Miami, arrive in Chicago. The ticket holder will leave from",
+      "donor": "The ticket says: depart from Chicago, arrive in Miami. The ticket holder will leave from",
+      "original_answer": "Miami",
+      "donor_answer": "Chicago",
+      "entity_pair": [
+        "Miami",
+        "Chicago"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-04-1",
+      "task": "route",
+      "template": "route-04",
+      "split": "heldout",
+      "clean": "The ticket says: depart from Milan, arrive in Rome. The ticket holder will arrive in",
+      "donor": "The ticket says: depart from Rome, arrive in Milan. The ticket holder will arrive in",
+      "original_answer": "Rome",
+      "donor_answer": "Milan",
+      "entity_pair": [
+        "Milan",
+        "Rome"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-04-2",
+      "task": "route",
+      "template": "route-04",
+      "split": "heldout",
+      "clean": "The ticket says: depart from Milan, arrive in Boston. The ticket holder will leave from",
+      "donor": "The ticket says: depart from Boston, arrive in Milan. The ticket holder will leave from",
+      "original_answer": "Milan",
+      "donor_answer": "Boston",
+      "entity_pair": [
+        "Milan",
+        "Boston"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-04-3",
+      "task": "route",
+      "template": "route-04",
+      "split": "heldout",
+      "clean": "The ticket says: depart from Berlin, arrive in Paris. The ticket holder will arrive in",
+      "donor": "The ticket says: depart from Paris, arrive in Berlin. The ticket holder will arrive in",
+      "original_answer": "Paris",
+      "donor_answer": "Berlin",
+      "entity_pair": [
+        "Berlin",
+        "Paris"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-05-0",
+      "task": "route",
+      "template": "route-05",
+      "split": "heldout",
+      "clean": "The relay started in Chicago and finished in Dublin. The finish line was in",
+      "donor": "The relay started in Dublin and finished in Chicago. The finish line was in",
+      "original_answer": "Dublin",
+      "donor_answer": "Chicago",
+      "entity_pair": [
+        "Chicago",
+        "Dublin"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-05-1",
+      "task": "route",
+      "template": "route-05",
+      "split": "heldout",
+      "clean": "The relay started in Vienna and finished in Dublin. The starting line was in",
+      "donor": "The relay started in Dublin and finished in Vienna. The starting line was in",
+      "original_answer": "Vienna",
+      "donor_answer": "Dublin",
+      "entity_pair": [
+        "Vienna",
+        "Dublin"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-05-2",
+      "task": "route",
+      "template": "route-05",
+      "split": "heldout",
+      "clean": "The relay started in Athens and finished in Tokyo. The finish line was in",
+      "donor": "The relay started in Tokyo and finished in Athens. The finish line was in",
+      "original_answer": "Tokyo",
+      "donor_answer": "Athens",
+      "entity_pair": [
+        "Athens",
+        "Tokyo"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-05-3",
+      "task": "route",
+      "template": "route-05",
+      "split": "heldout",
+      "clean": "The relay started in Vienna and finished in Miami. The starting line was in",
+      "donor": "The relay started in Miami and finished in Vienna. The starting line was in",
+      "original_answer": "Vienna",
+      "donor_answer": "Miami",
+      "entity_pair": [
+        "Vienna",
+        "Miami"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-06-0",
+      "task": "route",
+      "template": "route-06",
+      "split": "heldout",
+      "clean": "After leaving Cairo, the pilot flew straight to Paris. The city the pilot left was",
+      "donor": "After leaving Paris, the pilot flew straight to Cairo. The city the pilot left was",
+      "original_answer": "Cairo",
+      "donor_answer": "Paris",
+      "entity_pair": [
+        "Cairo",
+        "Paris"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-06-1",
+      "task": "route",
+      "template": "route-06",
+      "split": "heldout",
+      "clean": "After leaving Cairo, the pilot flew straight to Toronto. The city the pilot flew to was",
+      "donor": "After leaving Toronto, the pilot flew straight to Cairo. The city the pilot flew to was",
+      "original_answer": "Toronto",
+      "donor_answer": "Cairo",
+      "entity_pair": [
+        "Cairo",
+        "Toronto"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-06-2",
+      "task": "route",
+      "template": "route-06",
+      "split": "heldout",
+      "clean": "After leaving Toronto, the pilot flew straight to Madrid. The city the pilot left was",
+      "donor": "After leaving Madrid, the pilot flew straight to Toronto. The city the pilot left was",
+      "original_answer": "Toronto",
+      "donor_answer": "Madrid",
+      "entity_pair": [
+        "Toronto",
+        "Madrid"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-06-3",
+      "task": "route",
+      "template": "route-06",
+      "split": "heldout",
+      "clean": "After leaving Madrid, the pilot flew straight to Paris. The city the pilot flew to was",
+      "donor": "After leaving Paris, the pilot flew straight to Madrid. The city the pilot flew to was",
+      "original_answer": "Paris",
+      "donor_answer": "Madrid",
+      "entity_pair": [
+        "Madrid",
+        "Paris"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-07-0",
+      "task": "route",
+      "template": "route-07",
+      "split": "heldout",
+      "clean": "The postcard reads: I traveled from Athens to Dublin. The writer's destination was",
+      "donor": "The postcard reads: I traveled from Dublin to Athens. The writer's destination was",
+      "original_answer": "Dublin",
+      "donor_answer": "Athens",
+      "entity_pair": [
+        "Athens",
+        "Dublin"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-07-1",
+      "task": "route",
+      "template": "route-07",
+      "split": "heldout",
+      "clean": "The postcard reads: I traveled from Tokyo to Berlin. The writer set out from",
+      "donor": "The postcard reads: I traveled from Berlin to Tokyo. The writer set out from",
+      "original_answer": "Tokyo",
+      "donor_answer": "Berlin",
+      "entity_pair": [
+        "Tokyo",
+        "Berlin"
+      ],
+      "target_position": 0
+    },
+    {
+      "id": "route-07-2",
+      "task": "route",
+      "template": "route-07",
+      "split": "heldout",
+      "clean": "The postcard reads: I traveled from Tokyo to Madrid. The writer's destination was",
+      "donor": "The postcard reads: I traveled from Madrid to Tokyo. The writer's destination was",
+      "original_answer": "Madrid",
+      "donor_answer": "Tokyo",
+      "entity_pair": [
+        "Tokyo",
+        "Madrid"
+      ],
+      "target_position": 1
+    },
+    {
+      "id": "route-07-3",
+      "task": "route",
+      "template": "route-07",
+      "split": "heldout",
+      "clean": "The postcard reads: I traveled from Chicago to Boston. The writer set out from",
+      "donor": "The postcard reads: I traveled from Boston to Chicago. The writer set out from",
+      "original_answer": "Chicago",
+      "donor_answer": "Boston",
+      "entity_pair": [
+        "Chicago",
+        "Boston"
+      ],
+      "target_position": 0
+    }
+  ]
+}
