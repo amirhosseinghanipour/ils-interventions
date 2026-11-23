@@ -103,7 +103,7 @@ def timings(rows):
     for size in ("1", "8", "32", "128"):
         by_method = {}
         for method in rows[0]["batches"][size]["values"]:
-            ms, total, ratio, mae = [], [], [], []
+            ms, total, ratio, best_ratio, mae = [], [], [], [], []
             for r in rows:
                 record = r["batches"][size]
                 oracle = np.asarray(record["values"]["exact"])
@@ -112,13 +112,24 @@ def timings(rows):
                 ms.append(elapsed)
                 total.append(elapsed + r["common_ms"])
                 ratio.append((np.median(record["times"]["exact"]) + r["common_ms"]) / total[-1])
+                best_exact = min(
+                    np.median(t) for key, t in record["times"].items() if key.startswith("exact")
+                )
+                best_ratio.append((best_exact + r["common_ms"]) / total[-1])
                 mae.append(abs(raw - oracle).mean())
             by_method[method] = dict(
                 median_ms=float(np.median(ms)),
                 median_end_to_end_ms=float(np.median(total)),
                 median_paired_end_to_end_speedup=float(np.median(ratio)),
+                median_speedup_vs_fastest_exact=float(np.median(best_ratio)),
                 mae=float(np.mean(mae)),
             )
+        best = []
+        for r in rows:
+            ts = r["batches"][size]["times"]
+            exact = min(np.median(v) for m, v in ts.items() if m.startswith("exact"))
+            best.append(r["common_ms"] + exact)
+        by_method["fastest_exact"] = dict(median_end_to_end_ms=float(np.median(best)))
         out[size] = by_method
     return out
 
@@ -131,13 +142,14 @@ def simultaneous_intervals(comparisons):
 
 
 def summarize(directory):
-    result = dict(behavior={}, groups={}, timing={})
+    result = dict(behavior={}, groups={}, timing={}, cached_timing={})
     rng = np.random.default_rng(652194)
     draws = {t: rng.integers(0, 24, (10000, 24)) for t in ("addition", "subtraction")}
     comparisons = []
     anchor_comparisons = []
     for model in ("qwen", "large"):
         result["timing"][model] = timings(read(directory / ("amortize-" + model + ".json")))
+        result["cached_timing"][model] = timings(read(directory / ("cached-" + model + ".json")))
         caps = read(directory / (model + "-budget.json"))
         groups = read(directory / ("groups-" + model + ".json"))
         for task in ("addition", "subtraction"):

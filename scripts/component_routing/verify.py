@@ -65,18 +65,21 @@ def verify(directory, inputs=None):
         a, b = (np.median(caps[k][1:]) for k in ("pilot_ils_ms", "pilot_batch_ms"))
         np.testing.assert_allclose([caps["tight"], caps["roomy"]], [1.2 * a + b, 1.2 * a + 4 * b])
         groups = read(directory / ("groups-" + model + ".json"))
-        timed = read(directory / ("amortize-" + model + ".json"))
-        assert len(timed) == 4
-        for r in timed:
-            assert r["common_ms"] > 0
-            reference = r["batches"]["128"]["values"]
-            for size, batch in r["batches"].items():
-                for m, v in batch["values"].items():
-                    assert len(v) == int(size) and len(batch["times"][m]) == 3
-                    assert min(batch["times"][m]) > 0
-                    np.testing.assert_allclose(v, reference[m][: int(size)], atol=6e-4, rtol=3e-4)
-        for task in ("addition", "subtraction"):
-            same_refs([r for r in timed if r["task"] == task], group[task][:2])
+        for kind in ("amortize", "cached"):
+            timed = read(directory / (kind + "-" + model + ".json"))
+            assert len(timed) == 4
+            for r in timed:
+                assert r["common_ms"] > 0
+                reference = r["batches"]["128"]["values"]
+                for size, batch in r["batches"].items():
+                    for m, v in batch["values"].items():
+                        if m.startswith("exact_suffix"):
+                            np.testing.assert_allclose(v, batch["values"]["exact"], atol=6e-4, rtol=3e-4)
+                        assert len(v) == int(size) and len(batch["times"][m]) == 3
+                        assert min(batch["times"][m]) > 0
+                        np.testing.assert_allclose(v, reference[m][: int(size)], atol=6e-4, rtol=3e-4)
+            for task in ("addition", "subtraction"):
+                same_refs([r for r in timed if r["task"] == task], group[task][:2])
         for task in ("addition", "subtraction"):
             split = task + "-test"
             raw = read(directory / (model + "-" + split + ".json"))
