@@ -1,0 +1,588 @@
+{
+  "addition-validation": [
+    {
+      "index": 1955,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 4852,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 2710,
+      "counter": "ones_op1_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 4080,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 2755,
+      "counter": "ones_op1_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 4506,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 787,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 370,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 3256,
+      "counter": "ones_op1_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 1133,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 2133,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 4612,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 1234,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 2699,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 646,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 4822,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 3108,
+      "counter": "ones_op1_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 2989,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 1575,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 2735,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    }
+  ],
+  "addition-test": [
+    {
+      "index": 746,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 817,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 642,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 938,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 654,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 696,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 837,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 836,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 535,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 943,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 317,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 416,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 240,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 702,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 671,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 519,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 423,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 953,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 257,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 90,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 247,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 889,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 322,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 656,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 213,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 898,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 844,
+      "counter": "ones_op1_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 802,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 726,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 722,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 956,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 742,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 997,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} plus {y}? A: "
+    },
+    {
+      "index": 69,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 46,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 250,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 302,
+      "counter": "ones_op1_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 874,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 489,
+      "counter": "ones_op1_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 390,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} plus {y}? A: "
+    },
+    {
+      "index": 513,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} + {y} = "
+    },
+    {
+      "index": 675,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 38,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 959,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 493,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}+{y}="
+    },
+    {
+      "index": 2,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    },
+    {
+      "index": 338,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} plus {y}? A: "
+    },
+    {
+      "index": 170,
+      "counter": "tens_op2_counterfactual",
+      "template": "The sum of {x} and {y} is: "
+    }
+  ],
+  "subtraction-test": [
+    {
+      "index": 521,
+      "counter": "ones_op1_counterfactual",
+      "template": "The difference between {x} and {y} is: "
+    },
+    {
+      "index": 380,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 144,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 27,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 433,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 912,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 991,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 720,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 707,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 688,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 274,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 402,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} minus {y}? A: "
+    },
+    {
+      "index": 419,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 202,
+      "counter": "tens_op2_counterfactual",
+      "template": "The difference between {x} and {y} is: "
+    },
+    {
+      "index": 929,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 631,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 796,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 115,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 943,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 800,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 183,
+      "counter": "ones_op1_counterfactual",
+      "template": "The difference between {x} and {y} is: "
+    },
+    {
+      "index": 327,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 484,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 444,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 984,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 601,
+      "counter": "tens_op2_counterfactual",
+      "template": "The difference between {x} and {y} is: "
+    },
+    {
+      "index": 538,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 526,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} minus {y}? A: "
+    },
+    {
+      "index": 898,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 215,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 947,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 472,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 430,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 341,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 810,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} minus {y}? A: "
+    },
+    {
+      "index": 841,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 849,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 795,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 36,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x}-{y}="
+    },
+    {
+      "index": 557,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is the result of {x} minus {y}? A: "
+    },
+    {
+      "index": 259,
+      "counter": "ones_op1_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 970,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 228,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: How much is {x} minus {y}? A: "
+    },
+    {
+      "index": 529,
+      "counter": "tens_op2_counterfactual",
+      "template": "{x} - {y} = "
+    },
+    {
+      "index": 565,
+      "counter": "ones_op1_counterfactual",
+      "template": "Q: What is the result of {x} minus {y}? A: "
+    },
+    {
+      "index": 861,
+      "counter": "tens_op2_counterfactual",
+      "template": "Q: What is {x} minus {y}? A: "
+    },
+    {
+      "index": 575,
+      "counter": "ones_op1_counterfactual",
+      "template": "The difference between {x} and {y} is: "
+    },
+    {
+      "index": 979,
+      "counter": "tens_op2_counterfactual",
+      "template": "The difference between {x} and {y} is: "
+    }
+  ]
+}
