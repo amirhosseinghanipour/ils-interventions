@@ -18,6 +18,10 @@ On 64 fresh material prefixes, a food-trained block-15 mention-order classifier 
 
 The arithmetic benchmark measures how replacing attention heads and MLPs changes an answer-token margin. Its single-site experiment compares component selection under equal time budgets. Its group experiment measures the accuracy and speed of predicting many simultaneous head substitutions on one prompt. [Measurements and checksums](artifacts/component-routing/README.md) · [Reproduction commands](scripts/component_routing/README.md)
 
+## Interactions between attention heads
+
+The two-block benchmark measures every subset of an eight-head panel on 48 indirect object identification prompts and 48 CopyColors prompts at two checkpoints. Across 49,152 native interventions, a midpoint gradient with a sparse pair correction predicted three-head effects more accurately than the same fit with only additive terms in all four cells. On SmolLM2 CopyColors, mean absolute error was 0.0348 versus 0.0711 logits. By the frozen time cutoff, midpoint with exact verification had computed the best triple in all 48 traces, while full ILS calibration had produced only the common fallback. The synchronous verification loop could return later. On a separate timing sample with 222 queries per prompt, ILS was 2.47× faster than the best tested cached exact implementation on Qwen and 3.22× faster on SmolLM2. [Data, scores and checksums](artifacts/interaction-search/README.md) · [Reproduction commands](scripts/interaction_search/README.md)
+
 ## Install
 
 Use Python 3.11 or newer in a virtual environment:
