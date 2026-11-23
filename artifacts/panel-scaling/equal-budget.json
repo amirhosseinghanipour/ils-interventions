@@ -1,0 +1,440 @@
+{
+  "scope": "Post-primary descriptive sensitivity introduced after observing the GPT-2 development choice at 0.10 logits. This artifact reports prediction error only.",
+  "bootstrap": "Paired template percentile intervals from all 46,656 ordered resamples of six held-out templates per cell. Pointwise per fixed budget and cell; intervals condition on the development panel.",
+  "reference": "Positive dense-minus-sparse MAE favors sparse ILS. A null calibration count marks exact fallback.",
+  "manifest_sha256": "32d239b93c6cc4c23fe9b1e2a6e743e744c42c1afc5fad09d7aa1b22504e7722",
+  "models": {
+    "gpt2": {
+      "gift": {
+        "development_prompts": 8,
+        "heldout_prompts": 24,
+        "development_midpoint_mae": 0.01820507798856852,
+        "heldout_midpoint_mae": 0.013738061692000278,
+        "half_development_midpoint_target": 0.00910253899428426,
+        "selected_for_half_target": {
+          "ils": {
+            "count": 256,
+            "policy": "ils",
+            "heldout_mae": 0.005306326532055324
+          },
+          "dense": {
+            "count": 256,
+            "policy": "dense",
+            "heldout_mae": 0.0036091642257180395
+          },
+          "linear": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          }
+        },
+        "equal_budget": {
+          "32": {
+            "mae": {
+              "ils": 0.011654205213105423,
+              "dense": 0.01056159233944734,
+              "linear": 0.011759884259835948
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0010926128736580827,
+              "pointwise_ci95": [
+                -0.001315305124279776,
+                -0.0008688991921449813
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          },
+          "128": {
+            "mae": {
+              "ils": 0.006024830810787731,
+              "dense": 0.0076886497594692805,
+              "linear": 0.011323046354171917
+            },
+            "dense_minus_sparse_mae": {
+              "mean": 0.0016638189486815485,
+              "pointwise_ci95": [
+                -0.00035733505476546703,
+                0.00535867428469405
+              ],
+              "templates_with_lower_sparse_mae": 3
+            }
+          },
+          "256": {
+            "mae": {
+              "ils": 0.005306326532055324,
+              "dense": 0.0036091642257180395,
+              "linear": 0.011292218830643389
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0016971623063372857,
+              "pointwise_ci95": [
+                -0.002039122809674037,
+                -0.0012945252676953153
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          }
+        }
+      },
+      "route": {
+        "development_prompts": 8,
+        "heldout_prompts": 24,
+        "development_midpoint_mae": 0.009072712159479579,
+        "heldout_midpoint_mae": 0.01336192025079678,
+        "half_development_midpoint_target": 0.0045363560797397895,
+        "selected_for_half_target": {
+          "ils": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          },
+          "dense": {
+            "count": 256,
+            "policy": "dense",
+            "heldout_mae": 0.003634414567342981
+          },
+          "linear": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          }
+        },
+        "equal_budget": {
+          "32": {
+            "mae": {
+              "ils": 0.01137790069548513,
+              "dense": 0.010871402338551994,
+              "linear": 0.012010579871560593
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0005064983569331369,
+              "pointwise_ci95": [
+                -0.0019080052795974814,
+                0.0016484596880702296
+              ],
+              "templates_with_lower_sparse_mae": 1
+            }
+          },
+          "128": {
+            "mae": {
+              "ils": 0.006172940328928802,
+              "dense": 0.007591008005089927,
+              "linear": 0.011514638747049603
+            },
+            "dense_minus_sparse_mae": {
+              "mean": 0.0014180676761611263,
+              "pointwise_ci95": [
+                -0.0001770206565468919,
+                0.004106421428405075
+              ],
+              "templates_with_lower_sparse_mae": 4
+            }
+          },
+          "256": {
+            "mae": {
+              "ils": 0.005051782979913254,
+              "dense": 0.003634414567342981,
+              "linear": 0.01146800056115374
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0014173684125702729,
+              "pointwise_ci95": [
+                -0.0016526253367595645,
+                -0.0010107664517665074
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          }
+        }
+      }
+    },
+    "qwen": {
+      "gift": {
+        "development_prompts": 8,
+        "heldout_prompts": 24,
+        "development_midpoint_mae": 0.003405254289077675,
+        "heldout_midpoint_mae": 0.0037179432248611497,
+        "half_development_midpoint_target": 0.0017026271445388375,
+        "selected_for_half_target": {
+          "ils": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          },
+          "dense": {
+            "count": 256,
+            "policy": "dense",
+            "heldout_mae": 0.0007894244697528823
+          },
+          "linear": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          }
+        },
+        "equal_budget": {
+          "32": {
+            "mae": {
+              "ils": 0.0028062287871242937,
+              "dense": 0.002408134759994657,
+              "linear": 0.0028691559208488143
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.00039809402712963614,
+              "pointwise_ci95": [
+                -0.0006510671628131534,
+                -0.00014930153323121866
+              ],
+              "templates_with_lower_sparse_mae": 1
+            }
+          },
+          "128": {
+            "mae": {
+              "ils": 0.0018404773690059984,
+              "dense": 0.0017447628949039701,
+              "linear": 0.002649795793962054
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -9.57144741020284e-05,
+              "pointwise_ci95": [
+                -0.0001924033982923861,
+                -6.667129481470323e-06
+              ],
+              "templates_with_lower_sparse_mae": 2
+            }
+          },
+          "256": {
+            "mae": {
+              "ils": 0.0015642586262062995,
+              "dense": 0.0007894244697528823,
+              "linear": 0.0026389170656752523
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0007748341564534173,
+              "pointwise_ci95": [
+                -0.0009796540406303608,
+                -0.0005700142722764741
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          }
+        }
+      },
+      "route": {
+        "development_prompts": 8,
+        "heldout_prompts": 24,
+        "development_midpoint_mae": 0.01126255878869209,
+        "heldout_midpoint_mae": 0.012889453017777441,
+        "half_development_midpoint_target": 0.005631279394346045,
+        "selected_for_half_target": {
+          "ils": {
+            "count": 64,
+            "policy": "ils",
+            "heldout_mae": 0.006642639487212117
+          },
+          "dense": {
+            "count": 64,
+            "policy": "dense",
+            "heldout_mae": 0.007369935848875589
+          },
+          "linear": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          }
+        },
+        "equal_budget": {
+          "32": {
+            "mae": {
+              "ils": 0.008516964338381372,
+              "dense": 0.008240563951778697,
+              "linear": 0.009409322779769849
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.00027640038660267435,
+              "pointwise_ci95": [
+                -0.0018162213799823833,
+                0.001373975455510992
+              ],
+              "templates_with_lower_sparse_mae": 3
+            }
+          },
+          "128": {
+            "mae": {
+              "ils": 0.004843415288812952,
+              "dense": 0.0060089406136510206,
+              "linear": 0.00899141989165023
+            },
+            "dense_minus_sparse_mae": {
+              "mean": 0.0011655253248380678,
+              "pointwise_ci95": [
+                -4.331541875625474e-05,
+                0.0027298438721067558
+              ],
+              "templates_with_lower_sparse_mae": 3
+            }
+          },
+          "256": {
+            "mae": {
+              "ils": 0.003969517273755725,
+              "dense": 0.0029527796979989724,
+              "linear": 0.008934948991973264
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0010167375757567521,
+              "pointwise_ci95": [
+                -0.0014340923315349456,
+                -0.0006632789919884243
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          }
+        }
+      }
+    },
+    "large": {
+      "gift": {
+        "development_prompts": 8,
+        "heldout_prompts": 24,
+        "development_midpoint_mae": 0.03156076821531428,
+        "heldout_midpoint_mae": 0.016847047565268742,
+        "half_development_midpoint_target": 0.01578038410765714,
+        "selected_for_half_target": {
+          "ils": {
+            "count": 96,
+            "policy": "ils",
+            "heldout_mae": 0.009743229752871336
+          },
+          "dense": {
+            "count": 96,
+            "policy": "dense",
+            "heldout_mae": 0.010378355099078954
+          },
+          "linear": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          }
+        },
+        "equal_budget": {
+          "32": {
+            "mae": {
+              "ils": 0.01469276617727439,
+              "dense": 0.01322778453946139,
+              "linear": 0.014210466305024276
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0014649816378129992,
+              "pointwise_ci95": [
+                -0.002097163196509743,
+                -0.0008949558670298761
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          },
+          "128": {
+            "mae": {
+              "ils": 0.008824956297398757,
+              "dense": 0.009037590007373612,
+              "linear": 0.013408289497715895
+            },
+            "dense_minus_sparse_mae": {
+              "mean": 0.0002126337099748539,
+              "pointwise_ci95": [
+                -0.0011469565422108155,
+                0.0016981522547801786
+              ],
+              "templates_with_lower_sparse_mae": 3
+            }
+          },
+          "256": {
+            "mae": {
+              "ils": 0.0074367388149241915,
+              "dense": 0.004294342989305206,
+              "linear": 0.013336619478040603
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0031423958256189856,
+              "pointwise_ci95": [
+                -0.0040577023749225425,
+                -0.0023216572630488422
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          }
+        }
+      },
+      "route": {
+        "development_prompts": 8,
+        "heldout_prompts": 24,
+        "development_midpoint_mae": 0.04306011640608176,
+        "heldout_midpoint_mae": 0.03349547938242381,
+        "half_development_midpoint_target": 0.02153005820304088,
+        "selected_for_half_target": {
+          "ils": {
+            "count": 96,
+            "policy": "ils",
+            "heldout_mae": 0.018676066801000323
+          },
+          "dense": {
+            "count": 256,
+            "policy": "dense",
+            "heldout_mae": 0.007574770134929909
+          },
+          "linear": {
+            "count": null,
+            "policy": "exact",
+            "heldout_mae": 0.0
+          }
+        },
+        "equal_budget": {
+          "32": {
+            "mae": {
+              "ils": 0.02499484705421383,
+              "dense": 0.021423511226996234,
+              "linear": 0.024965069736173216
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.003571335827217595,
+              "pointwise_ci95": [
+                -0.005391798652331759,
+                -0.0019156744762282255
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          },
+          "128": {
+            "mae": {
+              "ils": 0.017092109809414786,
+              "dense": 0.015189058916927718,
+              "linear": 0.02300574810632229
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.0019030508924870676,
+              "pointwise_ci95": [
+                -0.0030970723819634654,
+                -0.0010415871925698672
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          },
+          "256": {
+            "mae": {
+              "ils": 0.014390224754748692,
+              "dense": 0.007574770134929909,
+              "linear": 0.022924915264658768
+            },
+            "dense_minus_sparse_mae": {
+              "mean": -0.006815454619818784,
+              "pointwise_ci95": [
+                -0.00806061175173928,
+                -0.005540097008036103
+              ],
+              "templates_with_lower_sparse_mae": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}
