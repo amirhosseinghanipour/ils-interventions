@@ -1,0 +1,553 @@
+{
+ "summary": {
+  "model": "hf:/mnt/cold/v1ll3n/research/ils-components/inputs/large",
+  "articles": 20,
+  "clean_correct": 1,
+  "clean_query_accuracy": 0.05,
+  "irrelevant_clean_accuracy": 0.05,
+  "text_success_variants": 2,
+  "usable_articles": 1
+ },
+ "rows": [
+  {
+   "article": "Endangered_Species_Act",
+   "kind": "name",
+   "clean": [
+    "A person who furnishes information which leads to an arrest, conviction,",
+    "Yes, the public is given incentive to report Endangered Species Act violations."
+   ],
+   "text": {
+    "early": [
+     "A person who furnishes information which leads to an arrest, conviction,",
+     "Yes, the public is given an incentive to report Endangered Species Act violations"
+    ],
+    "late": [
+     "A person who furnishes information which leads to an arrest, conviction,",
+     "Yes, the public is given an incentive to report Endangered Species Act violations"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "kind": "name",
+   "clean": [
+    "The Empress Dowager spent most of her time at the Summer Palace.",
+    "The missionaries were killed in the southern part of Shandong Province."
+   ],
+   "text": {
+    "early": [
+     "The Empress Dowager spent most of her time at the Edward Palace.",
+     "The missionaries were killed in the southern part of Shandong Province."
+    ],
+    "late": [
+     "The Empress Dowager spent most of her time at the Summer Palace.",
+     "The missionaries were killed in the southern part of Shandong Province."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Copper",
+   "kind": "numeric",
+   "clean": [
+    "The largest find of copper was discovered in 1857.",
+    "The largest copper crystal that has been found weighs 420 tonnes"
+   ],
+   "text": {
+    "early": [
+     "The largest find of copper was discovered in 9857 on",
+     "The largest copper crystal that has been found weighs 420 tonnes"
+    ],
+    "late": [
+     "The largest find of copper was discovered in 1856.",
+     "The largest copper crystal that has been found weighs 420 tonnes"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Biodiversity",
+   "kind": "name",
+   "clean": [
+    "The Eoarchean Era",
+    "The estimate age of the Earth is about 4.54 billion"
+   ],
+   "text": {
+    "early": [
+     "The Eoarchean Era",
+     "The estimate age of the Earth is about 4.54 billion"
+    ],
+    "late": [
+     "The Eoarchean Era",
+     "The estimate age of the Earth is about 4.54 billion"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Geography_of_the_United_States",
+   "kind": "name",
+   "clean": [
+    "The name of the famous valley located in Oregon is the Willamette",
+    "The low mountain ranges that are located along the Pacific Coast are known as"
+   ],
+   "text": {
+    "early": [
+     "The name of the famous valley located in Oregon is the Joseph Valley.",
+     "The low mountain ranges that are located along the Pacific Coast are known as"
+    ],
+    "late": [
+     "The name of the famous valley located in Oregon is the Willamette",
+     "The low mountain ranges that are located along the Pacific Coast are known as"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Comcast",
+   "kind": "name",
+   "clean": [
+    "Comcast's telecommunication business prior to 1999 was",
+    "Comcast invested in VeriSign."
+   ],
+   "text": {
+    "early": [
+     "Comcast's telecommunication business prior to 1999 was",
+     "Comcast invested in VeriSign."
+    ],
+    "late": [
+     "Comcast's telecommunication business prior to 1999 was",
+     "Comcast invested in VeriSign."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Classical_music",
+   "kind": "numeric",
+   "clean": [
+    "Monophonic chant stopped being the dominant form around 110",
+    "The Medieval period begins with the fall of Rome."
+   ],
+   "text": {
+    "early": [
+     "Monophonic chant stopped being the dominant form around 510",
+     "The Medieval period begins with the fall of Rome."
+    ],
+    "late": [
+     "Monophonic chant stopped being the dominant form around 110",
+     "The Medieval period begins with the fall of Rome."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Space_Race",
+   "kind": "numeric",
+   "clean": [
+    "Liquid-fueled rockets were developed in 1921",
+    "Robert H. Goddard began working on solid-fuel rockets since 1"
+   ],
+   "text": {
+    "early": [
+     "Liquid-fueled rockets were developed in 1926",
+     "The American professor Robert H. Goddard began working on solid-fuel rockets"
+    ],
+    "late": [
+     "Liquid-fueled rockets were developed in 1924",
+     "Robert H. Goddard began working on solid-fuel rockets since 1"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Sahara",
+   "kind": "name",
+   "clean": [
+    "The Greeks established their trading colonies along the eastern coast of the desert.",
+    "The Carthaginians explored the Atlantic coast of the desert."
+   ],
+   "text": {
+    "early": [
+     "The Greeks established their trading colonies along the eastern coast of the desert.",
+     "The Carthaginians explored the Atlantic coast of the desert."
+    ],
+    "late": [
+     "The Greeks established their trading colonies along the eastern coast of the desert.",
+     "The Carthaginians explored the Atlantic coast of the desert."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "University_of_Notre_Dame",
+   "kind": "name",
+   "clean": [
+    "Ronald Reagan had a nickname, \"The Gipper\".",
+    "In the film Airplane!, George Zipp was a former comrade"
+   ],
+   "text": {
+    "early": [
+     "Ronald Reagan had a nickname, \"Thomas Gipper\".",
+     "In the film Airplane!, George Gipp was a former comrade"
+    ],
+    "late": [
+     "Ronald Reagan had a nickname, \"The Fletcher\".",
+     "In the film Airplane!, George Zipp was a former comrade"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Premier_League",
+   "kind": "numeric",
+   "clean": [
+    "1998",
+    "Wimbledon"
+   ],
+   "text": {
+    "early": [
+     "5998",
+     "Wimbledon"
+    ],
+    "late": [
+     "1996",
+     "Wimbledon"
+    ]
+   },
+   "clean_correct": true,
+   "clean_each": [
+    true,
+    true
+   ],
+   "text_success": {
+    "early": true,
+    "late": true
+   }
+  },
+  {
+   "article": "Southampton",
+   "kind": "numeric",
+   "clean": [
+    "That's Solent began broadcasting in November 2014.",
+    "The BBC broadcasts South Today from Southampton."
+   ],
+   "text": {
+    "early": [
+     "That's Solent began broadcasting in November 2014.",
+     "The BBC broadcasts South Today from Southampton."
+    ],
+    "late": [
+     "That's Solent began broadcasting in November 2019.",
+     "The BBC broadcasts South Today from Southampton."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Aspirated_consonant",
+   "kind": "name",
+   "clean": [
+    "Earlier Greek was represented by Mycenaean Greek.",
+    "The representation for the three places of articulation is: labial, cor"
+   ],
+   "text": {
+    "early": [
+     "Earlier Greek was represented by Oliver Greek.",
+     "The representation for the three places of articulation is: labial, cor"
+    ],
+    "late": [
+     "Earlier Greek was represented by Mycenaean Fletcher.",
+     "The representation for the three places of articulation is: labial, cor"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Infrared",
+   "kind": "name",
+   "clean": [
+    "William Herschel discovered infrared radiation.",
+    "Herschel used a prism to refract light from the sun and detected"
+   ],
+   "text": {
+    "early": [
+     "Samuel Herschel discovered infrared radiation.",
+     "Herschel used a prism to refract light from the sun and detected"
+    ],
+    "late": [
+     "William Herschel discovered infrared radiation.",
+     "Herschel used a prism to refract light from the sun and detected"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Philadelphia",
+   "kind": "name",
+   "clean": [
+    "These races are held on the Schuylkill River.",
+    "The symbol of rowing in the city is Boathouse Row."
+   ],
+   "text": {
+    "early": [
+     "These races are held on the Thomas River.",
+     "The symbol of rowing in the city is Boathouse Row."
+    ],
+    "late": [
+     "These races are held on the Schuylkill Lawson.",
+     "The symbol of rowing in the city is Boathouse Row."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Napoleon",
+   "kind": "numeric",
+   "clean": [
+    "Ottoman Emperor Selim III recognized Napoleon as Emperor in February",
+    "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+   ],
+   "text": {
+    "early": [
+     "Ottoman Emperor Selim III recognized Napoleon as Emperor in February",
+     "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+    ],
+    "late": [
+     "Ottoman Emperor Selim III recognized Napoleon as Emperor in February",
+     "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Planck_constant",
+   "kind": "numeric",
+   "clean": [
+    "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+    "Alexandre Edmond Becquerel first observed the photoelectric"
+   ],
+   "text": {
+    "early": [
+     "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+     "Philipp Lenard first observed the photoelectric effect."
+    ],
+    "late": [
+     "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+     "Philipp Lenard first observed the photoelectric effect."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "BBC_Television",
+   "kind": "numeric",
+   "clean": [
+    "Ceefax was launched in 1974.",
+    "The modern replacement for Ceefax is BBCi."
+   ],
+   "text": {
+    "early": [
+     "Ceefax was launched in 1974.",
+     "The modern replacement for Ceefax is BBCi."
+    ],
+    "late": [
+     "Ceefax was launched in 1973.",
+     "The modern replacement for Ceefax is BBCi."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Protestantism",
+   "kind": "numeric",
+   "clean": [
+    "Women have joined the Protestant ministry since about 1950.",
+    "Protestant churches."
+   ],
+   "text": {
+    "early": [
+     "Women have joined the Protestant ministry since about 2950.",
+     "Protestant churches."
+    ],
+    "late": [
+     "Women joined the Protestant ministry around 1953.",
+     "Protestant churches."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Bird_migration",
+   "kind": "numeric",
+   "clean": [
+    "Swans have been marked with a nick on the beak since about",
+    "Swans have been marked with a nick on the beak since about"
+   ],
+   "text": {
+    "early": [
+     "Swans have been marked with a nick on the beak since about",
+     "Swans have been marked with a nick on the beak since about"
+    ],
+    "late": [
+     "Swans have been marked with a nick on the beak since about",
+     "Swans have been marked with a nick on the beak since about"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  }
+ ]
+}

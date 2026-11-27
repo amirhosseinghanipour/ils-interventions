@@ -1,0 +1,553 @@
+{
+ "summary": {
+  "model": "hf:/mnt/cold/v1ll3n/research/ils-finite-response/inputs/smol@bfloat16@v1",
+  "articles": 20,
+  "clean_correct": 1,
+  "clean_query_accuracy": 0.175,
+  "irrelevant_clean_accuracy": 0.2,
+  "text_success_variants": 1,
+  "usable_articles": 0
+ },
+ "rows": [
+  {
+   "article": "Endangered_Species_Act",
+   "kind": "name",
+   "clean": [
+    "The violator may provide financial assistance for the care of the harmed wildlife",
+    "Yes, the public is given an incentive to report Endangered Species Act ("
+   ],
+   "text": {
+    "early": [
+     "The violator may provide financial assistance for the care of the harmed wildlife",
+     "Public given incentive to report Endangered Species Act violations"
+    ],
+    "late": [
+     "The cooperative endangered species conservation fund.",
+     "Yes, the public is given an incentive to report Endangered Species Act ("
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "kind": "name",
+   "clean": [
+    "The Empress Dowager spent most of her time at the Summer Palace.",
+    "The missionaries were killed in the southern part of Shandong Province."
+   ],
+   "text": {
+    "early": [
+     "The Empress Dowager spent most of her time at the Edward Palace.",
+     "The missionaries were killed in the southern part of Shandong Province ("
+    ],
+    "late": [
+     "The Empress Dowager spent most of her time at the Summer Porter.",
+     "The missionaries were killed in the southern part of Shandong Province ("
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Copper",
+   "kind": "numeric",
+   "clean": [
+    "Copper was discovered in 1857 on the Keween",
+    "The largest copper crystal that has been found is a polycrystal,"
+   ],
+   "text": {
+    "early": [
+     "The largest mass of elemental copper discovered weighed 420 tonnes and",
+     "The largest copper crystal that has been found is 4.4\u00d7"
+    ],
+    "late": [
+     "Copper was discovered in 1856 on the Keween",
+     "The largest copper crystal that has been found is a polycrystal,"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Biodiversity",
+   "kind": "name",
+   "clean": [
+    "The era that predated life on Earth is the Hadean E",
+    "4.54 billion years old"
+   ],
+   "text": {
+    "early": [
+     "The era that predated life on Earth is the Eoarche",
+     "4.54 billion years old"
+    ],
+    "late": [
+     "The era that predated life on Earth is the Hadean Era",
+     "4.54 billion years old"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Geography_of_the_United_States",
+   "kind": "name",
+   "clean": [
+    "Willamette Valley",
+    "Pacific Coast Ranges"
+   ],
+   "text": {
+    "early": [
+     "Joseph Valley",
+     "Pacific Coast Ranges"
+    ],
+    "late": [
+     "Willamette Valley",
+     "Pacific Coast Ranges"
+    ]
+   },
+   "clean_correct": true,
+   "clean_each": [
+    true,
+    true
+   ],
+   "text_success": {
+    "early": true,
+    "late": false
+   }
+  },
+  {
+   "article": "Comcast",
+   "kind": "name",
+   "clean": [
+    "Comcast's telecommunication business prior to 1999 was",
+    "Comcast invested in MediaOne."
+   ],
+   "text": {
+    "early": [
+     "Comcast's telecommunication business prior to 1999 was",
+     "Comcast invested in MediaOne."
+    ],
+    "late": [
+     "Comcast's telecommunication business prior to 1999 was",
+     "Comcast invested in MediaOne."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Classical_music",
+   "kind": "numeric",
+   "clean": [
+    "Monophonic chant stopped being the dominant form",
+    "The Medieval period begins with the fall of Rome."
+   ],
+   "text": {
+    "early": [
+     "Monophonic chant stopped being the dominant form",
+     "The Medieval period begins with the fall of Rome."
+    ],
+    "late": [
+     "Monophonic chant stopped being the dominant form",
+     "The Medieval period begins with the fall of Rome."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Space_Race",
+   "kind": "numeric",
+   "clean": [
+    "Liquid-fueled rockets were developed in 1921",
+    "Robert H. Goddard"
+   ],
+   "text": {
+    "early": [
+     "Liquid-fueled rockets were developed in 1942",
+     "Robert H. Goddard"
+    ],
+    "late": [
+     "Liquid-fueled rockets were developed in 1924",
+     "Robert H. Goddard"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Sahara",
+   "kind": "name",
+   "clean": [
+    "Greeks established their trading colonies along the Red Sea.",
+    "The Carthaginians explored the Atlantic coast of the desert, but the"
+   ],
+   "text": {
+    "early": [
+     "Greeks established their trading colonies along the Joseph Sea.",
+     "The Carthaginians explored the Atlantic coast of the desert, but the"
+    ],
+    "late": [
+     "Greeks established their trading colonies along the Red Sullivan.",
+     "The Carthaginians explored the Atlantic coast of the desert, but the"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "University_of_Notre_Dame",
+   "kind": "name",
+   "clean": [
+    "George Gipp",
+    "George Gipp"
+   ],
+   "text": {
+    "early": [
+     "George Gipp",
+     "George Gipp"
+    ],
+    "late": [
+     "George Gipp",
+     "George Gipp"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Premier_League",
+   "kind": "numeric",
+   "clean": [
+    "1998",
+    "Celtic"
+   ],
+   "text": {
+    "early": [
+     "5998",
+     "Celtic"
+    ],
+    "late": [
+     "1996",
+     "Celtic"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    true,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Southampton",
+   "kind": "numeric",
+   "clean": [
+    "That's Solent began broadcasting in November 2014.",
+    "The BBC broadcasts a program with a direction in its name from Southampton."
+   ],
+   "text": {
+    "early": [
+     "That's Solent began broadcasting in November 8014.",
+     "The BBC broadcasts a program with a direction in its name from Southampton."
+    ],
+    "late": [
+     "That's Solent began broadcasting in November 2019.",
+     "The BBC broadcasts a program with a direction in its name from Southampton."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Aspirated_consonant",
+   "kind": "name",
+   "clean": [
+    "Earlier Greek was represented by Mycenaean Greek.",
+    "/p\u02b0 t\u02b0 k\u02b0/"
+   ],
+   "text": {
+    "early": [
+     "Earlier Greek was represented by labial, coronal, and velar",
+     "/p\u02b0 t\u02b0 k\u02b0/"
+    ],
+    "late": [
+     "Earlier Greek was represented by Mycenaean Fletcher.",
+     "/p\u02b0 t\u02b0 k\u02b0/"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Infrared",
+   "kind": "name",
+   "clean": [
+    "William Herschel",
+    "Herschel used a prism to refract light from the sun and detected"
+   ],
+   "text": {
+    "early": [
+     "Samuel Herschel",
+     "Herschel used a prism to refract light from the sun and detected"
+    ],
+    "late": [
+     "William Sullivan",
+     "Herschel used a prism to refract light from the sun and detected"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    true,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Philadelphia",
+   "kind": "name",
+   "clean": [
+    "Rowing races are held on the Schuylkill River.",
+    "The symbol of rowing in Philadelphia is Boathouse Row."
+   ],
+   "text": {
+    "early": [
+     "Boathouse Row",
+     "The symbol of rowing in Philadelphia is Boathouse Row."
+    ],
+    "late": [
+     "Boathouse Row",
+     "The symbol of rowing in Philadelphia is Boathouse Row."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Napoleon",
+   "kind": "numeric",
+   "clean": [
+    "Ottoman Emperor Selim III recognized Napoleon as Emperor in 1",
+    "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+   ],
+   "text": {
+    "early": [
+     "Ottoman Emperor Selim III recognized Napoleon as Emperor in 8",
+     "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+    ],
+    "late": [
+     "Ottoman Emperor Selim III recognized Napoleon as Emperor in 1",
+     "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Planck_constant",
+   "kind": "numeric",
+   "clean": [
+    "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+    "Alexandre Edmond Becquerel"
+   ],
+   "text": {
+    "early": [
+     "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+     "Edmond Becquerel"
+    ],
+    "late": [
+     "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+     "Alexandre Edmond Becquerel"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "BBC_Television",
+   "kind": "numeric",
+   "clean": [
+    "Ceefax was launched in 1974.",
+    "The modern replacement for Ceefax is the BBCi service."
+   ],
+   "text": {
+    "early": [
+     "Ceefax was launched in 2974.",
+     "The modern replacement for Ceefax is the BBCi service."
+    ],
+    "late": [
+     "Ceefax was launched in 1973.",
+     "The modern replacement for Ceefax is the BBCi service."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Protestantism",
+   "kind": "numeric",
+   "clean": [
+    "When did women join the Protestant ministry?",
+    "Protestant churches let their clergy marry."
+   ],
+   "text": {
+    "early": [
+     "When did women join the Protestant ministry?",
+     "Protestant churches let their clergy marry."
+    ],
+    "late": [
+     "When did women join the Protestant ministry?",
+     "Protestant churches let their clergy marry."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Bird_migration",
+   "kind": "numeric",
+   "clean": [
+    "Since about 1560 in England.",
+    "Swans have been marked with a nick on the beak since about"
+   ],
+   "text": {
+    "early": [
+     "Since about 9560 in England.",
+     "Swans have been marked with a nick on the beak since about"
+    ],
+    "late": [
+     "Since about 1567 in England.",
+     "Swans have been marked with a nick on the beak since about"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "title": "Confirmatory test of the frozen online generation-time patch scheduler",
+ "hypothesis": "Detecting donor/recipient top-token disagreement during generation reduces fully charged intervention latency relative to every-step patching while retaining selective full-answer transfer.",
+ "separate_claims_not_tested": ["compact routing subsets", "HVP-guided verified search", "field-wide state of the art"],
+ "frozen_policy": "qa_confirm.online == qa_timing_online.online (pilot equivalence checked on recorded pilot queries): compare recipient and edited-donor top tokens on the common generated prefix, reuse the detecting donor forward, every-step patching on a step-0 disagreement, one persistent fixed-position patch on a later disagreement, unpatched continuation with no disagreement in the first 6 decode steps.",
+ "data": {
+  "dataset": "SQuAD v1.1 train, sha256 3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+  "exclusions": "all SQuAD v1.1 dev titles and every article in qa-timing/{4b,9b,specificity-4b,online-4b} provenance and qa-pool-control/{fixed-subset,rolling-subset}",
+  "cohort_file": "qa-confirm/cohort.json",
+  "cohort_seed": 20261127,
+  "draw": "seeded article order; within an article seeded paragraph and question order; first relevant question whose unique gold span is a 2-4 digit number or two capitalized words, occurring once in the passage, paired with the first irrelevant question passing the pilot filters and the answerability audit, and passing the tokenizer gates of both Qwen3.5 and SmolLM2. No model outputs are used.",
+  "edits": "numeric early: first digit shifted by a seeded offset 1-8 (mod 9, nonzero digits); numeric late: last digit shifted by a seeded offset 1-9 (mod 10). Capitalized early: first word replaced by a seeded first name from a 12-name pool; late: second word replaced by a seeded surname from a 12-name pool. The two questions are fixed; only the answer span changes.",
+  "answerability_audit": "every annotated irrelevant answer span lies outside the edited character span and some irrelevant gold alias occurs verbatim in both edited passages",
+  "tokenizer_gates": "all six prompts <= 236 tokens; answer token boundary preserved after the generation prompt; early edit changes the first answer token; late edit shares a nonempty strict common prefix with the original answer",
+  "splits": "first 10 accepted articles per family = development (checkpoint choice, validation smoke); all remaining accepted articles = confirmatory test (113 numeric, 135 capitalized). Nothing is selected by patch success."
+ },
+ "checkpoints": {
+  "qwen": "Qwen_Qwen3.5-4B-Q4_K_M.gguf, llama.cpp b12110 native probe qa_confirm_probe.cpp, head panel = all 128 heads of the 8 gated full-attention blocks (independent Qwen replication on fresh articles)",
+  "other_family_candidates": ["SmolLM2-1.7B-Instruct (HuggingFaceTB, rev 31b70e2e)", "SmolLM2-360M-Instruct (rev a10cc151)"],
+  "other_family_selection_rule": "On the development split only: choose the candidate with the most usable articles (both clean answers correct and direct text edit succeeding on both variants); ties by clean-correct articles, then larger model. Proceed only if usable >= 4 of 20; otherwise report the family as incompatible and finish the Qwen replication alone. Intervention outcomes are not used.",
+  "other_family_selected": "SmolLM2-1.7B-Instruct, prompt style v2 (amendment A1)",
+  "other_family_setup":"transformers, bfloat16 weights and activations, SDPA attention, full recomputation without KV cache, head panel = every head of every block (all softmax-attention heads), site = input of self_attn.o_proj"
+ },
+ "arms": {
+  "timed_randomized": ["clean", "text", "full_prompt", "full_rolling", "scanned", "online"],
+  "controls_randomized_with_timed": ["single_disagreement", "self_prompt", "self_rolling"],
+  "notes": "Arm order is randomized per query (seed [run_seed, article_index, variant, query]). single_disagreement uses the scanned policy's detected step (fixed patch; prompt boundary when the step is 0). Self-donor arms use the recipient prompt as donor and must reproduce clean tokens exactly. Generation: greedy, stop at end-of-generation, first newline or 14 tokens; answer = first line stripped; normalized exact match against gold aliases (SQuAD normalization)."
+ },
+ "outcomes": {
+  "primary_behavioral": "joint success per (article, variant): relevant query output matches the intended edited span and irrelevant query output matches an original gold alias, among articles whose two clean answers are both correct",
+  "secondary_behavioral": ["relevant switch rate", "irrelevant preservation", "exact token agreement online vs every-step", "joint success among direct-text-positive variants (sensitivity)", "by family and edit position"],
+  "primary_cost": "ratio of summed elapsed milliseconds online / every-step over all generated queries of all sampled test articles (detection, donor forwards, capture, patching and decoding charged; model load and shared warm-up excluded)",
+  "secondary_cost": ["native forward calls", "patched positions", "generated tokens and stop reasons", "same ratios on queries whose online and every-step token outputs are identical", "two-pass scanned / every-step and online / scanned"],
+  "timing_noise": "every 8th test article (index % 8 == 0): the six timed arms re-run twice more in fresh random order; report per-arm coefficient of variation and the online/every-step ratio within each repetition"
+ },
+ "inference": {
+  "unit": "article; early and late variants and both queries resampled together",
+  "bootstrap": "10000 article-level resamples, seed 913",
+  "paired_tests": "exact two-sided sign test on discordant variants (reported with the article bootstrap, which respects clustering)"
+ },
+ "decision_gate": {
+  "latency_target": "online/every-step elapsed ratio <= 0.95 (at least 5% faster) with the article-bootstrap 95% upper bound < 1.00, and upper bound < 1.00 on the exact-answer-matched subset",
+  "max_selective_loss": "non-inferiority margin 0.10: lower 95% bootstrap bound of (online joint success - every-step joint success) > -0.10",
+  "methods_claim": "both latency target and non-inferiority hold on the Qwen replication and on the other-family checkpoint",
+  "timing_claim": "single_disagreement - full_prompt joint success: article-bootstrap 95% lower bound > 0 on a checkpoint; reported per checkpoint, family and edit position",
+  "otherwise": "report measured limits"
+ },
+ "sample_size": "All 248 eligible test articles. Planning: about 40% of articles clean-correct on Qwen3.5-4B (pilot range 30-55%) gives about 100 clean-correct articles (200 variants). With a 15% discordance rate between online and every-step success, the standard error of the paired difference is about 0.03, so a true difference of 0 yields a lower bound near -0.06, inside the 0.10 margin. The pilot latency interval half-width (about 5.5% on 20 articles) shrinks to about 1.6% on 248. At least 60 clean-correct articles per checkpoint are needed for the non-inferiority comparison to be informative; fewer is reported as underpowered.",
+ "timing_repeat_every": 8,
+ "timing_repeats": 2,
+ "run_seed": 4417,
+ "execution": "one checkpoint at a time under the shared heavy lock, in resumable chunks; rows are saved after every article",
+ "cohort_sha256": "a9c2d75cda63b111c813f7bb9e6daa95794f209f7e956595240e73c032970161",
+ "native_probe_sha256": "f5764a2c60967f4c127fa8d6c12558dabbf4ebdec4051b1cd9c71ba9b16687e9",
+ "amendments_before_test_scoring": [
+  {
+   "id": "A1-instruction-style",
+   "date": "2026-11-27",
+   "observation": "With the Qwen instruction wording (style v0) placed in the SmolLM2 chat template, both SmolLM2 candidates mostly answered in full sentences on the development split: 1.7B 1/20 clean-correct articles and 1/20 usable; 360M 0/20 and 0/20.",
+   "change": "Three alternative instruction wordings (v1 explicit 'do not write a sentence', v2 system message requesting a short copied phrase plus the v0 user text, v3 question-then-instruction) were compared on the same 20 development articles with the same pre-written selection rule extended over (checkpoint, style) pairs. Only clean QA and direct text edits were scored; no intervention arm was run.",
+   "result": {"smol17": {"v0": [1, 1], "v1": [4, 1], "v2": [5, 4], "v3": [6, 3]}, "smol360": {"v0": [0, 0], "v1": [1, 0], "v2": [2, 0], "v3": [1, 0]}, "format": "[clean-correct articles, usable articles] of 20"},
+   "selection": "SmolLM2-1.7B-Instruct with style v2 (most usable articles, 4/20, exactly the prespecified minimum). Qwen keeps style v0 (unchanged from all earlier studies).",
+   "interpretation_risk": "The style was chosen after observing a format failure, on development articles only; test articles were never scored. The style differs between checkpoints, so cross-family comparisons are of the same scheduler under each checkpoint's best dev format, not of identical prompts. Development clean-correct rate 5/20 projects about 62 clean-correct test articles, at the prespecified 60-article floor: the SmolLM2 non-inferiority comparison may be underpowered and will be reported as such if fewer than 60 are clean-correct."
+  }
+ ]
+}

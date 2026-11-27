@@ -1,0 +1,553 @@
+{
+ "summary": {
+  "model": "hf:/mnt/cold/v1ll3n/research/ils-components/inputs/large@bfloat16@v1",
+  "articles": 20,
+  "clean_correct": 4,
+  "clean_query_accuracy": 0.35,
+  "irrelevant_clean_accuracy": 0.4,
+  "text_success_variants": 6,
+  "usable_articles": 1
+ },
+ "rows": [
+  {
+   "article": "Endangered_Species_Act",
+   "kind": "name",
+   "clean": [
+    "Any person who furnishes information",
+    "Yes, the public is given incentive to report Endangered Species Act violations."
+   ],
+   "text": {
+    "early": [
+     "Victor Secretary may provide reasonable and necessary costs incurred for the care of fish",
+     "Yes, the public is given incentive to report Endangered Species Act violations."
+    ],
+    "late": [
+     "A person who furnishes information which leads to an arrest, conviction,",
+     "Yes, the public is given incentive to report Endangered Species Act violations."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "kind": "name",
+   "clean": [
+    "From 1889 to 1898, the",
+    "The missionaries were killed in the southern part of Shandong Province."
+   ],
+   "text": {
+    "early": [
+     "From 1889 to 1898, the",
+     "The missionaries were killed in the southern part of Shandong Province."
+    ],
+    "late": [
+     "From 1889 to 1898, the",
+     "The missionaries were killed in the southern part of Shandong Province."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Copper",
+   "kind": "numeric",
+   "clean": [
+    "1857",
+    "4.4\u00d73.2\u00d73.2 cm"
+   ],
+   "text": {
+    "early": [
+     "420 tonnes",
+     "4.4\u00d73.2\u00d73.2 cm"
+    ],
+    "late": [
+     "1856",
+     "4.4\u00d73.2\u00d73.2 cm"
+    ]
+   },
+   "clean_correct": true,
+   "clean_each": [
+    true,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": true
+   }
+  },
+  {
+   "article": "Biodiversity",
+   "kind": "name",
+   "clean": [
+    "Eoarchean Era",
+    "The estimate age of the Earth is about 4.54 billion"
+   ],
+   "text": {
+    "early": [
+     "Eoarchean Era",
+     "The estimate age of the Earth is about 4.54 billion"
+    ],
+    "late": [
+     "Eoarchean Era",
+     "The estimate age of the Earth is about 4.54 billion"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Geography_of_the_United_States",
+   "kind": "name",
+   "clean": [
+    "Willamette Valley",
+    "Pacific Coast Ranges"
+   ],
+   "text": {
+    "early": [
+     "Central Valley",
+     "Pacific Coast Ranges"
+    ],
+    "late": [
+     "Willamette Warren",
+     "Pacific Coast Ranges"
+    ]
+   },
+   "clean_correct": true,
+   "clean_each": [
+    true,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": true
+   }
+  },
+  {
+   "article": "Comcast",
+   "kind": "name",
+   "clean": [
+    "Comcast's telecommunication business prior to 1999 was",
+    "Comcast Interactive Capital Group"
+   ],
+   "text": {
+    "early": [
+     "Comcast sold Martin Cellular to SBC Communications in 199",
+     "Comcast invested in VeriSign."
+    ],
+    "late": [
+     "Comcast sold Comcast Harrison to SBC Communications in 19",
+     "Comcast invested in VeriSign."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Classical_music",
+   "kind": "numeric",
+   "clean": [
+    "Monophonic chant stopped being the dominant form around 110",
+    "The Medieval period begins with the fall of Rome."
+   ],
+   "text": {
+    "early": [
+     "Monophonic chant stopped being the dominant form around 510",
+     "The Medieval period begins with the fall of Rome."
+    ],
+    "late": [
+     "Monophonic chant stopped being the dominant form around 110",
+     "The Medieval period begins with the fall of Rome."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Space_Race",
+   "kind": "numeric",
+   "clean": [
+    "1921",
+    "Robert H. Goddard"
+   ],
+   "text": {
+    "early": [
+     "1959",
+     "Robert H. Goddard"
+    ],
+    "late": [
+     "1924",
+     "Robert H. Goddard"
+    ]
+   },
+   "clean_correct": true,
+   "clean_each": [
+    true,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": true
+   }
+  },
+  {
+   "article": "Sahara",
+   "kind": "name",
+   "clean": [
+    "Greeks established their trading colonies along the eastern coast of the desert.",
+    "The Carthaginians explored the Atlantic coast of the desert."
+   ],
+   "text": {
+    "early": [
+     "Greeks established their trading colonies along the eastern coast of the desert.",
+     "The Carthaginians explored the Atlantic coast of the desert."
+    ],
+    "late": [
+     "Greeks established their trading colonies along the eastern coast of the desert.",
+     "The Carthaginians explored the Atlantic coast of the desert."
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "University_of_Notre_Dame",
+   "kind": "name",
+   "clean": [
+    "The nickname \"The Gipper\"",
+    "George Zipp"
+   ],
+   "text": {
+    "early": [
+     "Thomas Gipper",
+     "George Zipp"
+    ],
+    "late": [
+     "The nickname of Ronald Reagan was \"The Fletcher\".",
+     "George Zipp"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    true
+   ],
+   "text_success": {
+    "early": true,
+    "late": false
+   }
+  },
+  {
+   "article": "Premier_League",
+   "kind": "numeric",
+   "clean": [
+    "1998",
+    "Wimbledon"
+   ],
+   "text": {
+    "early": [
+     "5998",
+     "Wimbledon"
+    ],
+    "late": [
+     "1996",
+     "Wimbledon"
+    ]
+   },
+   "clean_correct": true,
+   "clean_each": [
+    true,
+    true
+   ],
+   "text_success": {
+    "early": true,
+    "late": true
+   }
+  },
+  {
+   "article": "Southampton",
+   "kind": "numeric",
+   "clean": [
+    "That's Solent began broadcasting in November 2014.",
+    "BBC South Today"
+   ],
+   "text": {
+    "early": [
+     "That's Solent began broadcasting in November 2014.",
+     "BBC South Today"
+    ],
+    "late": [
+     "That's Solent began broadcasting in November 2019.",
+     "BBC South Today"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Aspirated_consonant",
+   "kind": "name",
+   "clean": [
+    "Mycenaean Greek",
+    "Labial, coronal, and velar"
+   ],
+   "text": {
+    "early": [
+     "Earlier Greek was represented by Oliver Greek.",
+     "Labial, coronal, and velar"
+    ],
+    "late": [
+     "Earlier Greek was represented by Mycenaean Fletcher.",
+     "Labial, coronal, and velar"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    true,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Infrared",
+   "kind": "name",
+   "clean": [
+    "William Herschel",
+    "Herschel used a prism to refract light from the sun and detected"
+   ],
+   "text": {
+    "early": [
+     "Samuel Herschel",
+     "Herschel used a prism to refract light from the sun and detected"
+    ],
+    "late": [
+     "William Herschel",
+     "Herschel used a prism to refract light from the sun and detected"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    true,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Philadelphia",
+   "kind": "name",
+   "clean": [
+    "These races are held on the Schuylkill River.",
+    "Boathouse Row"
+   ],
+   "text": {
+    "early": [
+     "These races are held on the Thomas River.",
+     "Boathouse Row"
+    ],
+    "late": [
+     "These races are held on the Schuylkill Lawson.",
+     "Boathouse Row"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Napoleon",
+   "kind": "numeric",
+   "clean": [
+    "February 1806",
+    "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+   ],
+   "text": {
+    "early": [
+     "February 8806",
+     "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+    ],
+    "late": [
+     "February 1805",
+     "Napoleon formed an alliance with the Persian Empire of Fat\u2032"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Planck_constant",
+   "kind": "numeric",
+   "clean": [
+    "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+    "Alexandre Edmond Becquerel"
+   ],
+   "text": {
+    "early": [
+     "The photoelectric effect was first observed in 2839.",
+     "Alexandre Edmond Becquerel"
+    ],
+    "late": [
+     "The photoelectric effect was first observed by Alexandre Edmond Becqu",
+     "Alexandre Edmond Becquerel"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "BBC_Television",
+   "kind": "numeric",
+   "clean": [
+    "Ceefax was launched in 1974.",
+    "BBCi"
+   ],
+   "text": {
+    "early": [
+     "Ceefax was launched in 1974.",
+     "BBCi"
+    ],
+    "late": [
+     "Ceefax was launched in 1973.",
+     "BBCi"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    true
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Protestantism",
+   "kind": "numeric",
+   "clean": [
+    "Since about 1950, women have entered the ministry,",
+    "Protestant churches"
+   ],
+   "text": {
+    "early": [
+     "Since about 2950, women have entered the ministry,",
+     "Protestant churches"
+    ],
+    "late": [
+     "Since about 1953, women have entered the ministry,",
+     "Protestant churches"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  },
+  {
+   "article": "Bird_migration",
+   "kind": "numeric",
+   "clean": [
+    "Since about 1560 in England.",
+    "Swans have been marked with a nick on the beak since about"
+   ],
+   "text": {
+    "early": [
+     "Since about 9560 in England.",
+     "Swans have been marked with a nick on the beak since about"
+    ],
+    "late": [
+     "Since about 1567 in England.",
+     "Swans have been marked with a nick on the beak since about"
+    ]
+   },
+   "clean_correct": false,
+   "clean_each": [
+    false,
+    false
+   ],
+   "text_success": {
+    "early": false,
+    "late": false
+   }
+  }
+ ]
+}

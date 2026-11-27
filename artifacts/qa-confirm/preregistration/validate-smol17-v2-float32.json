@@ -1,0 +1,944 @@
+{
+ "model": "hf:/mnt/cold/v1ll3n/research/ils-components/inputs/large@float32@v2",
+ "describe": {
+  "backend": "transformers",
+  "checkpoint": "large",
+  "architecture": [
+   "LlamaForCausalLM"
+  ],
+  "blocks": 24,
+  "patched_blocks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23
+  ],
+  "heads_per_block": 32,
+  "kv_heads": 32,
+  "head_dim": 64,
+  "site": "input of self_attn.o_proj (concatenated per-head softmax-attention outputs, no gate)",
+  "weights": "torch.float32",
+  "activations": "torch.float32",
+  "attention": "sdpa",
+  "panel_size": 768,
+  "prompt_style": "v2",
+  "context": 256
+ },
+ "checks": [
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "early",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 14,
+    "clean": 7,
+    "self_prompt": 8,
+    "text": 14,
+    "full_rolling": 28,
+    "single_disagreement": 4,
+    "full_prompt": 4,
+    "scanned": 30,
+    "online": 29
+   },
+   "patched": {
+    "self_rolling": 7,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 14,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 14,
+    "online": 14
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "cap",
+    "full_rolling": "cap",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "cap",
+    "online": "cap"
+   },
+   "texts": {
+    "self_rolling": "A person who furnishes information",
+    "clean": "A person who furnishes information",
+    "self_prompt": "A person who furnishes information",
+    "text": "Victor Secretary may provide reasonable and necessary costs incurred for the care of fish",
+    "full_rolling": "Victor Secretary may provide reasonable and necessary costs incurred for the care of fish",
+    "single_disagreement": "Victoria",
+    "full_prompt": "Victoria",
+    "scanned": "Victor Secretary may provide reasonable and necessary costs incurred for the care of fish",
+    "online": "Victor Secretary may provide reasonable and necessary costs incurred for the care of fish"
+   },
+   "online": {
+    "trigger": 0,
+    "mode": "rolling"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": true,
+    "scan_forwards": 2
+   }
+  },
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "early",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 15,
+    "clean": 14,
+    "text": 14,
+    "full_rolling": 28,
+    "self_prompt": 15,
+    "full_prompt": 15,
+    "self_rolling": 28,
+    "scanned": 27,
+    "online": 20
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 14,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 14,
+    "scanned": 1,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "cap",
+    "clean": "cap",
+    "text": "cap",
+    "full_rolling": "cap",
+    "self_prompt": "cap",
+    "full_prompt": "cap",
+    "self_rolling": "cap",
+    "scanned": "cap",
+    "online": "cap"
+   },
+   "texts": {
+    "single_disagreement": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "clean": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "text": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "full_rolling": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "self_prompt": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "full_prompt": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "self_rolling": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "scanned": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "online": "Yes, the public is given incentive to report Endangered Species Act violations."
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 2,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "late",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 14,
+    "clean": 7,
+    "self_prompt": 8,
+    "text": 14,
+    "full_rolling": 28,
+    "single_disagreement": 8,
+    "full_prompt": 8,
+    "scanned": 40,
+    "online": 13
+   },
+   "patched": {
+    "self_rolling": 7,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 14,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 14,
+    "online": 0
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "cap",
+    "full_rolling": "cap",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "cap",
+    "online": "eog"
+   },
+   "texts": {
+    "self_rolling": "A person who furnishes information",
+    "clean": "A person who furnishes information",
+    "self_prompt": "A person who furnishes information",
+    "text": "A person who furnishes information which leads to an arrest, conviction,",
+    "full_rolling": "A person who furnishes information which leads to an arrest, conviction,",
+    "single_disagreement": "A person who furnishes information",
+    "full_prompt": "A person who furnishes information",
+    "scanned": "A person who furnishes information which leads to an arrest, conviction,",
+    "online": "A person who furnishes information"
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "late",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 15,
+    "clean": 14,
+    "text": 14,
+    "full_rolling": 28,
+    "self_prompt": 15,
+    "full_prompt": 15,
+    "self_rolling": 28,
+    "scanned": 27,
+    "online": 20
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 14,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 14,
+    "scanned": 1,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "cap",
+    "clean": "cap",
+    "text": "cap",
+    "full_rolling": "cap",
+    "self_prompt": "cap",
+    "full_prompt": "cap",
+    "self_rolling": "cap",
+    "scanned": "cap",
+    "online": "cap"
+   },
+   "texts": {
+    "single_disagreement": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "clean": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "text": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "full_rolling": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "self_prompt": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "full_prompt": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "self_rolling": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "scanned": "Yes, the public is given incentive to report Endangered Species Act violations.",
+    "online": "Yes, the public is given incentive to report Endangered Species Act violations."
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 3,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "early",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 28,
+    "clean": 14,
+    "self_prompt": 15,
+    "text": 14,
+    "full_rolling": 28,
+    "single_disagreement": 15,
+    "full_prompt": 15,
+    "scanned": 40,
+    "online": 20
+   },
+   "patched": {
+    "self_rolling": 14,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 14,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 14,
+    "online": 0
+   },
+   "stops": {
+    "self_rolling": "cap",
+    "clean": "cap",
+    "self_prompt": "cap",
+    "text": "cap",
+    "full_rolling": "cap",
+    "single_disagreement": "cap",
+    "full_prompt": "cap",
+    "scanned": "cap",
+    "online": "cap"
+   },
+   "texts": {
+    "self_rolling": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "clean": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "self_prompt": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "text": "The Empress Dowager spent most of her time at the Edward Palace.",
+    "full_rolling": "The Empress Dowager spent most of her time at the Edward Palace.",
+    "single_disagreement": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "full_prompt": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "scanned": "The Empress Dowager spent most of her time at the Edward Palace.",
+    "online": "The Empress Dowager spent most of her time at the Summer Palace."
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "early",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 15,
+    "clean": 14,
+    "text": 14,
+    "full_rolling": 28,
+    "self_prompt": 15,
+    "full_prompt": 15,
+    "self_rolling": 28,
+    "scanned": 27,
+    "online": 20
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 14,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 14,
+    "scanned": 1,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "cap",
+    "clean": "cap",
+    "text": "cap",
+    "full_rolling": "cap",
+    "self_prompt": "cap",
+    "full_prompt": "cap",
+    "self_rolling": "cap",
+    "scanned": "cap",
+    "online": "cap"
+   },
+   "texts": {
+    "single_disagreement": "The missionaries were killed in the southern part of Shandong Province.",
+    "clean": "The missionaries were killed in the southern part of Shandong Province.",
+    "text": "The missionaries were killed in the southern part of Shandong Province.",
+    "full_rolling": "The missionaries were killed in the southern part of Shandong Province.",
+    "self_prompt": "The missionaries were killed in the southern part of Shandong Province.",
+    "full_prompt": "The missionaries were killed in the southern part of Shandong Province.",
+    "self_rolling": "The missionaries were killed in the southern part of Shandong Province.",
+    "scanned": "The missionaries were killed in the southern part of Shandong Province.",
+    "online": "The missionaries were killed in the southern part of Shandong Province."
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 5,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "late",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 28,
+    "clean": 14,
+    "self_prompt": 15,
+    "text": 14,
+    "full_rolling": 28,
+    "single_disagreement": 15,
+    "full_prompt": 15,
+    "scanned": 40,
+    "online": 20
+   },
+   "patched": {
+    "self_rolling": 14,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 14,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 14,
+    "online": 0
+   },
+   "stops": {
+    "self_rolling": "cap",
+    "clean": "cap",
+    "self_prompt": "cap",
+    "text": "cap",
+    "full_rolling": "cap",
+    "single_disagreement": "cap",
+    "full_prompt": "cap",
+    "scanned": "cap",
+    "online": "cap"
+   },
+   "texts": {
+    "self_rolling": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "clean": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "self_prompt": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "text": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "full_rolling": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "single_disagreement": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "full_prompt": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "scanned": "The Empress Dowager spent most of her time at the Summer Palace.",
+    "online": "The Empress Dowager spent most of her time at the Summer Palace."
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "late",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 15,
+    "clean": 14,
+    "text": 14,
+    "full_rolling": 28,
+    "self_prompt": 15,
+    "full_prompt": 15,
+    "self_rolling": 28,
+    "scanned": 27,
+    "online": 20
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 14,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 14,
+    "scanned": 1,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "cap",
+    "clean": "cap",
+    "text": "cap",
+    "full_rolling": "cap",
+    "self_prompt": "cap",
+    "full_prompt": "cap",
+    "self_rolling": "cap",
+    "scanned": "cap",
+    "online": "cap"
+   },
+   "texts": {
+    "single_disagreement": "The missionaries were killed in the southern part of Shandong Province.",
+    "clean": "The missionaries were killed in the southern part of Shandong Province.",
+    "text": "The missionaries were killed in the southern part of Shandong Province.",
+    "full_rolling": "The missionaries were killed in the southern part of Shandong Province.",
+    "self_prompt": "The missionaries were killed in the southern part of Shandong Province.",
+    "full_prompt": "The missionaries were killed in the southern part of Shandong Province.",
+    "self_rolling": "The missionaries were killed in the southern part of Shandong Province.",
+    "scanned": "The missionaries were killed in the southern part of Shandong Province.",
+    "online": "The missionaries were killed in the southern part of Shandong Province."
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 5,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Copper",
+   "variant": "early",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 10,
+    "clean": 5,
+    "self_prompt": 6,
+    "text": 5,
+    "full_rolling": 10,
+    "single_disagreement": 6,
+    "full_prompt": 6,
+    "scanned": 10,
+    "online": 8
+   },
+   "patched": {
+    "self_rolling": 5,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 5,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 1,
+    "online": 1
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "self_rolling": "1857",
+    "clean": "1857",
+    "self_prompt": "1857",
+    "text": "1985",
+    "full_rolling": "1985",
+    "single_disagreement": "1957",
+    "full_prompt": "1857",
+    "scanned": "1957",
+    "online": "1957"
+   },
+   "online": {
+    "trigger": 1,
+    "mode": "fixed"
+   },
+   "scanned": {
+    "step": 1,
+    "disagreement": true,
+    "scan_forwards": 4
+   }
+  },
+  {
+   "article": "Copper",
+   "variant": "early",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 14,
+    "clean": 13,
+    "text": 13,
+    "full_rolling": 26,
+    "self_prompt": 14,
+    "full_prompt": 14,
+    "self_rolling": 26,
+    "scanned": 26,
+    "online": 19
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 13,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 13,
+    "scanned": 1,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "eog",
+    "clean": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "self_prompt": "eog",
+    "full_prompt": "eog",
+    "self_rolling": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "single_disagreement": "4.4\u00d73.2\u00d73.2 cm",
+    "clean": "4.4\u00d73.2\u00d73.2 cm",
+    "text": "4.4\u00d73.2\u00d73.2 cm",
+    "full_rolling": "4.4\u00d73.2\u00d73.2 cm",
+    "self_prompt": "4.4\u00d73.2\u00d73.2 cm",
+    "full_prompt": "4.4\u00d73.2\u00d73.2 cm",
+    "self_rolling": "4.4\u00d73.2\u00d73.2 cm",
+    "scanned": "4.4\u00d73.2\u00d73.2 cm",
+    "online": "4.4\u00d73.2\u00d73.2 cm"
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 1,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Copper",
+   "variant": "late",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 10,
+    "clean": 5,
+    "self_prompt": 6,
+    "text": 5,
+    "full_rolling": 10,
+    "single_disagreement": 6,
+    "full_prompt": 6,
+    "scanned": 14,
+    "online": 10
+   },
+   "patched": {
+    "self_rolling": 5,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 5,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 1,
+    "online": 1
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "self_rolling": "1857",
+    "clean": "1857",
+    "self_prompt": "1857",
+    "text": "1856",
+    "full_rolling": "1856",
+    "single_disagreement": "1856",
+    "full_prompt": "1857",
+    "scanned": "1856",
+    "online": "1856"
+   },
+   "online": {
+    "trigger": 3,
+    "mode": "fixed"
+   },
+   "scanned": {
+    "step": 3,
+    "disagreement": true,
+    "scan_forwards": 8
+   }
+  },
+  {
+   "article": "Copper",
+   "variant": "late",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 14,
+    "clean": 13,
+    "text": 13,
+    "full_rolling": 26,
+    "self_prompt": 14,
+    "full_prompt": 14,
+    "self_rolling": 26,
+    "scanned": 26,
+    "online": 19
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 13,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 13,
+    "scanned": 1,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "eog",
+    "clean": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "self_prompt": "eog",
+    "full_prompt": "eog",
+    "self_rolling": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "single_disagreement": "4.4\u00d73.2\u00d73.2 cm",
+    "clean": "4.4\u00d73.2\u00d73.2 cm",
+    "text": "4.4\u00d73.2\u00d73.2 cm",
+    "full_rolling": "4.4\u00d73.2\u00d73.2 cm",
+    "self_prompt": "4.4\u00d73.2\u00d73.2 cm",
+    "full_prompt": "4.4\u00d73.2\u00d73.2 cm",
+    "self_rolling": "4.4\u00d73.2\u00d73.2 cm",
+    "scanned": "4.4\u00d73.2\u00d73.2 cm",
+    "online": "4.4\u00d73.2\u00d73.2 cm"
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 1,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  }
+ ],
+ "addressing": {
+  "noop_identical": true,
+  "layers": [
+   0,
+   12,
+   23
+  ],
+  "entries": [
+   {
+    "layer": 0,
+    "head": 0,
+    "delta_norm": 0.0028295430820435286,
+    "linearity_rel": 0.00015127420192584395,
+    "mask_vs_write_rel": 0.0,
+    "projection_rel": 0.0001084410199729183,
+    "wrong_head_rel": 1.1053446401500095,
+    "reconstruct_rel": 3.025944579349016e-07
+   },
+   {
+    "layer": 0,
+    "head": 16,
+    "delta_norm": 0.0017158385599032044,
+    "linearity_rel": 0.0005822314415127039,
+    "mask_vs_write_rel": 0.0,
+    "projection_rel": 0.00039460471502498215,
+    "wrong_head_rel": 1.4421844159288812,
+    "reconstruct_rel": 3.025944579349016e-07
+   },
+   {
+    "layer": 0,
+    "head": 31,
+    "delta_norm": 0.011467610485851765,
+    "linearity_rel": 0.00030866896850056946,
+    "mask_vs_write_rel": 0.0,
+    "projection_rel": 0.00019590618614619482,
+    "wrong_head_rel": 1.0630097357991286,
+    "reconstruct_rel": 3.025944579349016e-07
+   },
+   {
+    "layer": 12,
+    "head": 0,
+    "delta_norm": 0.5524753332138062,
+    "linearity_rel": 1.7712052795104682e-05,
+    "mask_vs_write_rel": 0.0,
+    "projection_rel": 1.0816175346075626e-05,
+    "wrong_head_rel": 1.3747191616863699,
+    "reconstruct_rel": 4.34291564488376e-07
+   },
+   {
+    "layer": 12,
+    "head": 16,
+    "delta_norm": 0.19041937589645386,
+    "linearity_rel": 4.288664786145091e-05,
+    "mask_vs_write_rel": 0.0,
+    "projection_rel": 2.7171629612109032e-05,
+    "wrong_head_rel": 1.2191934944959617,
+    "reconstruct_rel": 4.34291564488376e-07
+   },
+   {
+    "layer": 12,
+    "head": 31,
+    "delta_norm": 0.08858948200941086,
+    "linearity_rel": 0.0002309004048584029,
+    "mask_vs_write_rel": 0.0,
+    "projection_rel": 0.000130413708174713,
+    "wrong_head_rel": 1.4718433965566313,
+    "reconstruct_rel": 4.34291564488376e-07
+   },
+   {
+    "layer": 23,
+    "head": 0,
+    "delta_norm": 25.764022827148438,
+    "linearity_rel": 2.667234866748913e-06,
+    "mask_vs_write_rel": 2.6812466558112646e-07,
+    "projection_rel": 1.7932785673626687e-06,
+    "wrong_head_rel": 1.6583777505686628,
+    "reconstruct_rel": 3.8940316926527885e-07
+   },
+   {
+    "layer": 23,
+    "head": 16,
+    "delta_norm": 1.6965515613555908,
+    "linearity_rel": 4.124989209230989e-05,
+    "mask_vs_write_rel": 1.0326898518542293e-06,
+    "projection_rel": 2.0558263647237002e-05,
+    "wrong_head_rel": 1.462050655487646,
+    "reconstruct_rel": 3.8940316926527885e-07
+   },
+   {
+    "layer": 23,
+    "head": 31,
+    "delta_norm": 16.02110481262207,
+    "linearity_rel": 5.043809778726427e-06,
+    "mask_vs_write_rel": 2.0246199028406409e-07,
+    "projection_rel": 2.8783363110624633e-06,
+    "wrong_head_rel": 1.5745099657532058,
+    "reconstruct_rel": 3.8940316926527885e-07
+   }
+  ],
+  "summary": {
+   "max_linearity_rel": 0.0005822314415127039,
+   "max_mask_vs_write_rel": 1.0326898518542293e-06,
+   "min_delta_norm": 0.0017158385599032044,
+   "max_projection_rel": 0.00039460471502498215,
+   "min_wrong_head_rel": 1.0630097357991286,
+   "max_reconstruct_rel": 4.34291564488376e-07
+  }
+ },
+ "passed": {
+  "self_identity": true,
+  "self_logits_exact": true,
+  "capture_bitwise": true,
+  "repeat_identity": true,
+  "noop_identity": true
+ }
+}

@@ -1,0 +1,1009 @@
+{
+ "model": "native:/mnt/cold/mimir/models/portable/Qwen_Qwen3.5-4B-Q4_K_M.gguf",
+ "describe": {
+  "backend": "llama.cpp-native",
+  "checkpoint": "Qwen_Qwen3.5-4B-Q4_K_M.gguf",
+  "blocks": 32,
+  "patched_blocks": [
+   3,
+   7,
+   11,
+   15,
+   19,
+   23,
+   27,
+   31
+  ],
+  "heads_per_block": 16,
+  "head_dim": 256,
+  "site": "attn_gated-L: sigmoid-gated softmax-attention output per head, input of attn_output (wo)",
+  "weights": "GGUF Q4_K_M",
+  "activations": "float32",
+  "panel_size": 128
+ },
+ "checks": [
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "early",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 6,
+    "clean": 3,
+    "self_prompt": 4,
+    "text": 4,
+    "full_rolling": 8,
+    "single_disagreement": 4,
+    "full_prompt": 4,
+    "scanned": 10,
+    "online": 9
+   },
+   "patched": {
+    "self_rolling": 3,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 4,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 4,
+    "online": 4
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "self_rolling": "The Secretary",
+    "clean": "The Secretary",
+    "self_prompt": "The Secretary",
+    "text": "Victor Secretary",
+    "full_rolling": "Victor Secretary",
+    "single_disagreement": "Victim",
+    "full_prompt": "Victim",
+    "scanned": "Victor Secretary",
+    "online": "Victor Secretary"
+   },
+   "online": {
+    "trigger": 0,
+    "mode": "rolling"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": true,
+    "scan_forwards": 2
+   }
+  },
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "early",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 3,
+    "clean": 2,
+    "text": 2,
+    "full_rolling": 4,
+    "self_prompt": 3,
+    "full_prompt": 3,
+    "self_rolling": 4,
+    "scanned": 8,
+    "online": 4
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 2,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 2,
+    "scanned": 2,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "eog",
+    "clean": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "self_prompt": "eog",
+    "full_prompt": "eog",
+    "self_rolling": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "single_disagreement": "Yes",
+    "clean": "Yes",
+    "text": "Yes",
+    "full_rolling": "Yes",
+    "self_prompt": "Yes",
+    "full_prompt": "Yes",
+    "self_rolling": "Yes",
+    "scanned": "Yes",
+    "online": "Yes"
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": false,
+    "scan_forwards": 4
+   }
+  },
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "late",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 6,
+    "clean": 3,
+    "self_prompt": 4,
+    "text": 4,
+    "full_rolling": 12,
+    "single_disagreement": 4,
+    "full_prompt": 4,
+    "scanned": 8,
+    "online": 6
+   },
+   "patched": {
+    "self_rolling": 3,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 6,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 1,
+    "online": 1
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "self_rolling": "The Secretary",
+    "clean": "The Secretary",
+    "self_prompt": "The Secretary",
+    "text": "The Holloway",
+    "full_rolling": "The Secretary of the Treasury",
+    "single_disagreement": "The Secretary",
+    "full_prompt": "The Secretary",
+    "scanned": "The Secretary",
+    "online": "The Secretary"
+   },
+   "online": {
+    "trigger": 1,
+    "mode": "fixed"
+   },
+   "scanned": {
+    "step": 1,
+    "disagreement": true,
+    "scan_forwards": 4
+   }
+  },
+  {
+   "article": "Endangered_Species_Act",
+   "variant": "late",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 3,
+    "clean": 2,
+    "text": 2,
+    "full_rolling": 4,
+    "self_prompt": 3,
+    "full_prompt": 3,
+    "self_rolling": 4,
+    "scanned": 7,
+    "online": 4
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 2,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 2,
+    "scanned": 1,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "eog",
+    "clean": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "self_prompt": "eog",
+    "full_prompt": "eog",
+    "self_rolling": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "single_disagreement": "Yes",
+    "clean": "Yes",
+    "text": "Yes",
+    "full_rolling": "Yes",
+    "self_prompt": "Yes",
+    "full_prompt": "Yes",
+    "self_rolling": "Yes",
+    "scanned": "Yes",
+    "online": "Yes"
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 1,
+    "disagreement": false,
+    "scan_forwards": 4
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "early",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 8,
+    "clean": 4,
+    "self_prompt": 5,
+    "text": 3,
+    "full_rolling": 8,
+    "single_disagreement": 5,
+    "full_prompt": 5,
+    "scanned": 10,
+    "online": 9
+   },
+   "patched": {
+    "self_rolling": 4,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 4,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 4,
+    "online": 4
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "self_rolling": "the Summer Palace",
+    "clean": "the Summer Palace",
+    "self_prompt": "the Summer Palace",
+    "text": "Edward Palace",
+    "full_rolling": "the Edward Palace",
+    "single_disagreement": "the Summer Palace",
+    "full_prompt": "the Summer Palace",
+    "scanned": "the Edward Palace",
+    "online": "the Edward Palace"
+   },
+   "online": {
+    "trigger": 0,
+    "mode": "rolling"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": true,
+    "scan_forwards": 2
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "early",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 9,
+    "clean": 8,
+    "text": 8,
+    "full_rolling": 16,
+    "self_prompt": 9,
+    "full_prompt": 9,
+    "self_rolling": 16,
+    "scanned": 28,
+    "online": 14
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 8,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 8,
+    "scanned": 8,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "eog",
+    "clean": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "self_prompt": "eog",
+    "full_prompt": "eog",
+    "self_rolling": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "single_disagreement": "in the southern part of Shandong Province",
+    "clean": "in the southern part of Shandong Province",
+    "text": "in the southern part of Shandong Province",
+    "full_rolling": "in the southern part of Shandong Province",
+    "self_prompt": "in the southern part of Shandong Province",
+    "full_prompt": "in the southern part of Shandong Province",
+    "self_rolling": "in the southern part of Shandong Province",
+    "scanned": "in the southern part of Shandong Province",
+    "online": "in the southern part of Shandong Province"
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "late",
+   "query": 0,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "self_rolling": 8,
+    "clean": 4,
+    "self_prompt": 5,
+    "text": 3,
+    "full_rolling": 8,
+    "single_disagreement": 5,
+    "full_prompt": 5,
+    "scanned": 10,
+    "online": 9
+   },
+   "patched": {
+    "self_rolling": 4,
+    "clean": 0,
+    "self_prompt": 1,
+    "text": 0,
+    "full_rolling": 4,
+    "single_disagreement": 1,
+    "full_prompt": 1,
+    "scanned": 4,
+    "online": 4
+   },
+   "stops": {
+    "self_rolling": "eog",
+    "clean": "eog",
+    "self_prompt": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "single_disagreement": "eog",
+    "full_prompt": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "self_rolling": "the Summer Palace",
+    "clean": "the Summer Palace",
+    "self_prompt": "the Summer Palace",
+    "text": "Summer Porter",
+    "full_rolling": "the Summer Porter",
+    "single_disagreement": "the Summer Palace",
+    "full_prompt": "the Summer Palace",
+    "scanned": "the Summer Porter",
+    "online": "the Summer Porter"
+   },
+   "online": {
+    "trigger": 0,
+    "mode": "rolling"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": true,
+    "scan_forwards": 2
+   }
+  },
+  {
+   "article": "Qing_dynasty",
+   "variant": "late",
+   "query": 1,
+   "self_identity": {
+    "self_prompt": true,
+    "self_rolling": true
+   },
+   "self_logit_max_abs": 0.0,
+   "capture_bitwise": true,
+   "repeat_identity": true,
+   "forwards": {
+    "single_disagreement": 9,
+    "clean": 8,
+    "text": 8,
+    "full_rolling": 16,
+    "self_prompt": 9,
+    "full_prompt": 9,
+    "self_rolling": 16,
+    "scanned": 28,
+    "online": 14
+   },
+   "patched": {
+    "single_disagreement": 1,
+    "clean": 0,
+    "text": 0,
+    "full_rolling": 8,
+    "self_prompt": 1,
+    "full_prompt": 1,
+    "self_rolling": 8,
+    "scanned": 8,
+    "online": 0
+   },
+   "stops": {
+    "single_disagreement": "eog",
+    "clean": "eog",
+    "text": "eog",
+    "full_rolling": "eog",
+    "self_prompt": "eog",
+    "full_prompt": "eog",
+    "self_rolling": "eog",
+    "scanned": "eog",
+    "online": "eog"
+   },
+   "texts": {
+    "single_disagreement": "in the southern part of Shandong Province",
+    "clean": "in the southern part of Shandong Province",
+    "text": "in the southern part of Shandong Province",
+    "full_rolling": "in the southern part of Shandong Province",
+    "self_prompt": "in the southern part of Shandong Province",
+    "full_prompt": "in the southern part of Shandong Province",
+    "self_rolling": "in the southern part of Shandong Province",
+    "scanned": "in the southern part of Shandong Province",
+    "online": "in the southern part of Shandong Province"
+   },
+   "online": {
+    "trigger": null,
+    "mode": "none"
+   },
+   "scanned": {
+    "step": 0,
+    "disagreement": false,
+    "scan_forwards": 12
+   }
+  }
+ ],
+ "addressing": {
+  "noop_identical": true,
+  "layers": [
+   3,
+   19,
+   31
+  ],
+  "entries": [
+   {
+    "layer": 3,
+    "head": 0,
+    "delta_norm": 0.01121606770902872,
+    "linearity_rel": 0.3951908349990845,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 3,
+    "head": 8,
+    "delta_norm": 0.006592887453734875,
+    "linearity_rel": 0.7602561116218567,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 3,
+    "head": 15,
+    "delta_norm": 0.006073807831853628,
+    "linearity_rel": 0.512921154499054,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 19,
+    "head": 0,
+    "delta_norm": 0.9034681916236877,
+    "linearity_rel": 0.03209921717643738,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 19,
+    "head": 8,
+    "delta_norm": 1.8049300909042358,
+    "linearity_rel": 0.034268029034137726,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 19,
+    "head": 15,
+    "delta_norm": 2.170731782913208,
+    "linearity_rel": 0.03401581197977066,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 31,
+    "head": 0,
+    "delta_norm": 6.036844730377197,
+    "linearity_rel": 0.019881650805473328,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 31,
+    "head": 8,
+    "delta_norm": 3.161642551422119,
+    "linearity_rel": 0.024943482130765915,
+    "mask_vs_write_rel": 0.0
+   },
+   {
+    "layer": 31,
+    "head": 15,
+    "delta_norm": 5.164343357086182,
+    "linearity_rel": 0.029603423550724983,
+    "mask_vs_write_rel": 0.0
+   }
+  ],
+  "summary": {
+   "max_linearity_rel": 0.7602561116218567,
+   "max_mask_vs_write_rel": 0.0,
+   "min_delta_norm": 0.006073807831853628
+  }
+ },
+ "passed": {
+  "self_identity": true,
+  "self_logits_exact": true,
+  "capture_bitwise": true,
+  "repeat_identity": true,
+  "noop_identity": true
+ },
+ "pilot_equivalence": {
+  "identical": true,
+  "queries": 12,
+  "entries": [
+   {
+    "article": "Slavs",
+    "variant": "early",
+    "query": 0,
+    "recorded_online": "845",
+    "recorded_rolling": "845",
+    "old_online": [
+     "845",
+     4,
+     9
+    ],
+    "old_rolling": [
+     "845",
+     4,
+     8
+    ],
+    "new_online": [
+     "845",
+     4,
+     9
+    ],
+    "new_rolling": [
+     "845",
+     4,
+     8
+    ],
+    "recorded_forwards": [
+     9,
+     8
+    ]
+   },
+   {
+    "article": "Slavs",
+    "variant": "early",
+    "query": 1,
+    "recorded_online": "Spori",
+    "recorded_rolling": "Spori",
+    "old_online": [
+     "Spori",
+     0,
+     8
+    ],
+    "old_rolling": [
+     "Spori",
+     4,
+     8
+    ],
+    "new_online": [
+     "Spori",
+     0,
+     8
+    ],
+    "new_rolling": [
+     "Spori",
+     4,
+     8
+    ],
+    "recorded_forwards": [
+     8,
+     8
+    ]
+   },
+   {
+    "article": "Slavs",
+    "variant": "late",
+    "query": 0,
+    "recorded_online": "548",
+    "recorded_rolling": "548",
+    "old_online": [
+     "548",
+     1,
+     8
+    ],
+    "old_rolling": [
+     "548",
+     4,
+     8
+    ],
+    "new_online": [
+     "548",
+     1,
+     8
+    ],
+    "new_rolling": [
+     "548",
+     4,
+     8
+    ],
+    "recorded_forwards": [
+     8,
+     8
+    ]
+   },
+   {
+    "article": "Slavs",
+    "variant": "late",
+    "query": 1,
+    "recorded_online": "Spori",
+    "recorded_rolling": "Spori",
+    "old_online": [
+     "Spori",
+     0,
+     8
+    ],
+    "old_rolling": [
+     "Spori",
+     4,
+     8
+    ],
+    "new_online": [
+     "Spori",
+     0,
+     8
+    ],
+    "new_rolling": [
+     "Spori",
+     4,
+     8
+    ],
+    "recorded_forwards": [
+     8,
+     8
+    ]
+   },
+   {
+    "article": "Queen_(band)",
+    "variant": "early",
+    "query": 0,
+    "recorded_online": "1970",
+    "recorded_rolling": "1970",
+    "old_online": [
+     "1970",
+     0,
+     10
+    ],
+    "old_rolling": [
+     "1970",
+     5,
+     10
+    ],
+    "new_online": [
+     "1970",
+     0,
+     10
+    ],
+    "new_rolling": [
+     "1970",
+     5,
+     10
+    ],
+    "recorded_forwards": [
+     10,
+     10
+    ]
+   },
+   {
+    "article": "Queen_(band)",
+    "variant": "early",
+    "query": 1,
+    "recorded_online": "Humpy Bong",
+    "recorded_rolling": "Humpy Bong",
+    "old_online": [
+     "Humpy Bong",
+     0,
+     8
+    ],
+    "old_rolling": [
+     "Humpy Bong",
+     4,
+     8
+    ],
+    "new_online": [
+     "Humpy Bong",
+     0,
+     8
+    ],
+    "new_rolling": [
+     "Humpy Bong",
+     4,
+     8
+    ],
+    "recorded_forwards": [
+     8,
+     8
+    ]
+   },
+   {
+    "article": "Queen_(band)",
+    "variant": "late",
+    "query": 0,
+    "recorded_online": "1970",
+    "recorded_rolling": "1970",
+    "old_online": [
+     "1970",
+     1,
+     10
+    ],
+    "old_rolling": [
+     "1970",
+     5,
+     10
+    ],
+    "new_online": [
+     "1970",
+     1,
+     10
+    ],
+    "new_rolling": [
+     "1970",
+     5,
+     10
+    ],
+    "recorded_forwards": [
+     10,
+     10
+    ]
+   },
+   {
+    "article": "Queen_(band)",
+    "variant": "late",
+    "query": 1,
+    "recorded_online": "Humpy Bong",
+    "recorded_rolling": "Humpy Bong",
+    "old_online": [
+     "Humpy Bong",
+     0,
+     8
+    ],
+    "old_rolling": [
+     "Humpy Bong",
+     4,
+     8
+    ],
+    "new_online": [
+     "Humpy Bong",
+     0,
+     8
+    ],
+    "new_rolling": [
+     "Humpy Bong",
+     4,
+     8
+    ],
+    "recorded_forwards": [
+     8,
+     8
+    ]
+   },
+   {
+    "article": "British_Isles",
+    "variant": "early",
+    "query": 0,
+    "recorded_online": "4577",
+    "recorded_rolling": "4577",
+    "old_online": [
+     "4577",
+     5,
+     11
+    ],
+    "old_rolling": [
+     "4577",
+     5,
+     10
+    ],
+    "new_online": [
+     "4577",
+     5,
+     11
+    ],
+    "new_rolling": [
+     "4577",
+     5,
+     10
+    ],
+    "recorded_forwards": [
+     11,
+     10
+    ]
+   },
+   {
+    "article": "British_Isles",
+    "variant": "early",
+    "query": 1,
+    "recorded_online": "4577 in a work by John Dee",
+    "recorded_rolling": "4577 in a work by John Dee",
+    "old_online": [
+     "4577 in a work by John Dee",
+     11,
+     23
+    ],
+    "old_rolling": [
+     "4577 in a work by John Dee",
+     11,
+     22
+    ],
+    "new_online": [
+     "4577 in a work by John Dee",
+     11,
+     23
+    ],
+    "new_rolling": [
+     "4577 in a work by John Dee",
+     11,
+     22
+    ],
+    "recorded_forwards": [
+     23,
+     22
+    ]
+   },
+   {
+    "article": "British_Isles",
+    "variant": "late",
+    "query": 0,
+    "recorded_online": "1570",
+    "recorded_rolling": "1570",
+    "old_online": [
+     "1570",
+     1,
+     10
+    ],
+    "old_rolling": [
+     "1570",
+     5,
+     10
+    ],
+    "new_online": [
+     "1570",
+     1,
+     10
+    ],
+    "new_rolling": [
+     "1570",
+     5,
+     10
+    ],
+    "recorded_forwards": [
+     10,
+     10
+    ]
+   },
+   {
+    "article": "British_Isles",
+    "variant": "late",
+    "query": 1,
+    "recorded_online": "1570",
+    "recorded_rolling": "1570",
+    "old_online": [
+     "1570",
+     1,
+     10
+    ],
+    "old_rolling": [
+     "1570",
+     5,
+     10
+    ],
+    "new_online": [
+     "1570",
+     1,
+     10
+    ],
+    "new_rolling": [
+     "1570",
+     5,
+     10
+    ],
+    "recorded_forwards": [
+     10,
+     10
+    ]
+   }
+  ]
+ }
+}
