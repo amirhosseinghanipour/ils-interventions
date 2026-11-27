@@ -1,0 +1,781 @@
+{
+  "clean": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "edited": {
+    "joint": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    },
+    "joint_all": {
+      "successes": 15,
+      "n": 24,
+      "rate": 0.625,
+      "wilson95": [
+        0.42709962442674276,
+        0.7884063244045122
+      ]
+    },
+    "switch": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "subset": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "group_a": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "group_b": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "query_agnostic": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "greedy": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "single_group": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "block19": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "full": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "head19_11": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "best_block": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "random1": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "random2": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "random3": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "random4": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "random5": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "rolling_full": {
+    "joint": {
+      "successes": 5,
+      "n": 15,
+      "rate": 0.3333333333333333,
+      "wilson95": [
+        0.1517632443971473,
+        0.5828645226148023
+      ]
+    },
+    "joint_all": {
+      "successes": 5,
+      "n": 24,
+      "rate": 0.20833333333333334,
+      "wilson95": [
+        0.09244825352851857,
+        0.40470453253188665
+      ]
+    },
+    "switch": {
+      "successes": 5,
+      "n": 15,
+      "rate": 0.3333333333333333,
+      "wilson95": [
+        0.1517632443971473,
+        0.5828645226148023
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "rolling_subset": {
+    "joint": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "joint_all": {
+      "successes": 0,
+      "n": 24,
+      "rate": 0.0,
+      "wilson95": [
+        1.3877787807814457e-17,
+        0.13797620467498017
+      ]
+    },
+    "switch": {
+      "successes": 0,
+      "n": 15,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.20388330103584862
+      ]
+    },
+    "preservation": {
+      "successes": 15,
+      "n": 15,
+      "rate": 1.0,
+      "wilson95": [
+        0.7961166989641515,
+        1
+      ]
+    }
+  },
+  "paired_subset_gain": {
+    "query_agnostic": {
+      "mean": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    "greedy": {
+      "mean": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    "single_group": {
+      "mean": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    "head19_11": {
+      "mean": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    "best_block": {
+      "mean": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ]
+    },
+    "random_mean": {
+      "mean": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "differential_interaction": {
+    "n": 0,
+    "mean": null,
+    "bootstrap95": null
+  },
+  "teacher_forced_relevant_interaction": {
+    "n": 24,
+    "mean": 0.8145004113515218,
+    "bootstrap95": [
+      0.6185965468486151,
+      1.0147013584772744
+    ]
+  }
+}

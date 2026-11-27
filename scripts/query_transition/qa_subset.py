@@ -170,9 +170,17 @@ def fresh_cases(articles, excluded, model, limit):
                     label_ids = [model.ids(texts[0][0] + ans) for ans in (span,altered)]
                     if any(len(x)<=len(ids[0][0]) or not np.array_equal(x[:len(ids[0][0])],ids[0][0]) for x in label_ids):
                         continue
-                    tokens = [int(x[len(ids[0][0])]) for x in label_ids]
+                    endings = [x[len(ids[0][0]):] for x in label_ids]
+                    tokens = [int(x[0]) for x in endings]
+                    common = 0
+                    for left,right in zip(*endings):
+                        if left != right:
+                            break
+                        common += 1
+                    differing = [int(x[common]) for x in endings] if all(len(x)>common for x in endings) else None
                     kept.append(dict(article=str(title), qids=[q["id"] for q in questions], source=span,
-                                     replacement=altered, gold=[list(spans),other], ids=ids, tokens=tokens))
+                                     replacement=altered, gold=[list(spans),other], ids=ids, tokens=tokens,
+                                     common_prefix=endings[0][:common].tolist(), differing_tokens=differing))
                     found = True
                     break
                 if found:
@@ -218,6 +226,49 @@ def evaluate(model, cases, frozen):
         yield row
 
 
+def rolling_answer(model, base, donor, sites):
+    """At each greedy decode step, use the donor conditional on the same generated prefix."""
+    generated = []
+    for _ in range(min(18,256-max(len(base),len(donor)))):
+        prefix = np.asarray(generated,np.int32)
+        model.forward(np.concatenate((donor,prefix)),ALL,capture=True)
+        token = model.forward(np.concatenate((base,prefix)),sites)
+        if model.lib.is_eog(token):
+            break
+        generated.append(token)
+        if "\n" in model.text(generated):
+            break
+    return model.text(generated).split("\n")[0].strip()
+
+
+def rolling_control(model, cases, source):
+    frozen = json.loads((source/"frozen.json").read_text())
+    previous = json.loads((source/"rows.json").read_text())
+    assert [r["qids"] for r in previous] == [r["qids"] for r in cases]
+    sites = tuple(map(tuple,frozen["group_a"] + frozen["group_b"]))
+    for row, reference in zip(cases,previous):
+        base, donor = row["ids"]
+        answers = reference["answers"]
+        answers["rolling_full"] = [rolling_answer(model,b,d,ALL) for b,d in zip(base,donor)]
+        answers["rolling_subset"] = [rolling_answer(model,b,d,sites) for b,d in zip(base,donor)]
+        differing = row["differing_tokens"]
+        if differing:
+            prefix = np.asarray(row["common_prefix"],np.int32)
+            context = np.concatenate((base[0],prefix))
+            model.forward(np.concatenate((donor[0],prefix)),ALL,capture=True)
+            margins = []
+            group_a = tuple(map(tuple,frozen["group_a"]))
+            group_b = tuple(map(tuple,frozen["group_b"]))
+            for selected in ((),group_a,group_b,sites,ALL):
+                model.forward(context,selected)
+                logp = model.distribution()
+                margins.append(float(logp[differing[1]]-logp[differing[0]]))
+            reference["shared_prefix_diagnostic"] = dict(prefix_tokens=len(prefix), margin=margins,
+                                                         interaction=margins[3]-margins[2]-margins[1]+margins[0])
+        print(row["article"],flush=True)
+        yield reference
+
+
 def summary(rows):
     def match(pred, gold):
         return normalized(pred) in {normalized(x) for x in gold}
@@ -247,6 +298,12 @@ def summary(rows):
     result["differential_interaction"] = dict(
         n=len(differences), mean=float(differences.mean()) if len(differences) else None,
         bootstrap95=np.quantile(draws,[.025,.975]).tolist() if len(differences) else None)
+    shared = [row["shared_prefix_diagnostic"] for row in rows if "shared_prefix_diagnostic" in row]
+    if shared:
+        interaction = np.array([r["interaction"] for r in shared])
+        sample = np.random.default_rng(10321).choice(interaction,(5000,len(interaction))).mean(1)
+        result["teacher_forced_relevant_interaction"] = dict(
+            n=len(shared), mean=float(interaction.mean()), bootstrap95=np.quantile(sample,[.025,.975]).tolist())
     return result
 
 
@@ -255,6 +312,7 @@ def main():
     for key in ("library","model","dataset","archive","out"):
         parser.add_argument(key,type=Path)
     parser.add_argument("--fresh-dataset",type=Path)
+    parser.add_argument("--rolling-from",type=Path)
     parser.add_argument("--dev",type=int,default=8)
     parser.add_argument("--test",type=int,default=24)
     args = parser.parse_args()
@@ -265,7 +323,9 @@ def main():
     args.out.mkdir(exist_ok=True,parents=True)
     model = SubsetProbe(args.library,args.model)
     frozen_path = args.out/"frozen.json"
-    if frozen_path.exists():
+    if args.rolling_from is not None:
+        frozen = None
+    elif frozen_path.exists():
         frozen = json.loads(frozen_path.read_text())
     else:
         dev = list(annotated(archive,articles,model))[:args.dev]
@@ -285,7 +345,8 @@ def main():
     model.forward(smoke, ALL, capture=True)
     assert model.forward(smoke, ALL) == native
     measured = []
-    for row in evaluate(model,cases,frozen):
+    results = rolling_control(model,cases,args.rolling_from) if args.rolling_from else evaluate(model,cases,frozen)
+    for row in results:
         measured.append(row)
         save_json(args.out/"rows.json",measured)
     save_json(args.out/"result.json",summary(measured))

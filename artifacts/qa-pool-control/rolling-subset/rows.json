@@ -1,0 +1,2738 @@
+[
+  {
+    "article": "Macintosh",
+    "qids": [
+      "570cf3e5fed7b91900d45b6a",
+      "570cf3e5fed7b91900d45b68"
+    ],
+    "source": "30",
+    "replacement": "31",
+    "gold": [
+      [
+        "30"
+      ],
+      [
+        "research firms"
+      ]
+    ],
+    "tokens": [
+      18,
+      18
+    ],
+    "answers": {
+      "clean": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "edited": [
+        "more than 31 percent",
+        "research firms"
+      ],
+      "subset": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "group_a": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "group_b": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "query_agnostic": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "greedy": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "single_group": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "block19": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "full": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "head19_11": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "best_block": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "random1": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "random2": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "random3": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "random4": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "random5": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "rolling_full": [
+        "more than 30 percent",
+        "research firms"
+      ],
+      "rolling_subset": [
+        "more than 30 percent",
+        "research firms"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 1,
+      "margin": [
+        -9.18194580078125,
+        -8.284969329833984,
+        -1.2077159881591797,
+        -0.17937850952148438,
+        7.279691696166992
+      ],
+      "interaction": 0.1313610076904297
+    }
+  },
+  {
+    "article": "Insect",
+    "qids": [
+      "5728b8b93acd2414000dfd4d",
+      "5728b8b93acd2414000dfd4b"
+    ],
+    "source": "2008",
+    "replacement": "2009",
+    "gold": [
+      [
+        "2008"
+      ],
+      [
+        "Carboniferous"
+      ]
+    ],
+    "tokens": [
+      17,
+      17
+    ],
+    "answers": {
+      "clean": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "edited": [
+        "2009",
+        "Carboniferous period"
+      ],
+      "subset": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "group_a": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "group_b": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "query_agnostic": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "greedy": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "single_group": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "block19": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "full": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "head19_11": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "best_block": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "random1": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "random2": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "random3": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "random4": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "random5": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "rolling_full": [
+        "2008",
+        "Carboniferous period"
+      ],
+      "rolling_subset": [
+        "2008",
+        "Carboniferous period"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.740400314331055,
+        -12.890703201293945,
+        -10.55409049987793,
+        -8.761547088623047,
+        -8.559612274169922
+      ],
+      "interaction": 0.9428462982177734
+    }
+  },
+  {
+    "article": "Orthodox_Judaism",
+    "qids": [
+      "57098af9ed30961900e842cf",
+      "57098af9ed30961900e842cc"
+    ],
+    "source": "13",
+    "replacement": "14",
+    "gold": [
+      [
+        "13"
+      ],
+      [
+        "Torah"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "edited": [
+        "14",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "subset": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "group_a": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "group_b": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "query_agnostic": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "greedy": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "single_group": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "block19": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "full": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "head19_11": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "best_block": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "random1": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "random2": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "random3": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "random4": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "random5": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "rolling_full": [
+        "14",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ],
+      "rolling_subset": [
+        "13",
+        "the commandments in the Torah, as viewed through the discussions and debates contained in classical rab"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 1,
+      "margin": [
+        -9.840267181396484,
+        -9.155874252319336,
+        -4.544345855712891,
+        -3.0738773345947266,
+        7.255727767944336
+      ],
+      "interaction": 0.7860755920410156
+    }
+  },
+  {
+    "article": "Miami",
+    "qids": [
+      "572a710827b69114009ef5c0",
+      "572a710827b69114009ef5c1"
+    ],
+    "source": "40",
+    "replacement": "41",
+    "gold": [
+      [
+        "40"
+      ],
+      [
+        "Avenue J"
+      ]
+    ],
+    "tokens": [
+      19,
+      19
+    ],
+    "answers": {
+      "clean": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "edited": [
+        "41 percent",
+        "Avenue J"
+      ],
+      "subset": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "group_a": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "group_b": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "query_agnostic": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "greedy": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "single_group": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "block19": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "full": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "head19_11": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "best_block": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "random1": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "random2": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "random3": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "random4": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "random5": [
+        "40 percent",
+        "Avenue J"
+      ],
+      "rolling_full": [
+        "41 percent",
+        "Avenue J"
+      ],
+      "rolling_subset": [
+        "40 percent",
+        "Avenue J"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 1,
+      "margin": [
+        -13.62884521484375,
+        -13.041643142700195,
+        -4.815446853637695,
+        -3.124767303466797,
+        3.6494998931884766
+      ],
+      "interaction": 1.1034774780273438
+    }
+  },
+  {
+    "article": "Asphalt",
+    "qids": [
+      "571b0a5532177014007ea017",
+      "571b0a5532177014007ea016"
+    ],
+    "source": "1868",
+    "replacement": "1869",
+    "gold": [
+      [
+        "1868"
+      ],
+      [
+        "Romans"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1868",
+        "The Romans"
+      ],
+      "edited": [
+        "1869",
+        "The Romans"
+      ],
+      "subset": [
+        "1868",
+        "The Romans"
+      ],
+      "group_a": [
+        "1868",
+        "The Romans"
+      ],
+      "group_b": [
+        "1868",
+        "The Romans"
+      ],
+      "query_agnostic": [
+        "1868",
+        "The Romans"
+      ],
+      "greedy": [
+        "1868",
+        "The Romans"
+      ],
+      "single_group": [
+        "1868",
+        "The Romans"
+      ],
+      "block19": [
+        "1868",
+        "The Romans"
+      ],
+      "full": [
+        "1868",
+        "The Romans"
+      ],
+      "head19_11": [
+        "1868",
+        "The Romans"
+      ],
+      "best_block": [
+        "1868",
+        "The Romans"
+      ],
+      "random1": [
+        "1868",
+        "The Romans"
+      ],
+      "random2": [
+        "1868",
+        "The Romans"
+      ],
+      "random3": [
+        "1868",
+        "The Romans"
+      ],
+      "random4": [
+        "1868",
+        "The Romans"
+      ],
+      "random5": [
+        "1868",
+        "The Romans"
+      ],
+      "rolling_full": [
+        "1869",
+        "The Romans"
+      ],
+      "rolling_subset": [
+        "1868",
+        "The Romans"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -12.208881378173828,
+        -12.125978469848633,
+        -5.013957977294922,
+        -4.36570930480957,
+        1.6823158264160156
+      ],
+      "interaction": 0.5653457641601562
+    }
+  },
+  {
+    "article": "Economy_of_Greece",
+    "qids": [
+      "5731e92f0fdd8d15006c6644",
+      "5731e92f0fdd8d15006c6642"
+    ],
+    "source": "1981",
+    "replacement": "1982",
+    "gold": [
+      [
+        "1981"
+      ],
+      [
+        "OECD"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "edited": [
+        "1982",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "subset": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "group_a": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "group_b": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "query_agnostic": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "greedy": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "single_group": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "block19": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "full": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "head19_11": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "best_block": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "random1": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "random2": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "random3": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "random4": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "random5": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "rolling_full": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ],
+      "rolling_subset": [
+        "1981",
+        "Organisation for Economic Co-operation and Development (OECD) and of the Organization of the Black"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.607677459716797,
+        -14.640813827514648,
+        -8.997489929199219,
+        -9.307506561279297,
+        -6.035493850708008
+      ],
+      "interaction": 0.7231197357177734
+    }
+  },
+  {
+    "article": "Sanskrit",
+    "qids": [
+      "570d146cfed7b91900d45bf7",
+      "570d146cfed7b91900d45bf8"
+    ],
+    "source": "1970",
+    "replacement": "1971",
+    "gold": [
+      [
+        "1970"
+      ],
+      [
+        "Gujarat"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1970",
+        "Gujarat"
+      ],
+      "edited": [
+        "1971",
+        "Gujarat"
+      ],
+      "subset": [
+        "1970",
+        "Gujarat"
+      ],
+      "group_a": [
+        "1970",
+        "Gujarat"
+      ],
+      "group_b": [
+        "1970",
+        "Gujarat"
+      ],
+      "query_agnostic": [
+        "1970",
+        "Gujarat"
+      ],
+      "greedy": [
+        "1970",
+        "Gujarat"
+      ],
+      "single_group": [
+        "1970",
+        "Gujarat"
+      ],
+      "block19": [
+        "1970",
+        "Gujarat"
+      ],
+      "full": [
+        "1970",
+        "Gujarat"
+      ],
+      "head19_11": [
+        "1970",
+        "Gujarat"
+      ],
+      "best_block": [
+        "1970",
+        "Gujarat"
+      ],
+      "random1": [
+        "1970",
+        "Gujarat"
+      ],
+      "random2": [
+        "1970",
+        "Gujarat"
+      ],
+      "random3": [
+        "1970",
+        "Gujarat"
+      ],
+      "random4": [
+        "1970",
+        "Gujarat"
+      ],
+      "random5": [
+        "1970",
+        "Gujarat"
+      ],
+      "rolling_full": [
+        "1970",
+        "Gujarat"
+      ],
+      "rolling_subset": [
+        "1970",
+        "Gujarat"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -12.15968132019043,
+        -11.370670318603516,
+        -8.964092254638672,
+        -7.255645751953125,
+        -5.984045028686523
+      ],
+      "interaction": 0.9194355010986328
+    }
+  },
+  {
+    "article": "House_music",
+    "qids": [
+      "5706969952bb891400689ab6",
+      "5706969952bb891400689ab5"
+    ],
+    "source": "1982",
+    "replacement": "1983",
+    "gold": [
+      [
+        "1982"
+      ],
+      [
+        "Indian ragas performed in a disco style"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "edited": [
+        "1983",
+        "Indian ragas performed in a disco style"
+      ],
+      "subset": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "group_a": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "group_b": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "query_agnostic": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "greedy": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "single_group": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "block19": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "full": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "head19_11": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "best_block": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "random1": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "random2": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "random3": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "random4": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "random5": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "rolling_full": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ],
+      "rolling_subset": [
+        "1982",
+        "Indian ragas performed in a disco style"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.145740509033203,
+        -13.107891082763672,
+        -8.916824340820312,
+        -8.47750473022461,
+        -3.113252639770508
+      ],
+      "interaction": 0.4014701843261719
+    }
+  },
+  {
+    "article": "Mexico_City",
+    "qids": [
+      "5726427cec44d21400f3dd01",
+      "5726427cec44d21400f3dcff"
+    ],
+    "source": "1824",
+    "replacement": "1825",
+    "gold": [
+      [
+        "1824"
+      ],
+      [
+        "Tenochtitlan"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "edited": [
+        "1825",
+        "Tenochtitlan"
+      ],
+      "subset": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "group_a": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "group_b": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "query_agnostic": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "greedy": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "single_group": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "block19": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "full": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "head19_11": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "best_block": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "random1": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "random2": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "random3": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "random4": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "random5": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "rolling_full": [
+        "1824",
+        "Tenochtitlan"
+      ],
+      "rolling_subset": [
+        "1824",
+        "Tenochtitlan"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -8.067630767822266,
+        -8.135719299316406,
+        -2.543424606323242,
+        -1.9455909729003906,
+        -2.7538490295410156
+      ],
+      "interaction": 0.6659221649169922
+    }
+  },
+  {
+    "article": "Materialism",
+    "qids": [
+      "56dee1f3c65bf219000b3dc0",
+      "56dee1f3c65bf219000b3dbf"
+    ],
+    "source": "1841",
+    "replacement": "1842",
+    "gold": [
+      [
+        "1841"
+      ],
+      [
+        "Ludwig Feuerbach"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "edited": [
+        "1842",
+        "Ludwig Feuerbach"
+      ],
+      "subset": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "group_a": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "group_b": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "query_agnostic": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "greedy": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "single_group": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "block19": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "full": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "head19_11": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "best_block": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "random1": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "random2": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "random3": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "random4": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "random5": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "rolling_full": [
+        "1841",
+        "Ludwig Feuerbach"
+      ],
+      "rolling_subset": [
+        "1841",
+        "Ludwig Feuerbach"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -12.932008743286133,
+        -13.259082794189453,
+        -7.541402816772461,
+        -6.528230667114258,
+        -6.5346832275390625
+      ],
+      "interaction": 1.3402462005615234
+    }
+  },
+  {
+    "article": "Brain",
+    "qids": [
+      "56f8cee09e9bad19000a0552",
+      "56f8cee09e9bad19000a0554"
+    ],
+    "source": "30",
+    "replacement": "31",
+    "gold": [
+      [
+        "30"
+      ],
+      [
+        "prefrontal cortex"
+      ]
+    ],
+    "tokens": [
+      18,
+      18
+    ],
+    "answers": {
+      "clean": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "edited": [
+        "31",
+        "prefrontal cortex"
+      ],
+      "subset": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "group_a": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "group_b": [
+        "at least 30",
+        "prefrontal cortex"
+      ],
+      "query_agnostic": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "greedy": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "single_group": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "block19": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "full": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "head19_11": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "best_block": [
+        "30",
+        "prefrontal cortex"
+      ],
+      "random1": [
+        "at least 30",
+        "prefrontal cortex"
+      ],
+      "random2": [
+        "at least 30",
+        "prefrontal cortex"
+      ],
+      "random3": [
+        "at least 30",
+        "prefrontal cortex"
+      ],
+      "random4": [
+        "at least 30",
+        "prefrontal cortex"
+      ],
+      "random5": [
+        "at least 30",
+        "prefrontal cortex"
+      ],
+      "rolling_full": [
+        "31",
+        "prefrontal cortex"
+      ],
+      "rolling_subset": [
+        "30",
+        "prefrontal cortex"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 1,
+      "margin": [
+        -11.806482315063477,
+        -11.211999893188477,
+        -1.7931365966796875,
+        -1.2506580352783203,
+        4.6008758544921875
+      ],
+      "interaction": -0.05200386047363281
+    }
+  },
+  {
+    "article": "Education",
+    "qids": [
+      "572b86f8111d821400f38ee2",
+      "572b86f8111d821400f38ee3"
+    ],
+    "source": "1910",
+    "replacement": "1911",
+    "gold": [
+      [
+        "1910"
+      ],
+      [
+        "rise of large corporations and advancing technology"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "edited": [
+        "1911",
+        "Secondary education in the United States did not emerge until 1911, with the"
+      ],
+      "subset": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "group_a": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "group_b": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "query_agnostic": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "greedy": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "single_group": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "block19": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "full": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "head19_11": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "best_block": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "random1": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "random2": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "random3": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "random4": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "random5": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1910, with the"
+      ],
+      "rolling_full": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1911, with the"
+      ],
+      "rolling_subset": [
+        "1910",
+        "Secondary education in the United States did not emerge until 1911, with the"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.959867477416992,
+        -13.42965316772461,
+        -6.639579772949219,
+        -5.362234115600586,
+        -3.6424922943115234
+      ],
+      "interaction": 0.74713134765625
+    }
+  },
+  {
+    "article": "Thuringia",
+    "qids": [
+      "57265e04dd62a815002e82dc",
+      "57265e04dd62a815002e82df"
+    ],
+    "source": "1930",
+    "replacement": "1931",
+    "gold": [
+      [
+        "1930"
+      ],
+      [
+        "anyone he suspected of being a republican"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "edited": [
+        "1931",
+        "Anyone he suspected of being a republican"
+      ],
+      "subset": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "group_a": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "group_b": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "query_agnostic": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "greedy": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "single_group": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "block19": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "full": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "head19_11": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "best_block": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "random1": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "random2": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "random3": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "random4": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "random5": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ],
+      "rolling_full": [
+        "1931",
+        "Anyone he suspected of being a republican"
+      ],
+      "rolling_subset": [
+        "1930",
+        "Anyone he suspected of being a republican"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -11.33134651184082,
+        -11.076606750488281,
+        -6.5966796875,
+        -5.955957412719727,
+        0.3885383605957031
+      ],
+      "interaction": 0.3859825134277344
+    }
+  },
+  {
+    "article": "Edmund_Burke",
+    "qids": [
+      "572699c4dd62a815002e8ab4",
+      "572699c4dd62a815002e8ab2"
+    ],
+    "source": "1770",
+    "replacement": "1771",
+    "gold": [
+      [
+        "1770"
+      ],
+      [
+        "Dublin, Ireland"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "edited": [
+        "1771",
+        "Dublin, Ireland"
+      ],
+      "subset": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "group_a": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "group_b": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "query_agnostic": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "greedy": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "single_group": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "block19": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "full": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "head19_11": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "best_block": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "random1": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "random2": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "random3": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "random4": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "random5": [
+        "1770",
+        "Dublin, Ireland"
+      ],
+      "rolling_full": [
+        "1771",
+        "Dublin, Ireland"
+      ],
+      "rolling_subset": [
+        "1770",
+        "Dublin, Ireland"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.856731414794922,
+        -12.645164489746094,
+        -7.159675598144531,
+        -4.59492301940918,
+        0.020494461059570312
+      ],
+      "interaction": 1.3531856536865234
+    }
+  },
+  {
+    "article": "Steven_Spielberg",
+    "qids": [
+      "57318afba5e9cc1400cdc01f",
+      "572e8213c246551400ce427b"
+    ],
+    "source": "1975",
+    "replacement": "1976",
+    "gold": [
+      [
+        "1975"
+      ],
+      [
+        "John Williams"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1975",
+        "John Williams"
+      ],
+      "edited": [
+        "1976",
+        "John Williams"
+      ],
+      "subset": [
+        "1975",
+        "John Williams"
+      ],
+      "group_a": [
+        "1975",
+        "John Williams"
+      ],
+      "group_b": [
+        "1975",
+        "John Williams"
+      ],
+      "query_agnostic": [
+        "1975",
+        "John Williams"
+      ],
+      "greedy": [
+        "1975",
+        "John Williams"
+      ],
+      "single_group": [
+        "1975",
+        "John Williams"
+      ],
+      "block19": [
+        "1975",
+        "John Williams"
+      ],
+      "full": [
+        "1975",
+        "John Williams"
+      ],
+      "head19_11": [
+        "1975",
+        "John Williams"
+      ],
+      "best_block": [
+        "1975",
+        "John Williams"
+      ],
+      "random1": [
+        "1975",
+        "John Williams"
+      ],
+      "random2": [
+        "1975",
+        "John Williams"
+      ],
+      "random3": [
+        "1975",
+        "John Williams"
+      ],
+      "random4": [
+        "1975",
+        "John Williams"
+      ],
+      "random5": [
+        "1975",
+        "John Williams"
+      ],
+      "rolling_full": [
+        "1975",
+        "John Williams"
+      ],
+      "rolling_subset": [
+        "1975",
+        "John Williams"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.43069076538086,
+        -13.490776062011719,
+        -9.258312225341797,
+        -8.792098999023438,
+        -6.6898956298828125
+      ],
+      "interaction": 0.5262985229492188
+    }
+  },
+  {
+    "article": "Marshall_Islands",
+    "qids": [
+      "56f9519a9e9bad19000a0828",
+      "56f78825aef2371900625b98"
+    ],
+    "source": "29",
+    "replacement": "28",
+    "gold": [
+      [
+        "29"
+      ],
+      [
+        "the Federated States of Micronesia"
+      ]
+    ],
+    "tokens": [
+      17,
+      17
+    ],
+    "answers": {
+      "clean": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "edited": [
+        "28",
+        "Federated States of Micronesia"
+      ],
+      "subset": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "group_a": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "group_b": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "query_agnostic": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "greedy": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "single_group": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "block19": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "full": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "head19_11": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "best_block": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "random1": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "random2": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "random3": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "random4": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "random5": [
+        "29",
+        "Federated States of Micronesia"
+      ],
+      "rolling_full": [
+        "28",
+        "Federated States of Micronesia"
+      ],
+      "rolling_subset": [
+        "29",
+        "Federated States of Micronesia"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 1,
+      "margin": [
+        -11.728494644165039,
+        -10.857793807983398,
+        -8.125862121582031,
+        -5.930877685546875,
+        2.3135528564453125
+      ],
+      "interaction": 1.3242835998535156
+    }
+  },
+  {
+    "article": "Party_leaders_of_the_United_States_House_of_Representatives",
+    "qids": [
+      "57323f88e99e3014001e65c8",
+      "57323f88e99e3014001e65c6"
+    ],
+    "source": "218",
+    "replacement": "219",
+    "gold": [
+      [
+        "218"
+      ],
+      [
+        "develop an electorally attractive agenda of ideas and proposals"
+      ]
+    ],
+    "tokens": [
+      17,
+      17
+    ],
+    "answers": {
+      "clean": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "edited": [
+        "219",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "subset": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "group_a": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "group_b": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "query_agnostic": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "greedy": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "single_group": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "block19": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "full": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "head19_11": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "best_block": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "random1": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "random2": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "random3": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "random4": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "random5": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "rolling_full": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ],
+      "rolling_subset": [
+        "218",
+        "An important aim of the minority leader is to develop an electorally attractive agenda of ideas"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 2,
+      "margin": [
+        -12.740058898925781,
+        -12.499122619628906,
+        -4.102575302124023,
+        -3.39093017578125,
+        -1.9577808380126955
+      ],
+      "interaction": 0.47070884704589844
+    }
+  },
+  {
+    "article": "Detroit",
+    "qids": [
+      "5727b78d4b864d1900163b36",
+      "5727b78d4b864d1900163b34"
+    ],
+    "source": "800",
+    "replacement": "801",
+    "gold": [
+      [
+        "800"
+      ],
+      [
+        "1,400"
+      ]
+    ],
+    "tokens": [
+      23,
+      23
+    ],
+    "answers": {
+      "clean": [
+        "800",
+        "1,400"
+      ],
+      "edited": [
+        "801",
+        "1,400"
+      ],
+      "subset": [
+        "800",
+        "1,400"
+      ],
+      "group_a": [
+        "800",
+        "1,400"
+      ],
+      "group_b": [
+        "800",
+        "1,400"
+      ],
+      "query_agnostic": [
+        "800",
+        "1,400"
+      ],
+      "greedy": [
+        "800",
+        "1,400"
+      ],
+      "single_group": [
+        "800",
+        "1,400"
+      ],
+      "block19": [
+        "800",
+        "1,400"
+      ],
+      "full": [
+        "800",
+        "1,400"
+      ],
+      "head19_11": [
+        "800",
+        "1,400"
+      ],
+      "best_block": [
+        "800",
+        "1,400"
+      ],
+      "random1": [
+        "800",
+        "1,400"
+      ],
+      "random2": [
+        "800",
+        "1,400"
+      ],
+      "random3": [
+        "800",
+        "1,400"
+      ],
+      "random4": [
+        "800",
+        "1,400"
+      ],
+      "random5": [
+        "800",
+        "1,400"
+      ],
+      "rolling_full": [
+        "800",
+        "1,400"
+      ],
+      "rolling_subset": [
+        "800",
+        "1,400"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 2,
+      "margin": [
+        -13.91801929473877,
+        -12.954483032226562,
+        -8.92282485961914,
+        -7.061628341674805,
+        -9.718563079833984
+      ],
+      "interaction": 0.8976602554321289
+    }
+  },
+  {
+    "article": "Nintendo_Entertainment_System",
+    "qids": [
+      "5711165aa58dae1900cd6bf9",
+      "5711165aa58dae1900cd6bf8"
+    ],
+    "source": "1990",
+    "replacement": "1991",
+    "gold": [
+      [
+        "1990"
+      ],
+      [
+        "Mattel"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1990",
+        "Mattel"
+      ],
+      "edited": [
+        "1991",
+        "Mattel"
+      ],
+      "subset": [
+        "1990",
+        "Mattel"
+      ],
+      "group_a": [
+        "1990",
+        "Mattel"
+      ],
+      "group_b": [
+        "1990",
+        "Mattel"
+      ],
+      "query_agnostic": [
+        "1990",
+        "Mattel"
+      ],
+      "greedy": [
+        "1990",
+        "Mattel"
+      ],
+      "single_group": [
+        "1990",
+        "Mattel"
+      ],
+      "block19": [
+        "1990",
+        "Mattel"
+      ],
+      "full": [
+        "1990",
+        "Mattel"
+      ],
+      "head19_11": [
+        "1990",
+        "Mattel"
+      ],
+      "best_block": [
+        "1990",
+        "Mattel"
+      ],
+      "random1": [
+        "1990",
+        "Mattel"
+      ],
+      "random2": [
+        "1990",
+        "Mattel"
+      ],
+      "random3": [
+        "1990",
+        "Mattel"
+      ],
+      "random4": [
+        "1990",
+        "Mattel"
+      ],
+      "random5": [
+        "1990",
+        "Mattel"
+      ],
+      "rolling_full": [
+        "1990",
+        "Mattel"
+      ],
+      "rolling_subset": [
+        "1990",
+        "Mattel"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -12.852684020996094,
+        -12.398101806640625,
+        -7.366693496704102,
+        -5.743011474609375,
+        -2.504678726196289
+      ],
+      "interaction": 1.1690998077392578
+    }
+  },
+  {
+    "article": "The_Blitz",
+    "qids": [
+      "572edf54dfa6aa1500f8d48b",
+      "572edf54dfa6aa1500f8d489"
+    ],
+    "source": "1942",
+    "replacement": "1943",
+    "gold": [
+      [
+        "1942"
+      ],
+      [
+        "Luftwaffe"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "edited": [
+        "1943",
+        "the Luftwaffe"
+      ],
+      "subset": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "group_a": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "group_b": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "query_agnostic": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "greedy": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "single_group": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "block19": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "full": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "head19_11": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "best_block": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "random1": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "random2": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "random3": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "random4": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "random5": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "rolling_full": [
+        "1942",
+        "the Luftwaffe"
+      ],
+      "rolling_subset": [
+        "1942",
+        "the Luftwaffe"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -12.329227447509766,
+        -12.321636199951172,
+        -9.35885238647461,
+        -9.590147018432617,
+        -9.271770477294922
+      ],
+      "interaction": -0.23888587951660156
+    }
+  },
+  {
+    "article": "Zhejiang",
+    "qids": [
+      "56f97a529e9bad19000a098d",
+      "56f97a529e9bad19000a098b"
+    ],
+    "source": "2007",
+    "replacement": "2008",
+    "gold": [
+      [
+        "2007"
+      ],
+      [
+        "Neolithic"
+      ]
+    ],
+    "tokens": [
+      17,
+      17
+    ],
+    "answers": {
+      "clean": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "edited": [
+        "2008",
+        "Neolithic cultures"
+      ],
+      "subset": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "group_a": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "group_b": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "query_agnostic": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "greedy": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "single_group": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "block19": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "full": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "head19_11": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "best_block": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "random1": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "random2": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "random3": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "random4": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "random5": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "rolling_full": [
+        "2007",
+        "Neolithic cultures"
+      ],
+      "rolling_subset": [
+        "2007",
+        "Neolithic cultures"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -14.665212631225586,
+        -12.957172393798828,
+        -12.149969100952148,
+        -9.323978424072266,
+        -10.891551971435547
+      ],
+      "interaction": 1.117950439453125
+    }
+  },
+  {
+    "article": "Alfred_North_Whitehead",
+    "qids": [
+      "57302ed0947a6a140053d242",
+      "57332caa4776f41900660748"
+    ],
+    "source": "1931",
+    "replacement": "1932",
+    "gold": [
+      [
+        "1931"
+      ],
+      [
+        "the book popularized modern mathematical logic and drew important connections between logic, epistemology, and metaphysics"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "edited": [
+        "1932",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "subset": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "group_a": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "group_b": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "query_agnostic": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "greedy": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "single_group": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "block19": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "full": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "head19_11": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "best_block": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "random1": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "random2": [
+        "1931",
+        "popularized modern mathematical logic and drew important connections between logic, epistemology, and metaph"
+      ],
+      "random3": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "random4": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "random5": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "rolling_full": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ],
+      "rolling_subset": [
+        "1931",
+        "It popularized modern mathematical logic and drew important connections between logic, epistemology, and"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.373960494995117,
+        -14.42929458618164,
+        -6.68072509765625,
+        -5.7321014404296875,
+        -1.1581268310546875
+      ],
+      "interaction": 2.003957748413086
+    }
+  },
+  {
+    "article": "Egypt",
+    "qids": [
+      "5731583a497a881900248e43",
+      "5731583a497a881900248e44"
+    ],
+    "source": "1869",
+    "replacement": "1868",
+    "gold": [
+      [
+        "1869"
+      ],
+      [
+        "French"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1869",
+        "the French"
+      ],
+      "edited": [
+        "1868",
+        "the French"
+      ],
+      "subset": [
+        "1869",
+        "the French"
+      ],
+      "group_a": [
+        "1869",
+        "the French"
+      ],
+      "group_b": [
+        "1869",
+        "the French"
+      ],
+      "query_agnostic": [
+        "1869",
+        "the French"
+      ],
+      "greedy": [
+        "1869",
+        "the French"
+      ],
+      "single_group": [
+        "1869",
+        "the French"
+      ],
+      "block19": [
+        "1869",
+        "the French"
+      ],
+      "full": [
+        "1869",
+        "the French"
+      ],
+      "head19_11": [
+        "1869",
+        "the French"
+      ],
+      "best_block": [
+        "1869",
+        "the French"
+      ],
+      "random1": [
+        "1869",
+        "the French"
+      ],
+      "random2": [
+        "1869",
+        "the French"
+      ],
+      "random3": [
+        "1869",
+        "the French"
+      ],
+      "random4": [
+        "1869",
+        "the French"
+      ],
+      "random5": [
+        "1869",
+        "the French"
+      ],
+      "rolling_full": [
+        "1869",
+        "the French"
+      ],
+      "rolling_subset": [
+        "1869",
+        "the French"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -13.515052795410156,
+        -14.881375312805176,
+        -5.796772003173828,
+        -6.064281463623047,
+        -5.49647331237793
+      ],
+      "interaction": 1.0988130569458008
+    }
+  },
+  {
+    "article": "San_Diego",
+    "qids": [
+      "572fca74a23a5019007fc9ea",
+      "572fca74a23a5019007fc9e9"
+    ],
+    "source": "1850",
+    "replacement": "1851",
+    "gold": [
+      [
+        "1850"
+      ],
+      [
+        "Juan Rodr\u00edguez Cabrillo"
+      ]
+    ],
+    "tokens": [
+      16,
+      16
+    ],
+    "answers": {
+      "clean": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "edited": [
+        "1851",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "subset": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "group_a": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "group_b": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "query_agnostic": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "greedy": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "single_group": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "block19": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "full": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "head19_11": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "best_block": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "random1": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "random2": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "random3": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "random4": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "random5": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "rolling_full": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ],
+      "rolling_subset": [
+        "1850",
+        "Juan Rodr\u00edguez Cabrillo"
+      ]
+    },
+    "interactions": [
+      0.0,
+      0.0
+    ],
+    "shared_prefix_diagnostic": {
+      "prefix_tokens": 3,
+      "margin": [
+        -12.61091423034668,
+        -11.94227409362793,
+        -10.157941818237305,
+        -8.324773788452148,
+        -6.705112457275391
+      ],
+      "interaction": 1.1645278930664062
+    }
+  }
+]

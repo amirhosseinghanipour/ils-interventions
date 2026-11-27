@@ -108,6 +108,24 @@ def run():
             runs.append(dict(id=row_h['id'],events=events,return_ms=clock()-start))
         benchmark.write(args.out/str(k)/'streamed_exact.json',runs)
 
+    if args.task == 'gift':
+        # A precision check for the sole differing final decision in the pilot.
+        # Run after all device timings so it cannot alter any online measurement.
+        path = args.out/'32'/'gift-02-0.json'
+        if path.exists():
+            row = json.loads(path.read_text())
+            cap = json.loads((path.parent/'profile.json').read_text())['budget_ms']
+            arms = ('complement','hvp8')
+            ids = [next(e['i'] for e in reversed(row['traces'][arm]['events']) if e['ms'] <= cap)
+                   for arm in arms]
+            model.float()
+            holdout = next(r for r in engine.rows(args.task) if r['id'] == row['id'])
+            oracle = engine.prepare(model,tok,holdout,32)
+            pool,_ = benchmark.masks_for(32,row['seed'])
+            effects = oracle.exact(pool[ids]).tolist()
+            benchmark.write(path.with_name('precision_check.json'),
+                            dict(prompt=row['id'],arms=arms,ids=ids,float32_effect=effects))
+
 
 if __name__=='__main__':
     if sys.argv[1:]==['--observer']:

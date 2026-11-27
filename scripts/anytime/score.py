@@ -32,11 +32,12 @@ def cell(rows, profile):
     cap = profile['budget_ms']
     times = np.unique(np.append(np.linspace(0,cap,41), [cap*.5,cap*.75,cap]))
     curves, paired, delivery = {}, {}, {}
+    arms = [arm for arm in NAMES if arm in rows[0]['traces']]
     for r in rows:
         assert len(r['gold']) == len(r['test_y']) == 512
         decision_labels = r['gold'][2::2] + [0.] if r.get('compact') else r['gold']
         assert r['pool_best'] == max(decision_labels)
-        assert set(r['traces']) == set(NAMES)
+        assert set(r['traces']) == set(arms)
         for trace in r['traces'].values():
             prev = dict(ms=0, paid_effect=0, exact=0)
             for e in trace['events']:
@@ -47,7 +48,7 @@ def cell(rows, profile):
                 assert e['mae'] is None or e['mae'] >= 0
                 prev = e
             assert trace['return_ms'] >= prev['ms']
-    for arm in NAMES:
+    for arm in arms:
         curve = []
         for t in times:
             ev = [at(row,arm,t) for row in rows]
@@ -71,6 +72,7 @@ def cell(rows, profile):
             b = [at(row,'complement',frac*cap) for row in rows]
             good = [i for i,(x,y) in enumerate(zip(a,b)) if x['mae'] is not None and y['mae'] is not None]
             paired[arm][frac] = dict(
+                same_incumbent=sum(x['i']==y['i'] for x,y in zip(a,b)),
                 effect_gain=interval([x['oracle_effect']-y['oracle_effect'] for x,y in zip(a,b)],rows),
                 mae_reduction=interval([b[i]['mae']-a[i]['mae'] for i in good],
                                       [rows[i] for i in good]) if good else None,n_mae=len(good))
@@ -105,25 +107,39 @@ def main():
     import matplotlib.pyplot as plt
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('root',type=Path)
+    p.add_argument('--compact', action='store_true')
     args = p.parse_args()
     summary = {}
     colors = ['#41454a','#70a6cb','#136fa7','#3e4b9d','#d06624','#00977d','#b04a84','#696a16','#97653f']
     cells = sorted(args.root.glob('*/*/profile.json'))
+    if args.compact:
+        gates = {}
+        for path in cells:
+            gate = path.with_name('development-gate.json')
+            gates[str(path.parent.relative_to(args.root))] = json.loads(gate.read_text())
+        (args.root/'development-summary.json').write_text(json.dumps(gates,indent=2)+'\n')
+        cells = [path for path in cells if gates[str(path.parent.relative_to(args.root))]['qualifies']]
+        if not cells:
+            return
     fig, axes = plt.subplots(len(cells),2,figsize=(10,2.8*len(cells)),squeeze=False)
     for ax,path in zip(axes,cells):
         prof = json.loads(path.read_text())
         rows = [json.loads(p.read_text()) for p in sorted(path.parent.glob('*-*-*.json'))]
         if len(rows) != 24:
             raise ValueError(f'{path.parent}: expected 24 held-out prompts, found {len(rows)}')
-        supplemental = json.loads((path.parent/'streamed_exact.json').read_text())
-        assert [r['id'] for r in rows] == [r['id'] for r in supplemental]
+        supplemental = [] if args.compact else json.loads((path.parent/'streamed_exact.json').read_text())
+        if not args.compact:
+            assert [r['id'] for r in rows] == [r['id'] for r in supplemental]
         for r, trace in zip(rows,supplemental):
             for e in trace['events']:
                 e.update(oracle_effect=r['gold'][e['i']], mae=None, beta=None, stage='exact')
             r['traces']['cached_exact_stream'] = trace
-        label = ('SmolLM2-1.7B' if path.parent.parent.name=='large' else 'Qwen2.5-0.5B') + ' ' + prof['task'] + ' · K=' + path.parent.name
+        task = rows[0]['task']
+        label = ('SmolLM2-1.7B' if path.parent.parent.name=='large' else 'Qwen2.5-0.5B') + ' ' + task + ' · K=' + path.parent.name
         s = summary[label] = cell(rows,prof)
         for (arm,name),color in zip(NAMES.items(),colors):
+            if arm not in s['curves']:
+                continue
             curve=s['curves'][arm]
             for a,metric in zip(ax,['mae','regret']):
                 if metric=='mae' and arm.startswith('cached_exact'):

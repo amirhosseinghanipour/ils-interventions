@@ -100,7 +100,7 @@ int forward(int *ids, int n, uint32_t a, uint32_t f, bool record, int position,
         assert(seen_attn[i] == int((attn_mask>>i)&1u));
         assert(seen_mlp[i] == int((mlp_mask>>i)&1u));
     }
-    const float *logits = llama_get_logits_ith(ctx, all_outputs ? n-1 : 0);
+    const float *logits = llama_get_logits_ith(ctx, -1);
     return int(std::max_element(logits, logits+llama_vocab_n_tokens(llama_model_get_vocab(model))) - logits);
 }
 extern "C" int pool_forward(int *ids, int n, uint32_t a, uint32_t f, int record, int h) {
@@ -120,7 +120,7 @@ extern "C" int vocabulary_size() {
     return llama_vocab_n_tokens(llama_model_get_vocab(model));
 }
 extern "C" const float *last_logits() {
-    return llama_get_logits_ith(ctx, 0);
+    return llama_get_logits_ith(ctx, -1);
 }
 extern "C" int detokenize(const int *ids, int n, char *out, int capacity) {
     return llama_detokenize(llama_model_get_vocab(model), ids, n, out, capacity, true, false);
