@@ -1,0 +1,5202 @@
+[
+  [
+    {
+      "article": "Slavs",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "56f71f1c3d8e2e1400e3736f",
+        "56f71f1c3d8e2e1400e37370"
+      ],
+      "source": "545",
+      "replacement": "845",
+      "gold": [
+        [
+          "545"
+        ],
+        [
+          "Spori"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "545",
+          "Spori"
+        ],
+        "text": [
+          "845",
+          "Spori"
+        ],
+        "full_prompt": [
+          "845",
+          "Spori"
+        ],
+        "full_rolling": [
+          "845",
+          "Spori"
+        ],
+        "scanned": [
+          "845",
+          "Spori"
+        ],
+        "online": [
+          "845",
+          "Spori"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          4,
+          4
+        ],
+        "scanned": [
+          4,
+          4
+        ],
+        "online": [
+          4,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          4,
+          4
+        ],
+        "text": [
+          4,
+          4
+        ],
+        "full_prompt": [
+          5,
+          5
+        ],
+        "full_rolling": [
+          8,
+          8
+        ],
+        "scanned": [
+          10,
+          16
+        ],
+        "online": [
+          9,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          195.35330805229023,
+          160.48811201471835
+        ],
+        "text": [
+          194.29719599429518,
+          160.5834189685993
+        ],
+        "full_prompt": [
+          245.25894405087456,
+          202.57799897808582
+        ],
+        "full_rolling": [
+          394.4411260308698,
+          326.798961032182
+        ],
+        "scanned": [
+          503.0395569629036,
+          667.3610849538818
+        ],
+        "online": [
+          442.40864901803434,
+          320.3010440338403
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Slavs",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "56f71f1c3d8e2e1400e3736f",
+        "56f71f1c3d8e2e1400e37370"
+      ],
+      "source": "545",
+      "replacement": "548",
+      "gold": [
+        [
+          "545"
+        ],
+        [
+          "Spori"
+        ]
+      ],
+      "gold_step": 2,
+      "outputs": {
+        "clean": [
+          "545",
+          "Spori"
+        ],
+        "text": [
+          "548",
+          "Spori"
+        ],
+        "full_prompt": [
+          "545",
+          "Spori"
+        ],
+        "full_rolling": [
+          "548",
+          "Spori"
+        ],
+        "scanned": [
+          "548",
+          "Spori"
+        ],
+        "online": [
+          "548",
+          "Spori"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          4,
+          4
+        ],
+        "scanned": [
+          1,
+          4
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          4,
+          4
+        ],
+        "text": [
+          4,
+          4
+        ],
+        "full_prompt": [
+          5,
+          5
+        ],
+        "full_rolling": [
+          8,
+          8
+        ],
+        "scanned": [
+          11,
+          16
+        ],
+        "online": [
+          8,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          195.2591150184162,
+          161.1806059954688
+        ],
+        "text": [
+          196.14604400703683,
+          161.95023799082264
+        ],
+        "full_prompt": [
+          245.15303602674976,
+          204.15987801970914
+        ],
+        "full_rolling": [
+          397.8983600391075,
+          328.3018030342646
+        ],
+        "scanned": [
+          546.3117129984312,
+          662.5365749932826
+        ],
+        "online": [
+          389.7233619936742,
+          320.919435005635
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        2,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Queen_(band)",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "5726563add62a815002e81e2",
+        "5726563add62a815002e81e3"
+      ],
+      "source": "1970",
+      "replacement": "4970",
+      "gold": [
+        [
+          "1970"
+        ],
+        [
+          "Humpy Bong"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "text": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "full_prompt": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "full_rolling": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "scanned": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "online": [
+          "1970",
+          "Humpy Bong"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          4
+        ],
+        "scanned": [
+          5,
+          4
+        ],
+        "online": [
+          0,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          4
+        ],
+        "text": [
+          5,
+          4
+        ],
+        "full_prompt": [
+          6,
+          5
+        ],
+        "full_rolling": [
+          10,
+          8
+        ],
+        "scanned": [
+          20,
+          16
+        ],
+        "online": [
+          10,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          379.9221569788642,
+          303.56838199077174
+        ],
+        "text": [
+          379.08618699293584,
+          303.7936969776638
+        ],
+        "full_prompt": [
+          459.2816249933094,
+          381.36815099278465
+        ],
+        "full_rolling": [
+          763.5298349778168,
+          612.092946015764
+        ],
+        "scanned": [
+          1536.9195530074649,
+          1229.3079730006866
+        ],
+        "online": [
+          757.4062859639525,
+          605.9308300027624
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Queen_(band)",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "5726563add62a815002e81e2",
+        "5726563add62a815002e81e3"
+      ],
+      "source": "1970",
+      "replacement": "1973",
+      "gold": [
+        [
+          "1970"
+        ],
+        [
+          "Humpy Bong"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "text": [
+          "1973",
+          "Humpy Bong"
+        ],
+        "full_prompt": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "full_rolling": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "scanned": [
+          "1970",
+          "Humpy Bong"
+        ],
+        "online": [
+          "1970",
+          "Humpy Bong"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          4
+        ],
+        "scanned": [
+          1,
+          4
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          4
+        ],
+        "text": [
+          5,
+          4
+        ],
+        "full_prompt": [
+          6,
+          5
+        ],
+        "full_rolling": [
+          10,
+          8
+        ],
+        "scanned": [
+          14,
+          16
+        ],
+        "online": [
+          10,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          380.83063502563164,
+          305.10750401299447
+        ],
+        "text": [
+          380.43076696339995,
+          303.4994479967281
+        ],
+        "full_prompt": [
+          456.8702519754879,
+          382.4060970218852
+        ],
+        "full_rolling": [
+          767.6867010304704,
+          612.7659429912455
+        ],
+        "scanned": [
+          1076.1082549579442,
+          1236.5980349713936
+        ],
+        "online": [
+          760.0761619978584,
+          609.5227779587731
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "British_Isles",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "5730144a04bcaa1900d7713c",
+        "5730144a04bcaa1900d7713b"
+      ],
+      "source": "1577",
+      "replacement": "4577",
+      "gold": [
+        [
+          "1577"
+        ],
+        [
+          "a work by John Dee"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "1577",
+          "1577"
+        ],
+        "text": [
+          "4577",
+          "4577"
+        ],
+        "full_prompt": [
+          "4577",
+          "41577"
+        ],
+        "full_rolling": [
+          "4577",
+          "4577 in a work by John Dee"
+        ],
+        "scanned": [
+          "4577",
+          "4577 in a work by John Dee"
+        ],
+        "online": [
+          "4577",
+          "4577 in a work by John Dee"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          11
+        ],
+        "scanned": [
+          5,
+          11
+        ],
+        "online": [
+          5,
+          11
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          5
+        ],
+        "text": [
+          5,
+          5
+        ],
+        "full_prompt": [
+          6,
+          7
+        ],
+        "full_rolling": [
+          10,
+          22
+        ],
+        "scanned": [
+          12,
+          24
+        ],
+        "online": [
+          11,
+          23
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          374.36804501339793,
+          373.63361002644524
+        ],
+        "text": [
+          374.55208197934553,
+          374.09816903527826
+        ],
+        "full_prompt": [
+          449.94532398413867,
+          525.1164000364952
+        ],
+        "full_rolling": [
+          755.4087190073915,
+          1661.932724993676
+        ],
+        "scanned": [
+          906.9313170039095,
+          1811.2144659971818
+        ],
+        "online": [
+          827.7212040266022,
+          1736.2987429951318
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "British_Isles",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "5730144a04bcaa1900d7713c",
+        "5730144a04bcaa1900d7713b"
+      ],
+      "source": "1577",
+      "replacement": "1570",
+      "gold": [
+        [
+          "1577"
+        ],
+        [
+          "a work by John Dee"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "1577",
+          "1577"
+        ],
+        "text": [
+          "1570",
+          "1570"
+        ],
+        "full_prompt": [
+          "1577",
+          "1577"
+        ],
+        "full_rolling": [
+          "1570",
+          "1570"
+        ],
+        "scanned": [
+          "1570",
+          "1570"
+        ],
+        "online": [
+          "1570",
+          "1570"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          5
+        ],
+        "scanned": [
+          1,
+          1
+        ],
+        "online": [
+          1,
+          1
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          5
+        ],
+        "text": [
+          5,
+          5
+        ],
+        "full_prompt": [
+          6,
+          6
+        ],
+        "full_rolling": [
+          10,
+          10
+        ],
+        "scanned": [
+          14,
+          14
+        ],
+        "online": [
+          10,
+          10
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          375.7001960184425,
+          373.73174499953166
+        ],
+        "text": [
+          374.8041429789737,
+          374.5862719952129
+        ],
+        "full_prompt": [
+          451.0266599827446,
+          451.2801870005205
+        ],
+        "full_rolling": [
+          754.9873249954544,
+          755.5029690265656
+        ],
+        "scanned": [
+          1063.5837940499187,
+          1060.8081560349092
+        ],
+        "online": [
+          752.0785499946214,
+          748.3277060091496
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        3
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Oklahoma_City",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "56df33ca8bc80c19004e497d",
+        "56df33ca8bc80c19004e497b"
+      ],
+      "source": "1889",
+      "replacement": "4889",
+      "gold": [
+        [
+          "1889"
+        ],
+        [
+          "I-35 Corridor"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "text": [
+          "during the Land Run of 4889",
+          "I-35 Corridor"
+        ],
+        "full_prompt": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "full_rolling": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "scanned": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "online": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          11,
+          7
+        ],
+        "scanned": [
+          11,
+          7
+        ],
+        "online": [
+          0,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          11,
+          7
+        ],
+        "text": [
+          11,
+          7
+        ],
+        "full_prompt": [
+          12,
+          8
+        ],
+        "full_rolling": [
+          22,
+          14
+        ],
+        "scanned": [
+          34,
+          26
+        ],
+        "online": [
+          17,
+          13
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          832.9987759934738,
+          529.3119340203702
+        ],
+        "text": [
+          831.2775960075669,
+          528.2102869823575
+        ],
+        "full_prompt": [
+          907.685065001715,
+          605.3512429934926
+        ],
+        "full_rolling": [
+          1675.4400640493259,
+          1062.0110270101577
+        ],
+        "scanned": [
+          2591.7535349726677,
+          1984.6596560091712
+        ],
+        "online": [
+          1278.5176279721782,
+          979.6219529816881
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Oklahoma_City",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "56df33ca8bc80c19004e497d",
+        "56df33ca8bc80c19004e497b"
+      ],
+      "source": "1889",
+      "replacement": "1882",
+      "gold": [
+        [
+          "1889"
+        ],
+        [
+          "I-35 Corridor"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "text": [
+          "during the Land Run of 1882",
+          "I-35 Corridor"
+        ],
+        "full_prompt": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "full_rolling": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "scanned": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ],
+        "online": [
+          "during the Land Run of 1889",
+          "I-35 Corridor"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          11,
+          7
+        ],
+        "scanned": [
+          11,
+          7
+        ],
+        "online": [
+          0,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          11,
+          7
+        ],
+        "text": [
+          11,
+          7
+        ],
+        "full_prompt": [
+          12,
+          8
+        ],
+        "full_rolling": [
+          22,
+          14
+        ],
+        "scanned": [
+          34,
+          26
+        ],
+        "online": [
+          17,
+          13
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          829.791511001531,
+          527.9319530236535
+        ],
+        "text": [
+          829.7194810002111,
+          529.3707679957151
+        ],
+        "full_prompt": [
+          908.718980033882,
+          606.4005210064352
+        ],
+        "full_rolling": [
+          1673.3974009985104,
+          1064.5290909451433
+        ],
+        "scanned": [
+          2592.688445991371,
+          1988.1672600167803
+        ],
+        "online": [
+          1279.844236036297,
+          978.69726998033
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Antibiotics",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "5733bc38d058e614000b6189",
+        "5733bc38d058e614000b6187"
+      ],
+      "source": "1943",
+      "replacement": "4943",
+      "gold": [
+        [
+          "1943"
+        ],
+        [
+          "resistance of bacteria"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "1943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "text": [
+          "4943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "full_prompt": [
+          "1943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "full_rolling": [
+          "1943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "scanned": [
+          "1943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "online": [
+          "1943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          9
+        ],
+        "scanned": [
+          5,
+          9
+        ],
+        "online": [
+          5,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          9
+        ],
+        "text": [
+          5,
+          9
+        ],
+        "full_prompt": [
+          6,
+          10
+        ],
+        "full_rolling": [
+          10,
+          18
+        ],
+        "scanned": [
+          12,
+          30
+        ],
+        "online": [
+          11,
+          15
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          342.9828319931403,
+          642.3477429780178
+        ],
+        "text": [
+          343.3182020089589,
+          642.5951999844983
+        ],
+        "full_prompt": [
+          412.4416630365886,
+          712.8244089544751
+        ],
+        "full_rolling": [
+          691.3715170230716,
+          1296.884420036804
+        ],
+        "scanned": [
+          830.1036420161836,
+          2147.9906649910845
+        ],
+        "online": [
+          760.6312810094096,
+          1058.9070949936286
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Antibiotics",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "5733bc38d058e614000b6189",
+        "5733bc38d058e614000b6187"
+      ],
+      "source": "1943",
+      "replacement": "1946",
+      "gold": [
+        [
+          "1943"
+        ],
+        [
+          "resistance of bacteria"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "1943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "text": [
+          "1946",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "full_prompt": [
+          "1943",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "full_rolling": [
+          "1946",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "scanned": [
+          "1946",
+          "The emergence of resistance of bacteria to antibiotics"
+        ],
+        "online": [
+          "1946",
+          "The emergence of resistance of bacteria to antibiotics"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          9
+        ],
+        "scanned": [
+          1,
+          9
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          9
+        ],
+        "text": [
+          5,
+          9
+        ],
+        "full_prompt": [
+          6,
+          10
+        ],
+        "full_rolling": [
+          10,
+          18
+        ],
+        "scanned": [
+          14,
+          30
+        ],
+        "online": [
+          10,
+          15
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          343.5995529871434,
+          645.2882729936391
+        ],
+        "text": [
+          342.5594710279256,
+          644.4770950474776
+        ],
+        "full_prompt": [
+          415.27537698857486,
+          713.5898289852776
+        ],
+        "full_rolling": [
+          692.4541710177436,
+          1299.135223031044
+        ],
+        "scanned": [
+          972.6153730298392,
+          2150.821925024502
+        ],
+        "online": [
+          687.1235960279591,
+          1059.9764070357196
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "A_cappella",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "5727af6c3acd2414000de9a6",
+        "5727af6c3acd2414000de9a4"
+      ],
+      "source": "77",
+      "replacement": "17",
+      "gold": [
+        [
+          "77"
+        ],
+        [
+          "Avenue X"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "77",
+          "Avenue X"
+        ],
+        "text": [
+          "17",
+          "Avenue X"
+        ],
+        "full_prompt": [
+          "177",
+          "Avenue X"
+        ],
+        "full_rolling": [
+          "17",
+          "Avenue X"
+        ],
+        "scanned": [
+          "17",
+          "Avenue X"
+        ],
+        "online": [
+          "17",
+          "Avenue X"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          4
+        ],
+        "scanned": [
+          3,
+          1
+        ],
+        "online": [
+          3,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          4
+        ],
+        "text": [
+          3,
+          4
+        ],
+        "full_prompt": [
+          5,
+          5
+        ],
+        "full_rolling": [
+          6,
+          8
+        ],
+        "scanned": [
+          8,
+          13
+        ],
+        "online": [
+          7,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          201.62541896570474,
+          273.2410700409673
+        ],
+        "text": [
+          202.1497660316527,
+          272.6868820027448
+        ],
+        "full_prompt": [
+          338.05008500348777,
+          342.39454602357
+        ],
+        "full_rolling": [
+          406.2340789823793,
+          549.8150550411083
+        ],
+        "scanned": [
+          543.1857880321331,
+          898.914635006804
+        ],
+        "online": [
+          473.28793798806146,
+          544.5367799839005
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        1
+      ]
+    },
+    {
+      "article": "A_cappella",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "5727af6c3acd2414000de9a6",
+        "5727af6c3acd2414000de9a4"
+      ],
+      "source": "77",
+      "replacement": "70",
+      "gold": [
+        [
+          "77"
+        ],
+        [
+          "Avenue X"
+        ]
+      ],
+      "gold_step": 1,
+      "outputs": {
+        "clean": [
+          "77",
+          "Avenue X"
+        ],
+        "text": [
+          "70",
+          "Avenue X"
+        ],
+        "full_prompt": [
+          "77",
+          "Avenue X"
+        ],
+        "full_rolling": [
+          "70",
+          "Avenue X"
+        ],
+        "scanned": [
+          "70",
+          "Avenue X"
+        ],
+        "online": [
+          "70",
+          "Avenue X"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          4
+        ],
+        "scanned": [
+          1,
+          4
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          4
+        ],
+        "text": [
+          3,
+          4
+        ],
+        "full_prompt": [
+          4,
+          5
+        ],
+        "full_rolling": [
+          6,
+          8
+        ],
+        "scanned": [
+          8,
+          16
+        ],
+        "online": [
+          6,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          201.47757802624255,
+          272.8557329974137
+        ],
+        "text": [
+          201.64311199914664,
+          272.14068500325084
+        ],
+        "full_prompt": [
+          269.4214880466461,
+          343.0109430337325
+        ],
+        "full_rolling": [
+          406.38649801258,
+          549.0576560259797
+        ],
+        "scanned": [
+          544.0748510300182,
+          1106.4947440172546
+        ],
+        "online": [
+          403.42996799154207,
+          544.6799769997597
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        1,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Vacuum",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "572eac6adfa6aa1500f8d296",
+        "572eac6adfa6aa1500f8d295"
+      ],
+      "source": "1930",
+      "replacement": "4930",
+      "gold": [
+        [
+          "1930"
+        ],
+        [
+          "Paul Dirac"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "1930",
+          "Paul Dirac"
+        ],
+        "text": [
+          "4930",
+          "Paul Dirac"
+        ],
+        "full_prompt": [
+          "4930",
+          "Paul Dirac"
+        ],
+        "full_rolling": [
+          "4930",
+          "Paul Dirac"
+        ],
+        "scanned": [
+          "4930",
+          "Paul Dirac"
+        ],
+        "online": [
+          "4930",
+          "Paul Dirac"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          4
+        ],
+        "scanned": [
+          5,
+          4
+        ],
+        "online": [
+          5,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          4
+        ],
+        "text": [
+          5,
+          4
+        ],
+        "full_prompt": [
+          6,
+          5
+        ],
+        "full_rolling": [
+          10,
+          8
+        ],
+        "scanned": [
+          12,
+          16
+        ],
+        "online": [
+          11,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          335.75269900029525,
+          271.4213209692389
+        ],
+        "text": [
+          335.2948679821566,
+          272.10068999556825
+        ],
+        "full_prompt": [
+          403.27966201584786,
+          341.7950779548846
+        ],
+        "full_rolling": [
+          675.4623020533472,
+          548.5951590235345
+        ],
+        "scanned": [
+          811.7523900000378,
+          1104.2904609930702
+        ],
+        "online": [
+          741.9230790110305,
+          543.1239070021547
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Vacuum",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "572eac6adfa6aa1500f8d296",
+        "572eac6adfa6aa1500f8d295"
+      ],
+      "source": "1930",
+      "replacement": "1933",
+      "gold": [
+        [
+          "1930"
+        ],
+        [
+          "Paul Dirac"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "1930",
+          "Paul Dirac"
+        ],
+        "text": [
+          "1933",
+          "Paul Dirac"
+        ],
+        "full_prompt": [
+          "1930",
+          "Paul Dirac"
+        ],
+        "full_rolling": [
+          "1930",
+          "Paul Dirac"
+        ],
+        "scanned": [
+          "1930",
+          "Paul Dirac"
+        ],
+        "online": [
+          "1930",
+          "Paul Dirac"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          4
+        ],
+        "scanned": [
+          1,
+          4
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          4
+        ],
+        "text": [
+          5,
+          4
+        ],
+        "full_prompt": [
+          6,
+          5
+        ],
+        "full_rolling": [
+          10,
+          8
+        ],
+        "scanned": [
+          14,
+          16
+        ],
+        "online": [
+          10,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          335.5381670407951,
+          272.6375670172274
+        ],
+        "text": [
+          335.34249203512445,
+          273.0748589965515
+        ],
+        "full_prompt": [
+          403.97490398027,
+          342.6602870458737
+        ],
+        "full_rolling": [
+          675.3444190253504,
+          549.4971039588563
+        ],
+        "scanned": [
+          948.8686620024964,
+          1106.3808649778366
+        ],
+        "online": [
+          670.7792900269851,
+          542.3721779952757
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Pope_Paul_VI",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "5726a975708984140094cd35",
+        "5726a975708984140094cd37"
+      ],
+      "source": "1939",
+      "replacement": "4939",
+      "gold": [
+        [
+          "1939"
+        ],
+        [
+          "politician"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "1939",
+          "meddling in politics"
+        ],
+        "text": [
+          "4939",
+          "meddling in politics"
+        ],
+        "full_prompt": [
+          "1939",
+          "meddling in politics"
+        ],
+        "full_rolling": [
+          "1939",
+          "meddling in politics"
+        ],
+        "scanned": [
+          "1939",
+          "meddling in politics"
+        ],
+        "online": [
+          "1939",
+          "meddling in politics"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          5
+        ],
+        "scanned": [
+          5,
+          5
+        ],
+        "online": [
+          5,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          5
+        ],
+        "text": [
+          5,
+          5
+        ],
+        "full_prompt": [
+          6,
+          6
+        ],
+        "full_rolling": [
+          10,
+          10
+        ],
+        "scanned": [
+          12,
+          20
+        ],
+        "online": [
+          11,
+          10
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          378.1731409835629,
+          377.52225098665804
+        ],
+        "text": [
+          379.3178690248169,
+          377.97801702981815
+        ],
+        "full_prompt": [
+          454.8323209746741,
+          456.13840100122616
+        ],
+        "full_rolling": [
+          762.0790320215747,
+          762.7958740340546
+        ],
+        "scanned": [
+          914.6134649636224,
+          1530.4700720007531
+        ],
+        "online": [
+          837.2879769885913,
+          754.1106269927695
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Pope_Paul_VI",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "5726a975708984140094cd35",
+        "5726a975708984140094cd37"
+      ],
+      "source": "1939",
+      "replacement": "1932",
+      "gold": [
+        [
+          "1939"
+        ],
+        [
+          "politician"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "1939",
+          "meddling in politics"
+        ],
+        "text": [
+          "1932",
+          "meddling in politics"
+        ],
+        "full_prompt": [
+          "1939",
+          "meddling in politics"
+        ],
+        "full_rolling": [
+          "1939",
+          "meddling in politics"
+        ],
+        "scanned": [
+          "1939",
+          "meddling in politics"
+        ],
+        "online": [
+          "1939",
+          "meddling in politics"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          5
+        ],
+        "scanned": [
+          1,
+          5
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          5
+        ],
+        "text": [
+          5,
+          5
+        ],
+        "full_prompt": [
+          6,
+          6
+        ],
+        "full_rolling": [
+          10,
+          10
+        ],
+        "scanned": [
+          14,
+          20
+        ],
+        "online": [
+          10,
+          10
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          378.53400397580117,
+          377.88102903869003
+        ],
+        "text": [
+          378.6335060140118,
+          377.57965101627633
+        ],
+        "full_prompt": [
+          455.45471902005374,
+          454.58185201277956
+        ],
+        "full_rolling": [
+          763.6841160128824,
+          760.5181960389018
+        ],
+        "scanned": [
+          1072.3297979566269,
+          1528.077325958293
+        ],
+        "online": [
+          756.3312609563582,
+          753.2798440079205
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Buddhism",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "56d079e1234ae51400d9c30d",
+        "56d079e1234ae51400d9c30c"
+      ],
+      "source": "29",
+      "replacement": "59",
+      "gold": [
+        [
+          "29"
+        ],
+        [
+          "prevented him from leaving the palace grounds"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "29",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "text": [
+          "59",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "full_prompt": [
+          "59",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "full_rolling": [
+          "59",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "scanned": [
+          "59",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "online": [
+          "59",
+          "he prevented him from leaving the palace grounds"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          9
+        ],
+        "scanned": [
+          3,
+          9
+        ],
+        "online": [
+          3,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          9
+        ],
+        "text": [
+          3,
+          9
+        ],
+        "full_prompt": [
+          4,
+          10
+        ],
+        "full_rolling": [
+          6,
+          18
+        ],
+        "scanned": [
+          8,
+          30
+        ],
+        "online": [
+          7,
+          15
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          183.1825320259668,
+          601.3347940170206
+        ],
+        "text": [
+          183.48103103926405,
+          600.481731002219
+        ],
+        "full_prompt": [
+          245.1859639841132,
+          669.9427679996006
+        ],
+        "full_rolling": [
+          368.8212570268661,
+          1210.9839909826405
+        ],
+        "scanned": [
+          493.46209096256644,
+          2027.6454630075023
+        ],
+        "online": [
+          430.4057949921116,
+          999.7398569830693
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Buddhism",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "56d079e1234ae51400d9c30d",
+        "56d079e1234ae51400d9c30c"
+      ],
+      "source": "29",
+      "replacement": "22",
+      "gold": [
+        [
+          "29"
+        ],
+        [
+          "prevented him from leaving the palace grounds"
+        ]
+      ],
+      "gold_step": 1,
+      "outputs": {
+        "clean": [
+          "29",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "text": [
+          "22",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "full_prompt": [
+          "29",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "full_rolling": [
+          "22",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "scanned": [
+          "22",
+          "he prevented him from leaving the palace grounds"
+        ],
+        "online": [
+          "22",
+          "he prevented him from leaving the palace grounds"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          9
+        ],
+        "scanned": [
+          1,
+          9
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          9
+        ],
+        "text": [
+          3,
+          9
+        ],
+        "full_prompt": [
+          4,
+          10
+        ],
+        "full_rolling": [
+          6,
+          18
+        ],
+        "scanned": [
+          8,
+          30
+        ],
+        "online": [
+          6,
+          15
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          183.14293096773326,
+          601.4130099792965
+        ],
+        "text": [
+          182.86632798844948,
+          601.5025640372187
+        ],
+        "full_prompt": [
+          245.65488600637764,
+          669.4766929722391
+        ],
+        "full_rolling": [
+          369.2066529765725,
+          1209.953390993178
+        ],
+        "scanned": [
+          495.1690119924024,
+          2029.7066520433873
+        ],
+        "online": [
+          366.18766601895913,
+          1000.6410999922082
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        1,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "New_Delhi",
+      "kind": "numeric",
+      "edit_position": "early",
+      "qids": [
+        "5705e39275f01819005e76e9",
+        "5705e39275f01819005e76e8"
+      ],
+      "source": "1911",
+      "replacement": "4911",
+      "gold": [
+        [
+          "1911"
+        ],
+        [
+          "George V"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "text": [
+          "4911",
+          "George V, Emperor of India"
+        ],
+        "full_prompt": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "full_rolling": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "scanned": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "online": [
+          "1911",
+          "George V, Emperor of India"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          7
+        ],
+        "scanned": [
+          5,
+          7
+        ],
+        "online": [
+          5,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          7
+        ],
+        "text": [
+          5,
+          7
+        ],
+        "full_prompt": [
+          6,
+          8
+        ],
+        "full_rolling": [
+          10,
+          14
+        ],
+        "scanned": [
+          12,
+          26
+        ],
+        "online": [
+          11,
+          13
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          230.6252010166645,
+          319.11590503295884
+        ],
+        "text": [
+          230.86768802022561,
+          317.12155701825395
+        ],
+        "full_prompt": [
+          279.1624119854532,
+          364.68553298618644
+        ],
+        "full_rolling": [
+          469.6973619866185,
+          644.4288700004108
+        ],
+        "scanned": [
+          561.1927330028266,
+          1206.6870430135168
+        ],
+        "online": [
+          513.2536109886132,
+          587.7570689772256
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "New_Delhi",
+      "kind": "numeric",
+      "edit_position": "late",
+      "qids": [
+        "5705e39275f01819005e76e9",
+        "5705e39275f01819005e76e8"
+      ],
+      "source": "1911",
+      "replacement": "1914",
+      "gold": [
+        [
+          "1911"
+        ],
+        [
+          "George V"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "text": [
+          "1914",
+          "George V, Emperor of India"
+        ],
+        "full_prompt": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "full_rolling": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "scanned": [
+          "1911",
+          "George V, Emperor of India"
+        ],
+        "online": [
+          "1911",
+          "George V, Emperor of India"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          7
+        ],
+        "scanned": [
+          1,
+          1
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          7
+        ],
+        "text": [
+          5,
+          7
+        ],
+        "full_prompt": [
+          6,
+          8
+        ],
+        "full_rolling": [
+          10,
+          14
+        ],
+        "scanned": [
+          14,
+          20
+        ],
+        "online": [
+          10,
+          13
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          230.47650599619374,
+          316.91521301399916
+        ],
+        "text": [
+          230.8752199751325,
+          317.1418090350926
+        ],
+        "full_prompt": [
+          278.240307001397,
+          364.32081897510216
+        ],
+        "full_rolling": [
+          468.38205796666443,
+          644.4333730032668
+        ],
+        "scanned": [
+          653.3304569893517,
+          925.3259240067564
+        ],
+        "online": [
+          458.3872130024247,
+          587.0777369709685
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        2
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Genocide",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "57335849d058e614000b5896",
+        "57335849d058e614000b589a"
+      ],
+      "source": "Nazi Germany",
+      "replacement": "Samuel Germany",
+      "gold": [
+        [
+          "Nazi Germany"
+        ],
+        [
+          "the Convention on the Prevention and Punishment of the Crime of Genocide"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "Nazi Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "text": [
+          "The provided text does not contain information about which war-era country immortalized",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "full_prompt": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "full_rolling": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "scanned": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "online": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          2,
+          14
+        ],
+        "scanned": [
+          2,
+          14
+        ],
+        "online": [
+          2,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          4,
+          14
+        ],
+        "text": [
+          14,
+          14
+        ],
+        "full_prompt": [
+          3,
+          15
+        ],
+        "full_rolling": [
+          4,
+          28
+        ],
+        "scanned": [
+          6,
+          40
+        ],
+        "online": [
+          5,
+          20
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          267.1245200326666,
+          950.6459989934228
+        ],
+        "text": [
+          939.6214039879851,
+          950.0564620248042
+        ],
+        "full_prompt": [
+          200.79387997975573,
+          1020.8744260016829
+        ],
+        "full_rolling": [
+          268.5760700260289,
+          1916.37708095368
+        ],
+        "scanned": [
+          404.268108017277,
+          2743.060095992405
+        ],
+        "online": [
+          335.57836699765176,
+          1353.9678949746303
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Genocide",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "57335849d058e614000b5896",
+        "57335849d058e614000b589a"
+      ],
+      "source": "Nazi Germany",
+      "replacement": "Nazi Samuel",
+      "gold": [
+        [
+          "Nazi Germany"
+        ],
+        [
+          "the Convention on the Prevention and Punishment of the Crime of Genocide"
+        ]
+      ],
+      "gold_step": 2,
+      "outputs": {
+        "clean": [
+          "Nazi Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "text": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "full_prompt": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "full_rolling": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "scanned": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ],
+        "online": [
+          "Germany",
+          "In 1948, the UN General Assembly adopted the Convention"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          2,
+          14
+        ],
+        "scanned": [
+          2,
+          14
+        ],
+        "online": [
+          2,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          4,
+          14
+        ],
+        "text": [
+          2,
+          14
+        ],
+        "full_prompt": [
+          3,
+          15
+        ],
+        "full_rolling": [
+          4,
+          28
+        ],
+        "scanned": [
+          6,
+          40
+        ],
+        "online": [
+          5,
+          20
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          266.9870239915326,
+          950.664873002097
+        ],
+        "text": [
+          133.22185300057754,
+          952.8164119692519
+        ],
+        "full_prompt": [
+          201.16496103582904,
+          1020.401664020028
+        ],
+        "full_rolling": [
+          268.87336396612227,
+          1919.8692539939657
+        ],
+        "scanned": [
+          405.2093899808824,
+          2745.460985985119
+        ],
+        "online": [
+          334.71965097123757,
+          1353.8133089896291
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Police",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "57329aaa328d981900601fcd",
+        "57329aaa328d981900601fcb"
+      ],
+      "source": "Santa Hermandad",
+      "replacement": "Samuel Hermandad",
+      "gold": [
+        [
+          "Santa Hermandad"
+        ],
+        [
+          "War of the Castilian Succession"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "Santa Hermandad",
+          "War of the Castilian Succession"
+        ],
+        "text": [
+          "Samuel Hermandad",
+          "War of the Castilian Succession"
+        ],
+        "full_prompt": [
+          "Holy Brotherhood (Santa Hermandad)",
+          "War of the Castilian Succession"
+        ],
+        "full_rolling": [
+          "Holy Brotherhood (Samuel Hermandad)",
+          "War of the Castilian Succession"
+        ],
+        "scanned": [
+          "Holy Brotherhood (Samuel Hermandad)",
+          "War of the Castilian Succession"
+        ],
+        "online": [
+          "Holy Brotherhood (Samuel Hermandad)",
+          "War of the Castilian Succession"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          10,
+          8
+        ],
+        "scanned": [
+          10,
+          8
+        ],
+        "online": [
+          10,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          8
+        ],
+        "text": [
+          6,
+          8
+        ],
+        "full_prompt": [
+          10,
+          9
+        ],
+        "full_rolling": [
+          20,
+          16
+        ],
+        "scanned": [
+          22,
+          28
+        ],
+        "online": [
+          21,
+          14
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          303.4971280139871,
+          480.7886910275556
+        ],
+        "text": [
+          363.9945889590308,
+          483.0308250384405
+        ],
+        "full_prompt": [
+          606.8098589894362,
+          541.7937870370224
+        ],
+        "full_rolling": [
+          1215.5615530209616,
+          966.2535199895501
+        ],
+        "scanned": [
+          1342.6069680135697,
+          1705.1209699711762
+        ],
+        "online": [
+          1276.3186049996875,
+          841.4881299831904
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Police",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "57329aaa328d981900601fcd",
+        "57329aaa328d981900601fcb"
+      ],
+      "source": "Santa Hermandad",
+      "replacement": "Santa Samuel",
+      "gold": [
+        [
+          "Santa Hermandad"
+        ],
+        [
+          "War of the Castilian Succession"
+        ]
+      ],
+      "gold_step": 1,
+      "outputs": {
+        "clean": [
+          "Santa Hermandad",
+          "War of the Castilian Succession"
+        ],
+        "text": [
+          "Santa Samuel",
+          "War of the Castilian Succession"
+        ],
+        "full_prompt": [
+          "Santa Hermandad",
+          "War of the Castilian Succession"
+        ],
+        "full_rolling": [
+          "Santa Samuel",
+          "War of the Castilian Succession"
+        ],
+        "scanned": [
+          "Santa Samuel",
+          "War of the Castilian Succession"
+        ],
+        "online": [
+          "Santa Samuel",
+          "War of the Castilian Succession"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          8
+        ],
+        "scanned": [
+          1,
+          8
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          8
+        ],
+        "text": [
+          3,
+          8
+        ],
+        "full_prompt": [
+          6,
+          9
+        ],
+        "full_rolling": [
+          6,
+          16
+        ],
+        "scanned": [
+          8,
+          28
+        ],
+        "online": [
+          6,
+          14
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          301.76066199783236,
+          481.6467879572883
+        ],
+        "text": [
+          180.45370402978733,
+          479.9353879643604
+        ],
+        "full_prompt": [
+          362.4240920180455,
+          542.0840950100683
+        ],
+        "full_rolling": [
+          361.91313999006525,
+          964.8984110099263
+        ],
+        "scanned": [
+          487.6086949952878,
+          1701.6017570276745
+        ],
+        "online": [
+          361.7034580092877,
+          841.3855789694935
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        1,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Spectre_(2015_film)",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "56cdaf0362d2951400fa6808",
+        "56cdaf0362d2951400fa6809"
+      ],
+      "source": "Eon Productions",
+      "replacement": "Samuel Productions",
+      "gold": [
+        [
+          "Eon Productions"
+        ],
+        [
+          "Daniel Craig"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "text": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "full_prompt": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "full_rolling": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "scanned": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "online": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          10,
+          3
+        ],
+        "scanned": [
+          10,
+          3
+        ],
+        "online": [
+          0,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          10,
+          3
+        ],
+        "text": [
+          10,
+          3
+        ],
+        "full_prompt": [
+          11,
+          4
+        ],
+        "full_rolling": [
+          20,
+          6
+        ],
+        "scanned": [
+          32,
+          12
+        ],
+        "online": [
+          16,
+          6
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          670.0481120496988,
+          200.99587098229676
+        ],
+        "text": [
+          670.8831409923732,
+          200.8386930101551
+        ],
+        "full_prompt": [
+          739.7621240234002,
+          267.9748550290242
+        ],
+        "full_rolling": [
+          1351.529173029121,
+          405.47631902154535
+        ],
+        "scanned": [
+          2174.6214889572,
+          817.5185430445708
+        ],
+        "online": [
+          1074.7027999605052,
+          402.9487780062482
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Spectre_(2015_film)",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "56cdaf0362d2951400fa6808",
+        "56cdaf0362d2951400fa6809"
+      ],
+      "source": "Eon Productions",
+      "replacement": "Eon Samuel",
+      "gold": [
+        [
+          "Eon Productions"
+        ],
+        [
+          "Daniel Craig"
+        ]
+      ],
+      "gold_step": 2,
+      "outputs": {
+        "clean": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "text": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "full_prompt": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "full_rolling": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "scanned": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ],
+        "online": [
+          "Metro-Goldwyn-Mayer and Columbia Pictures",
+          "Daniel Craig"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          10,
+          3
+        ],
+        "scanned": [
+          10,
+          3
+        ],
+        "online": [
+          0,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          10,
+          3
+        ],
+        "text": [
+          10,
+          3
+        ],
+        "full_prompt": [
+          11,
+          4
+        ],
+        "full_rolling": [
+          20,
+          6
+        ],
+        "scanned": [
+          32,
+          12
+        ],
+        "online": [
+          16,
+          6
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          671.9475869904272,
+          201.15655899280682
+        ],
+        "text": [
+          674.1912380093709,
+          201.61062001716346
+        ],
+        "full_prompt": [
+          740.7607409986667,
+          269.6571789565496
+        ],
+        "full_rolling": [
+          1353.62906800583,
+          405.9055839898065
+        ],
+        "scanned": [
+          2175.9046720108017,
+          815.4954159981571
+        ],
+        "online": [
+          1073.2994470163248,
+          401.31536999251693
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Paris",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "5728b6a6ff5b5019007da536",
+        "5728b6a6ff5b5019007da534"
+      ],
+      "source": "Saint Denis",
+      "replacement": "Samuel Denis",
+      "gold": [
+        [
+          "Saint Denis"
+        ],
+        [
+          "Parisius"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "Saint Denis",
+          "Parisius"
+        ],
+        "text": [
+          "Samuel Denis",
+          "Parisius"
+        ],
+        "full_prompt": [
+          "Samt Denis",
+          "Parisius"
+        ],
+        "full_rolling": [
+          "Samuel Denis, the first Bishop of Paris.",
+          "Parisius"
+        ],
+        "scanned": [
+          "Samuel Denis, the first Bishop of Paris.",
+          "Parisius"
+        ],
+        "online": [
+          "Samuel Denis, the first Bishop of Paris.",
+          "Parisius"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          11,
+          3
+        ],
+        "scanned": [
+          11,
+          3
+        ],
+        "online": [
+          11,
+          3
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          3
+        ],
+        "text": [
+          4,
+          3
+        ],
+        "full_prompt": [
+          5,
+          4
+        ],
+        "full_rolling": [
+          22,
+          6
+        ],
+        "scanned": [
+          24,
+          8
+        ],
+        "online": [
+          23,
+          7
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          183.74114303151146,
+          183.4333169972524
+        ],
+        "text": [
+          244.2786570172757,
+          183.39987297076732
+        ],
+        "full_prompt": [
+          307.9308129963465,
+          245.91954896459356
+        ],
+        "full_rolling": [
+          1414.6525430260226,
+          369.8525960207917
+        ],
+        "scanned": [
+          1535.665281000547,
+          494.73637400660664
+        ],
+        "online": [
+          1473.8894770271145,
+          431.11071398016065
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Paris",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "5728b6a6ff5b5019007da536",
+        "5728b6a6ff5b5019007da534"
+      ],
+      "source": "Saint Denis",
+      "replacement": "Saint Samuel",
+      "gold": [
+        [
+          "Saint Denis"
+        ],
+        [
+          "Parisius"
+        ]
+      ],
+      "gold_step": 1,
+      "outputs": {
+        "clean": [
+          "Saint Denis",
+          "Parisius"
+        ],
+        "text": [
+          "Saint Samuel",
+          "Parisius"
+        ],
+        "full_prompt": [
+          "Saint Denis",
+          "Parisius"
+        ],
+        "full_rolling": [
+          "Saint Samuel",
+          "Parisius"
+        ],
+        "scanned": [
+          "Saint Samuel",
+          "Parisius"
+        ],
+        "online": [
+          "Saint Samuel",
+          "Parisius"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          3
+        ],
+        "scanned": [
+          1,
+          3
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          3
+        ],
+        "text": [
+          3,
+          3
+        ],
+        "full_prompt": [
+          4,
+          4
+        ],
+        "full_rolling": [
+          6,
+          6
+        ],
+        "scanned": [
+          8,
+          12
+        ],
+        "online": [
+          6,
+          6
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          183.65077098133042,
+          184.2165770358406
+        ],
+        "text": [
+          183.16302297171205,
+          183.76445799367502
+        ],
+        "full_prompt": [
+          245.16036396380514,
+          243.02017997251824
+        ],
+        "full_rolling": [
+          368.8202279736288,
+          370.2069279970601
+        ],
+        "scanned": [
+          496.11126497620717,
+          746.0608909605071
+        ],
+        "online": [
+          367.4541180371307,
+          367.3529999796301
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        1,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Political_corruption",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "56ea99270030b61400a34fcf",
+        "56ea99270030b61400a34fd1"
+      ],
+      "source": "Amartya Sen",
+      "replacement": "Samuel Sen",
+      "gold": [
+        [
+          "Amartya Sen"
+        ],
+        [
+          "drought"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "Amartya Sen",
+          "drought and other naturally occurring events"
+        ],
+        "text": [
+          "Samuel Sen",
+          "Drought and other naturally occurring events"
+        ],
+        "full_prompt": [
+          "Samuelson",
+          "Drought and other naturally occurring events"
+        ],
+        "full_rolling": [
+          "Samuel Sen",
+          "Drought and other naturally occurring events"
+        ],
+        "scanned": [
+          "Samuel Sen",
+          "Drought and other naturally occurring events"
+        ],
+        "online": [
+          "Samuel Sen",
+          "Drought and other naturally occurring events"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          4,
+          8
+        ],
+        "scanned": [
+          4,
+          8
+        ],
+        "online": [
+          4,
+          8
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          8
+        ],
+        "text": [
+          4,
+          8
+        ],
+        "full_prompt": [
+          5,
+          9
+        ],
+        "full_rolling": [
+          8,
+          16
+        ],
+        "scanned": [
+          10,
+          18
+        ],
+        "online": [
+          9,
+          17
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          224.3946030503139,
+          341.6351749910973
+        ],
+        "text": [
+          178.3120019827038,
+          333.89510499546304
+        ],
+        "full_prompt": [
+          223.86231902055442,
+          383.5582170286216
+        ],
+        "full_rolling": [
+          356.8388330168091,
+          678.1879080226645
+        ],
+        "scanned": [
+          448.60532705206424,
+          761.4263690193184
+        ],
+        "online": [
+          402.26591896498576,
+          717.6715930108912
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Political_corruption",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "56ea99270030b61400a34fcf",
+        "56ea99270030b61400a34fd1"
+      ],
+      "source": "Amartya Sen",
+      "replacement": "Amartya Samuel",
+      "gold": [
+        [
+          "Amartya Sen"
+        ],
+        [
+          "drought"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "Amartya Sen",
+          "drought and other naturally occurring events"
+        ],
+        "text": [
+          "Amartya Samuel",
+          "Drought and other naturally occurring events"
+        ],
+        "full_prompt": [
+          "Amartya Sen",
+          "drought and other naturally occurring events"
+        ],
+        "full_rolling": [
+          "Amartya Samuel",
+          "drought and other naturally occurring events"
+        ],
+        "scanned": [
+          "Amartya Samuel Sen",
+          "drought and other naturally occurring events"
+        ],
+        "online": [
+          "Amartya Samuel Sen",
+          "drought and other naturally occurring events"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          8
+        ],
+        "scanned": [
+          1,
+          8
+        ],
+        "online": [
+          1,
+          8
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          8
+        ],
+        "text": [
+          5,
+          8
+        ],
+        "full_prompt": [
+          6,
+          9
+        ],
+        "full_rolling": [
+          10,
+          16
+        ],
+        "scanned": [
+          15,
+          18
+        ],
+        "online": [
+          11,
+          17
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          223.6666270182468,
+          342.41030196426436
+        ],
+        "text": [
+          223.59386598691344,
+          342.0229249750264
+        ],
+        "full_prompt": [
+          269.15128203108907,
+          384.4115769607015
+        ],
+        "full_rolling": [
+          452.881706005428,
+          694.3548239651136
+        ],
+        "scanned": [
+          683.7564960005693,
+          780.1753479870968
+        ],
+        "online": [
+          491.50306900264695,
+          735.7650020276196
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Estonian_language",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "56e3a927e375b8140053a3df",
+        "56e3a927e375b8140053a3e0"
+      ],
+      "source": "Baltic Germans",
+      "replacement": "Samuel Germans",
+      "gold": [
+        [
+          "Baltic Germans"
+        ],
+        [
+          "Middle Low German"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "a sizeable burgher community of Baltic Germans",
+          "Middle Low German"
+        ],
+        "text": [
+          "Samuel Germans",
+          "Middle Low German"
+        ],
+        "full_prompt": [
+          "a sizeable burgher community of Baltic Germans",
+          "Middle Low German"
+        ],
+        "full_rolling": [
+          "a sizeable burgher community of Samuel Germans",
+          "Middle Low German"
+        ],
+        "scanned": [
+          "a sizeable burgher community of Samuel Germans",
+          "Middle Low German"
+        ],
+        "online": [
+          "a sizeable burgher community of Samuel Germans",
+          "Middle Low German"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          11,
+          4
+        ],
+        "scanned": [
+          11,
+          4
+        ],
+        "online": [
+          11,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          11,
+          4
+        ],
+        "text": [
+          4,
+          4
+        ],
+        "full_prompt": [
+          12,
+          5
+        ],
+        "full_rolling": [
+          22,
+          8
+        ],
+        "scanned": [
+          24,
+          16
+        ],
+        "online": [
+          23,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          546.7184880399145,
+          197.2920930129476
+        ],
+        "text": [
+          197.07775203278288,
+          197.18526100041345
+        ],
+        "full_prompt": [
+          598.142315982841,
+          248.0111499899067
+        ],
+        "full_rolling": [
+          1112.2109700227156,
+          399.45649000583217
+        ],
+        "scanned": [
+          1214.2221309477463,
+          808.7649670196697
+        ],
+        "online": [
+          1158.8387559750117,
+          392.69156102091074
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Estonian_language",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "56e3a927e375b8140053a3df",
+        "56e3a927e375b8140053a3e0"
+      ],
+      "source": "Baltic Germans",
+      "replacement": "Baltic Samuel",
+      "gold": [
+        [
+          "Baltic Germans"
+        ],
+        [
+          "Middle Low German"
+        ]
+      ],
+      "gold_step": 3,
+      "outputs": {
+        "clean": [
+          "a sizeable burgher community of Baltic Germans",
+          "Middle Low German"
+        ],
+        "text": [
+          "a sizeable burgher community of Baltic Samuel",
+          "Middle Low German"
+        ],
+        "full_prompt": [
+          "a sizeable burgher community of Baltic Germans",
+          "Middle Low German"
+        ],
+        "full_rolling": [
+          "a sizeable burgher community of Baltic Samuel",
+          "Middle Low German"
+        ],
+        "scanned": [
+          "a sizeable burgher community of Baltic Samuel",
+          "Middle Low German"
+        ],
+        "online": [
+          "a sizeable burgher community of Baltic Germans",
+          "Middle Low German"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          11,
+          4
+        ],
+        "scanned": [
+          11,
+          4
+        ],
+        "online": [
+          0,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          11,
+          4
+        ],
+        "text": [
+          11,
+          4
+        ],
+        "full_prompt": [
+          12,
+          5
+        ],
+        "full_rolling": [
+          22,
+          8
+        ],
+        "scanned": [
+          34,
+          16
+        ],
+        "online": [
+          17,
+          8
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          546.8902220018208,
+          196.6561699518934
+        ],
+        "text": [
+          546.9502840423957,
+          196.9863249687478
+        ],
+        "full_prompt": [
+          598.404643998947,
+          247.69923702115193
+        ],
+        "full_rolling": [
+          1111.0880129854195,
+          399.50131095247343
+        ],
+        "scanned": [
+          1721.4029289898463,
+          807.2128639905713
+        ],
+        "online": [
+          840.9572109812871,
+          392.5093809957616
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "United_States_presidential_election,_2004",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "5728cd4f3acd2414000dfedb",
+        "5728cd4f3acd2414000dfedd"
+      ],
+      "source": "New Hampshire",
+      "replacement": "Samuel Hampshire",
+      "gold": [
+        [
+          "New Hampshire"
+        ],
+        [
+          "the smallest ever"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "New Hampshire",
+          "34"
+        ],
+        "text": [
+          "Samuel Hampshire",
+          "34"
+        ],
+        "full_prompt": [
+          "New Hampshire",
+          "34"
+        ],
+        "full_rolling": [
+          "New Mexico and Iowa",
+          "34"
+        ],
+        "scanned": [
+          "New Mexico and Iowa",
+          "34"
+        ],
+        "online": [
+          "New Mexico and Iowa",
+          "34"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          5,
+          3
+        ],
+        "scanned": [
+          5,
+          3
+        ],
+        "online": [
+          5,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          3
+        ],
+        "text": [
+          4,
+          3
+        ],
+        "full_prompt": [
+          4,
+          4
+        ],
+        "full_rolling": [
+          10,
+          6
+        ],
+        "scanned": [
+          12,
+          12
+        ],
+        "online": [
+          11,
+          6
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          200.81871905131266,
+          200.78181801363826
+        ],
+        "text": [
+          267.95955799752846,
+          201.2663289788179
+        ],
+        "full_prompt": [
+          268.6947279726155,
+          268.36783601902425
+        ],
+        "full_rolling": [
+          676.0229209903628,
+          405.21559602348134
+        ],
+        "scanned": [
+          810.8431689906865,
+          816.9896370382048
+        ],
+        "online": [
+          741.3663520128466,
+          400.6506389705464
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "United_States_presidential_election,_2004",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "5728cd4f3acd2414000dfedb",
+        "5728cd4f3acd2414000dfedd"
+      ],
+      "source": "New Hampshire",
+      "replacement": "New Samuel",
+      "gold": [
+        [
+          "New Hampshire"
+        ],
+        [
+          "the smallest ever"
+        ]
+      ],
+      "gold_step": 1,
+      "outputs": {
+        "clean": [
+          "New Hampshire",
+          "34"
+        ],
+        "text": [
+          "New Samuel",
+          "34"
+        ],
+        "full_prompt": [
+          "New Hampshire",
+          "34"
+        ],
+        "full_rolling": [
+          "New Samuel",
+          "34"
+        ],
+        "scanned": [
+          "New Samuel",
+          "34"
+        ],
+        "online": [
+          "New Samuel",
+          "34"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          3
+        ],
+        "scanned": [
+          1,
+          3
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          3,
+          3
+        ],
+        "text": [
+          3,
+          3
+        ],
+        "full_prompt": [
+          4,
+          4
+        ],
+        "full_rolling": [
+          6,
+          6
+        ],
+        "scanned": [
+          8,
+          12
+        ],
+        "online": [
+          6,
+          6
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          200.8769540116191,
+          200.34200098598376
+        ],
+        "text": [
+          200.55048301583156,
+          200.83400997100398
+        ],
+        "full_prompt": [
+          269.09407397033647,
+          269.1663930309005
+        ],
+        "full_rolling": [
+          404.5300810248591,
+          404.3968460173346
+        ],
+        "scanned": [
+          541.6329019935802,
+          814.4743280136026
+        ],
+        "online": [
+          401.708587014582,
+          400.6519499816932
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        1,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Korean_War",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "57260903ec44d21400f3d816",
+        "57260903ec44d21400f3d814"
+      ],
+      "source": "United States",
+      "replacement": "Samuel States",
+      "gold": [
+        [
+          "United States"
+        ],
+        [
+          "North Korea invaded South Korea"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "The United Nations, with United States as the principal force.",
+          "North Korea invaded South Korea."
+        ],
+        "text": [
+          "The United Nations",
+          "North Korea invaded South Korea."
+        ],
+        "full_prompt": [
+          "The United Nations, with United States as the principal force.",
+          "North Korea invaded South Korea."
+        ],
+        "full_rolling": [
+          "The United Nations, with Samuel States as the principal force.",
+          "North Korea invaded South Korea."
+        ],
+        "scanned": [
+          "The United Nations, with United States as the principal force.",
+          "North Korea invaded South Korea."
+        ],
+        "online": [
+          "The United Nations, with United States as the principal force.",
+          "North Korea invaded South Korea."
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          13,
+          7
+        ],
+        "scanned": [
+          1,
+          7
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          13,
+          7
+        ],
+        "text": [
+          4,
+          7
+        ],
+        "full_prompt": [
+          14,
+          8
+        ],
+        "full_rolling": [
+          26,
+          14
+        ],
+        "scanned": [
+          22,
+          26
+        ],
+        "online": [
+          18,
+          13
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          980.012291984167,
+          526.9151880056597
+        ],
+        "text": [
+          300.6321470020339,
+          527.4008190026507
+        ],
+        "full_prompt": [
+          1058.718674001284,
+          603.4601959981956
+        ],
+        "full_rolling": [
+          1974.660548963584,
+          1061.3684530253522
+        ],
+        "scanned": [
+          1669.3031690083444,
+          1985.217745997943
+        ],
+        "online": [
+          1357.2983389603905,
+          976.2874159496278
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        0
+      ]
+    },
+    {
+      "article": "Korean_War",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "57260903ec44d21400f3d816",
+        "57260903ec44d21400f3d814"
+      ],
+      "source": "United States",
+      "replacement": "United Samuel",
+      "gold": [
+        [
+          "United States"
+        ],
+        [
+          "North Korea invaded South Korea"
+        ]
+      ],
+      "gold_step": 1,
+      "outputs": {
+        "clean": [
+          "The United Nations, with United States as the principal force.",
+          "North Korea invaded South Korea."
+        ],
+        "text": [
+          "The United Nations",
+          "North Korea invaded South Korea."
+        ],
+        "full_prompt": [
+          "The United Nations, with United States as the principal force",
+          "North Korea invaded South Korea."
+        ],
+        "full_rolling": [
+          "The United Nations, with United Samuel as the principal force.",
+          "North Korea invaded South Korea."
+        ],
+        "scanned": [
+          "The United Nations, with United States as the principal force.",
+          "North Korea invaded South Korea."
+        ],
+        "online": [
+          "The United Nations, with United States as the principal force.",
+          "North Korea invaded South Korea."
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          13,
+          7
+        ],
+        "scanned": [
+          1,
+          7
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          13,
+          7
+        ],
+        "text": [
+          4,
+          7
+        ],
+        "full_prompt": [
+          13,
+          8
+        ],
+        "full_rolling": [
+          26,
+          14
+        ],
+        "scanned": [
+          22,
+          26
+        ],
+        "online": [
+          18,
+          13
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          981.5737489843741,
+          526.6573620028794
+        ],
+        "text": [
+          301.31073197117075,
+          526.3234390295111
+        ],
+        "full_prompt": [
+          982.9860120080411,
+          603.5393849597313
+        ],
+        "full_rolling": [
+          1976.615320018027,
+          1061.1214769887738
+        ],
+        "scanned": [
+          1669.180586002767,
+          1978.8478839909658
+        ],
+        "online": [
+          1355.663583963178,
+          975.9077579947188
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        3,
+        0
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Montana",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "57340a0dd058e614000b6852",
+        "57340a0dd058e614000b6851"
+      ],
+      "source": "Granite Peak",
+      "replacement": "Samuel Peak",
+      "gold": [
+        [
+          "Granite Peak"
+        ],
+        [
+          "over 10,000 feet"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "Granite Peak",
+          "10,000 feet (3,000 m"
+        ],
+        "text": [
+          "Samuel Peak",
+          "10,000 feet (3,000 m"
+        ],
+        "full_prompt": [
+          "Samuel Peak",
+          "10,000 feet (3,000 m"
+        ],
+        "full_rolling": [
+          "Samuel Peak",
+          "10,000 feet (3,000 m"
+        ],
+        "scanned": [
+          "Samuel Peak",
+          "10,000 feet (3,000 m"
+        ],
+        "online": [
+          "Samuel Peak",
+          "10,000 feet (3,000 m"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          4,
+          14
+        ],
+        "scanned": [
+          4,
+          14
+        ],
+        "online": [
+          4,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          4,
+          14
+        ],
+        "text": [
+          4,
+          14
+        ],
+        "full_prompt": [
+          5,
+          15
+        ],
+        "full_rolling": [
+          8,
+          28
+        ],
+        "scanned": [
+          10,
+          40
+        ],
+        "online": [
+          9,
+          20
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          271.3816150208004,
+          955.344685993623
+        ],
+        "text": [
+          271.0965300211683,
+          954.8917869688012
+        ],
+        "full_prompt": [
+          340.18938802182674,
+          1025.65979299834
+        ],
+        "full_rolling": [
+          547.3801289917901,
+          1927.6124400203116
+        ],
+        "scanned": [
+          685.8879009960219,
+          2757.65537598636
+        ],
+        "online": [
+          616.3517410168424,
+          1364.0442279865965
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Montana",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "57340a0dd058e614000b6852",
+        "57340a0dd058e614000b6851"
+      ],
+      "source": "Granite Peak",
+      "replacement": "Granite Samuel",
+      "gold": [
+        [
+          "Granite Peak"
+        ],
+        [
+          "over 10,000 feet"
+        ]
+      ],
+      "gold_step": 2,
+      "outputs": {
+        "clean": [
+          "Granite Peak",
+          "10,000 feet (3,000 m"
+        ],
+        "text": [
+          "Granite Samuel",
+          "10,000 feet (3,000 m"
+        ],
+        "full_prompt": [
+          "Granite Peak",
+          "10,000 feet (3,000 m"
+        ],
+        "full_rolling": [
+          "Granite Samuel",
+          "10,000 feet (3,000 m"
+        ],
+        "scanned": [
+          "Granite Samuel",
+          "10,000 feet (3,000 m"
+        ],
+        "online": [
+          "Granite Samuel",
+          "10,000 feet (3,000 m"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          4,
+          14
+        ],
+        "scanned": [
+          1,
+          1
+        ],
+        "online": [
+          1,
+          0
+        ]
+      },
+      "forwards": {
+        "clean": [
+          4,
+          14
+        ],
+        "text": [
+          4,
+          14
+        ],
+        "full_prompt": [
+          5,
+          15
+        ],
+        "full_rolling": [
+          8,
+          28
+        ],
+        "scanned": [
+          11,
+          27
+        ],
+        "online": [
+          8,
+          20
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          271.19813597528264,
+          955.7403869694099
+        ],
+        "text": [
+          271.4894589735195,
+          956.1494900262915
+        ],
+        "full_prompt": [
+          340.6542430166155,
+          1027.1496449713595
+        ],
+        "full_rolling": [
+          547.8759509860538,
+          1931.0874629882164
+        ],
+        "scanned": [
+          754.545709991362,
+          1858.123413985595
+        ],
+        "online": [
+          543.845149979461,
+          1360.9230740112253
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        2,
+        1
+      ]
+    }
+  ],
+  [
+    {
+      "article": "Philosophy_of_space_and_time",
+      "kind": "name",
+      "edit_position": "early",
+      "qids": [
+        "572a36f06aef05140015538a",
+        "572a36f06aef05140015538b"
+      ],
+      "source": "Tim Maudlin",
+      "replacement": "Samuel Maudlin",
+      "gold": [
+        [
+          "Tim Maudlin"
+        ],
+        [
+          "intrinsic"
+        ]
+      ],
+      "gold_step": 0,
+      "outputs": {
+        "clean": [
+          "Tim Maudlin",
+          "an intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "text": [
+          "Samuel Maudlin",
+          "intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "full_prompt": [
+          "Samuel Maudlin",
+          "an intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "full_rolling": [
+          "Samuel Maudlin",
+          "an intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "scanned": [
+          "Samuel Maudlin",
+          "an intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "online": [
+          "Samuel Maudlin",
+          "an intrinsic asymmetry in the temporal structure of the world"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          6,
+          12
+        ],
+        "scanned": [
+          6,
+          12
+        ],
+        "online": [
+          6,
+          12
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          12
+        ],
+        "text": [
+          6,
+          12
+        ],
+        "full_prompt": [
+          7,
+          13
+        ],
+        "full_rolling": [
+          12,
+          24
+        ],
+        "scanned": [
+          14,
+          26
+        ],
+        "online": [
+          13,
+          25
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          336.79258497431874,
+          816.4792229654267
+        ],
+        "text": [
+          404.5303580351174,
+          816.7187239741907
+        ],
+        "full_prompt": [
+          474.13914697244763,
+          886.4086630055681
+        ],
+        "full_rolling": [
+          815.8606760553084,
+          1646.6882639797404
+        ],
+        "scanned": [
+          953.3735690056346,
+          1784.266064001713
+        ],
+        "online": [
+          884.3321659951471,
+          1713.8431580387987
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        0,
+        0
+      ]
+    },
+    {
+      "article": "Philosophy_of_space_and_time",
+      "kind": "name",
+      "edit_position": "late",
+      "qids": [
+        "572a36f06aef05140015538a",
+        "572a36f06aef05140015538b"
+      ],
+      "source": "Tim Maudlin",
+      "replacement": "Tim Samuel",
+      "gold": [
+        [
+          "Tim Maudlin"
+        ],
+        [
+          "intrinsic"
+        ]
+      ],
+      "gold_step": 1,
+      "outputs": {
+        "clean": [
+          "Tim Maudlin",
+          "an intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "text": [
+          "Tim Samuel",
+          "intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "full_prompt": [
+          "Tim Maudlin",
+          "intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "full_rolling": [
+          "Tim Samuel",
+          "intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "scanned": [
+          "Tim Samuel Maudlin",
+          "intrinsic asymmetry in the temporal structure of the world"
+        ],
+        "online": [
+          "Tim Samuel Maudlin",
+          "intrinsic asymmetry in the temporal structure of the world"
+        ]
+      },
+      "counts": {
+        "clean": [
+          0,
+          0
+        ],
+        "text": [
+          0,
+          0
+        ],
+        "full_prompt": [
+          1,
+          1
+        ],
+        "full_rolling": [
+          3,
+          12
+        ],
+        "scanned": [
+          1,
+          12
+        ],
+        "online": [
+          1,
+          12
+        ]
+      },
+      "forwards": {
+        "clean": [
+          5,
+          12
+        ],
+        "text": [
+          3,
+          12
+        ],
+        "full_prompt": [
+          6,
+          13
+        ],
+        "full_rolling": [
+          6,
+          24
+        ],
+        "scanned": [
+          11,
+          26
+        ],
+        "online": [
+          9,
+          25
+        ]
+      },
+      "milliseconds": {
+        "clean": [
+          336.4979639882222,
+          815.4600490233861
+        ],
+        "text": [
+          201.05674298247322,
+          813.439287012443
+        ],
+        "full_prompt": [
+          404.0931079653092,
+          884.6465009846725
+        ],
+        "full_rolling": [
+          403.88304903171957,
+          1630.8040309813805
+        ],
+        "scanned": [
+          746.8482429976575,
+          1769.715873990208
+        ],
+        "online": [
+          607.5738060171716,
+          1701.0062389890663
+        ]
+      },
+      "interaction": [],
+      "steps": [
+        1,
+        0
+      ]
+    }
+  ]
+]

@@ -1,0 +1,28 @@
+{
+  "dataset_sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+  "seed": 16611,
+  "dev": [],
+  "test": [
+    "Slavs",
+    "Queen_(band)",
+    "British_Isles",
+    "Oklahoma_City",
+    "Antibiotics",
+    "A_cappella",
+    "Vacuum",
+    "Pope_Paul_VI",
+    "Buddhism",
+    "New_Delhi",
+    "Genocide",
+    "Police",
+    "Spectre_(2015_film)",
+    "Paris",
+    "Political_corruption",
+    "Estonian_language",
+    "United_States_presidential_election,_2004",
+    "Korean_War",
+    "Montana",
+    "Philosophy_of_space_and_time"
+  ],
+  "model": "Qwen_Qwen3.5-4B-Q4_K_M.gguf"
+}

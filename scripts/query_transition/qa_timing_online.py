@@ -9,7 +9,7 @@ from time import perf_counter
 import numpy as np
 
 from natural import save_json
-from qa_subset import ALL, SubsetProbe, fresh_cases, normalized, prompt
+from qa_subset import ALL, SubsetProbe, fresh_cases, prompt
 from qa_timing import divergent_context, generate, summarize
 
 
@@ -170,14 +170,23 @@ def record_case(model, case, rng):
 
 
 def report(pairs):
-    comparisons = [("online","full_rolling"),("scanned","full_rolling"),("online","scanned")]
+    comparisons = [("online","full_rolling"),("scanned","full_rolling"),("online","scanned"),
+                   ("single_at_disagreement","full_prompt")]
     cells = {}
     for position,which in (("early",0),("late",1)):
         for kind in ("numeric","name"):
             rows = [pair[which] for pair in pairs if pair[which]["kind"]==kind]
             if not rows:
                 continue
-            scored = summarize(rows,comparisons)
+            # Scanned generation uses one position on delayed queries, and
+            # at a zero step the single-position arm is the prompt arm.
+            replayed = []
+            for row in rows:
+                selected = [row["outputs"]["scanned" if step else "full_prompt"][query]
+                            for query,step in enumerate(row["steps"])]
+                outputs = dict(row["outputs"],single_at_disagreement=selected)
+                replayed.append(dict(row,outputs=outputs))
+            scored = summarize(replayed,comparisons)
             scored["cost"] = {
                 metric:{name:sum(sum(r[metric][name]) for r in rows)
                         for name in ("scanned","online","full_rolling")}
@@ -185,11 +194,33 @@ def report(pairs):
             }
             cells[f"{kind}_{position}"] = scored
     rows = [row for pair in pairs for row in pair]
-    return dict(articles=len(pairs),cells=cells,patched_position_forwards_wall_ms={
-        metric:{name:sum(sum(r[metric][name]) for r in rows)
-                for name in ("scanned","online","full_rolling")}
-        for metric in ("counts","forwards","milliseconds")
-    })
+    baseline = "full_rolling"
+    methods = ("scanned","online",baseline)
+    sample = np.random.default_rng(57640).integers(len(pairs),size=(5000,len(pairs)))
+    total_cost, comparisons = {}, {}
+    for metric in ("counts","forwards","milliseconds"):
+        cost = {name:np.array([sum(sum(r[metric][name]) for r in pair) for pair in pairs])
+                for name in methods}
+        total_cost[metric] = {name:float(values.sum()) for name,values in cost.items()}
+        reference = cost[baseline]
+        comparisons[metric] = {}
+        for name in methods[:2]:
+            values = cost[name]
+            ratios = values[sample].sum(1)/reference[sample].sum(1)
+            comparisons[metric][name] = dict(
+                ratio=float(values.sum()/reference.sum()),
+                article_bootstrap95=np.quantile(ratios,[.025,.975]).tolist(),
+            )
+    same_output = {
+        name:sum(answer==reference
+                 for row in rows
+                 for answer,reference in zip(row["outputs"][name],row["outputs"][baseline]))
+        for name in methods[:2]
+    }
+    return dict(articles=len(pairs),cells=cells,patched_position_forwards_wall_ms=total_cost,
+                cost_relative_to_every_step=comparisons,
+                exact_query_answer_agreement_with_every_step=same_output,
+                query_generations=2*len(rows))
 
 
 def main():
