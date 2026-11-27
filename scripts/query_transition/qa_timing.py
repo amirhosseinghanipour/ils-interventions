@@ -144,24 +144,29 @@ def generate(model, base, donor, sites, timing, selected_step=0):
 
 
 def measure(model, row, frozen):
-    a,b = (tuple(map(tuple,frozen[key])) for key in ("group_a","group_b"))
-    panels = dict(subset=a+b, group_a=a, group_b=b,
-                  greedy=tuple(map(tuple,frozen["greedy"])), query_agnostic=tuple(map(tuple,frozen["query_agnostic"])))
-    panels.update({f"random{i}":tuple(map(tuple,sites)) for i,sites in enumerate(frozen["random"])})
+    panels = {}
+    if frozen is not None:
+        a,b = (tuple(map(tuple,frozen[key])) for key in ("group_a","group_b"))
+        panels = dict(subset=a+b, group_a=a, group_b=b,
+                      greedy=tuple(map(tuple,frozen["greedy"])),
+                      query_agnostic=tuple(map(tuple,frozen["query_agnostic"])))
+        panels.update({f"random{i}":tuple(map(tuple,sites)) for i,sites in enumerate(frozen["random"])})
     base, donor = row.pop("ids")
     outputs, counts, steps, interactions = {}, {}, [], []
     for recipient, source in zip(base,donor):
         context = divergent_context(model,recipient,source)
         step = context[-2]
         steps.append(step)
-        score = distribution_scores(model,context,[(),a,b,a+b])
-        interactions.append((score[3] - score[1] - score[2] + score[0]).tolist())
+        if frozen is not None:
+            score = distribution_scores(model,context,[(),a,b,a+b])
+            interactions.append((score[3] - score[1] - score[2] + score[0]).tolist())
         calls = dict(clean=(recipient,source,(),"none",0),text=(source,source,(),"none",0),
                      full_prompt=(recipient,source,ALL,"fixed",0),
                      full_delayed=(recipient,source,ALL,"fixed",step),
                      full_rolling=(recipient,source,ALL,"rolling",0))
         calls.update({name:(recipient,source,sites,"fixed",step) for name,sites in panels.items()})
-        calls["subset_rolling"] = (recipient,source,a+b,"rolling",0)
+        if frozen is not None:
+            calls["subset_rolling"] = (recipient,source,a+b,"rolling",0)
         for name, call in calls.items():
             answer,n = generate(model,*call)
             outputs.setdefault(name,[]).append(answer)
@@ -194,11 +199,14 @@ def summarize(rows):
     if eligible:
         for arm, control in [("full_delayed","full_prompt"),("full_rolling","full_prompt"),
                              ("subset","greedy"),("subset","query_agnostic"),("subset","random_mean")]:
+            if arm not in outcomes:
+                continue
             baseline = (np.mean([y for name,y in outcomes.items() if name.startswith("random")],axis=0)
                         if control=="random_mean" else outcomes[control])
             result["paired"][f"{arm}-minus-{control}"] = interval(outcomes[arm]-baseline)
-    result["differential_interaction_donor_gain"] = interval(
-        np.array([r["interaction"][0][0]-r["interaction"][1][0] for r in rows]))
+    if rows[0]["interaction"]:
+        result["differential_interaction_donor_gain"] = interval(
+            np.array([r["interaction"][0][0]-r["interaction"][1][0] for r in rows]))
     result["timing"] = dict(step_histogram=np.bincount([n for r in rows for n in r["steps"]]).tolist(),
                             relevant_delayed=sum(r["steps"][0]>0 for r in rows))
     return result
@@ -208,6 +216,9 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     for name in ("library","model","dataset","original_dev","pilot_rows","out"):
         p.add_argument(name,type=Path)
+    p.add_argument("--timing-only",action="store_true")
+    p.add_argument("--exclude-rows",type=Path)
+    p.add_argument("--test-seed",type=int,default=981344)
     p.add_argument("--dev-per-kind",type=int,default=5)
     p.add_argument("--test-per-kind",type=int,default=16)
     args = p.parse_args()
@@ -216,19 +227,25 @@ def main():
     articles = {r["title"]:r for r in json.loads(data)["data"]}
     excluded = {r["title"] for r in json.loads(args.original_dev.read_text())["data"]}
     excluded |= {r["article"] for r in json.loads(args.pilot_rows.read_text())}
+    if args.exclude_rows:
+        prior = json.loads(args.exclude_rows.read_text())
+        excluded |= set(prior["dev"]) | set(prior["test"])
     model = SubsetProbe(args.library,args.model)
-    dev = draw(articles,excluded,model,args.dev_per_kind,76113)
-    frozen_file = args.out/"frozen.json"
-    if frozen_file.exists():
-        frozen = json.loads(frozen_file.read_text())
-        assert frozen["articles"] == [r["article"] for r in dev]
-    else:
-        frozen = discover(model,dev,np.random.default_rng(94842))
-        save_json(frozen_file,frozen)
-    print("Frozen",flush=True)
-    test = draw(articles,excluded,model,args.test_per_kind,981344)
+    frozen, development = None, []
+    if not args.timing_only:
+        dev = draw(articles,excluded,model,args.dev_per_kind,76113)
+        development = [r["article"] for r in dev]
+        frozen_file = args.out/"frozen.json"
+        if frozen_file.exists():
+            frozen = json.loads(frozen_file.read_text())
+            assert frozen["articles"] == development
+        else:
+            frozen = discover(model,dev,np.random.default_rng(94842))
+            save_json(frozen_file,frozen)
+        print("Frozen",flush=True)
+    test = draw(articles,excluded,model,args.test_per_kind,args.test_seed)
     save_json(args.out/"provenance.json", dict(dataset_sha256=hashlib.sha256(data).hexdigest(),
-                  dev=frozen["articles"],test=[r["article"] for r in test]))
+                  dev=development,test=[r["article"] for r in test]))
     output = args.out/"rows.json"
     rows = json.loads(output.read_text()) if output.exists() else []
     assert [r["qids"] for r in rows] == [r["qids"] for r in test[:len(rows)]]

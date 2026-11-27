@@ -1,0 +1,4738 @@
+[
+  {
+    "article": "Treaty",
+    "kind": "numeric",
+    "qids": [
+      "56f7f36daef2371900625cbb",
+      "56f7f36daef2371900625cba"
+    ],
+    "source": "2008",
+    "replacement": "2006",
+    "gold": [
+      [
+        "2008"
+      ],
+      [
+        "same hierarchical position"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "text": [
+        "2006",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "full_prompt": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "full_delayed": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "full_rolling": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "subset": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "group_a": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "group_b": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "greedy": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "query_agnostic": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "random0": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "random1": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "random2": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ],
+      "subset_rolling": [
+        "2008",
+        "The same hierarchical position as ordinary legislation"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        8
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        8
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.7782136810554618,
+        0.002525753780895265
+      ],
+      [
+        -0.0003077903740733853,
+        -0.00035306395196398185
+      ]
+    ]
+  },
+  {
+    "article": "Paper",
+    "kind": "numeric",
+    "qids": [
+      "56e7691537bdd419002c3f70",
+      "56e7691537bdd419002c3f6d"
+    ],
+    "source": "31",
+    "replacement": "33",
+    "gold": [
+      [
+        "31"
+      ],
+      [
+        "40%"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "31",
+        "40%"
+      ],
+      "text": [
+        "33",
+        "40%"
+      ],
+      "full_prompt": [
+        "31",
+        "40%"
+      ],
+      "full_delayed": [
+        "33",
+        "40%"
+      ],
+      "full_rolling": [
+        "33",
+        "40%"
+      ],
+      "subset": [
+        "31",
+        "40%"
+      ],
+      "group_a": [
+        "31",
+        "40%"
+      ],
+      "group_b": [
+        "31",
+        "40%"
+      ],
+      "greedy": [
+        "31",
+        "40%"
+      ],
+      "query_agnostic": [
+        "31",
+        "40%"
+      ],
+      "random0": [
+        "31",
+        "40%"
+      ],
+      "random1": [
+        "31",
+        "40%"
+      ],
+      "random2": [
+        "31",
+        "40%"
+      ],
+      "subset_rolling": [
+        "31",
+        "40%"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        4
+      ]
+    },
+    "steps": [
+      1,
+      2
+    ],
+    "interaction": [
+      [
+        0.9467258445233515,
+        0.0006395225750876067
+      ],
+      [
+        0.00138450148560687,
+        -0.0002517911427229831
+      ]
+    ]
+  },
+  {
+    "article": "North_Carolina",
+    "kind": "numeric",
+    "qids": [
+      "57276b0a708984140094dd2f",
+      "57276b0a708984140094dd2b"
+    ],
+    "source": "30",
+    "replacement": "32",
+    "gold": [
+      [
+        "30"
+      ],
+      [
+        "The Appalachian Mountains"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "text": [
+        "32",
+        "The Appalachian Mountains"
+      ],
+      "full_prompt": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "full_delayed": [
+        "32",
+        "The Appalachian Mountains"
+      ],
+      "full_rolling": [
+        "32",
+        "The Appalachian Mountains"
+      ],
+      "subset": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "group_a": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "group_b": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "greedy": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "query_agnostic": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "random0": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "random1": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "random2": [
+        "30",
+        "The Appalachian Mountains"
+      ],
+      "subset_rolling": [
+        "30",
+        "The Appalachian Mountains"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        4
+      ]
+    },
+    "steps": [
+      1,
+      0
+    ],
+    "interaction": [
+      [
+        0.42560875413710697,
+        0.019604736710871516
+      ],
+      [
+        0.004705932546342822,
+        -0.00041430716955057637
+      ]
+    ]
+  },
+  {
+    "article": "Wayback_Machine",
+    "kind": "numeric",
+    "qids": [
+      "56ddbae166d3e219004dacaf",
+      "56ddbae166d3e219004dacb0"
+    ],
+    "source": "1996",
+    "replacement": "1998",
+    "gold": [
+      [
+        "1996"
+      ],
+      [
+        "crawlers"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1996",
+        "crawlers"
+      ],
+      "text": [
+        "1998",
+        "crawlers"
+      ],
+      "full_prompt": [
+        "1996",
+        "crawlers"
+      ],
+      "full_delayed": [
+        "1998",
+        "crawlers"
+      ],
+      "full_rolling": [
+        "1998",
+        "crawlers"
+      ],
+      "subset": [
+        "1996",
+        "crawlers"
+      ],
+      "group_a": [
+        "1996",
+        "crawlers"
+      ],
+      "group_b": [
+        "1996",
+        "crawlers"
+      ],
+      "greedy": [
+        "1996",
+        "crawlers"
+      ],
+      "query_agnostic": [
+        "1996",
+        "crawlers"
+      ],
+      "random0": [
+        "1996",
+        "crawlers"
+      ],
+      "random1": [
+        "1996",
+        "crawlers"
+      ],
+      "random2": [
+        "1996",
+        "crawlers"
+      ],
+      "subset_rolling": [
+        "1996",
+        "crawlers"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        4
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.49041499127523647,
+        0.0024248454650694046
+      ],
+      [
+        -3.717511174624878e-05,
+        -0.0003407939504525229
+      ]
+    ]
+  },
+  {
+    "article": "Raleigh,_North_Carolina",
+    "kind": "numeric",
+    "qids": [
+      "5726abb3dd62a815002e8c7e",
+      "5726abb3dd62a815002e8c7a"
+    ],
+    "source": "1959",
+    "replacement": "1957",
+    "gold": [
+      [
+        "1959"
+      ],
+      [
+        "North Carolina State University"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "text": [
+        "1957",
+        "North Carolina State University"
+      ],
+      "full_prompt": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "full_delayed": [
+        "1957",
+        "North Carolina State University"
+      ],
+      "full_rolling": [
+        "1957",
+        "North Carolina State University"
+      ],
+      "subset": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "group_a": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "group_b": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "greedy": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "query_agnostic": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "random0": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "random1": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "random2": [
+        "1959",
+        "North Carolina State University"
+      ],
+      "subset_rolling": [
+        "1959",
+        "North Carolina State University"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        5
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.3582867061487507,
+        0.0011677402807138274
+      ],
+      [
+        0.005647383793703876,
+        -0.000254769890821077
+      ]
+    ]
+  },
+  {
+    "article": "Arena_Football_League",
+    "kind": "numeric",
+    "qids": [
+      "56e67802de9d371400067ea2",
+      "56e67802de9d371400067ea3"
+    ],
+    "source": "1987",
+    "replacement": "1989",
+    "gold": [
+      [
+        "1987"
+      ],
+      [
+        "indoors"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1987",
+        "indoors"
+      ],
+      "text": [
+        "1989",
+        "indoors"
+      ],
+      "full_prompt": [
+        "1987",
+        "indoors"
+      ],
+      "full_delayed": [
+        "1987",
+        "indoors"
+      ],
+      "full_rolling": [
+        "1987",
+        "indoors"
+      ],
+      "subset": [
+        "1987",
+        "indoors"
+      ],
+      "group_a": [
+        "1987",
+        "indoors"
+      ],
+      "group_b": [
+        "1987",
+        "indoors"
+      ],
+      "greedy": [
+        "1987",
+        "indoors"
+      ],
+      "query_agnostic": [
+        "1987",
+        "indoors"
+      ],
+      "random0": [
+        "1987",
+        "indoors"
+      ],
+      "random1": [
+        "1987",
+        "indoors"
+      ],
+      "random2": [
+        "1987",
+        "indoors"
+      ],
+      "subset_rolling": [
+        "1987",
+        "indoors"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        3
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.8527103042201167,
+        3.964799196703672e-05
+      ],
+      [
+        -0.00027006884091682195,
+        0.00013542381209305087
+      ]
+    ]
+  },
+  {
+    "article": "England_national_football_team",
+    "kind": "numeric",
+    "qids": [
+      "570887a4efce8f15003a7da6",
+      "570887a4efce8f15003a7da7"
+    ],
+    "source": "1189",
+    "replacement": "1187",
+    "gold": [
+      [
+        "1189"
+      ],
+      [
+        "lions"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1189",
+        "lions"
+      ],
+      "text": [
+        "1187",
+        "lions"
+      ],
+      "full_prompt": [
+        "1189",
+        "lions"
+      ],
+      "full_delayed": [
+        "1189",
+        "lions"
+      ],
+      "full_rolling": [
+        "1189",
+        "lions"
+      ],
+      "subset": [
+        "1189",
+        "lions"
+      ],
+      "group_a": [
+        "1189",
+        "lions"
+      ],
+      "group_b": [
+        "1189",
+        "lions"
+      ],
+      "greedy": [
+        "1189",
+        "lions"
+      ],
+      "query_agnostic": [
+        "1189",
+        "lions"
+      ],
+      "random0": [
+        "1189",
+        "lions"
+      ],
+      "random1": [
+        "1189",
+        "lions"
+      ],
+      "random2": [
+        "1189",
+        "lions"
+      ],
+      "subset_rolling": [
+        "1189",
+        "lions"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        3
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.1202767006047214,
+        9.852237668897046e-05
+      ],
+      [
+        -0.0018628139948118523,
+        -0.0007693089321794372
+      ]
+    ]
+  },
+  {
+    "article": "Post-punk",
+    "kind": "numeric",
+    "qids": [
+      "572f5b9da23a5019007fc595",
+      "572e83e003f9891900756702"
+    ],
+    "source": "1978",
+    "replacement": "1976",
+    "gold": [
+      [
+        "1978"
+      ],
+      [
+        "experimenting"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "text": [
+        "In January 1976",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "full_prompt": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "full_delayed": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "full_rolling": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "subset": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "group_a": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "group_b": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "greedy": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "query_agnostic": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "random0": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "random1": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "random2": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ],
+      "subset_rolling": [
+        "In January 1978",
+        "Wire began experimenting with sounds, lyrics and aesthetics that differed significantly from their"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        8,
+        14
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        8,
+        14
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        -0.006881997811137681,
+        -0.0003139762343742806
+      ],
+      [
+        -0.0004695222453557518,
+        -0.0002800256725636557
+      ]
+    ]
+  },
+  {
+    "article": "Punjab,_Pakistan",
+    "kind": "numeric",
+    "qids": [
+      "5733f93e4776f41900661601",
+      "5733f93e4776f41900661602"
+    ],
+    "source": "48",
+    "replacement": "46",
+    "gold": [
+      [
+        "48"
+      ],
+      [
+        "a Provincial Minister (Politician) and a Provincial Secretary"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "48",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "text": [
+        "46",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "full_prompt": [
+        "48",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "full_delayed": [
+        "46",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "full_rolling": [
+        "46",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "subset": [
+        "46",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "group_a": [
+        "48",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "group_b": [
+        "48",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "greedy": [
+        "46",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "query_agnostic": [
+        "46",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "random0": [
+        "48",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "random1": [
+        "48",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "random2": [
+        "48",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ],
+      "subset_rolling": [
+        "46",
+        "A Provincial Minister (Politician) and a Provincial Secretary (A civil"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        14
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        14
+      ]
+    },
+    "steps": [
+      1,
+      0
+    ],
+    "interaction": [
+      [
+        -0.3417998743321582,
+        0.40233273114690954
+      ],
+      [
+        0.0008135418118109406,
+        -0.0005916498445190851
+      ]
+    ]
+  },
+  {
+    "article": "Valencia",
+    "kind": "numeric",
+    "qids": [
+      "570d2095b3d812140066d460",
+      "570d2095b3d812140066d45d"
+    ],
+    "source": "800",
+    "replacement": "802",
+    "gold": [
+      [
+        "800"
+      ],
+      [
+        "Germaine of Foix"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "text": [
+        "802",
+        "The vicereine Germaine of Foix"
+      ],
+      "full_prompt": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "full_delayed": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "full_rolling": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "subset": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "group_a": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "group_b": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "greedy": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "query_agnostic": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "random0": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "random1": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "random2": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ],
+      "subset_rolling": [
+        "800",
+        "The vicereine Germaine of Foix"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        11
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        4,
+        11
+      ]
+    },
+    "steps": [
+      2,
+      0
+    ],
+    "interaction": [
+      [
+        0.31899967431646337,
+        8.2180384609525e-06
+      ],
+      [
+        0.0002987180286160598,
+        1.2268723245860911e-05
+      ]
+    ]
+  },
+  {
+    "article": "Hellenistic_period",
+    "kind": "numeric",
+    "qids": [
+      "5725c1b9ec44d21400f3d4de",
+      "5725c1b9ec44d21400f3d4dd"
+    ],
+    "source": "307",
+    "replacement": "309",
+    "gold": [
+      [
+        "307"
+      ],
+      [
+        "Demetrius"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "In 307",
+        "Demetrius"
+      ],
+      "text": [
+        "In 309",
+        "Demetrius"
+      ],
+      "full_prompt": [
+        "In 307",
+        "Demetrius"
+      ],
+      "full_delayed": [
+        "In 307",
+        "Demetrius"
+      ],
+      "full_rolling": [
+        "In 307",
+        "Demetrius"
+      ],
+      "subset": [
+        "In 307",
+        "Demetrius"
+      ],
+      "group_a": [
+        "In 307",
+        "Demetrius"
+      ],
+      "group_b": [
+        "In 307",
+        "Demetrius"
+      ],
+      "greedy": [
+        "In 307",
+        "Demetrius"
+      ],
+      "query_agnostic": [
+        "In 307",
+        "Demetrius"
+      ],
+      "random0": [
+        "In 307",
+        "Demetrius"
+      ],
+      "random1": [
+        "In 307",
+        "Demetrius"
+      ],
+      "random2": [
+        "In 307",
+        "Demetrius"
+      ],
+      "subset_rolling": [
+        "In 307",
+        "Demetrius"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        6,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        6,
+        4
+      ]
+    },
+    "steps": [
+      4,
+      0
+    ],
+    "interaction": [
+      [
+        0.4012791942396836,
+        9.66351895371745e-05
+      ],
+      [
+        7.81477963805018e-05,
+        -3.665743690040666e-05
+      ]
+    ]
+  },
+  {
+    "article": "United_States_Army",
+    "kind": "numeric",
+    "qids": [
+      "570d2929b3d812140066d4ad",
+      "570d2929b3d812140066d4af"
+    ],
+    "source": "1959",
+    "replacement": "1957",
+    "gold": [
+      [
+        "1959"
+      ],
+      [
+        "communist"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "text": [
+        "1957",
+        "Republic of Vietnam"
+      ],
+      "full_prompt": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "full_delayed": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "full_rolling": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "subset": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "group_a": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "group_b": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "greedy": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "query_agnostic": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "random0": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "random1": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "random2": [
+        "1959",
+        "Republic of Vietnam"
+      ],
+      "subset_rolling": [
+        "1959",
+        "Republic of Vietnam"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        4
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.6584693849906014,
+        0.022807316475785724
+      ],
+      [
+        0.0003580180561791558,
+        -4.155608741719515e-05
+      ]
+    ]
+  },
+  {
+    "article": "Kanye_West",
+    "kind": "numeric",
+    "qids": [
+      "56cf4da7aab44d1400b88f86",
+      "56d0f35817492d1400aab693"
+    ],
+    "source": "1977",
+    "replacement": "1979",
+    "gold": [
+      [
+        "1977"
+      ],
+      [
+        "hip hop"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1977",
+        "hip hop"
+      ],
+      "text": [
+        "1979",
+        "hip hop"
+      ],
+      "full_prompt": [
+        "1977",
+        "hip hop"
+      ],
+      "full_delayed": [
+        "1977",
+        "hip hop"
+      ],
+      "full_rolling": [
+        "1977",
+        "hip hop"
+      ],
+      "subset": [
+        "1977",
+        "hip hop"
+      ],
+      "group_a": [
+        "1977",
+        "hip hop"
+      ],
+      "group_b": [
+        "1977",
+        "hip hop"
+      ],
+      "greedy": [
+        "1977",
+        "hip hop"
+      ],
+      "query_agnostic": [
+        "1977",
+        "hip hop"
+      ],
+      "random0": [
+        "1977",
+        "hip hop"
+      ],
+      "random1": [
+        "1977",
+        "hip hop"
+      ],
+      "random2": [
+        "1977",
+        "hip hop"
+      ],
+      "subset_rolling": [
+        "1977",
+        "hip hop"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        3
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.6149629107489725,
+        0.0002874655432358295
+      ],
+      [
+        0.0005462357100270059,
+        -7.731269073147051e-05
+      ]
+    ]
+  },
+  {
+    "article": "Near_East",
+    "kind": "numeric",
+    "qids": [
+      "56f8da749b226e1400dd10f1",
+      "56f8da749b226e1400dd10f0"
+    ],
+    "source": "1914",
+    "replacement": "1916",
+    "gold": [
+      [
+        "1914"
+      ],
+      [
+        "the Ottoman Empire"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "By 1914",
+        "The Ottoman Empire"
+      ],
+      "text": [
+        "By 1916",
+        "The Ottoman Empire"
+      ],
+      "full_prompt": [
+        "By 1914",
+        "Ottoman Empire"
+      ],
+      "full_delayed": [
+        "By 1916",
+        "Ottoman Empire"
+      ],
+      "full_rolling": [
+        "By 1916",
+        "Ottoman Empire"
+      ],
+      "subset": [
+        "By 1914",
+        "The Ottoman Empire"
+      ],
+      "group_a": [
+        "By 1914",
+        "Ottoman Empire"
+      ],
+      "group_b": [
+        "By 1914",
+        "The Ottoman Empire"
+      ],
+      "greedy": [
+        "By 1914",
+        "The Ottoman Empire"
+      ],
+      "query_agnostic": [
+        "By 1914",
+        "The Ottoman Empire"
+      ],
+      "random0": [
+        "By 1914",
+        "Ottoman Empire"
+      ],
+      "random1": [
+        "By 1914",
+        "Ottoman Empire"
+      ],
+      "random2": [
+        "By 1914",
+        "Ottoman Empire"
+      ],
+      "subset_rolling": [
+        "By 1914",
+        "The Ottoman Empire"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        7,
+        5
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        7,
+        4
+      ]
+    },
+    "steps": [
+      5,
+      0
+    ],
+    "interaction": [
+      [
+        1.0328219540537464,
+        0.015910584030403976
+      ],
+      [
+        2.117529217732403e-05,
+        -0.00016853532699598732
+      ]
+    ]
+  },
+  {
+    "article": "Federal_Bureau_of_Investigation",
+    "kind": "numeric",
+    "qids": [
+      "570c24bcec8fbc190045bc93",
+      "570c24bcec8fbc190045bc92"
+    ],
+    "source": "1991",
+    "replacement": "1993",
+    "gold": [
+      [
+        "1991"
+      ],
+      [
+        "Clarksburg, West Virginia"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "text": [
+        "1993",
+        "Clarksburg, West Virginia"
+      ],
+      "full_prompt": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "full_delayed": [
+        "1993",
+        "Clarksburg, West Virginia"
+      ],
+      "full_rolling": [
+        "1993",
+        "Clarksburg, West Virginia"
+      ],
+      "subset": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "group_a": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "group_b": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "greedy": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "query_agnostic": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "random0": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "random1": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "random2": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ],
+      "subset_rolling": [
+        "1991",
+        "Clarksburg, West Virginia"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        7
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        7
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        0.19761498399580635,
+        0.024247962242019236
+      ],
+      [
+        -7.285210044201801e-05,
+        -4.463426229399929e-05
+      ]
+    ]
+  },
+  {
+    "article": "Arsenal_F.C.",
+    "kind": "numeric",
+    "qids": [
+      "5725b97c271a42140099d0b5",
+      "5725c8caec44d21400f3d56d"
+    ],
+    "source": "1893",
+    "replacement": "1895",
+    "gold": [
+      [
+        "1893"
+      ],
+      [
+        "Arsenal"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1893",
+        "Arsenal"
+      ],
+      "text": [
+        "1895",
+        "Arsenal"
+      ],
+      "full_prompt": [
+        "1893",
+        "Arsenal"
+      ],
+      "full_delayed": [
+        "1893",
+        "Arsenal"
+      ],
+      "full_rolling": [
+        "1893",
+        "Arsenal"
+      ],
+      "subset": [
+        "1893",
+        "Arsenal"
+      ],
+      "group_a": [
+        "1893",
+        "Arsenal"
+      ],
+      "group_b": [
+        "1893",
+        "Arsenal"
+      ],
+      "greedy": [
+        "1893",
+        "Arsenal"
+      ],
+      "query_agnostic": [
+        "1893",
+        "Arsenal"
+      ],
+      "random0": [
+        "1893",
+        "Arsenal"
+      ],
+      "random1": [
+        "1893",
+        "Arsenal"
+      ],
+      "random2": [
+        "1893",
+        "Arsenal"
+      ],
+      "subset_rolling": [
+        "1893",
+        "Arsenal"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        3
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": [
+      [
+        1.25077959726823,
+        0.1258179491801868
+      ],
+      [
+        0.00048451235336201216,
+        -0.00010796118216557366
+      ]
+    ]
+  },
+  {
+    "article": "Queen_Victoria",
+    "kind": "name",
+    "qids": [
+      "5722c9db0dadf01500fa1ee9",
+      "5722c9db0dadf01500fa1eea"
+    ],
+    "source": "Prince Albert",
+    "replacement": "Martin Albert",
+    "gold": [
+      [
+        "Prince Albert"
+      ],
+      [
+        "the grandmother of Europe"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "text": [
+        "Martin Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "full_prompt": [
+        "Martin",
+        "the grandmother of Europe"
+      ],
+      "full_delayed": [
+        "Martin",
+        "the grandmother of Europe"
+      ],
+      "full_rolling": [
+        "Martin Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "subset": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "group_a": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "group_b": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "greedy": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "query_agnostic": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "random0": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "random1": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "random2": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ],
+      "subset_rolling": [
+        "Prince Albert of Saxe-Coburg and Gotha",
+        "the grandmother of Europe"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        12,
+        5
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        12,
+        5
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.45889886557628046,
+        0.010434463058305319
+      ],
+      [
+        0.0062906551500212715,
+        -0.0007116320487416278
+      ]
+    ]
+  },
+  {
+    "article": "Grape",
+    "kind": "name",
+    "qids": [
+      "5709720ded30961900e84165",
+      "5709720ded30961900e84163"
+    ],
+    "source": "Thompson Seedless",
+    "replacement": "Martin Seedless",
+    "gold": [
+      [
+        "Thompson Seedless"
+      ],
+      [
+        "fermented"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "text": [
+        "Martin Seedless",
+        "None."
+      ],
+      "full_prompt": [
+        "Martin Thompson Seedless",
+        "None."
+      ],
+      "full_delayed": [
+        "Martin Thompson Seedless",
+        "None."
+      ],
+      "full_rolling": [
+        "Martin Seedless",
+        "None."
+      ],
+      "subset": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "group_a": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "group_b": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "greedy": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "query_agnostic": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "random0": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "random1": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "random2": [
+        "Thompson Seedless",
+        "None."
+      ],
+      "subset_rolling": [
+        "Thompson Seedless",
+        "None."
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        4,
+        3
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.3455228661284546,
+        0.022465549005136292
+      ],
+      [
+        -0.003670003843596017,
+        -0.00027548791994490523
+      ]
+    ]
+  },
+  {
+    "article": "New_Haven,_Connecticut",
+    "kind": "name",
+    "qids": [
+      "57293d9e1d046914007791cf",
+      "572642ea89a1e219009ac623"
+    ],
+    "source": "New York",
+    "replacement": "Martin York",
+    "gold": [
+      [
+        "New York"
+      ],
+      [
+        "Bridgeport"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "text": [
+        "Martin York metropolitan area",
+        "Bridgeport"
+      ],
+      "full_prompt": [
+        "Martinique",
+        "Bridgeport"
+      ],
+      "full_delayed": [
+        "Martinique",
+        "Bridgeport"
+      ],
+      "full_rolling": [
+        "Martin York",
+        "Bridgeport"
+      ],
+      "subset": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "group_a": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "group_b": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "greedy": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "query_agnostic": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "random0": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "random1": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "random2": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ],
+      "subset_rolling": [
+        "New York metropolitan area",
+        "Bridgeport"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        3
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        -0.02780765223500603,
+        -0.003369731543204504
+      ],
+      [
+        -0.0001350359997297092,
+        -1.4831046809622577e-05
+      ]
+    ]
+  },
+  {
+    "article": "Printed_circuit_board",
+    "kind": "name",
+    "qids": [
+      "572f9d1db2c2fd1400568262",
+      "572f9d1db2c2fd140056825f"
+    ],
+    "source": "General Electric",
+    "replacement": "Martin Electric",
+    "gold": [
+      [
+        "General Electric"
+      ],
+      [
+        "traces"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "General Electric",
+        "traces"
+      ],
+      "text": [
+        "Martin Electric",
+        "traces"
+      ],
+      "full_prompt": [
+        "Martin",
+        "traces"
+      ],
+      "full_delayed": [
+        "Martin",
+        "traces"
+      ],
+      "full_rolling": [
+        "Martin Electric",
+        "traces"
+      ],
+      "subset": [
+        "General Electric",
+        "traces"
+      ],
+      "group_a": [
+        "General Electric",
+        "traces"
+      ],
+      "group_b": [
+        "General Electric",
+        "traces"
+      ],
+      "greedy": [
+        "General Electric",
+        "traces"
+      ],
+      "query_agnostic": [
+        "General Electric",
+        "traces"
+      ],
+      "random0": [
+        "General Electric",
+        "traces"
+      ],
+      "random1": [
+        "General Electric",
+        "traces"
+      ],
+      "random2": [
+        "General Electric",
+        "traces"
+      ],
+      "subset_rolling": [
+        "General Electric",
+        "traces"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        3
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        -0.054143297288741676,
+        0.012033639790140908
+      ],
+      [
+        -0.0019550604987229347,
+        0.00019960423733588273
+      ]
+    ]
+  },
+  {
+    "article": "Yale_University",
+    "kind": "name",
+    "qids": [
+      "57268eb6708984140094ca0c",
+      "57268eb6708984140094ca0d"
+    ],
+    "source": "Yale Corporation",
+    "replacement": "Martin Corporation",
+    "gold": [
+      [
+        "Yale Corporation"
+      ],
+      [
+        "downtown New Haven"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "text": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "full_prompt": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "full_delayed": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "full_rolling": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "subset": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "group_a": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "group_b": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "greedy": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "query_agnostic": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "random0": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "random1": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "random2": [
+        "each school's faculty",
+        "downtown New Haven"
+      ],
+      "subset_rolling": [
+        "each school's faculty",
+        "downtown New Haven"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        5
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.0017101831817391455,
+        -1.1919410635316703e-05
+      ],
+      [
+        0.0015389960126180513,
+        -0.0003252023263902576
+      ]
+    ]
+  },
+  {
+    "article": "God",
+    "kind": "name",
+    "qids": [
+      "572bfa9ef182dd1900d7c7a2",
+      "572839b44b864d190016479a"
+    ],
+    "source": "Codex Argenteus",
+    "replacement": "Martin Argenteus",
+    "gold": [
+      [
+        "Codex Argenteus"
+      ],
+      [
+        "the Proto-Germanic * \u01e5u\u0111an"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "text": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "full_prompt": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "full_delayed": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "full_rolling": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "subset": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "group_a": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "group_b": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "greedy": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "query_agnostic": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "random0": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "random1": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "random2": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ],
+      "subset_rolling": [
+        "The reconstructed Proto-Indo-European form * \u01f5hu-t",
+        "The English word itself is derived from the Proto-Germanic *\ufffd"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        14,
+        14
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        14,
+        14
+      ]
+    },
+    "steps": [
+      1,
+      0
+    ],
+    "interaction": [
+      [
+        -0.0039041259842067374,
+        0.0025618188839393527
+      ],
+      [
+        0.0011455607007213502,
+        -0.0006363987200760654
+      ]
+    ]
+  },
+  {
+    "article": "Chihuahua_(state)",
+    "kind": "name",
+    "qids": [
+      "5707070890286e26004fc806",
+      "5707070890286e26004fc805"
+    ],
+    "source": "Rio Grande",
+    "replacement": "Martin Grande",
+    "gold": [
+      [
+        "Rio Grande"
+      ],
+      [
+        "Jornado"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "text": [
+        "Martin Grande",
+        "Jornado"
+      ],
+      "full_prompt": [
+        "Martin",
+        "Jornado"
+      ],
+      "full_delayed": [
+        "Martin",
+        "Jornado"
+      ],
+      "full_rolling": [
+        "Martin Grande",
+        "Jornado"
+      ],
+      "subset": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "group_a": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "group_b": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "greedy": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "query_agnostic": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "random0": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "random1": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "random2": [
+        "Rio Grande",
+        "Jornado"
+      ],
+      "subset_rolling": [
+        "Rio Grande",
+        "Jornado"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        3
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.38144908161044644,
+        0.048195399746462995
+      ],
+      [
+        5.5618259441694265e-05,
+        -1.5708889349886344e-07
+      ]
+    ]
+  },
+  {
+    "article": "George_VI",
+    "kind": "name",
+    "qids": [
+      "572815fbff5b5019007d9ccd",
+      "572815fbff5b5019007d9ccc"
+    ],
+    "source": "Lionel Logue",
+    "replacement": "Martin Logue",
+    "gold": [
+      [
+        "Lionel Logue"
+      ],
+      [
+        "his stammer"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "text": [
+        "Martin Logue",
+        "Because of his stammer."
+      ],
+      "full_prompt": [
+        "Martin Logue",
+        "Because of his stammer."
+      ],
+      "full_delayed": [
+        "Martin Logue",
+        "Because of his stammer."
+      ],
+      "full_rolling": [
+        "Martin Logue",
+        "Because of his stammer."
+      ],
+      "subset": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "group_a": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "group_b": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "greedy": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "query_agnostic": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "random0": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "random1": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "random2": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ],
+      "subset_rolling": [
+        "Lionel Logue",
+        "Because of his stammer."
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        7
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        6,
+        7
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.23107245835654333,
+        0.01740092546387102
+      ],
+      [
+        -0.00012293725419093685,
+        -1.988169987557274e-05
+      ]
+    ]
+  },
+  {
+    "article": "Mosaic",
+    "kind": "name",
+    "qids": [
+      "57313ec3497a881900248cc9",
+      "57313ec3497a881900248cc5"
+    ],
+    "source": "North Africa",
+    "replacement": "Martin Africa",
+    "gold": [
+      [
+        "North Africa"
+      ],
+      [
+        "paintings"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "North Africa",
+        "paintings"
+      ],
+      "text": [
+        "Martin Africa",
+        "paintings"
+      ],
+      "full_prompt": [
+        "North Africa",
+        "paintings"
+      ],
+      "full_delayed": [
+        "North Africa",
+        "paintings"
+      ],
+      "full_rolling": [
+        "North Africa",
+        "paintings"
+      ],
+      "subset": [
+        "North Africa",
+        "paintings"
+      ],
+      "group_a": [
+        "North Africa",
+        "paintings"
+      ],
+      "group_b": [
+        "North Africa",
+        "paintings"
+      ],
+      "greedy": [
+        "North Africa",
+        "paintings"
+      ],
+      "query_agnostic": [
+        "North Africa",
+        "paintings"
+      ],
+      "random0": [
+        "North Africa",
+        "paintings"
+      ],
+      "random1": [
+        "North Africa",
+        "paintings"
+      ],
+      "random2": [
+        "North Africa",
+        "paintings"
+      ],
+      "subset_rolling": [
+        "North Africa",
+        "paintings"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        3
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        3
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.013784153946381106,
+        0.012714489907967159
+      ],
+      [
+        0.00028161075204636296,
+        -5.388283339704735e-05
+      ]
+    ]
+  },
+  {
+    "article": "Montevideo",
+    "kind": "name",
+    "qids": [
+      "5725b711271a42140099d083",
+      "5725b711271a42140099d081"
+    ],
+    "source": "Jorge Burgues",
+    "replacement": "Martin Burgues",
+    "gold": [
+      [
+        "Jorge Burgues"
+      ],
+      [
+        "Bruno Mauricio de Zabala"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "text": [
+        "Martin Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "full_prompt": [
+        "Martin Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "full_delayed": [
+        "Martin Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "full_rolling": [
+        "Martin Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "subset": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "group_a": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "group_b": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "greedy": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "query_agnostic": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "random0": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "random1": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "random2": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ],
+      "subset_rolling": [
+        "Jorge Burgues",
+        "Bruno Mauricio de Zabala"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        7
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        7
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.1490819283373872,
+        0.08699115367149972
+      ],
+      [
+        1.917782087312928e-05,
+        1.997797892563975e-05
+      ]
+    ]
+  },
+  {
+    "article": "Glass",
+    "kind": "name",
+    "qids": [
+      "572947c3af94a219006aa24b",
+      "572947c3af94a219006aa247"
+    ],
+    "source": "Roman Empire",
+    "replacement": "Martin Empire",
+    "gold": [
+      [
+        "Roman Empire"
+      ],
+      [
+        "Louis Comfort Tiffany"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "text": [
+        "The passage does not name a specific early civilization that made cameo glass;",
+        "Louis Comfort Tiffany"
+      ],
+      "full_prompt": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "full_delayed": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "full_rolling": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "subset": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "group_a": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "group_b": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "greedy": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "query_agnostic": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "random0": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "random1": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "random2": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ],
+      "subset_rolling": [
+        "Roman Empire",
+        "Louis Comfort Tiffany"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        4
+      ]
+    },
+    "steps": [
+      0,
+      3
+    ],
+    "interaction": [
+      [
+        0.14945180213574583,
+        0.0024438541080396897
+      ],
+      [
+        3.619605784340572e-05,
+        3.955119367068784e-06
+      ]
+    ]
+  },
+  {
+    "article": "Dog",
+    "kind": "name",
+    "qids": [
+      "56d4d4b82ccc5a1400d8327f",
+      "56d4d4b82ccc5a1400d8327c"
+    ],
+    "source": "English Mastiff",
+    "replacement": "Martin Mastiff",
+    "gold": [
+      [
+        "English Mastiff"
+      ],
+      [
+        "height and weight."
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "text": [
+        "Martin Mastiff",
+        "height and weight"
+      ],
+      "full_prompt": [
+        "Martin",
+        "height and weight"
+      ],
+      "full_delayed": [
+        "Martin",
+        "height and weight"
+      ],
+      "full_rolling": [
+        "Martin Mastiff",
+        "height and weight"
+      ],
+      "subset": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "group_a": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "group_b": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "greedy": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "query_agnostic": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "random0": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "random1": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "random2": [
+        "English Mastiff",
+        "height and weight"
+      ],
+      "subset_rolling": [
+        "English Mastiff",
+        "height and weight"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        4,
+        4
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.2708157023906622,
+        0.008318234971719006
+      ],
+      [
+        0.0033975688322798354,
+        -0.00010566767565509111
+      ]
+    ]
+  },
+  {
+    "article": "Roman_Republic",
+    "kind": "name",
+    "qids": [
+      "572fd2b4b2c2fd14005684b6",
+      "572fd2b4b2c2fd14005684b3"
+    ],
+    "source": "The Romans",
+    "replacement": "Martin Romans",
+    "gold": [
+      [
+        "The Romans"
+      ],
+      [
+        "naval battles"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "text": [
+        "Martin Romans",
+        "The first few naval battles"
+      ],
+      "full_prompt": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "full_delayed": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "full_rolling": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "subset": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "group_a": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "group_b": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "greedy": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "query_agnostic": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "random0": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "random1": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "random2": [
+        "The Romans",
+        "The first few naval battles"
+      ],
+      "subset_rolling": [
+        "The Romans",
+        "The first few naval battles"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        6
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        3,
+        6
+      ]
+    },
+    "steps": [
+      0,
+      1
+    ],
+    "interaction": [
+      [
+        -0.04264867229476166,
+        0.003992101278518636
+      ],
+      [
+        0.0004836420377438725,
+        -1.647943529936995e-05
+      ]
+    ]
+  },
+  {
+    "article": "Genome",
+    "kind": "name",
+    "qids": [
+      "56dc54a514d3a41400c267c5",
+      "56dc54a514d3a41400c267c8"
+    ],
+    "source": "Hans Winkler",
+    "replacement": "Martin Winkler",
+    "gold": [
+      [
+        "Hans Winkler"
+      ],
+      [
+        "biome, rhizome"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "text": [
+        "Martin Winkler",
+        "gene and chromosome"
+      ],
+      "full_prompt": [
+        "Martinus Willem Beijerinck",
+        "gene and chromosome"
+      ],
+      "full_delayed": [
+        "Martinus Willem Beijerinck",
+        "gene and chromosome"
+      ],
+      "full_rolling": [
+        "Martin Winkler",
+        "gene and chromosome"
+      ],
+      "subset": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "group_a": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "group_b": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "greedy": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "query_agnostic": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "random0": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "random1": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "random2": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ],
+      "subset_rolling": [
+        "Hans Winkler",
+        "gene and chromosome"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        6,
+        4
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.08100490242237601,
+        0.1845186383992576
+      ],
+      [
+        -0.0007102360308912476,
+        0.0001995726202050943
+      ]
+    ]
+  },
+  {
+    "article": "Muammar_Gaddafi",
+    "kind": "name",
+    "qids": [
+      "57316c55a5e9cc1400cdbf47",
+      "572e8035cb0c0d14000f11e0"
+    ],
+    "source": "Abdessalam Bouminyar",
+    "replacement": "Martin Bouminyar",
+    "gold": [
+      [
+        "Abdessalam Bouminyar"
+      ],
+      [
+        "British and French forces"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "text": [
+        "Martin Bouminyar",
+        "Britain and France"
+      ],
+      "full_prompt": [
+        "Martin Bouminyar",
+        "Britain and France"
+      ],
+      "full_delayed": [
+        "Martin Bouminyar",
+        "Britain and France"
+      ],
+      "full_rolling": [
+        "Martin Bouminyar",
+        "Britain and France"
+      ],
+      "subset": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "group_a": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "group_b": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "greedy": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "query_agnostic": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "random0": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "random1": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "random2": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ],
+      "subset_rolling": [
+        "Abdessalam Bouminyar",
+        "Britain and France"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        7,
+        4
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.5362960662332695,
+        0.005051260661797616
+      ],
+      [
+        -0.002450394209830675,
+        -0.0008201089837611166
+      ]
+    ]
+  },
+  {
+    "article": "Saint_Helena",
+    "kind": "name",
+    "qids": [
+      "56e02e807aa994140058e304",
+      "56e02e807aa994140058e303"
+    ],
+    "source": "Oliver Cromwell",
+    "replacement": "Martin Cromwell",
+    "gold": [
+      [
+        "Oliver Cromwell"
+      ],
+      [
+        "the English East India Company"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Oliver Cromwell",
+        "Oliver Cromwell"
+      ],
+      "text": [
+        "Martin Cromwell",
+        "Martin Cromwell"
+      ],
+      "full_prompt": [
+        "Martin, Oliver Cromwell",
+        "Martin, Oliver Cromwell granted the English East India Company a charter to"
+      ],
+      "full_delayed": [
+        "Martin, Oliver Cromwell",
+        "Martin, Oliver Cromwell granted the English East India Company a charter to"
+      ],
+      "full_rolling": [
+        "Martin Cromwell",
+        "Martin Cromwell"
+      ],
+      "subset": [
+        "Oliver Cromwell",
+        "The English East India Company"
+      ],
+      "group_a": [
+        "Oliver Cromwell",
+        "The English East India Company"
+      ],
+      "group_b": [
+        "Oliver Cromwell",
+        "Oliver Cromwell"
+      ],
+      "greedy": [
+        "Oliver Cromwell",
+        "The English East India Company"
+      ],
+      "query_agnostic": [
+        "Oliver Cromwell",
+        "The English East India Company"
+      ],
+      "random0": [
+        "Oliver Cromwell",
+        "Oliver Cromwell"
+      ],
+      "random1": [
+        "Oliver Cromwell",
+        "Oliver Cromwell"
+      ],
+      "random2": [
+        "Oliver Cromwell",
+        "Oliver Cromwell"
+      ],
+      "subset_rolling": [
+        "Oliver Cromwell",
+        "The English East India Company"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        4
+      ],
+      "subset": [
+        1,
+        1
+      ],
+      "group_a": [
+        1,
+        1
+      ],
+      "group_b": [
+        1,
+        1
+      ],
+      "greedy": [
+        1,
+        1
+      ],
+      "query_agnostic": [
+        1,
+        1
+      ],
+      "random0": [
+        1,
+        1
+      ],
+      "random1": [
+        1,
+        1
+      ],
+      "random2": [
+        1,
+        1
+      ],
+      "subset_rolling": [
+        5,
+        6
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": [
+      [
+        0.2838045551315942,
+        0.38162047567681445
+      ],
+      [
+        0.2964600438734458,
+        0.2116611229026793
+      ]
+    ]
+  }
+]
