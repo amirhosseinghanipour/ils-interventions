@@ -126,9 +126,9 @@ def discover(model, cases, rng):
                 selective_dev_score=float(selective(measured)[chosen]))
 
 
-def fresh_cases(articles, excluded, model, limit):
-    """Replace uniquely occurring numbers in disjoint articles with a same-format value."""
-    rng = np.random.default_rng(242911)
+def fresh_cases(articles, excluded, model, limit, *, seed=242911, edit_answer=None):
+    """Sample distinct articles with a unique literal answer span and a deterministic edit."""
+    rng = np.random.default_rng(seed)
     candidates = sorted(set(articles) - excluded)
     kept = []
     for title in rng.permutation(candidates):
@@ -140,15 +140,19 @@ def fresh_cases(articles, excluded, model, limit):
                 if len(spans) != 1:
                     continue
                 span = next(iter(spans))
-                if not re.fullmatch(r"[1-9][0-9]{0,3}", span):
-                    continue
-                match = list(re.finditer(r"(?<!\w)" + span + r"(?!\w)", source))
+                if edit_answer is None:
+                    if not re.fullmatch(r"[1-9][0-9]{0,3}", span):
+                        continue
+                    number = int(span)
+                    altered = str(number + (1 if number % 10 < 9 else -1))
+                else:
+                    altered = edit_answer(span)
+                    if altered is None:
+                        continue
+                match = list(re.finditer(r"(?<!\w)" + re.escape(span) + r"(?!\w)", source))
                 if len(match) != 1:
                     continue
-                number = int(span)
-                change = 1 if number % 10 < 9 else -1
-                altered = str(number + change)
-                if len(altered) != len(span) or re.search(r"(?<!\w)"+altered+r"(?!\w)", source):
+                if re.search(r"(?<!\w)"+re.escape(altered)+r"(?!\w)", source, re.IGNORECASE):
                     continue
                 edited = source[:match[0].start()] + altered + source[match[0].end():]
                 for irrelevant in para["qas"]:
@@ -157,7 +161,8 @@ def fresh_cases(articles, excluded, model, limit):
                     other = truth(irrelevant)
                     if any(span in answer or altered in answer for answer in other):
                         continue
-                    if re.search(r"\b(?:"+span+"|"+altered+r")\b", relevant["question"] + " " + irrelevant["question"]):
+                    if re.search(r"\b(?:"+re.escape(span)+"|"+re.escape(altered)+r")\b",
+                                 relevant["question"] + " " + irrelevant["question"], re.IGNORECASE):
                         continue
                     # Avoid paired arithmetic/numeric questions that may share the edited fact.
                     if re.search(r"\b(?:how many|how much|when|year|percent|number)\b", irrelevant["question"], re.I):
