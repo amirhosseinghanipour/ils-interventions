@@ -1,0 +1,1291 @@
+{
+  "sampled": 36,
+  "late_matched_articles": 21,
+  "numeric_articles": 24,
+  "selected_matches_gold": 21,
+  "patched_positions": {
+    "hybrid": 277,
+    "full_rolling": 388,
+    "disagreement": 72
+  },
+  "overall": {
+    "clean": {
+      "joint": {
+        "successes": 0,
+        "n": 24,
+        "rate": 0.0,
+        "wilson95": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 36,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.09641862859446367
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 24,
+        "rate": 0.0,
+        "wilson95": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 8,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.32440756488388023
+          ]
+        }
+      }
+    },
+    "prompt": {
+      "joint": {
+        "successes": 3,
+        "n": 24,
+        "rate": 0.125,
+        "wilson95": [
+          0.04344334080123444,
+          0.31003881270500067
+        ]
+      },
+      "all_articles": {
+        "successes": 3,
+        "n": 36,
+        "rate": 0.08333333333333333,
+        "wilson95": [
+          0.02874861133599338,
+          0.2182669124927263
+        ]
+      },
+      "switch": {
+        "successes": 3,
+        "n": 24,
+        "rate": 0.125,
+        "wilson95": [
+          0.04344334080123444,
+          0.31003881270500067
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 3,
+          "n": 8,
+          "rate": 0.375,
+          "wilson95": [
+            0.13684428582359742,
+            0.6942576053973727
+          ]
+        }
+      }
+    },
+    "previous": {
+      "joint": {
+        "successes": 3,
+        "n": 24,
+        "rate": 0.125,
+        "wilson95": [
+          0.04344334080123444,
+          0.31003881270500067
+        ]
+      },
+      "all_articles": {
+        "successes": 3,
+        "n": 36,
+        "rate": 0.08333333333333333,
+        "wilson95": [
+          0.02874861133599338,
+          0.2182669124927263
+        ]
+      },
+      "switch": {
+        "successes": 3,
+        "n": 24,
+        "rate": 0.125,
+        "wilson95": [
+          0.04344334080123444,
+          0.31003881270500067
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 3,
+          "n": 8,
+          "rate": 0.375,
+          "wilson95": [
+            0.13684428582359742,
+            0.6942576053973727
+          ]
+        }
+      }
+    },
+    "disagreement": {
+      "joint": {
+        "successes": 4,
+        "n": 24,
+        "rate": 0.16666666666666666,
+        "wilson95": [
+          0.06678676328632951,
+          0.3585307064969906
+        ]
+      },
+      "all_articles": {
+        "successes": 4,
+        "n": 36,
+        "rate": 0.1111111111111111,
+        "wilson95": [
+          0.04406640300315648,
+          0.25314808590364857
+        ]
+      },
+      "switch": {
+        "successes": 4,
+        "n": 24,
+        "rate": 0.16666666666666666,
+        "wilson95": [
+          0.06678676328632951,
+          0.3585307064969906
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 3,
+          "n": 8,
+          "rate": 0.375,
+          "wilson95": [
+            0.13684428582359742,
+            0.6942576053973727
+          ]
+        }
+      }
+    },
+    "next": {
+      "joint": {
+        "successes": 0,
+        "n": 24,
+        "rate": 0.0,
+        "wilson95": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 36,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.09641862859446367
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 24,
+        "rate": 0.0,
+        "wilson95": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 8,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.32440756488388023
+          ]
+        }
+      }
+    },
+    "self": {
+      "joint": {
+        "successes": 0,
+        "n": 24,
+        "rate": 0.0,
+        "wilson95": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 36,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.09641862859446367
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 24,
+        "rate": 0.0,
+        "wilson95": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 8,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.32440756488388023
+          ]
+        }
+      }
+    },
+    "gold_prefix": {
+      "joint": {
+        "successes": 4,
+        "n": 24,
+        "rate": 0.16666666666666666,
+        "wilson95": [
+          0.06678676328632951,
+          0.3585307064969906
+        ]
+      },
+      "all_articles": {
+        "successes": 4,
+        "n": 36,
+        "rate": 0.1111111111111111,
+        "wilson95": [
+          0.04406640300315648,
+          0.25314808590364857
+        ]
+      },
+      "switch": {
+        "successes": 4,
+        "n": 24,
+        "rate": 0.16666666666666666,
+        "wilson95": [
+          0.06678676328632951,
+          0.3585307064969906
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 3,
+          "n": 8,
+          "rate": 0.375,
+          "wilson95": [
+            0.13684428582359742,
+            0.6942576053973727
+          ]
+        }
+      }
+    },
+    "full_rolling": {
+      "joint": {
+        "successes": 5,
+        "n": 24,
+        "rate": 0.20833333333333334,
+        "wilson95": [
+          0.09244825352851857,
+          0.40470453253188665
+        ]
+      },
+      "all_articles": {
+        "successes": 5,
+        "n": 36,
+        "rate": 0.1388888888888889,
+        "wilson95": [
+          0.06081815009132838,
+          0.286595303893562
+        ]
+      },
+      "switch": {
+        "successes": 6,
+        "n": 24,
+        "rate": 0.25,
+        "wilson95": [
+          0.11999366228595004,
+          0.44899444005154004
+        ]
+      },
+      "preservation": {
+        "successes": 23,
+        "n": 24,
+        "rate": 0.9583333333333334,
+        "wilson95": [
+          0.7975819352134406,
+          0.9926065438344942
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 4,
+          "n": 8,
+          "rate": 0.5,
+          "wilson95": [
+            0.21521606221387757,
+            0.7847839377861224
+          ]
+        }
+      }
+    },
+    "hybrid": {
+      "joint": {
+        "successes": 5,
+        "n": 24,
+        "rate": 0.20833333333333334,
+        "wilson95": [
+          0.09244825352851857,
+          0.40470453253188665
+        ]
+      },
+      "all_articles": {
+        "successes": 5,
+        "n": 36,
+        "rate": 0.1388888888888889,
+        "wilson95": [
+          0.06081815009132838,
+          0.286595303893562
+        ]
+      },
+      "switch": {
+        "successes": 6,
+        "n": 24,
+        "rate": 0.25,
+        "wilson95": [
+          0.11999366228595004,
+          0.44899444005154004
+        ]
+      },
+      "preservation": {
+        "successes": 23,
+        "n": 24,
+        "rate": 0.9583333333333334,
+        "wilson95": [
+          0.7975819352134406,
+          0.9926065438344942
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 4,
+          "n": 8,
+          "rate": 0.5,
+          "wilson95": [
+            0.21521606221387757,
+            0.7847839377861224
+          ]
+        }
+      }
+    },
+    "text": {
+      "joint": {
+        "successes": 22,
+        "n": 24,
+        "rate": 0.9166666666666666,
+        "wilson95": [
+          0.741511978067893,
+          0.9768411847029567
+        ]
+      },
+      "all_articles": {
+        "successes": 22,
+        "n": 36,
+        "rate": 0.6111111111111112,
+        "wilson95": [
+          0.44864459096605147,
+          0.75215126934629
+        ]
+      },
+      "switch": {
+        "successes": 22,
+        "n": 24,
+        "rate": 0.9166666666666666,
+        "wilson95": [
+          0.741511978067893,
+          0.9768411847029567
+        ]
+      },
+      "preservation": {
+        "successes": 24,
+        "n": 24,
+        "rate": 1.0,
+        "wilson95": [
+          0.8620237953250198,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "wilson95": [
+            0.8063923194655637,
+            1
+          ]
+        },
+        "name": {
+          "successes": 6,
+          "n": 8,
+          "rate": 0.75,
+          "wilson95": [
+            0.40927543031016883,
+            0.9285207872478909
+          ]
+        }
+      }
+    },
+    "paired": {
+      "disagreement-minus-prompt": {
+        "mean": 0.041666666666666664,
+        "bootstrap95": [
+          0.0,
+          0.125
+        ],
+        "wins": 1,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "disagreement-minus-previous": {
+        "mean": 0.041666666666666664,
+        "bootstrap95": [
+          0.0,
+          0.125
+        ],
+        "wins": 1,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "disagreement-minus-next": {
+        "mean": 0.16666666666666666,
+        "bootstrap95": [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        "wins": 4,
+        "losses": 0,
+        "exact_two_sided_p": 0.125
+      },
+      "disagreement-minus-self": {
+        "mean": 0.16666666666666666,
+        "bootstrap95": [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        "wins": 4,
+        "losses": 0,
+        "exact_two_sided_p": 0.125
+      },
+      "gold_prefix-minus-disagreement": {
+        "mean": 0.0,
+        "bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "hybrid-minus-full_rolling": {
+        "mean": 0.0,
+        "bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    "timing": {
+      "step_histogram": [
+        44,
+        3,
+        5,
+        17,
+        2,
+        1
+      ],
+      "relevant_delayed": 24
+    }
+  },
+  "late_matched": {
+    "clean": {
+      "joint": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 21,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.154639018924847
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "prompt": {
+      "joint": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 21,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.154639018924847
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "previous": {
+      "joint": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 21,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.154639018924847
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "disagreement": {
+      "joint": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "all_articles": {
+        "successes": 1,
+        "n": 21,
+        "rate": 0.047619047619047616,
+        "wilson95": [
+          0.008455987809826399,
+          0.22669360074122563
+        ]
+      },
+      "switch": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "next": {
+      "joint": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 21,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.154639018924847
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "self": {
+      "joint": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "all_articles": {
+        "successes": 0,
+        "n": 21,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.154639018924847
+        ]
+      },
+      "switch": {
+        "successes": 0,
+        "n": 16,
+        "rate": 0.0,
+        "wilson95": [
+          0,
+          0.1936076805344365
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 0,
+          "n": 16,
+          "rate": 0.0,
+          "wilson95": [
+            0,
+            0.1936076805344365
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "gold_prefix": {
+      "joint": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "all_articles": {
+        "successes": 1,
+        "n": 21,
+        "rate": 0.047619047619047616,
+        "wilson95": [
+          0.008455987809826399,
+          0.22669360074122563
+        ]
+      },
+      "switch": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "full_rolling": {
+      "joint": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "all_articles": {
+        "successes": 1,
+        "n": 21,
+        "rate": 0.047619047619047616,
+        "wilson95": [
+          0.008455987809826399,
+          0.22669360074122563
+        ]
+      },
+      "switch": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "hybrid": {
+      "joint": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "all_articles": {
+        "successes": 1,
+        "n": 21,
+        "rate": 0.047619047619047616,
+        "wilson95": [
+          0.008455987809826399,
+          0.22669360074122563
+        ]
+      },
+      "switch": {
+        "successes": 1,
+        "n": 16,
+        "rate": 0.0625,
+        "wilson95": [
+          0.01111934476464252,
+          0.28328737570298945
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 1,
+          "n": 16,
+          "rate": 0.0625,
+          "wilson95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "text": {
+      "joint": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "all_articles": {
+        "successes": 16,
+        "n": 21,
+        "rate": 0.7619047619047619,
+        "wilson95": [
+          0.5490882631704924,
+          0.8937198697736354
+        ]
+      },
+      "switch": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "preservation": {
+        "successes": 16,
+        "n": 16,
+        "rate": 1.0,
+        "wilson95": [
+          0.8063923194655637,
+          1
+        ]
+      },
+      "by_kind": {
+        "numeric": {
+          "successes": 16,
+          "n": 16,
+          "rate": 1.0,
+          "wilson95": [
+            0.8063923194655637,
+            1
+          ]
+        },
+        "name": {
+          "successes": 0,
+          "n": 0,
+          "rate": null,
+          "wilson95": null
+        }
+      }
+    },
+    "paired": {
+      "disagreement-minus-prompt": {
+        "mean": 0.0625,
+        "bootstrap95": [
+          0.0,
+          0.1875
+        ],
+        "wins": 1,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "disagreement-minus-previous": {
+        "mean": 0.0625,
+        "bootstrap95": [
+          0.0,
+          0.1875
+        ],
+        "wins": 1,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "disagreement-minus-next": {
+        "mean": 0.0625,
+        "bootstrap95": [
+          0.0,
+          0.1875
+        ],
+        "wins": 1,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "disagreement-minus-self": {
+        "mean": 0.0625,
+        "bootstrap95": [
+          0.0,
+          0.1875
+        ],
+        "wins": 1,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "gold_prefix-minus-disagreement": {
+        "mean": 0.0,
+        "bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      },
+      "hybrid-minus-full_rolling": {
+        "mean": 0.0,
+        "bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0,
+        "exact_two_sided_p": 1.0
+      }
+    },
+    "timing": {
+      "step_histogram": [
+        21,
+        3,
+        1,
+        16,
+        0,
+        1
+      ],
+      "relevant_delayed": 21
+    }
+  }
+}

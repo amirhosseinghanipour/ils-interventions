@@ -1,0 +1,3890 @@
+[
+  {
+    "article": "Czech_language",
+    "qids": [
+      "572b6c54f75d5e190021fdc4",
+      "5726ed33f1498d1400e8f004"
+    ],
+    "source": "10",
+    "replacement": "13",
+    "gold": [
+      [
+        "10"
+      ],
+      [
+        "Latin and German"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "10",
+        "Latin and German"
+      ],
+      "prompt": [
+        "10",
+        "Latin and German"
+      ],
+      "previous": [
+        "10",
+        "Latin and German"
+      ],
+      "disagreement": [
+        "10",
+        "Latin and German"
+      ],
+      "next": [
+        "10",
+        "Latin and German"
+      ],
+      "self": [
+        "10",
+        "Latin and German"
+      ],
+      "gold_prefix": [
+        "10",
+        "Latin and German"
+      ],
+      "full_rolling": [
+        "10",
+        "Latin and German"
+      ],
+      "hybrid": [
+        "10",
+        "Latin and German"
+      ],
+      "text": [
+        "13",
+        "Latin and German"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ],
+      "hybrid": [
+        1,
+        4
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      1,
+      0
+    ],
+    "gold_step": 1,
+    "interaction": []
+  },
+  {
+    "article": "Germans",
+    "qids": [
+      "57268623f1498d1400e8e2aa",
+      "5729483faf94a219006aa254"
+    ],
+    "source": "1856",
+    "replacement": "1859",
+    "gold": [
+      [
+        "1856"
+      ],
+      [
+        "1860s"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1856",
+        "1860s"
+      ],
+      "prompt": [
+        "1856",
+        "1860s"
+      ],
+      "previous": [
+        "1856",
+        "1860s"
+      ],
+      "disagreement": [
+        "1853",
+        "1860s"
+      ],
+      "next": [
+        "1856",
+        "1860s"
+      ],
+      "self": [
+        "1856",
+        "1860s"
+      ],
+      "gold_prefix": [
+        "1853",
+        "1860s"
+      ],
+      "full_rolling": [
+        "1853",
+        "1860s"
+      ],
+      "hybrid": [
+        "1853",
+        "1860s"
+      ],
+      "text": [
+        "1859",
+        "1860s"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        6
+      ],
+      "hybrid": [
+        1,
+        6
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "FA_Cup",
+    "qids": [
+      "572733abf1498d1400e8f482",
+      "572733abf1498d1400e8f483"
+    ],
+    "source": "1863",
+    "replacement": "1866",
+    "gold": [
+      [
+        "1863"
+      ],
+      [
+        "C. W. Alcock"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1863",
+        "C. W. Alcock"
+      ],
+      "prompt": [
+        "1863",
+        "C. W. Alcock"
+      ],
+      "previous": [
+        "1863",
+        "C. W. Alcock"
+      ],
+      "disagreement": [
+        "1866",
+        "C. W. Alcock"
+      ],
+      "next": [
+        "1863",
+        "C. W. Alcock"
+      ],
+      "self": [
+        "1863",
+        "C. W. Alcock"
+      ],
+      "gold_prefix": [
+        "1866",
+        "C. W. Alcock"
+      ],
+      "full_rolling": [
+        "1866",
+        "C. W. Alcock"
+      ],
+      "hybrid": [
+        "1866",
+        "C. W. Alcock"
+      ],
+      "text": [
+        "1866",
+        "C. W. Alcock"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        7
+      ],
+      "hybrid": [
+        1,
+        7
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Brigham_Young_University",
+    "qids": [
+      "5728248dff5b5019007d9df1",
+      "57264abedd62a815002e8096"
+    ],
+    "source": "88",
+    "replacement": "81",
+    "gold": [
+      [
+        "88"
+      ],
+      [
+        "to serve as Mormon missionaries"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "88 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "prompt": [
+        "88 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "previous": [
+        "88 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "disagreement": [
+        "81 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "next": [
+        "88 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "self": [
+        "88 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "gold_prefix": [
+        "81 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "full_rolling": [
+        "81 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "hybrid": [
+        "81 percent",
+        "to serve as Mormon missionaries"
+      ],
+      "text": [
+        "81 percent",
+        "to serve as Mormon missionaries"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        6
+      ],
+      "hybrid": [
+        1,
+        6
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      1,
+      0
+    ],
+    "gold_step": 1,
+    "interaction": []
+  },
+  {
+    "article": "Modern_history",
+    "qids": [
+      "572ef585cb0c0d14000f169e",
+      "572edf43cb0c0d14000f164c"
+    ],
+    "source": "1800",
+    "replacement": "1803",
+    "gold": [
+      [
+        "1800"
+      ],
+      [
+        "European history"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1800",
+        "European history"
+      ],
+      "prompt": [
+        "1800",
+        "European history"
+      ],
+      "previous": [
+        "1800",
+        "European history"
+      ],
+      "disagreement": [
+        "1800",
+        "European history"
+      ],
+      "next": [
+        "1800",
+        "European history"
+      ],
+      "self": [
+        "1800",
+        "European history"
+      ],
+      "gold_prefix": [
+        "1800",
+        "European history"
+      ],
+      "full_rolling": [
+        "1800",
+        "European history"
+      ],
+      "hybrid": [
+        "1800",
+        "European history"
+      ],
+      "text": [
+        "1803",
+        "European history"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ],
+      "hybrid": [
+        1,
+        3
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Race_and_ethnicity_in_the_United_States_Census",
+    "qids": [
+      "57099f19200fba14003681e8",
+      "57099f19200fba14003681e7"
+    ],
+    "source": "1997",
+    "replacement": "1990",
+    "gold": [
+      [
+        "1997"
+      ],
+      [
+        "the American Anthropological Association"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1997",
+        "American Anthropological Association (AAA)"
+      ],
+      "prompt": [
+        "2000",
+        "American Anthropological Association"
+      ],
+      "previous": [
+        "2000",
+        "American Anthropological Association"
+      ],
+      "disagreement": [
+        "2000",
+        "American Anthropological Association"
+      ],
+      "next": [
+        "1997",
+        "American Anthropological Association (AAA)"
+      ],
+      "self": [
+        "1997",
+        "American Anthropological Association (AAA)"
+      ],
+      "gold_prefix": [
+        "1997",
+        "American Anthropological Association"
+      ],
+      "full_rolling": [
+        "2000",
+        "American Anthropological Association"
+      ],
+      "hybrid": [
+        "2000",
+        "American Anthropological Association"
+      ],
+      "text": [
+        "2000",
+        "American Anthropological Association"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ],
+      "hybrid": [
+        5,
+        1
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      4
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Computer",
+    "qids": [
+      "56fdc5b519033b140034cd5f",
+      "56fdc5b519033b140034cd60"
+    ],
+    "source": "1613",
+    "replacement": "1616",
+    "gold": [
+      [
+        "1613"
+      ],
+      [
+        "The Yong Mans Gleanings"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "prompt": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "previous": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "disagreement": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "next": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "self": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "gold_prefix": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "full_rolling": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "hybrid": [
+        "1613",
+        "The Yong Mans Gleanings"
+      ],
+      "text": [
+        "1616",
+        "The Yong Mans Gleanings"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        7
+      ],
+      "hybrid": [
+        1,
+        7
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Super_Nintendo_Entertainment_System",
+    "qids": [
+      "5730a3d08ab72b1400f9c633",
+      "5730a3d08ab72b1400f9c634"
+    ],
+    "source": "1993",
+    "replacement": "1996",
+    "gold": [
+      [
+        "1993"
+      ],
+      [
+        "Playtronic"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1993",
+        "Playtronic"
+      ],
+      "prompt": [
+        "1993",
+        "Playtronic"
+      ],
+      "previous": [
+        "1993",
+        "Playtronic"
+      ],
+      "disagreement": [
+        "1993",
+        "Playtronic"
+      ],
+      "next": [
+        "1993",
+        "Playtronic"
+      ],
+      "self": [
+        "1993",
+        "Playtronic"
+      ],
+      "gold_prefix": [
+        "1993",
+        "Playtronic"
+      ],
+      "full_rolling": [
+        "1993",
+        "Playtronic"
+      ],
+      "hybrid": [
+        "1993",
+        "Playtronic"
+      ],
+      "text": [
+        "1996",
+        "Playtronic"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "hybrid": [
+        1,
+        4
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Gramophone_record",
+    "qids": [
+      "57278ed7dd62a815002ea050",
+      "57278ed7dd62a815002ea04e"
+    ],
+    "source": "1925",
+    "replacement": "1928",
+    "gold": [
+      [
+        "1925"
+      ],
+      [
+        "vacuum tubes"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "prompt": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "previous": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "disagreement": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "next": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "self": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "gold_prefix": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "full_rolling": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "hybrid": [
+        "1925",
+        "vacuum tubes"
+      ],
+      "text": [
+        "1928",
+        "vacuum tubes"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ],
+      "hybrid": [
+        1,
+        3
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Hydrogen",
+    "qids": [
+      "56e16a26e3433e1400422ed6",
+      "56e16a26e3433e1400422ed7"
+    ],
+    "source": "1671",
+    "replacement": "1674",
+    "gold": [
+      [
+        "1671"
+      ],
+      [
+        "Robert Boyle"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "prompt": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "previous": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "disagreement": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "next": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "self": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "gold_prefix": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "full_rolling": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "hybrid": [
+        "1766",
+        "Henry Cavendish"
+      ],
+      "text": [
+        "1766",
+        "Henry Cavendish"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ],
+      "hybrid": [
+        5,
+        5
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Israel",
+    "qids": [
+      "5725b5ca38643c19005acbaf",
+      "5725b5ca38643c19005acbb0"
+    ],
+    "source": "1165",
+    "replacement": "1168",
+    "gold": [
+      [
+        "1165"
+      ],
+      [
+        "Yehuda Halevi"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "prompt": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "previous": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "disagreement": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "next": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "self": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "gold_prefix": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "full_rolling": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "hybrid": [
+        "In 1165",
+        "Yehuda Halevi"
+      ],
+      "text": [
+        "In 1168",
+        "Yehuda Halevi"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        7,
+        6
+      ],
+      "hybrid": [
+        1,
+        6
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      5,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Xbox_360",
+    "qids": [
+      "570b1ef16b8089140040f73f",
+      "570b1ef16b8089140040f73d"
+    ],
+    "source": "2007",
+    "replacement": "2000",
+    "gold": [
+      [
+        "2007"
+      ],
+      [
+        "Call of Duty 2"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "prompt": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "previous": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "disagreement": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "next": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "self": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "gold_prefix": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "full_rolling": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "hybrid": [
+        "2007",
+        "Call of Duty 2"
+      ],
+      "text": [
+        "2000",
+        "Call of Duty 2"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        6
+      ],
+      "hybrid": [
+        1,
+        6
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Translation",
+    "qids": [
+      "57306625396df919000960e6",
+      "57306625396df919000960e4"
+    ],
+    "source": "1813",
+    "replacement": "1816",
+    "gold": [
+      [
+        "1813"
+      ],
+      [
+        "German Romanticism"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1813",
+        "German Romanticism"
+      ],
+      "prompt": [
+        "1813",
+        "German Romanticism"
+      ],
+      "previous": [
+        "1813",
+        "German Romanticism"
+      ],
+      "disagreement": [
+        "1813",
+        "German Romanticism"
+      ],
+      "next": [
+        "1813",
+        "German Romanticism"
+      ],
+      "self": [
+        "1813",
+        "German Romanticism"
+      ],
+      "gold_prefix": [
+        "1813",
+        "German Romanticism"
+      ],
+      "full_rolling": [
+        "1813",
+        "German Romanticism"
+      ],
+      "hybrid": [
+        "1813",
+        "German Romanticism"
+      ],
+      "text": [
+        "1816",
+        "German Romanticism"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "hybrid": [
+        1,
+        4
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Anti-aircraft_warfare",
+    "qids": [
+      "570d3a3cfed7b91900d45d54",
+      "570d3a3cfed7b91900d45d51"
+    ],
+    "source": "1954",
+    "replacement": "1957",
+    "gold": [
+      [
+        "1954"
+      ],
+      [
+        "Soviet Union"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1954",
+        "Soviet Union"
+      ],
+      "prompt": [
+        "1954",
+        "Soviet Union"
+      ],
+      "previous": [
+        "1954",
+        "Soviet Union"
+      ],
+      "disagreement": [
+        "1954",
+        "Soviet Union"
+      ],
+      "next": [
+        "1954",
+        "Soviet Union"
+      ],
+      "self": [
+        "1954",
+        "Soviet Union"
+      ],
+      "gold_prefix": [
+        "1954",
+        "Soviet Union"
+      ],
+      "full_rolling": [
+        "1954",
+        "Soviet Union"
+      ],
+      "hybrid": [
+        "1954",
+        "Soviet Union"
+      ],
+      "text": [
+        "1957",
+        "Soviet Union"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ],
+      "hybrid": [
+        1,
+        5
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "High-definition_television",
+    "qids": [
+      "56f9d73f9e9bad19000a0b05",
+      "56f9d73f9e9bad19000a0b06"
+    ],
+    "source": "1936",
+    "replacement": "1939",
+    "gold": [
+      [
+        "1936"
+      ],
+      [
+        "mechanical systems with as few as 30 lines of resolution"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1936",
+        "mechanical systems"
+      ],
+      "prompt": [
+        "1936",
+        "mechanical systems"
+      ],
+      "previous": [
+        "1936",
+        "mechanical systems"
+      ],
+      "disagreement": [
+        "1936",
+        "mechanical systems"
+      ],
+      "next": [
+        "1936",
+        "mechanical systems"
+      ],
+      "self": [
+        "1936",
+        "mechanical systems"
+      ],
+      "gold_prefix": [
+        "1936",
+        "mechanical systems"
+      ],
+      "full_rolling": [
+        "1936",
+        "mechanical systems"
+      ],
+      "hybrid": [
+        "1936",
+        "mechanical systems"
+      ],
+      "text": [
+        "1939",
+        "mechanical systems"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ],
+      "hybrid": [
+        1,
+        3
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Sino-Tibetan_relations_during_the_Ming_dynasty",
+    "qids": [
+      "56cc36926d243a140015eed2",
+      "56cc36926d243a140015eece"
+    ],
+    "source": "821",
+    "replacement": "824",
+    "gold": [
+      [
+        "821"
+      ],
+      [
+        "the 9th century"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "821",
+        "9th"
+      ],
+      "prompt": [
+        "821",
+        "9th"
+      ],
+      "previous": [
+        "821",
+        "9th"
+      ],
+      "disagreement": [
+        "821",
+        "9th"
+      ],
+      "next": [
+        "821",
+        "9th"
+      ],
+      "self": [
+        "821",
+        "9th"
+      ],
+      "gold_prefix": [
+        "821",
+        "9th"
+      ],
+      "full_rolling": [
+        "821",
+        "9th"
+      ],
+      "hybrid": [
+        "821",
+        "9th"
+      ],
+      "text": [
+        "824",
+        "9th"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        0
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        3
+      ],
+      "hybrid": [
+        1,
+        1
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      2,
+      2
+    ],
+    "gold_step": 2,
+    "interaction": []
+  },
+  {
+    "article": "East_India_Company",
+    "qids": [
+      "57261fdfec44d21400f3d935",
+      "57261fdfec44d21400f3d936"
+    ],
+    "source": "1588",
+    "replacement": "1581",
+    "gold": [
+      [
+        "1588"
+      ],
+      [
+        "Queen Elizabeth I"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "prompt": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "previous": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "disagreement": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "next": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "self": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "gold_prefix": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "full_rolling": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "hybrid": [
+        "1588",
+        "Queen Elizabeth I"
+      ],
+      "text": [
+        "1581",
+        "Queen Elizabeth I"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "hybrid": [
+        1,
+        4
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "List_of_numbered_streets_in_Manhattan",
+    "qids": [
+      "56f8a91b9e9bad19000a027e",
+      "56f8a91b9e9bad19000a027d"
+    ],
+    "source": "29",
+    "replacement": "22",
+    "gold": [
+      [
+        "29"
+      ],
+      [
+        "Hudson River"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "29",
+        "the Hudson River"
+      ],
+      "prompt": [
+        "29",
+        "the Hudson River"
+      ],
+      "previous": [
+        "29",
+        "the Hudson River"
+      ],
+      "disagreement": [
+        "29",
+        "the Hudson River"
+      ],
+      "next": [
+        "29",
+        "the Hudson River"
+      ],
+      "self": [
+        "29",
+        "the Hudson River"
+      ],
+      "gold_prefix": [
+        "29",
+        "the Hudson River"
+      ],
+      "full_rolling": [
+        "29",
+        "the Hudson River"
+      ],
+      "hybrid": [
+        "29",
+        "the Hudson River"
+      ],
+      "text": [
+        "22",
+        "the Hudson River"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ],
+      "hybrid": [
+        1,
+        4
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      1,
+      0
+    ],
+    "gold_step": 1,
+    "interaction": []
+  },
+  {
+    "article": "Ottoman_Empire",
+    "qids": [
+      "572a11661d04691400779722",
+      "572a11661d04691400779721"
+    ],
+    "source": "1299",
+    "replacement": "1292",
+    "gold": [
+      [
+        "1299"
+      ],
+      [
+        "Turkish Empire, Ottoman Turkey or Turkey"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "prompt": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "previous": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "disagreement": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "next": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "self": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "gold_prefix": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "full_rolling": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "hybrid": [
+        "1299",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ],
+      "text": [
+        "1292",
+        "Turkish Empire, Ottoman Turkey, Turkey"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        9
+      ],
+      "hybrid": [
+        1,
+        9
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Antarctica",
+    "qids": [
+      "570c2595ec8fbc190045bc9e",
+      "570c2595ec8fbc190045bc9c"
+    ],
+    "source": "1814",
+    "replacement": "1817",
+    "gold": [
+      [
+        "1814"
+      ],
+      [
+        "Australia"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1814",
+        "Australia"
+      ],
+      "prompt": [
+        "1814",
+        "Australia"
+      ],
+      "previous": [
+        "1814",
+        "Australia"
+      ],
+      "disagreement": [
+        "1814",
+        "Australia"
+      ],
+      "next": [
+        "1814",
+        "Australia"
+      ],
+      "self": [
+        "1814",
+        "Australia"
+      ],
+      "gold_prefix": [
+        "1814",
+        "Australia"
+      ],
+      "full_rolling": [
+        "1814",
+        "Australia"
+      ],
+      "hybrid": [
+        "1814",
+        "Australia"
+      ],
+      "text": [
+        "1817",
+        "Australia"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        2
+      ],
+      "hybrid": [
+        1,
+        2
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Alaska",
+    "qids": [
+      "572859fdff5b5019007da1b0",
+      "572859fdff5b5019007da1ae"
+    ],
+    "source": "500",
+    "replacement": "503",
+    "gold": [
+      [
+        "500"
+      ],
+      [
+        "\"the Lower 48\""
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "500",
+        "the Lower 48"
+      ],
+      "prompt": [
+        "500",
+        "the Lower 48"
+      ],
+      "previous": [
+        "500",
+        "the Lower 48"
+      ],
+      "disagreement": [
+        "500",
+        "the Lower 48"
+      ],
+      "next": [
+        "500",
+        "the Lower 48"
+      ],
+      "self": [
+        "500",
+        "the Lower 48"
+      ],
+      "gold_prefix": [
+        "500",
+        "the Lower 48"
+      ],
+      "full_rolling": [
+        "500",
+        "the Lower 48"
+      ],
+      "hybrid": [
+        "500",
+        "the Lower 48"
+      ],
+      "text": [
+        "503",
+        "the Lower 48"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        6
+      ],
+      "hybrid": [
+        1,
+        6
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      2,
+      0
+    ],
+    "gold_step": 2,
+    "interaction": []
+  },
+  {
+    "article": "Imperial_College_London",
+    "qids": [
+      "5709d00a6d058f1900182bb8",
+      "5709d00a6d058f1900182bb9"
+    ],
+    "source": "1845",
+    "replacement": "1848",
+    "gold": [
+      [
+        "1845"
+      ],
+      [
+        "Benjamin Disraeli, William Gladstone and Robert Peel"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "prompt": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "previous": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "disagreement": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "next": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "self": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "gold_prefix": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "full_rolling": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "hybrid": [
+        "1845",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ],
+      "text": [
+        "1848",
+        "Benjamin Disraeli, William Gladstone and Robert Peel."
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        14
+      ],
+      "hybrid": [
+        1,
+        14
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "The_Bronx",
+    "qids": [
+      "57324f89e99e3014001e66a2",
+      "57324f89e99e3014001e66a0"
+    ],
+    "source": "1639",
+    "replacement": "1632",
+    "gold": [
+      [
+        "1639"
+      ],
+      [
+        "Jonas Bronck"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "prompt": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "previous": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "disagreement": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "next": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "self": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "gold_prefix": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "full_rolling": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "hybrid": [
+        "1639",
+        "Jonas Bronck"
+      ],
+      "text": [
+        "1632",
+        "Jonas Bronck"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ],
+      "hybrid": [
+        1,
+        5
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "Database",
+    "qids": [
+      "572f661fa23a5019007fc5d1",
+      "572f661fa23a5019007fc5cf"
+    ],
+    "source": "1971",
+    "replacement": "1974",
+    "gold": [
+      [
+        "1971"
+      ],
+      [
+        "Interest in a standard"
+      ]
+    ],
+    "kind": "numeric",
+    "outputs": {
+      "clean": [
+        "1971",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "prompt": [
+        "1971",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "previous": [
+        "1971",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "disagreement": [
+        "1974",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "next": [
+        "1971",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "self": [
+        "1971",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "gold_prefix": [
+        "1974",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "full_rolling": [
+        "1974",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "hybrid": [
+        "1974",
+        "COBOL was not created for the purpose described in the passage;"
+      ],
+      "text": [
+        "1974",
+        "The provided passage does not state why COBOL was created; it"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        14
+      ],
+      "hybrid": [
+        1,
+        14
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 3,
+    "interaction": []
+  },
+  {
+    "article": "United_States_dollar",
+    "qids": [
+      "5709aab4ed30961900e843f0",
+      "5709aab4ed30961900e843ec"
+    ],
+    "source": "Spanish America",
+    "replacement": "Daniel America",
+    "gold": [
+      [
+        "Spanish America"
+      ],
+      [
+        "$"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Spanish America",
+        "$"
+      ],
+      "prompt": [
+        "New World",
+        "$"
+      ],
+      "previous": [
+        "New World",
+        "$"
+      ],
+      "disagreement": [
+        "New World",
+        "$"
+      ],
+      "next": [
+        "Spanish pesos or dollars were minted in Spanish America.",
+        "$"
+      ],
+      "self": [
+        "Spanish America",
+        "$"
+      ],
+      "gold_prefix": [
+        "New World",
+        "$"
+      ],
+      "full_rolling": [
+        "New World",
+        "$"
+      ],
+      "hybrid": [
+        "New World",
+        "$"
+      ],
+      "text": [
+        "New World",
+        "$"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        2
+      ],
+      "hybrid": [
+        3,
+        2
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Oklahoma",
+    "qids": [
+      "5727cd9b3acd2414000decd3",
+      "5727cd9b3acd2414000decd4"
+    ],
+    "source": "Ozark Plateau",
+    "replacement": "Daniel Plateau",
+    "gold": [
+      [
+        "Ozark Plateau"
+      ],
+      [
+        "Gulf of Mexico"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Ozark Plateau",
+        "Gulf of Mexico"
+      ],
+      "prompt": [
+        "Daniel Plateau",
+        "Gulf of Mexico"
+      ],
+      "previous": [
+        "Daniel Plateau",
+        "Gulf of Mexico"
+      ],
+      "disagreement": [
+        "Daniel Plateau",
+        "Gulf of Mexico"
+      ],
+      "next": [
+        "Oklahoma is near the Ozark Plateau.",
+        "Gulf of Mexico"
+      ],
+      "self": [
+        "Ozark Plateau",
+        "Gulf of Mexico"
+      ],
+      "gold_prefix": [
+        "Daniel Plateau",
+        "Gulf of Mexico"
+      ],
+      "full_rolling": [
+        "Daniel Plateau",
+        "Gulf of Mexico watershed"
+      ],
+      "hybrid": [
+        "Daniel Plateau",
+        "Gulf of Mexico watershed"
+      ],
+      "text": [
+        "Daniel Plateau",
+        "Gulf of Mexico"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        6
+      ],
+      "hybrid": [
+        4,
+        6
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "MP3",
+    "qids": [
+      "57061f8275f01819005e79b9",
+      "57061f8275f01819005e79b6"
+    ],
+    "source": "Fraunhofer Society",
+    "replacement": "Daniel Society",
+    "gold": [
+      [
+        "Fraunhofer Society"
+      ],
+      [
+        "doctoral"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs and",
+        "doctoral student"
+      ],
+      "prompt": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs",
+        "doctoral student"
+      ],
+      "previous": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs",
+        "doctoral student"
+      ],
+      "disagreement": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs and",
+        "doctoral student"
+      ],
+      "next": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs and",
+        "doctoral student"
+      ],
+      "self": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs and",
+        "doctoral student"
+      ],
+      "gold_prefix": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs and",
+        "doctoral student"
+      ],
+      "full_rolling": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs",
+        "doctoral student"
+      ],
+      "hybrid": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs and",
+        "doctoral student"
+      ],
+      "text": [
+        "James D. Johnston (\"JJ\") of AT&T-Bell Labs",
+        "doctoral student"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        14,
+        4
+      ],
+      "hybrid": [
+        1,
+        1
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      4,
+      2
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Affirmative_action_in_the_United_States",
+    "qids": [
+      "572725fbdd62a815002e9961",
+      "572725fbdd62a815002e995e"
+    ],
+    "source": "Reconstruction Era",
+    "replacement": "Daniel Era",
+    "gold": [
+      [
+        "Reconstruction Era"
+      ],
+      [
+        "gender quotas"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Reconstruction Era",
+        "gender quotas"
+      ],
+      "prompt": [
+        "decades of discrimination stemming from the Reconstruction Era",
+        "gender quotas"
+      ],
+      "previous": [
+        "decades of discrimination stemming from the Reconstruction Era",
+        "gender quotas"
+      ],
+      "disagreement": [
+        "decades of discrimination stemming from the Reconstruction Era",
+        "gender quotas"
+      ],
+      "next": [
+        "Reconstruction Era",
+        "gender quotas"
+      ],
+      "self": [
+        "Reconstruction Era",
+        "gender quotas"
+      ],
+      "gold_prefix": [
+        "decades of discrimination stemming from the Reconstruction Era",
+        "gender quotas"
+      ],
+      "full_rolling": [
+        "decades of discrimination stemming from the Daniel Era",
+        "gender quotas"
+      ],
+      "hybrid": [
+        "decades of discrimination stemming from the Daniel Era",
+        "gender quotas"
+      ],
+      "text": [
+        "Daniel Era",
+        "gender quotas"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        0
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        10,
+        3
+      ],
+      "hybrid": [
+        10,
+        1
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      2
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Canadian_Armed_Forces",
+    "qids": [
+      "56dde02666d3e219004dad6d",
+      "56dde02666d3e219004dad6b"
+    ],
+    "source": "Her Majesty",
+    "replacement": "Daniel Majesty",
+    "gold": [
+      [
+        "Her Majesty"
+      ],
+      [
+        "Forces arm\u00e9es canadiennes"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Her Majesty",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "prompt": [
+        "Daniel Defence Act, which states: \"The Canadian Forces are the armed",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "previous": [
+        "Daniel Defence Act, which states: \"The Canadian Forces are the armed",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "disagreement": [
+        "Daniel Defence Act, which states: \"The Canadian Forces are the armed",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "next": [
+        "Her Majesty",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "self": [
+        "Her Majesty",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "gold_prefix": [
+        "Daniel Defence Act, which states: \"The Canadian Forces are the armed",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "full_rolling": [
+        "Daniel Majesty",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "hybrid": [
+        "Daniel Majesty",
+        "Forces arm\u00e9es canadiennes"
+      ],
+      "text": [
+        "Daniel Majesty",
+        "Forces arm\u00e9es canadiennes"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        8
+      ],
+      "hybrid": [
+        3,
+        8
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Jehovah%27s_Witnesses",
+    "qids": [
+      "573240390fdd8d15006c6883",
+      "573240390fdd8d15006c6884"
+    ],
+    "source": "Nathan Knorr",
+    "replacement": "Daniel Knorr",
+    "gold": [
+      [
+        "Nathan Knorr"
+      ],
+      [
+        "a new translation of the Bible"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Nathan Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "prompt": [
+        "Daniel G. Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "previous": [
+        "Daniel G. Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "disagreement": [
+        "Daniel G. Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "next": [
+        "Nathen Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "self": [
+        "Nathan Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "gold_prefix": [
+        "Daniel G. Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "full_rolling": [
+        "Daniel Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "hybrid": [
+        "Daniel Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ],
+      "text": [
+        "Daniel Knorr",
+        "Knorr commissioned a new translation of the Bible, the New World Translation"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        14
+      ],
+      "hybrid": [
+        4,
+        14
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "University_of_Kansas",
+    "qids": [
+      "56e780ac00c9c71400d771c9",
+      "56e780ac00c9c71400d771c7"
+    ],
+    "source": "Mount Oread",
+    "replacement": "Daniel Oread",
+    "gold": [
+      [
+        "Mount Oread"
+      ],
+      [
+        "KU"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Mount Oread",
+        "KU"
+      ],
+      "prompt": [
+        "Daniel Oread",
+        "KU"
+      ],
+      "previous": [
+        "Daniel Oread",
+        "KU"
+      ],
+      "disagreement": [
+        "Daniel Oread",
+        "KU"
+      ],
+      "next": [
+        "Mount Oread",
+        "KU"
+      ],
+      "self": [
+        "Mount Oread",
+        "KU"
+      ],
+      "gold_prefix": [
+        "Daniel Oread",
+        "KU"
+      ],
+      "full_rolling": [
+        "Daniel Oread",
+        "KU"
+      ],
+      "hybrid": [
+        "Daniel Oread",
+        "KU"
+      ],
+      "text": [
+        "Daniel Oread",
+        "KU"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        2
+      ],
+      "hybrid": [
+        4,
+        2
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Tuberculosis",
+    "qids": [
+      "5727c461ff5b5019007d94b0",
+      "5727c461ff5b5019007d94af"
+    ],
+    "source": "Neolithic Revolution",
+    "replacement": "Daniel Revolution",
+    "gold": [
+      [
+        "Neolithic Revolution"
+      ],
+      [
+        "M. tuberculosis complex"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Neolithic Revolution",
+        "M. tuberculosis complex"
+      ],
+      "prompt": [
+        "as early as the Neolithic Revolution",
+        "M. tuberculosis complex"
+      ],
+      "previous": [
+        "as early as the Neolithic Revolution",
+        "M. tuberculosis complex"
+      ],
+      "disagreement": [
+        "as early as the Neolithic Revolution",
+        "M. tuberculosis complex"
+      ],
+      "next": [
+        "Neolithic Revolution",
+        "M. tuberculosis complex"
+      ],
+      "self": [
+        "Neolithic Revolution",
+        "M. tuberculosis complex"
+      ],
+      "gold_prefix": [
+        "as early as the Neolithic Revolution",
+        "M. tuberculosis complex"
+      ],
+      "full_rolling": [
+        "as early as the Daniel Revolution",
+        "M. tuberculosis complex"
+      ],
+      "hybrid": [
+        "as early as the Daniel Revolution",
+        "M. tuberculosis complex"
+      ],
+      "text": [
+        "as early as the Daniel Revolution",
+        "M. tuberculosis complex"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        7,
+        5
+      ],
+      "hybrid": [
+        7,
+        5
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Separation_of_powers_under_the_United_States_Constitution",
+    "qids": [
+      "56de24b24396321400ee25fd",
+      "56de24b24396321400ee25fe"
+    ],
+    "source": "John Locke",
+    "replacement": "Daniel Locke",
+    "gold": [
+      [
+        "John Locke"
+      ],
+      [
+        "Thomas Hobbes"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "prompt": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "previous": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "disagreement": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "next": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "self": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "gold_prefix": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "full_rolling": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "hybrid": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ],
+      "text": [
+        "Montesquieu",
+        "Thomas Hobbes"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ],
+      "hybrid": [
+        5,
+        4
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Data_compression",
+    "qids": [
+      "5726882b708984140094c911",
+      "5726882b708984140094c913"
+    ],
+    "source": "Oscar Bonello",
+    "replacement": "Daniel Bonello",
+    "gold": [
+      [
+        "Oscar Bonello"
+      ],
+      [
+        "broadcast automation system"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Oscar Bonello",
+        "the broadcast automation system"
+      ],
+      "prompt": [
+        "Daniel Bonello",
+        "the broadcast automation system"
+      ],
+      "previous": [
+        "Daniel Bonello",
+        "the broadcast automation system"
+      ],
+      "disagreement": [
+        "Daniel Bonello",
+        "the broadcast automation system"
+      ],
+      "next": [
+        "Oscar Bonello",
+        "the broadcast automation system"
+      ],
+      "self": [
+        "Oscar Bonello",
+        "the broadcast automation system"
+      ],
+      "gold_prefix": [
+        "Daniel Bonello",
+        "the broadcast automation system"
+      ],
+      "full_rolling": [
+        "Daniel Bonello",
+        "the broadcast automation system"
+      ],
+      "hybrid": [
+        "Daniel Bonello",
+        "the broadcast automation system"
+      ],
+      "text": [
+        "Daniel Bonello",
+        "the broadcast automation system"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        5
+      ],
+      "hybrid": [
+        4,
+        5
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Buckingham_Palace",
+    "qids": [
+      "5725bed7ec44d21400f3d4af",
+      "5725bed7ec44d21400f3d4b0"
+    ],
+    "source": "Buckingham House",
+    "replacement": "Daniel House",
+    "gold": [
+      [
+        "Buckingham House"
+      ],
+      [
+        "Duke of Buckingham"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Buckingham House",
+        "the Duke of Buckingham"
+      ],
+      "prompt": [
+        "Daniel Buckingham House",
+        "the Duke of Buckingham"
+      ],
+      "previous": [
+        "Daniel Buckingham House",
+        "the Duke of Buckingham"
+      ],
+      "disagreement": [
+        "Daniel Buckingham House",
+        "the Duke of Buckingham"
+      ],
+      "next": [
+        "Buckingham House",
+        "the Duke of Buckingham"
+      ],
+      "self": [
+        "Buckingham House",
+        "the Duke of Buckingham"
+      ],
+      "gold_prefix": [
+        "Daniel Buckingham House",
+        "the Duke of Buckingham"
+      ],
+      "full_rolling": [
+        "Daniel House",
+        "the Duke of Buckingham"
+      ],
+      "hybrid": [
+        "Daniel House",
+        "the Duke of Buckingham"
+      ],
+      "text": [
+        "Daniel House",
+        "the Duke of Buckingham"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        5
+      ],
+      "hybrid": [
+        3,
+        5
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  },
+  {
+    "article": "Warsaw_Pact",
+    "qids": [
+      "56de82f5cffd8e1900b4b9b3",
+      "56de82f5cffd8e1900b4b9b4"
+    ],
+    "source": "Soviet Union",
+    "replacement": "Daniel Union",
+    "gold": [
+      [
+        "Soviet Union"
+      ],
+      [
+        "the Cold War"
+      ]
+    ],
+    "kind": "name",
+    "outputs": {
+      "clean": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ],
+      "prompt": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ],
+      "previous": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ],
+      "disagreement": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ],
+      "next": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ],
+      "self": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ],
+      "gold_prefix": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ],
+      "full_rolling": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955."
+      ],
+      "hybrid": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955."
+      ],
+      "text": [
+        "Soviet Union",
+        "The integration of West Germany into NATO in 1955"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "prompt": [
+        1,
+        1
+      ],
+      "previous": [
+        1,
+        1
+      ],
+      "disagreement": [
+        1,
+        1
+      ],
+      "next": [
+        1,
+        1
+      ],
+      "self": [
+        1,
+        1
+      ],
+      "gold_prefix": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        14
+      ],
+      "hybrid": [
+        1,
+        14
+      ],
+      "text": [
+        0,
+        0
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "gold_step": 0,
+    "interaction": []
+  }
+]
