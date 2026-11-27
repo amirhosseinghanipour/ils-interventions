@@ -177,7 +177,7 @@ def measure(model, row, frozen):
                 steps=steps, interaction=interactions)
 
 
-def summarize(rows):
+def summarize(rows, comparisons=None):
     def match(text, gold):
         return normalized(text) in {normalized(a) for a in gold}
 
@@ -198,8 +198,10 @@ def summarize(rows):
             rng.choice(x,(5000,len(x))).mean(1),[.025,.975]).tolist())
     result["paired"] = {}
     if eligible:
-        for arm, control in [("full_delayed","full_prompt"),("full_rolling","full_prompt"),
-                             ("subset","greedy"),("subset","query_agnostic"),("subset","random_mean")]:
+        if comparisons is None:
+            comparisons = [("full_delayed","full_prompt"),("full_rolling","full_prompt"),
+                           ("subset","greedy"),("subset","query_agnostic"),("subset","random_mean")]
+        for arm, control in comparisons:
             if arm not in outcomes:
                 continue
             baseline = (np.mean([y for name,y in outcomes.items() if name.startswith("random")],axis=0)
