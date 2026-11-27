@@ -1,0 +1,2562 @@
+[
+  {
+    "article": "Pharmacy",
+    "paragraph": 20,
+    "qids": [
+      "5726f48df1498d1400e8f0dd",
+      "5726f48df1498d1400e8f0db"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      22,
+      3138
+    ],
+    "target_tokens": [
+      19,
+      3138
+    ],
+    "clean": [
+      22,
+      734
+    ],
+    "top_tokens": {
+      "text_edit": [
+        19,
+        734
+      ],
+      "head19_11": [
+        22,
+        734
+      ],
+      "heads16": [
+        22,
+        734
+      ],
+      "heads32": [
+        22,
+        734
+      ],
+      "heads64": [
+        19,
+        734
+      ],
+      "heads128": [
+        19,
+        734
+      ],
+      "heads128_mlp8": [
+        19,
+        734
+      ],
+      "heads128_mlp32": [
+        19,
+        734
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      161,
+      159
+    ],
+    "donor_lengths": [
+      160,
+      158
+    ]
+  },
+  {
+    "article": "Genghis_Khan",
+    "paragraph": 23,
+    "qids": [
+      "5726c4c8708984140094d0f5",
+      "5726c4c8708984140094d0f6"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      23202,
+      33
+    ],
+    "target_tokens": [
+      23202,
+      8320
+    ],
+    "clean": [
+      23202,
+      33
+    ],
+    "top_tokens": {
+      "text_edit": [
+        23202,
+        8320
+      ],
+      "head19_11": [
+        23202,
+        33
+      ],
+      "heads16": [
+        23202,
+        33
+      ],
+      "heads32": [
+        23202,
+        33
+      ],
+      "heads64": [
+        23202,
+        8320
+      ],
+      "heads128": [
+        23202,
+        8320
+      ],
+      "heads128_mlp8": [
+        23202,
+        8320
+      ],
+      "heads128_mlp32": [
+        23202,
+        8320
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      162,
+      169
+    ],
+    "donor_lengths": [
+      161,
+      168
+    ]
+  },
+  {
+    "article": "1973_oil_crisis",
+    "paragraph": 11,
+    "qids": [
+      "57264cac708984140094c1b3",
+      "57264cac708984140094c1b7"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      6755,
+      2096
+    ],
+    "target_tokens": [
+      6755,
+      77015
+    ],
+    "clean": [
+      6755,
+      3217
+    ],
+    "top_tokens": {
+      "text_edit": [
+        6755,
+        2383
+      ],
+      "head19_11": [
+        6755,
+        3217
+      ],
+      "heads16": [
+        6755,
+        2383
+      ],
+      "heads32": [
+        6755,
+        2383
+      ],
+      "heads64": [
+        6755,
+        2383
+      ],
+      "heads128": [
+        6755,
+        2383
+      ],
+      "heads128_mlp8": [
+        6755,
+        2383
+      ],
+      "heads128_mlp32": [
+        6755,
+        2383
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      153,
+      151
+    ],
+    "donor_lengths": [
+      152,
+      150
+    ]
+  },
+  {
+    "article": "Civil_disobedience",
+    "paragraph": 4,
+    "qids": [
+      "5728d7c54b864d1900164f50",
+      "5728d7c54b864d1900164f4c"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      85996,
+      2229
+    ],
+    "target_tokens": [
+      85996,
+      44
+    ],
+    "clean": [
+      85996,
+      2229
+    ],
+    "top_tokens": {
+      "text_edit": [
+        85996,
+        44
+      ],
+      "head19_11": [
+        85996,
+        2229
+      ],
+      "heads16": [
+        85996,
+        2229
+      ],
+      "heads32": [
+        85996,
+        2229
+      ],
+      "heads64": [
+        85996,
+        44
+      ],
+      "heads128": [
+        85996,
+        44
+      ],
+      "heads128_mlp8": [
+        85996,
+        44
+      ],
+      "heads128_mlp32": [
+        85996,
+        44
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      149,
+      152
+    ],
+    "donor_lengths": [
+      148,
+      151
+    ]
+  },
+  {
+    "article": "University_of_Chicago",
+    "paragraph": 22,
+    "qids": [
+      "572864542ca10214002da2df",
+      "572864542ca10214002da2e1"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      45,
+      61506
+    ],
+    "target_tokens": [
+      45,
+      24497
+    ],
+    "clean": [
+      49513,
+      61506
+    ],
+    "top_tokens": {
+      "text_edit": [
+        49513,
+        24497
+      ],
+      "head19_11": [
+        49513,
+        61506
+      ],
+      "heads16": [
+        49513,
+        61506
+      ],
+      "heads32": [
+        49513,
+        61506
+      ],
+      "heads64": [
+        49513,
+        24497
+      ],
+      "heads128": [
+        49513,
+        24497
+      ],
+      "heads128_mlp8": [
+        49513,
+        24497
+      ],
+      "heads128_mlp32": [
+        49513,
+        24497
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      206,
+      209
+    ],
+    "donor_lengths": [
+      204,
+      207
+    ]
+  },
+  {
+    "article": "Warsaw",
+    "paragraph": 24,
+    "qids": [
+      "57332a734776f4190066072a",
+      "57332a734776f41900660728"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      16,
+      211085
+    ],
+    "target_tokens": [
+      17,
+      211085
+    ],
+    "clean": [
+      16,
+      211085
+    ],
+    "top_tokens": {
+      "text_edit": [
+        17,
+        211085
+      ],
+      "head19_11": [
+        16,
+        211085
+      ],
+      "heads16": [
+        16,
+        211085
+      ],
+      "heads32": [
+        16,
+        211085
+      ],
+      "heads64": [
+        17,
+        211085
+      ],
+      "heads128": [
+        17,
+        211085
+      ],
+      "heads128_mlp8": [
+        17,
+        211085
+      ],
+      "heads128_mlp32": [
+        17,
+        211085
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      152,
+      155
+    ],
+    "donor_lengths": [
+      152,
+      155
+    ]
+  },
+  {
+    "article": "Martin_Luther",
+    "paragraph": 18,
+    "qids": [
+      "56f80ad1a6d7ea1400e1739b",
+      "56f80ad1a6d7ea1400e1739d"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      742,
+      5816
+    ],
+    "target_tokens": [
+      51453,
+      5816
+    ],
+    "clean": [
+      3702,
+      1465
+    ],
+    "top_tokens": {
+      "text_edit": [
+        3702,
+        1465
+      ],
+      "head19_11": [
+        3702,
+        1465
+      ],
+      "heads16": [
+        3702,
+        1465
+      ],
+      "heads32": [
+        3702,
+        1465
+      ],
+      "heads64": [
+        3702,
+        1465
+      ],
+      "heads128": [
+        3702,
+        1465
+      ],
+      "heads128_mlp8": [
+        3702,
+        1465
+      ],
+      "heads128_mlp32": [
+        3702,
+        1465
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      233,
+      224
+    ],
+    "donor_lengths": [
+      233,
+      224
+    ]
+  },
+  {
+    "article": "Teacher",
+    "paragraph": 49,
+    "qids": [
+      "56e777e500c9c71400d7717a",
+      "56e777e500c9c71400d77176"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      528,
+      54
+    ],
+    "target_tokens": [
+      65567,
+      54
+    ],
+    "clean": [
+      528,
+      54
+    ],
+    "top_tokens": {
+      "text_edit": [
+        80637,
+        54
+      ],
+      "head19_11": [
+        528,
+        54
+      ],
+      "heads16": [
+        80637,
+        54
+      ],
+      "heads32": [
+        528,
+        54
+      ],
+      "heads64": [
+        80637,
+        54
+      ],
+      "heads128": [
+        80637,
+        54
+      ],
+      "heads128_mlp8": [
+        80637,
+        54
+      ],
+      "heads128_mlp32": [
+        80637,
+        54
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      145,
+      150
+    ],
+    "donor_lengths": [
+      144,
+      149
+    ]
+  },
+  {
+    "article": "Oxygen",
+    "paragraph": 30,
+    "qids": [
+      "571ccd9b5efbb31900334dfb",
+      "571ccd9b5efbb31900334dfa"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      6082,
+      42608
+    ],
+    "target_tokens": [
+      6082,
+      68421
+    ],
+    "clean": [
+      44439,
+      44857
+    ],
+    "top_tokens": {
+      "text_edit": [
+        6082,
+        1344
+      ],
+      "head19_11": [
+        44439,
+        44857
+      ],
+      "heads16": [
+        44439,
+        44857
+      ],
+      "heads32": [
+        44439,
+        44857
+      ],
+      "heads64": [
+        44439,
+        44857
+      ],
+      "heads128": [
+        6082,
+        1344
+      ],
+      "heads128_mlp8": [
+        44439,
+        1344
+      ],
+      "heads128_mlp32": [
+        6082,
+        1344
+      ]
+    },
+    "source_occurrences": 3,
+    "lengths": [
+      207,
+      209
+    ],
+    "donor_lengths": [
+      210,
+      212
+    ]
+  },
+  {
+    "article": "Fresno,_California",
+    "paragraph": 11,
+    "qids": [
+      "5725e45689a1e219009ac04c",
+      "5725e45689a1e219009ac048"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      92510,
+      24037
+    ],
+    "target_tokens": [
+      38,
+      24037
+    ],
+    "clean": [
+      92510,
+      3756
+    ],
+    "top_tokens": {
+      "text_edit": [
+        38,
+        3756
+      ],
+      "head19_11": [
+        92510,
+        3756
+      ],
+      "heads16": [
+        92510,
+        3756
+      ],
+      "heads32": [
+        92510,
+        3756
+      ],
+      "heads64": [
+        38,
+        3756
+      ],
+      "heads128": [
+        38,
+        3756
+      ],
+      "heads128_mlp8": [
+        18448,
+        3756
+      ],
+      "heads128_mlp32": [
+        38,
+        3756
+      ]
+    },
+    "source_occurrences": 3,
+    "lengths": [
+      147,
+      141
+    ],
+    "donor_lengths": [
+      147,
+      141
+    ]
+  },
+  {
+    "article": "Amazon_rainforest",
+    "paragraph": 12,
+    "qids": [
+      "5729feaf6aef051400155189",
+      "5729feaf6aef05140015518a"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      20,
+      50656
+    ],
+    "target_tokens": [
+      21,
+      50656
+    ],
+    "clean": [
+      20,
+      85214
+    ],
+    "top_tokens": {
+      "text_edit": [
+        21,
+        85214
+      ],
+      "head19_11": [
+        20,
+        85214
+      ],
+      "heads16": [
+        20,
+        85214
+      ],
+      "heads32": [
+        21,
+        85214
+      ],
+      "heads64": [
+        21,
+        85214
+      ],
+      "heads128": [
+        21,
+        85214
+      ],
+      "heads128_mlp8": [
+        21,
+        85214
+      ],
+      "heads128_mlp32": [
+        21,
+        85214
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      241,
+      235
+    ],
+    "donor_lengths": [
+      241,
+      235
+    ]
+  },
+  {
+    "article": "Prime_number",
+    "paragraph": 25,
+    "qids": [
+      "57299c2c6aef051400155022",
+      "57299c2c6aef051400155021"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      396,
+      31271
+    ],
+    "target_tokens": [
+      70950,
+      31271
+    ],
+    "clean": [
+      31271,
+      31271
+    ],
+    "top_tokens": {
+      "text_edit": [
+        31271,
+        9944
+      ],
+      "head19_11": [
+        31271,
+        31271
+      ],
+      "heads16": [
+        31271,
+        31271
+      ],
+      "heads32": [
+        31271,
+        31271
+      ],
+      "heads64": [
+        31271,
+        31271
+      ],
+      "heads128": [
+        31271,
+        31271
+      ],
+      "heads128_mlp8": [
+        31271,
+        31271
+      ],
+      "heads128_mlp32": [
+        31271,
+        9944
+      ]
+    },
+    "source_occurrences": 3,
+    "lengths": [
+      187,
+      187
+    ],
+    "donor_lengths": [
+      184,
+      184
+    ]
+  },
+  {
+    "article": "Rhine",
+    "paragraph": 35,
+    "qids": [
+      "57300761947a6a140053cf9d",
+      "57300761947a6a140053cf9c"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      44,
+      21
+    ],
+    "target_tokens": [
+      44,
+      19
+    ],
+    "clean": [
+      44,
+      21
+    ],
+    "top_tokens": {
+      "text_edit": [
+        44,
+        10957
+      ],
+      "head19_11": [
+        44,
+        21
+      ],
+      "heads16": [
+        44,
+        10957
+      ],
+      "heads32": [
+        44,
+        10957
+      ],
+      "heads64": [
+        44,
+        10957
+      ],
+      "heads128": [
+        44,
+        10957
+      ],
+      "heads128_mlp8": [
+        44,
+        10957
+      ],
+      "heads128_mlp32": [
+        44,
+        10957
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      237,
+      241
+    ],
+    "donor_lengths": [
+      237,
+      241
+    ]
+  },
+  {
+    "article": "French_and_Indian_War",
+    "paragraph": 0,
+    "qids": [
+      "5733cf61d058e614000b62ec",
+      "5733cf61d058e614000b62e9"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      17,
+      16
+    ],
+    "target_tokens": [
+      18,
+      16
+    ],
+    "clean": [
+      17,
+      16
+    ],
+    "top_tokens": {
+      "text_edit": [
+        18,
+        16
+      ],
+      "head19_11": [
+        17,
+        16
+      ],
+      "heads16": [
+        17,
+        16
+      ],
+      "heads32": [
+        17,
+        16
+      ],
+      "heads64": [
+        18,
+        16
+      ],
+      "heads128": [
+        18,
+        16
+      ],
+      "heads128_mlp8": [
+        18,
+        16
+      ],
+      "heads128_mlp32": [
+        18,
+        16
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      186,
+      183
+    ],
+    "donor_lengths": [
+      186,
+      183
+    ]
+  },
+  {
+    "article": "Harvard_University",
+    "paragraph": 10,
+    "qids": [
+      "5727c8863acd2414000dec4a",
+      "5727c8863acd2414000dec4c"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      15103,
+      35778
+    ],
+    "target_tokens": [
+      15103,
+      26952
+    ],
+    "clean": [
+      15103,
+      35778
+    ],
+    "top_tokens": {
+      "text_edit": [
+        15103,
+        2250
+      ],
+      "head19_11": [
+        15103,
+        35778
+      ],
+      "heads16": [
+        15103,
+        4139
+      ],
+      "heads32": [
+        15103,
+        4139
+      ],
+      "heads64": [
+        15103,
+        2250
+      ],
+      "heads128": [
+        15103,
+        2250
+      ],
+      "heads128_mlp8": [
+        15103,
+        2250
+      ],
+      "heads128_mlp32": [
+        15103,
+        2250
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      251,
+      244
+    ],
+    "donor_lengths": [
+      250,
+      243
+    ]
+  },
+  {
+    "article": "Southern_California",
+    "paragraph": 38,
+    "qids": [
+      "5706155352bb891400689895",
+      "5706155352bb891400689894"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      11553,
+      49
+    ],
+    "target_tokens": [
+      65158,
+      49
+    ],
+    "clean": [
+      11553,
+      49
+    ],
+    "top_tokens": {
+      "text_edit": [
+        65158,
+        49
+      ],
+      "head19_11": [
+        11553,
+        49
+      ],
+      "heads16": [
+        11553,
+        49
+      ],
+      "heads32": [
+        11553,
+        49
+      ],
+      "heads64": [
+        65158,
+        49
+      ],
+      "heads128": [
+        65158,
+        49
+      ],
+      "heads128_mlp8": [
+        65158,
+        49
+      ],
+      "heads128_mlp32": [
+        65158,
+        49
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      70,
+      67
+    ],
+    "donor_lengths": [
+      69,
+      66
+    ]
+  },
+  {
+    "article": "American_Broadcasting_Company",
+    "paragraph": 26,
+    "qids": [
+      "572736fc5951b619008f86da",
+      "572736fc5951b619008f86d9"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      11124,
+      16
+    ],
+    "target_tokens": [
+      12865,
+      16
+    ],
+    "clean": [
+      11124,
+      16
+    ],
+    "top_tokens": {
+      "text_edit": [
+        12865,
+        16
+      ],
+      "head19_11": [
+        11124,
+        16
+      ],
+      "heads16": [
+        11124,
+        16
+      ],
+      "heads32": [
+        11124,
+        16
+      ],
+      "heads64": [
+        12865,
+        16
+      ],
+      "heads128": [
+        12865,
+        16
+      ],
+      "heads128_mlp8": [
+        12865,
+        16
+      ],
+      "heads128_mlp32": [
+        12865,
+        16
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      149,
+      149
+    ],
+    "donor_lengths": [
+      149,
+      149
+    ]
+  },
+  {
+    "article": "Packet_switching",
+    "paragraph": 20,
+    "qids": [
+      "5726472bdd62a815002e8044",
+      "5726472bdd62a815002e8046"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      5649,
+      34499
+    ],
+    "target_tokens": [
+      5649,
+      8917
+    ],
+    "clean": [
+      5649,
+      1719
+    ],
+    "top_tokens": {
+      "text_edit": [
+        5649,
+        8917
+      ],
+      "head19_11": [
+        5649,
+        1719
+      ],
+      "heads16": [
+        5649,
+        34499
+      ],
+      "heads32": [
+        5649,
+        1719
+      ],
+      "heads64": [
+        5649,
+        1719
+      ],
+      "heads128": [
+        5649,
+        1719
+      ],
+      "heads128_mlp8": [
+        5649,
+        1719
+      ],
+      "heads128_mlp32": [
+        5649,
+        1719
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      182,
+      185
+    ],
+    "donor_lengths": [
+      181,
+      184
+    ]
+  },
+  {
+    "article": "Steam_engine",
+    "paragraph": 10,
+    "qids": [
+      "571142b3a58dae1900cd6d5b",
+      "571142b3a58dae1900cd6d5e"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      4913,
+      61226
+    ],
+    "target_tokens": [
+      21453,
+      61226
+    ],
+    "clean": [
+      4913,
+      61226
+    ],
+    "top_tokens": {
+      "text_edit": [
+        21453,
+        61226
+      ],
+      "head19_11": [
+        4913,
+        61226
+      ],
+      "heads16": [
+        4913,
+        61226
+      ],
+      "heads32": [
+        4913,
+        61226
+      ],
+      "heads64": [
+        21453,
+        61226
+      ],
+      "heads128": [
+        21453,
+        61226
+      ],
+      "heads128_mlp8": [
+        21453,
+        61226
+      ],
+      "heads128_mlp32": [
+        760,
+        61226
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      204,
+      201
+    ],
+    "donor_lengths": [
+      204,
+      201
+    ]
+  },
+  {
+    "article": "Force",
+    "paragraph": 28,
+    "qids": [
+      "57378c9b1c456719005744a7",
+      "57378c9b1c456719005744a8"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      43,
+      61226
+    ],
+    "target_tokens": [
+      5786,
+      61226
+    ],
+    "clean": [
+      51444,
+      8799
+    ],
+    "top_tokens": {
+      "text_edit": [
+        56430,
+        8799
+      ],
+      "head19_11": [
+        51444,
+        8799
+      ],
+      "heads16": [
+        51444,
+        8799
+      ],
+      "heads32": [
+        51444,
+        8799
+      ],
+      "heads64": [
+        56430,
+        8799
+      ],
+      "heads128": [
+        56430,
+        8799
+      ],
+      "heads128_mlp8": [
+        56430,
+        8799
+      ],
+      "heads128_mlp32": [
+        56430,
+        8799
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      142,
+      139
+    ],
+    "donor_lengths": [
+      140,
+      137
+    ]
+  },
+  {
+    "article": "Nikola_Tesla",
+    "paragraph": 73,
+    "qids": [
+      "56e11c24e3433e1400422c19",
+      "56e11c24e3433e1400422c1b"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      21,
+      3446
+    ],
+    "target_tokens": [
+      21,
+      62160
+    ],
+    "clean": [
+      21,
+      3446
+    ],
+    "top_tokens": {
+      "text_edit": [
+        21,
+        62160
+      ],
+      "head19_11": [
+        21,
+        3446
+      ],
+      "heads16": [
+        21,
+        3446
+      ],
+      "heads32": [
+        21,
+        3446
+      ],
+      "heads64": [
+        21,
+        62160
+      ],
+      "heads128": [
+        21,
+        62160
+      ],
+      "heads128_mlp8": [
+        21,
+        62160
+      ],
+      "heads128_mlp32": [
+        21,
+        62160
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      108,
+      113
+    ],
+    "donor_lengths": [
+      106,
+      111
+    ]
+  },
+  {
+    "article": "European_Union_law",
+    "paragraph": 19,
+    "qids": [
+      "5726a00cf1498d1400e8e551",
+      "5726a00cf1498d1400e8e550"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      55670,
+      1719
+    ],
+    "target_tokens": [
+      1405,
+      1719
+    ],
+    "clean": [
+      63681,
+      1719
+    ],
+    "top_tokens": {
+      "text_edit": [
+        3066,
+        61229
+      ],
+      "head19_11": [
+        63681,
+        1719
+      ],
+      "heads16": [
+        63681,
+        1719
+      ],
+      "heads32": [
+        63681,
+        61229
+      ],
+      "heads64": [
+        63681,
+        61229
+      ],
+      "heads128": [
+        3066,
+        61229
+      ],
+      "heads128_mlp8": [
+        3066,
+        1719
+      ],
+      "heads128_mlp32": [
+        63681,
+        61229
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      164,
+      161
+    ],
+    "donor_lengths": [
+      148,
+      145
+    ]
+  },
+  {
+    "article": "Immune_system",
+    "paragraph": 8,
+    "qids": [
+      "5728fc2eaf94a219006a9ec7",
+      "5728fc2eaf94a219006a9ec9"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      49531,
+      727
+    ],
+    "target_tokens": [
+      66,
+      727
+    ],
+    "clean": [
+      49531,
+      727
+    ],
+    "top_tokens": {
+      "text_edit": [
+        66,
+        727
+      ],
+      "head19_11": [
+        49531,
+        727
+      ],
+      "heads16": [
+        49531,
+        727
+      ],
+      "heads32": [
+        49531,
+        727
+      ],
+      "heads64": [
+        29646,
+        727
+      ],
+      "heads128": [
+        66,
+        727
+      ],
+      "heads128_mlp8": [
+        66,
+        727
+      ],
+      "heads128_mlp32": [
+        66,
+        727
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      147,
+      142
+    ],
+    "donor_lengths": [
+      147,
+      142
+    ]
+  },
+  {
+    "article": "United_Methodist_Church",
+    "paragraph": 38,
+    "qids": [
+      "5730d26fb54a4f140068cc97",
+      "5730d26fb54a4f140068cc94"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      77720,
+      12702
+    ],
+    "target_tokens": [
+      77720,
+      40025
+    ],
+    "clean": [
+      48055,
+      12702
+    ],
+    "top_tokens": {
+      "text_edit": [
+        48055,
+        40025
+      ],
+      "head19_11": [
+        48055,
+        12702
+      ],
+      "heads16": [
+        48055,
+        12702
+      ],
+      "heads32": [
+        48055,
+        12702
+      ],
+      "heads64": [
+        48055,
+        40025
+      ],
+      "heads128": [
+        48055,
+        40025
+      ],
+      "heads128_mlp8": [
+        48055,
+        40025
+      ],
+      "heads128_mlp32": [
+        48055,
+        40025
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      238,
+      233
+    ],
+    "donor_lengths": [
+      238,
+      233
+    ]
+  },
+  {
+    "article": "Computational_complexity_theory",
+    "paragraph": 31,
+    "qids": [
+      "56e1ce08e3433e14004231a6",
+      "56e1ce08e3433e14004231a4"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      57413,
+      1719
+    ],
+    "target_tokens": [
+      91037,
+      1719
+    ],
+    "clean": [
+      57413,
+      1719
+    ],
+    "top_tokens": {
+      "text_edit": [
+        91037,
+        1719
+      ],
+      "head19_11": [
+        57413,
+        1719
+      ],
+      "heads16": [
+        57413,
+        1719
+      ],
+      "heads32": [
+        57413,
+        1719
+      ],
+      "heads64": [
+        91037,
+        1719
+      ],
+      "heads128": [
+        91037,
+        1719
+      ],
+      "heads128_mlp8": [
+        91037,
+        1719
+      ],
+      "heads128_mlp32": [
+        2014,
+        1719
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      152,
+      147
+    ],
+    "donor_lengths": [
+      150,
+      145
+    ]
+  },
+  {
+    "article": "Islamism",
+    "paragraph": 16,
+    "qids": [
+      "573005b9947a6a140053cf6e",
+      "573005b9947a6a140053cf6a"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      14913,
+      26863
+    ],
+    "target_tokens": [
+      14913,
+      34045
+    ],
+    "clean": [
+      61501,
+      64
+    ],
+    "top_tokens": {
+      "text_edit": [
+        61501,
+        64
+      ],
+      "head19_11": [
+        61501,
+        64
+      ],
+      "heads16": [
+        61501,
+        64
+      ],
+      "heads32": [
+        61501,
+        64
+      ],
+      "heads64": [
+        61501,
+        64
+      ],
+      "heads128": [
+        61501,
+        64
+      ],
+      "heads128_mlp8": [
+        61501,
+        64
+      ],
+      "heads128_mlp32": [
+        61501,
+        64
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      141,
+      154
+    ],
+    "donor_lengths": [
+      141,
+      154
+    ]
+  },
+  {
+    "article": "Imperialism",
+    "paragraph": 15,
+    "qids": [
+      "57309564069b5314008321a7",
+      "57309564069b5314008321a5"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      42005,
+      16
+    ],
+    "target_tokens": [
+      165473,
+      16
+    ],
+    "clean": [
+      42005,
+      16
+    ],
+    "top_tokens": {
+      "text_edit": [
+        165473,
+        16
+      ],
+      "head19_11": [
+        42005,
+        16
+      ],
+      "heads16": [
+        42005,
+        16
+      ],
+      "heads32": [
+        42005,
+        16
+      ],
+      "heads64": [
+        165473,
+        16
+      ],
+      "heads128": [
+        165473,
+        16
+      ],
+      "heads128_mlp8": [
+        165473,
+        16
+      ],
+      "heads128_mlp32": [
+        165473,
+        16
+      ]
+    },
+    "source_occurrences": 2,
+    "lengths": [
+      214,
+      211
+    ],
+    "donor_lengths": [
+      214,
+      211
+    ]
+  },
+  {
+    "article": "Super_Bowl_50",
+    "paragraph": 15,
+    "qids": [
+      "56bf34293aeaaa14008c955b",
+      "56beb6f23aeaaa14008c92a4"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      19,
+      77420
+    ],
+    "target_tokens": [
+      19,
+      32897
+    ],
+    "clean": [
+      19,
+      7840
+    ],
+    "top_tokens": {
+      "text_edit": [
+        19,
+        760
+      ],
+      "head19_11": [
+        19,
+        7840
+      ],
+      "heads16": [
+        19,
+        760
+      ],
+      "heads32": [
+        19,
+        760
+      ],
+      "heads64": [
+        19,
+        760
+      ],
+      "heads128": [
+        19,
+        760
+      ],
+      "heads128_mlp8": [
+        19,
+        760
+      ],
+      "heads128_mlp32": [
+        19,
+        760
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      131,
+      125
+    ],
+    "donor_lengths": [
+      131,
+      125
+    ]
+  },
+  {
+    "article": "Apollo_program",
+    "paragraph": 6,
+    "qids": [
+      "5725bb34271a42140099d0ca",
+      "5725bb34271a42140099d0c8"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      27174,
+      50
+    ],
+    "target_tokens": [
+      33387,
+      50
+    ],
+    "clean": [
+      27174,
+      50
+    ],
+    "top_tokens": {
+      "text_edit": [
+        33387,
+        50
+      ],
+      "head19_11": [
+        27174,
+        50
+      ],
+      "heads16": [
+        27174,
+        50
+      ],
+      "heads32": [
+        27174,
+        50
+      ],
+      "heads64": [
+        33387,
+        50
+      ],
+      "heads128": [
+        33387,
+        50
+      ],
+      "heads128_mlp8": [
+        33387,
+        50
+      ],
+      "heads128_mlp32": [
+        33387,
+        50
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      245,
+      248
+    ],
+    "donor_lengths": [
+      243,
+      246
+    ]
+  },
+  {
+    "article": "Doctor_Who",
+    "paragraph": 3,
+    "qids": [
+      "5727f2583acd2414000df08a",
+      "5727f2583acd2414000df088"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      329,
+      8679
+    ],
+    "target_tokens": [
+      70735,
+      8679
+    ],
+    "clean": [
+      329,
+      64
+    ],
+    "top_tokens": {
+      "text_edit": [
+        70735,
+        64
+      ],
+      "head19_11": [
+        329,
+        64
+      ],
+      "heads16": [
+        329,
+        64
+      ],
+      "heads32": [
+        329,
+        64
+      ],
+      "heads64": [
+        17312,
+        64
+      ],
+      "heads128": [
+        70735,
+        64
+      ],
+      "heads128_mlp8": [
+        70735,
+        64
+      ],
+      "heads128_mlp32": [
+        70735,
+        64
+      ]
+    },
+    "source_occurrences": 2,
+    "lengths": [
+      163,
+      165
+    ],
+    "donor_lengths": [
+      161,
+      163
+    ]
+  },
+  {
+    "article": "Black_Death",
+    "paragraph": 6,
+    "qids": [
+      "57264b3edd62a815002e80aa",
+      "57264b3edd62a815002e80ad"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      1719,
+      44
+    ],
+    "target_tokens": [
+      1719,
+      53
+    ],
+    "clean": [
+      1719,
+      44
+    ],
+    "top_tokens": {
+      "text_edit": [
+        1719,
+        53
+      ],
+      "head19_11": [
+        1719,
+        44
+      ],
+      "heads16": [
+        1719,
+        44
+      ],
+      "heads32": [
+        1719,
+        1719
+      ],
+      "heads64": [
+        1719,
+        1719
+      ],
+      "heads128": [
+        1719,
+        53
+      ],
+      "heads128_mlp8": [
+        1719,
+        53
+      ],
+      "heads128_mlp32": [
+        1719,
+        53
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      185,
+      186
+    ],
+    "donor_lengths": [
+      185,
+      186
+    ]
+  },
+  {
+    "article": "Newcastle_upon_Tyne",
+    "paragraph": 49,
+    "qids": [
+      "57269c26f1498d1400e8e4ce",
+      "57269c26f1498d1400e8e4ca"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      64500,
+      12365
+    ],
+    "target_tokens": [
+      64500,
+      11975
+    ],
+    "clean": [
+      64500,
+      12365
+    ],
+    "top_tokens": {
+      "text_edit": [
+        64500,
+        11975
+      ],
+      "head19_11": [
+        64500,
+        12365
+      ],
+      "heads16": [
+        64500,
+        12365
+      ],
+      "heads32": [
+        64500,
+        12365
+      ],
+      "heads64": [
+        64500,
+        11975
+      ],
+      "heads128": [
+        64500,
+        11975
+      ],
+      "heads128_mlp8": [
+        64500,
+        11975
+      ],
+      "heads128_mlp32": [
+        64500,
+        11975
+      ]
+    },
+    "source_occurrences": 2,
+    "lengths": [
+      190,
+      191
+    ],
+    "donor_lengths": [
+      190,
+      191
+    ]
+  },
+  {
+    "article": "Economic_inequality",
+    "paragraph": 30,
+    "qids": [
+      "572a1046af94a219006aa791",
+      "572a1046af94a219006aa790"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      86,
+      41327
+    ],
+    "target_tokens": [
+      860,
+      41327
+    ],
+    "clean": [
+      86,
+      760
+    ],
+    "top_tokens": {
+      "text_edit": [
+        860,
+        760
+      ],
+      "head19_11": [
+        86,
+        760
+      ],
+      "heads16": [
+        86,
+        760
+      ],
+      "heads32": [
+        86,
+        760
+      ],
+      "heads64": [
+        860,
+        760
+      ],
+      "heads128": [
+        860,
+        760
+      ],
+      "heads128_mlp8": [
+        860,
+        760
+      ],
+      "heads128_mlp32": [
+        860,
+        760
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      186,
+      195
+    ],
+    "donor_lengths": [
+      186,
+      195
+    ]
+  },
+  {
+    "article": "Scottish_Parliament",
+    "paragraph": 25,
+    "qids": [
+      "572fcd86947a6a140053ccdd",
+      "572fcd86947a6a140053ccda"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      276,
+      33
+    ],
+    "target_tokens": [
+      2359,
+      33
+    ],
+    "clean": [
+      276,
+      33
+    ],
+    "top_tokens": {
+      "text_edit": [
+        2136,
+        33
+      ],
+      "head19_11": [
+        276,
+        33
+      ],
+      "heads16": [
+        449,
+        33
+      ],
+      "heads32": [
+        449,
+        33
+      ],
+      "heads64": [
+        2136,
+        33
+      ],
+      "heads128": [
+        2136,
+        33
+      ],
+      "heads128_mlp8": [
+        2136,
+        33
+      ],
+      "heads128_mlp32": [
+        2136,
+        33
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      135,
+      136
+    ],
+    "donor_lengths": [
+      134,
+      135
+    ]
+  },
+  {
+    "article": "Geology",
+    "paragraph": 22,
+    "qids": [
+      "57268527708984140094c8c1",
+      "57268527708984140094c8c0"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      16,
+      60969
+    ],
+    "target_tokens": [
+      17,
+      60969
+    ],
+    "clean": [
+      16,
+      60969
+    ],
+    "top_tokens": {
+      "text_edit": [
+        17,
+        60969
+      ],
+      "head19_11": [
+        16,
+        60969
+      ],
+      "heads16": [
+        16,
+        60969
+      ],
+      "heads32": [
+        16,
+        60969
+      ],
+      "heads64": [
+        16,
+        60969
+      ],
+      "heads128": [
+        17,
+        60969
+      ],
+      "heads128_mlp8": [
+        17,
+        60969
+      ],
+      "heads128_mlp32": [
+        17,
+        60969
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      162,
+      165
+    ],
+    "donor_lengths": [
+      162,
+      165
+    ]
+  },
+  {
+    "article": "Normans",
+    "paragraph": 8,
+    "qids": [
+      "56de0daecffd8e1900b4b596",
+      "56de0daecffd8e1900b4b595"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      43298,
+      35
+    ],
+    "target_tokens": [
+      35351,
+      35
+    ],
+    "clean": [
+      43298,
+      35
+    ],
+    "top_tokens": {
+      "text_edit": [
+        35351,
+        35
+      ],
+      "head19_11": [
+        43298,
+        35
+      ],
+      "heads16": [
+        43298,
+        35
+      ],
+      "heads32": [
+        43298,
+        35
+      ],
+      "heads64": [
+        35351,
+        35
+      ],
+      "heads128": [
+        35351,
+        35
+      ],
+      "heads128_mlp8": [
+        35351,
+        35
+      ],
+      "heads128_mlp32": [
+        35351,
+        35
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      226,
+      232
+    ],
+    "donor_lengths": [
+      225,
+      231
+    ]
+  },
+  {
+    "article": "Intergovernmental_Panel_on_Climate_Change",
+    "paragraph": 5,
+    "qids": [
+      "57293d6d1d046914007791b8",
+      "57293d6d1d046914007791b7"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      1893,
+      19186
+    ],
+    "target_tokens": [
+      48671,
+      19186
+    ],
+    "clean": [
+      1893,
+      19186
+    ],
+    "top_tokens": {
+      "text_edit": [
+        4590,
+        19186
+      ],
+      "head19_11": [
+        1893,
+        19186
+      ],
+      "heads16": [
+        1893,
+        19186
+      ],
+      "heads32": [
+        1893,
+        19186
+      ],
+      "heads64": [
+        48671,
+        19186
+      ],
+      "heads128": [
+        48671,
+        19186
+      ],
+      "heads128_mlp8": [
+        4590,
+        19186
+      ],
+      "heads128_mlp32": [
+        4590,
+        19186
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      143,
+      144
+    ],
+    "donor_lengths": [
+      143,
+      144
+    ]
+  },
+  {
+    "article": "Sky_(United_Kingdom)",
+    "paragraph": 20,
+    "qids": [
+      "57097c8fed30961900e841f4",
+      "57097c8fed30961900e841f2"
+    ],
+    "relevant": 1,
+    "original_tokens": [
+      58768,
+      54
+    ],
+    "target_tokens": [
+      58768,
+      56981
+    ],
+    "clean": [
+      58768,
+      64
+    ],
+    "top_tokens": {
+      "text_edit": [
+        58768,
+        64
+      ],
+      "head19_11": [
+        58768,
+        64
+      ],
+      "heads16": [
+        58768,
+        64
+      ],
+      "heads32": [
+        58768,
+        32
+      ],
+      "heads64": [
+        58768,
+        64
+      ],
+      "heads128": [
+        58768,
+        64
+      ],
+      "heads128_mlp8": [
+        58768,
+        32
+      ],
+      "heads128_mlp32": [
+        58768,
+        64
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      185,
+      184
+    ],
+    "donor_lengths": [
+      184,
+      183
+    ]
+  },
+  {
+    "article": "Jacksonville,_Florida",
+    "paragraph": 12,
+    "qids": [
+      "57281d494b864d19001644bf",
+      "57281d494b864d19001644c0"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      16,
+      59212
+    ],
+    "target_tokens": [
+      17,
+      59212
+    ],
+    "clean": [
+      16,
+      59212
+    ],
+    "top_tokens": {
+      "text_edit": [
+        17,
+        59212
+      ],
+      "head19_11": [
+        16,
+        59212
+      ],
+      "heads16": [
+        16,
+        59212
+      ],
+      "heads32": [
+        16,
+        59212
+      ],
+      "heads64": [
+        17,
+        59212
+      ],
+      "heads128": [
+        17,
+        59212
+      ],
+      "heads128_mlp8": [
+        17,
+        59212
+      ],
+      "heads128_mlp32": [
+        17,
+        59212
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      213,
+      215
+    ],
+    "donor_lengths": [
+      213,
+      215
+    ]
+  },
+  {
+    "article": "Kenya",
+    "paragraph": 20,
+    "qids": [
+      "572913626aef051400154a33",
+      "572913626aef051400154a32"
+    ],
+    "relevant": 0,
+    "original_tokens": [
+      17,
+      442
+    ],
+    "target_tokens": [
+      16,
+      442
+    ],
+    "clean": [
+      17,
+      760
+    ],
+    "top_tokens": {
+      "text_edit": [
+        16,
+        760
+      ],
+      "head19_11": [
+        17,
+        760
+      ],
+      "heads16": [
+        17,
+        760
+      ],
+      "heads32": [
+        17,
+        760
+      ],
+      "heads64": [
+        16,
+        760
+      ],
+      "heads128": [
+        16,
+        760
+      ],
+      "heads128_mlp8": [
+        16,
+        760
+      ],
+      "heads128_mlp32": [
+        16,
+        760
+      ]
+    },
+    "source_occurrences": 1,
+    "lengths": [
+      179,
+      179
+    ],
+    "donor_lengths": [
+      179,
+      179
+    ]
+  }
+]
