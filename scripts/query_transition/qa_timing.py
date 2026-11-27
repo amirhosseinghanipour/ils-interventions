@@ -3,6 +3,7 @@ import argparse
 import hashlib
 from itertools import combinations
 import json
+from math import comb
 from pathlib import Path
 import re
 
@@ -203,7 +204,15 @@ def summarize(rows):
                 continue
             baseline = (np.mean([y for name,y in outcomes.items() if name.startswith("random")],axis=0)
                         if control=="random_mean" else outcomes[control])
-            result["paired"][f"{arm}-minus-{control}"] = interval(outcomes[arm]-baseline)
+            delta = outcomes[arm]-baseline
+            comparison = interval(delta)
+            if control != "random_mean":
+                wins, losses = int(sum(delta>0)), int(sum(delta<0))
+                discordant = wins + losses
+                tail = sum(comb(discordant,i) for i in range(min(wins,losses)+1))
+                comparison.update(wins=wins, losses=losses,
+                                  exact_two_sided_p=min(1.,2*tail/2**discordant))
+            result["paired"][f"{arm}-minus-{control}"] = comparison
     if rows[0]["interaction"]:
         result["differential_interaction_donor_gain"] = interval(
             np.array([r["interaction"][0][0]-r["interaction"][1][0] for r in rows]))

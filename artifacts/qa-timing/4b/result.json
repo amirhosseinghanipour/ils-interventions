@@ -817,28 +817,40 @@
       "bootstrap95": [
         0.13333333333333333,
         0.6
-      ]
+      ],
+      "wins": 5,
+      "losses": 0,
+      "exact_two_sided_p": 0.0625
     },
     "full_rolling-minus-full_prompt": {
       "mean": 0.5333333333333333,
       "bootstrap95": [
         0.26666666666666666,
         0.8
-      ]
+      ],
+      "wins": 8,
+      "losses": 0,
+      "exact_two_sided_p": 0.0078125
     },
     "subset-minus-greedy": {
       "mean": 0.0,
       "bootstrap95": [
         0.0,
         0.0
-      ]
+      ],
+      "wins": 0,
+      "losses": 0,
+      "exact_two_sided_p": 1.0
     },
     "subset-minus-query_agnostic": {
       "mean": 0.0,
       "bootstrap95": [
         0.0,
         0.0
-      ]
+      ],
+      "wins": 0,
+      "losses": 0,
+      "exact_two_sided_p": 1.0
     },
     "subset-minus-random_mean": {
       "mean": 0.0,

@@ -1,0 +1,2146 @@
+[
+  {
+    "article": "Neoclassical_architecture",
+    "kind": "numeric",
+    "qids": [
+      "572975523f37b31900478422",
+      "572975523f37b3190047841f"
+    ],
+    "source": "1727",
+    "replacement": "1729",
+    "gold": [
+      [
+        "1727"
+      ],
+      [
+        "18th century"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1727",
+        "18th century"
+      ],
+      "text": [
+        "1729",
+        "18th century"
+      ],
+      "full_prompt": [
+        "1727",
+        "18th century"
+      ],
+      "full_delayed": [
+        "1727",
+        "18th century"
+      ],
+      "full_rolling": [
+        "1727",
+        "18th century"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ]
+    },
+    "steps": [
+      3,
+      3
+    ],
+    "interaction": []
+  },
+  {
+    "article": "United_States_Air_Force",
+    "kind": "numeric",
+    "qids": [
+      "5730e932b7151e1900c015c4",
+      "5730e932b7151e1900c015c3"
+    ],
+    "source": "2008",
+    "replacement": "2006",
+    "gold": [
+      [
+        "2008"
+      ],
+      [
+        "Winslow Wheeler"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "2008",
+        "Winslow Wheeler"
+      ],
+      "text": [
+        "2006",
+        "Winslow Wheeler"
+      ],
+      "full_prompt": [
+        "2008",
+        "Winslow Wheeler"
+      ],
+      "full_delayed": [
+        "2006",
+        "Winslow Wheeler"
+      ],
+      "full_rolling": [
+        "2006",
+        "Winslow Wheeler"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "IBM",
+    "kind": "numeric",
+    "qids": [
+      "5728cfd52ca10214002da876",
+      "5728cfd52ca10214002da874"
+    ],
+    "source": "1911",
+    "replacement": "1913",
+    "gold": [
+      [
+        "1911"
+      ],
+      [
+        "Computing-Tabulating-Recording Company"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1911",
+        "Computing-Tabulating-Recording Company (CTR)"
+      ],
+      "text": [
+        "1913",
+        "Computing-Tabulating-Recording Company (CTR)"
+      ],
+      "full_prompt": [
+        "1911",
+        "Computing-Tabulating-Recording Company (CTR)"
+      ],
+      "full_delayed": [
+        "1913",
+        "Computing-Tabulating-Recording Company (CTR)"
+      ],
+      "full_rolling": [
+        "1913",
+        "Computing-Tabulating-Recording Company (CTR)"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        12
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Sony_Music_Entertainment",
+    "kind": "numeric",
+    "qids": [
+      "56df11de3277331400b4d934",
+      "56df11de3277331400b4d933"
+    ],
+    "source": "1938",
+    "replacement": "1936",
+    "gold": [
+      [
+        "1938"
+      ],
+      [
+        "American Record Corporation"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1938",
+        "American Record Corporation"
+      ],
+      "text": [
+        "1936",
+        "American Record Corporation"
+      ],
+      "full_prompt": [
+        "1938",
+        "American Record Corporation"
+      ],
+      "full_delayed": [
+        "1938",
+        "American Record Corporation"
+      ],
+      "full_rolling": [
+        "1938",
+        "American Record Corporation"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ]
+    },
+    "steps": [
+      3,
+      3
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Textual_criticism",
+    "kind": "numeric",
+    "qids": [
+      "572791ab5951b619008f8dcb",
+      "572791ab5951b619008f8dcc"
+    ],
+    "source": "1904",
+    "replacement": "1906",
+    "gold": [
+      [
+        "1904"
+      ],
+      [
+        "the text used in each particular case as the basis of mine"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1904",
+        "\"the text used in each particular case as the basis of mine.\""
+      ],
+      "text": [
+        "1906",
+        "\"the text used in each particular case as the basis of mine.\""
+      ],
+      "full_prompt": [
+        "1904",
+        "\"the text used in each particular case as the basis of mine.\""
+      ],
+      "full_delayed": [
+        "1906",
+        "\"the text used in each particular case as the basis of mine.\""
+      ],
+      "full_rolling": [
+        "1906",
+        "\"the text used in each particular case as the basis of mine.\""
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        14
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "New_York_City",
+    "kind": "numeric",
+    "qids": [
+      "56ce31baaab44d1400b8853d",
+      "56ce31baaab44d1400b8853a"
+    ],
+    "source": "1664",
+    "replacement": "1666",
+    "gold": [
+      [
+        "1664"
+      ],
+      [
+        "New Amsterdam"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1664",
+        "New Amsterdam"
+      ],
+      "text": [
+        "1666",
+        "New Amsterdam"
+      ],
+      "full_prompt": [
+        "1664",
+        "New Amsterdam"
+      ],
+      "full_delayed": [
+        "1664",
+        "New Amsterdam"
+      ],
+      "full_rolling": [
+        "1664",
+        "New Amsterdam"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Dutch_Republic",
+    "kind": "numeric",
+    "qids": [
+      "56dddab666d3e219004dad31",
+      "56dddab666d3e219004dad2f"
+    ],
+    "source": "1568",
+    "replacement": "1566",
+    "gold": [
+      [
+        "1568"
+      ],
+      [
+        "the House of Burgundy and subsequently the House of Habsburg"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1568",
+        "House of Burgundy and subsequently the House of Habsburg"
+      ],
+      "text": [
+        "1566",
+        "House of Burgundy and subsequently the House of Habsburg"
+      ],
+      "full_prompt": [
+        "1568",
+        "House of Burgundy and subsequently the House of Habsburg"
+      ],
+      "full_delayed": [
+        "1568",
+        "House of Burgundy and subsequently the House of Habsburg"
+      ],
+      "full_rolling": [
+        "1568",
+        "House of Burgundy and subsequently the House of Habsburg"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        13
+      ]
+    },
+    "steps": [
+      3,
+      5
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Tennessee",
+    "kind": "numeric",
+    "qids": [
+      "572bd7e52babe914003c2958",
+      "572bd7e52babe914003c2956"
+    ],
+    "source": "1725",
+    "replacement": "1727",
+    "gold": [
+      [
+        "1725"
+      ],
+      [
+        "Captain Juan Pardo"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1725",
+        "Captain Juan Pardo"
+      ],
+      "text": [
+        "1727",
+        "Captain Juan Pardo"
+      ],
+      "full_prompt": [
+        "1725",
+        "Captain Juan Pardo"
+      ],
+      "full_delayed": [
+        "1725",
+        "Captain Juan Pardo"
+      ],
+      "full_rolling": [
+        "1725",
+        "Captain Juan Pardo"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Samoa",
+    "kind": "numeric",
+    "qids": [
+      "5726a4cd708984140094ccbf",
+      "5726a4cd708984140094ccc0"
+    ],
+    "source": "2003",
+    "replacement": "2005",
+    "gold": [
+      [
+        "2003"
+      ],
+      [
+        "anthropology"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "2003",
+        "anthropology"
+      ],
+      "text": [
+        "2005",
+        "anthropology"
+      ],
+      "full_prompt": [
+        "2003",
+        "anthropology"
+      ],
+      "full_delayed": [
+        "2005",
+        "anthropology"
+      ],
+      "full_rolling": [
+        "2005",
+        "anthropology"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Unicode",
+    "kind": "numeric",
+    "qids": [
+      "5727b7c62ca10214002d94ae",
+      "5727b7c62ca10214002d94af"
+    ],
+    "source": "1996",
+    "replacement": "1998",
+    "gold": [
+      [
+        "1996"
+      ],
+      [
+        "so that Unicode was no longer restricted to 16 bits"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1996",
+        "so that Unicode was no longer restricted to 16 bits"
+      ],
+      "text": [
+        "1998",
+        "so that Unicode was no longer restricted to 16 bits"
+      ],
+      "full_prompt": [
+        "1996",
+        "so that Unicode was no longer restricted to 16 bits"
+      ],
+      "full_delayed": [
+        "1996",
+        "so that Unicode was no longer restricted to 16 bits"
+      ],
+      "full_rolling": [
+        "1996",
+        "so that Unicode was no longer restricted to 16 bits"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        13
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Quran",
+    "kind": "numeric",
+    "qids": [
+      "572e9b93cb0c0d14000f134c",
+      "572e9b93cb0c0d14000f134a"
+    ],
+    "source": "632",
+    "replacement": "634",
+    "gold": [
+      [
+        "632"
+      ],
+      [
+        "Gabriel"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "632",
+        "the angel Gabriel (Jibril)"
+      ],
+      "text": [
+        "634",
+        "the angel Gabriel (Jibril)"
+      ],
+      "full_prompt": [
+        "632",
+        "the angel Gabriel (Jibril)"
+      ],
+      "full_delayed": [
+        "632",
+        "the angel Gabriel (Jibril)"
+      ],
+      "full_rolling": [
+        "632",
+        "the angel Gabriel (Jibril)"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        9
+      ]
+    },
+    "steps": [
+      2,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Sexual_orientation",
+    "kind": "numeric",
+    "qids": [
+      "570ffadea58dae1900cd67a6",
+      "570fa3d65ab6b81900390f54"
+    ],
+    "source": "1896",
+    "replacement": "1898",
+    "gold": [
+      [
+        "1896"
+      ],
+      [
+        "measured the strength of an individual's sexual desire"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1896",
+        "measure the strength of an individual's sexual desire on two independent 1"
+      ],
+      "text": [
+        "1898",
+        "measure the strength of an individual's sexual desire on two independent 1"
+      ],
+      "full_prompt": [
+        "1896",
+        "measure the strength of an individual's sexual desire on two independent 1"
+      ],
+      "full_delayed": [
+        "1896",
+        "measure the strength of an individual's sexual desire on two independent 1"
+      ],
+      "full_rolling": [
+        "1896",
+        "measure the strength of an individual's sexual desire on two independent 1"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        14
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "British_Empire",
+    "kind": "numeric",
+    "qids": [
+      "57265fb5dd62a815002e82fd",
+      "57265fb5dd62a815002e82fa"
+    ],
+    "source": "1707",
+    "replacement": "1709",
+    "gold": [
+      [
+        "1707"
+      ],
+      [
+        "15th and 16th centuries"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1707",
+        "15th and 16th centuries"
+      ],
+      "text": [
+        "1709",
+        "15th and 16th centuries"
+      ],
+      "full_prompt": [
+        "1707",
+        "15th and 16th centuries"
+      ],
+      "full_delayed": [
+        "1707",
+        "15th and 16th centuries"
+      ],
+      "full_rolling": [
+        "1707",
+        "15th and 16th centuries"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        10
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Friedrich_Hayek",
+    "kind": "numeric",
+    "qids": [
+      "572a43b63f37b31900478849",
+      "572a43b63f37b31900478845"
+    ],
+    "source": "1931",
+    "replacement": "1933",
+    "gold": [
+      [
+        "1931"
+      ],
+      [
+        "director"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1931",
+        "director"
+      ],
+      "text": [
+        "1933",
+        "director"
+      ],
+      "full_prompt": [
+        "1931",
+        "director"
+      ],
+      "full_delayed": [
+        "1931",
+        "director"
+      ],
+      "full_rolling": [
+        "1931",
+        "director"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        2
+      ]
+    },
+    "steps": [
+      3,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Guam",
+    "kind": "numeric",
+    "qids": [
+      "572ab1da34ae481900deac3c",
+      "572ab1da34ae481900deac39"
+    ],
+    "source": "1668",
+    "replacement": "1666",
+    "gold": [
+      [
+        "1668"
+      ],
+      [
+        "Chamorros"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1668",
+        "Chamorros"
+      ],
+      "text": [
+        "1666",
+        "Chamorros"
+      ],
+      "full_prompt": [
+        "1668",
+        "Chamorros"
+      ],
+      "full_delayed": [
+        "1668",
+        "Chamorros"
+      ],
+      "full_rolling": [
+        "1668",
+        "Chamorros"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        4
+      ]
+    },
+    "steps": [
+      3,
+      1
+    ],
+    "interaction": []
+  },
+  {
+    "article": "The_Times",
+    "kind": "numeric",
+    "qids": [
+      "5705de1675f01819005e76c1",
+      "5705de1675f01819005e76c0"
+    ],
+    "source": "1785",
+    "replacement": "1787",
+    "gold": [
+      [
+        "1785"
+      ],
+      [
+        "London"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "1785",
+        "London"
+      ],
+      "text": [
+        "1787",
+        "London"
+      ],
+      "full_prompt": [
+        "1785",
+        "London"
+      ],
+      "full_delayed": [
+        "1785",
+        "London"
+      ],
+      "full_rolling": [
+        "1785",
+        "London"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        2
+      ]
+    },
+    "steps": [
+      3,
+      1
+    ],
+    "interaction": []
+  },
+  {
+    "article": "National_Archives_and_Records_Administration",
+    "kind": "name",
+    "qids": [
+      "56e77ae437bdd419002c4010",
+      "56e77ae437bdd419002c400d"
+    ],
+    "source": "Hoover Commission",
+    "replacement": "Martin Commission",
+    "gold": [
+      [
+        "Hoover Commission"
+      ],
+      [
+        "R.D.W. Connor"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "first Hoover Commission",
+        "R.D.W. Connor"
+      ],
+      "text": [
+        "Martin Commission",
+        "R.D.W. Connor"
+      ],
+      "full_prompt": [
+        "first Hoover Commission",
+        "R.D.W. Connor"
+      ],
+      "full_delayed": [
+        "first Hoover Commission",
+        "R.D.W. Connor"
+      ],
+      "full_rolling": [
+        "first Martin Commission",
+        "R.D.W. Connor"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        6
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Freemasonry",
+    "kind": "name",
+    "qids": [
+      "57241ed90a492a190043561b",
+      "57241ed90a492a1900435619"
+    ],
+    "source": "Regius Poem",
+    "replacement": "Martin Poem",
+    "gold": [
+      [
+        "Regius Poem"
+      ],
+      [
+        "middle of the 19th century"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Regius Poem",
+        "Since the middle of the 19th century"
+      ],
+      "text": [
+        "the Martin Poem",
+        "Since the middle of the 19th century"
+      ],
+      "full_prompt": [
+        "the Regius Poem",
+        "Since the middle of the 19th century"
+      ],
+      "full_delayed": [
+        "the Regius Poem",
+        "Since the middle of the 19th century"
+      ],
+      "full_rolling": [
+        "the Martin Poem",
+        "Since the middle of the 19th century"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        11
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Bacteria",
+    "kind": "name",
+    "qids": [
+      "572fed76a23a5019007fcb48",
+      "572fed76a23a5019007fcb49"
+    ],
+    "source": "Paul Ehrlich",
+    "replacement": "Martin Ehrlich",
+    "gold": [
+      [
+        "Paul Ehrlich"
+      ],
+      [
+        "Treponema pallidum"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Paul Ehrlich",
+        "Treponema pallidum"
+      ],
+      "text": [
+        "Martin Ehrlich",
+        "Treponema pallidum"
+      ],
+      "full_prompt": [
+        "Martin",
+        "Treponema pallidum"
+      ],
+      "full_delayed": [
+        "Martin",
+        "Treponema pallidum"
+      ],
+      "full_rolling": [
+        "Martin Ehrlich",
+        "Treponema pallidum"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        7
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Time",
+    "kind": "name",
+    "qids": [
+      "5728009a2ca10214002d9b1c",
+      "5728009a2ca10214002d9b1d"
+    ],
+    "source": "The Vedas",
+    "replacement": "Martin Vedas",
+    "gold": [
+      [
+        "The Vedas"
+      ],
+      [
+        "back to the late 2nd millennium BC"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "The Vedas",
+        "late 2nd millennium BC"
+      ],
+      "text": [
+        "Martin Vedas",
+        "late 2nd millennium BC"
+      ],
+      "full_prompt": [
+        "The Vedas",
+        "late 2nd millennium BC"
+      ],
+      "full_delayed": [
+        "The Vedas",
+        "late 2nd millennium BC"
+      ],
+      "full_rolling": [
+        "The earliest texts of Indian/Hindu philosophy are the Vedas.",
+        "late 2nd millennium BC"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        14,
+        7
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Nonprofit_organization",
+    "kind": "name",
+    "qids": [
+      "57277993708984140094dea8",
+      "57277993708984140094dea7"
+    ],
+    "source": "Charity Commission",
+    "replacement": "Martin Commission",
+    "gold": [
+      [
+        "Charity Commission"
+      ],
+      [
+        "nonprofit organisation that meets stricter criteria regarding its purpose and the method in which it makes decisions and reports its finances"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "with the Charity Commission",
+        "A nonprofit organisation that meets stricter criteria regarding its purpose and the method in"
+      ],
+      "text": [
+        "Martin Commission",
+        "A nonprofit organisation that meets stricter criteria regarding its purpose and the method in"
+      ],
+      "full_prompt": [
+        "with the Charity Commission",
+        "A nonprofit organisation that meets stricter criteria regarding its purpose and the method in"
+      ],
+      "full_delayed": [
+        "with the Charity Commission",
+        "A nonprofit organisation that meets stricter criteria regarding its purpose and the method in"
+      ],
+      "full_rolling": [
+        "with the Martin Commission",
+        "A nonprofit organisation that meets stricter criteria regarding its purpose and the method in"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        14
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Dialect",
+    "kind": "name",
+    "qids": [
+      "56e8215937bdd419002c4451",
+      "56e8215937bdd419002c444e"
+    ],
+    "source": "Joseph Wright",
+    "replacement": "Martin Wright",
+    "gold": [
+      [
+        "Joseph Wright"
+      ],
+      [
+        "institutional support"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Joseph Wright",
+        "institutional support"
+      ],
+      "text": [
+        "Martin Wright",
+        "institutional support"
+      ],
+      "full_prompt": [
+        "Martin Luther King Jr.",
+        "institutional support"
+      ],
+      "full_delayed": [
+        "Martin Luther King Jr.",
+        "institutional support"
+      ],
+      "full_rolling": [
+        "Martin Wright",
+        "institutional support"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Russian_language",
+    "kind": "name",
+    "qids": [
+      "5730c16d069b53140083230b",
+      "5730c16d069b53140083230c"
+    ],
+    "source": "Warsaw Pact",
+    "replacement": "Martin Pact",
+    "gold": [
+      [
+        "Warsaw Pact"
+      ],
+      [
+        "Poland, Bulgaria, the Czech Republic, Slovakia, Hungary, Albania, former East Germany and Cuba"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "old Warsaw Pact",
+        "the schools of the members of the old Warsaw Pact and in other countries"
+      ],
+      "text": [
+        "Martin Pact",
+        "the schools of the members of the old Martin Pact and in other countries"
+      ],
+      "full_prompt": [
+        "old Warsaw Pact",
+        "the schools of the members of the old Warsaw Pact and in other countries"
+      ],
+      "full_delayed": [
+        "old Warsaw Pact",
+        "the schools of the members of the old Warsaw Pact and in other countries"
+      ],
+      "full_rolling": [
+        "old Martin Pact",
+        "the schools of the members of the old Martin Pact and in other countries"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        14
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Namibia",
+    "kind": "name",
+    "qids": [
+      "5730f29da5e9cc1400cdbb29",
+      "5730f29da5e9cc1400cdbb2a"
+    ],
+    "source": "Sam Nujoma",
+    "replacement": "Martin Nujoma",
+    "gold": [
+      [
+        "Sam Nujoma"
+      ],
+      [
+        "Nelson Mandela"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Sam Nujoma",
+        "Sam Nujoma"
+      ],
+      "text": [
+        "Martin Nujoma",
+        "Martin Nujoma"
+      ],
+      "full_prompt": [
+        "Martin Nujoma",
+        "Martin Nujoma"
+      ],
+      "full_delayed": [
+        "Martin Nujoma",
+        "Martin Nujoma"
+      ],
+      "full_rolling": [
+        "Martin Nujoma",
+        "Martin Nujoma"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        5
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Presbyterianism",
+    "kind": "name",
+    "qids": [
+      "57265956f1498d1400e8dccb",
+      "57265956f1498d1400e8dcca"
+    ],
+    "source": "John Calvin",
+    "replacement": "Martin Calvin",
+    "gold": [
+      [
+        "John Calvin"
+      ],
+      [
+        "Christianity"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "John Calvin",
+        "Christianity"
+      ],
+      "text": [
+        "Martin Calvin",
+        "Christianity"
+      ],
+      "full_prompt": [
+        "Martin Luther",
+        "Christianity"
+      ],
+      "full_delayed": [
+        "Martin Luther",
+        "Christianity"
+      ],
+      "full_rolling": [
+        "Martin Calvin",
+        "Christianity"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        3
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Melbourne",
+    "kind": "name",
+    "qids": [
+      "570c2b91ec8fbc190045bd0e",
+      "570c2b91ec8fbc190045bd10"
+    ],
+    "source": "Melbourne Airport",
+    "replacement": "Martin Airport",
+    "gold": [
+      [
+        "Melbourne Airport"
+      ],
+      [
+        "Flinders Street Station"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Melbourne Airport",
+        "Flinders Street Station"
+      ],
+      "text": [
+        "Martin Airport (also called Tullamarine Airport)",
+        "Flinders Street Station"
+      ],
+      "full_prompt": [
+        "Martin Place",
+        "Flinders Street Station"
+      ],
+      "full_delayed": [
+        "Martin Place",
+        "Flinders Street Station"
+      ],
+      "full_rolling": [
+        "Martin Airport (also called Tullamarine Airport)",
+        "Flinders Street Station"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        12,
+        5
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Rajasthan",
+    "kind": "name",
+    "qids": [
+      "572a9a1cbe1ee31400cb80a3",
+      "572a9a1cbe1ee31400cb80a0"
+    ],
+    "source": "John Keay",
+    "replacement": "Martin Keay",
+    "gold": [
+      [
+        "John Keay"
+      ],
+      [
+        "Annals and Antiquities of Rajast'han or the Central and Western Rajpoot States of India"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "John Keay",
+        "Annals and Antiquities of Rajast'han or the Central"
+      ],
+      "text": [
+        "Martin Keay",
+        "Annals and Antiquities of Rajast'han or the Central"
+      ],
+      "full_prompt": [
+        "Martin John Keay",
+        "Annals and Antiquities of Rajast'han or the Central"
+      ],
+      "full_delayed": [
+        "Martin John Keay",
+        "Annals and Antiquities of Rajast'han or the Central"
+      ],
+      "full_rolling": [
+        "Martin Keay",
+        "Annals and Antiquities of Rajast'han or the Central"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        4,
+        14
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "LaserDisc",
+    "kind": "name",
+    "qids": [
+      "57281747ff5b5019007d9cfc",
+      "57281747ff5b5019007d9cfd"
+    ],
+    "source": "Pioneer Electronics",
+    "replacement": "Martin Electronics",
+    "gold": [
+      [
+        "Pioneer Electronics"
+      ],
+      [
+        "unofficially"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Pioneer Electronics",
+        "unofficially"
+      ],
+      "text": [
+        "Martin Electronics",
+        "unofficially"
+      ],
+      "full_prompt": [
+        "Martin",
+        "unofficially"
+      ],
+      "full_delayed": [
+        "Martin",
+        "unofficially"
+      ],
+      "full_rolling": [
+        "Martin Electronics",
+        "unofficially"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Chicago_Cubs",
+    "kind": "name",
+    "qids": [
+      "5725f0d789a1e219009ac0c6",
+      "5725f0d789a1e219009ac0c4"
+    ],
+    "source": "Wrigley Field",
+    "replacement": "Martin Field",
+    "gold": [
+      [
+        "Wrigley Field"
+      ],
+      [
+        "The Chicago Cubs"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Wrigley Field",
+        "The Chicago Cubs"
+      ],
+      "text": [
+        "Martin Field",
+        "The Chicago Cubs"
+      ],
+      "full_prompt": [
+        "Martin Stadium",
+        "The Chicago Cubs"
+      ],
+      "full_delayed": [
+        "Martin Stadium",
+        "The Chicago Cubs"
+      ],
+      "full_rolling": [
+        "Martin Field",
+        "The Chicago Cubs"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        3,
+        4
+      ]
+    },
+    "steps": [
+      0,
+      3
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Indigenous_peoples_of_the_Americas",
+    "kind": "name",
+    "qids": [
+      "573120b505b4da19006bcdda",
+      "573120b505b4da19006bcdd6"
+    ],
+    "source": "Native Americans",
+    "replacement": "Martin Americans",
+    "gold": [
+      [
+        "Native Americans"
+      ],
+      [
+        "pre-Columbian inhabitants of the Americas"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Native Americans or American Indians, and Alaska Natives",
+        "the pre-Columbian inhabitants of the Americas"
+      ],
+      "text": [
+        "Martin Americans or American Indians",
+        "the pre-Columbian inhabitants of the Americas"
+      ],
+      "full_prompt": [
+        "Native Americans or American Indians, and Alaska Natives",
+        "the pre-Columbian inhabitants of the Americas"
+      ],
+      "full_delayed": [
+        "Native Americans or American Indians, and Alaska Natives",
+        "the pre-Columbian inhabitants of the Americas"
+      ],
+      "full_rolling": [
+        "Native Americans or American Indians",
+        "the pre-Columbian inhabitants of the Americas"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        6,
+        10
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Energy",
+    "kind": "name",
+    "qids": [
+      "5729e5f76aef0514001550e0",
+      "5729e5f76aef0514001550de"
+    ],
+    "source": "Gottfried Leibniz",
+    "replacement": "Martin Leibniz",
+    "gold": [
+      [
+        "Gottfried Leibniz"
+      ],
+      [
+        "vis viva"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Gottfried Leibniz",
+        "vis viva"
+      ],
+      "text": [
+        "Martin Leibniz",
+        "vis viva"
+      ],
+      "full_prompt": [
+        "Martinus Beijerinck",
+        "vis viva"
+      ],
+      "full_delayed": [
+        "Martinus Beijerinck",
+        "vis viva"
+      ],
+      "full_rolling": [
+        "Martin Leibniz",
+        "vis viva"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        5,
+        3
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  },
+  {
+    "article": "Antenna_(radio)",
+    "kind": "name",
+    "qids": [
+      "572eff08cb0c0d14000f16e6",
+      "572eff08cb0c0d14000f16e8"
+    ],
+    "source": "Guglielmo Marconi",
+    "replacement": "Martin Marconi",
+    "gold": [
+      [
+        "Guglielmo Marconi"
+      ],
+      [
+        "raising the \"aerial\" wire"
+      ]
+    ],
+    "outputs": {
+      "clean": [
+        "Guglielmo Marconi",
+        "by raising the \"aerial\" wire above the ground and connecting the"
+      ],
+      "text": [
+        "Martin Marconi",
+        "by raising the \"aerial\" wire above the ground and connecting the"
+      ],
+      "full_prompt": [
+        "Guglielmo Marconi",
+        "by raising the \"aerial\" wire above the ground and connecting the"
+      ],
+      "full_delayed": [
+        "Guglielmo Marconi",
+        "by raising the \"aerial\" wire above the ground and connecting the"
+      ],
+      "full_rolling": [
+        "Guglielmo Marconi",
+        "by raising the \"aerial\" wire above the ground and connecting the"
+      ]
+    },
+    "counts": {
+      "clean": [
+        0,
+        0
+      ],
+      "text": [
+        0,
+        0
+      ],
+      "full_prompt": [
+        1,
+        1
+      ],
+      "full_delayed": [
+        1,
+        1
+      ],
+      "full_rolling": [
+        8,
+        14
+      ]
+    },
+    "steps": [
+      0,
+      0
+    ],
+    "interaction": []
+  }
+]
