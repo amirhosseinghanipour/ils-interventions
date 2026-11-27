@@ -44,3 +44,32 @@ The supervised mention-order comparison in `slots.py` trains a nearest-centroid 
 The material-task test trains the early mention-order classifier on the earlier food questions. Its color-trained amplitudes are stored in `artifacts/query-routing/animals/<size>/prototypes.json`. The material predictor receives the clean block-15 query state, actual block-15 source displacement, known source token index, and independent word carriers. Two tokenization-only calibration prompts map editable indices to mention order. The article and four-person experiments use different endpoints. To verify the materials comparison directly, use `python scripts/query_transition/verify_materials.py "$DATA/materials/9b" "$BLIND/9b" artifacts/query-routing/animals/9b/prototypes.json` for 9B and substitute 4B paths for the replication.
 
 For the target-template offset diagnostic, the first 16 material prefixes contribute only a clean-state mean at block 15. Score the remaining 48 with `target_center.py` using the food data, material data, color scales and output JSON as its four path arguments. The face-value early material result and its 64-prefix analysis are retained separately. The 9B material result informed this diagnostic before 4B material outcomes were available.
+
+## Fixed passage-edit positive control
+
+The original 40 article pairs changed the question while keeping the passage fixed. This extension uses both questions from those same articles and one hand-specified counterfactual passage per article. `qa_pool_edits.tsv` specifies which question the edit addresses, the literal text replacement and the intended answer. Every occurrence of the case-sensitive source span is replaced in the passage, with both question strings kept fixed. Each query has its own donor forward on this edited passage. The donor activations replace the recipient's final prompt-position outputs on the original passage. The two original and relevant counterfactual first-answer tokens must be distinct. The annotations and the selection of the relevant question are available to this **positive control**. No subset discovery or answer-free inference is involved.
+
+The shared pool contains every gated head in zero-indexed full-attention blocks 19 and 23 (32 heads), then adds blocks 15 and 27 (64). The 128-head pool covers all eight full-attention blocks. Additional arms include all 16 heads at block 19, the previously screened block 19 head 11, all 128 heads with the MLPs in those eight blocks, and all 128 heads with every MLP in the 32-block text trunk. Qwen3.5's other 24 blocks use recurrent linear attention; their attention updates are outside these head pools. All interventions occur at the last prompt position. Text-edit outputs test whether the checkpoint can follow the edited passage at all. Full-pool outcomes are positive controls; a subset can succeed where the full pool fails.
+
+Each record contains question IDs, original and counterfactual first-answer token IDs, token lengths, the number of changed spans and every full-vocabulary top-1 observation. Self-transplants across all 128 heads and 32 MLPs must preserve the original top choice, and both clean top choices must match the corresponding archived experiment. Strict success requires both clean original first tokens to be correct, the intended relevant switch and unchanged irrelevant top-1. The results give this count on all 40 articles and among clean-correct pairs, plus separate marginal counts and a sensitivity analysis restricted to articles with successful text edits. Wilson intervals use one observation per article. The related questions can share premises, and the edits have no independent human re-annotation. Outcomes apply to first tokens, including for multi-token answers.
+
+With the original SQuAD v1.1 file, public transition measurements and GGUFs identified above, rebuild the additional native hook and run:
+
+```sh
+g++ -O2 -fPIC -shared -std=c++17 -I"$LLAMA_SRC/include" -I"$LLAMA_SRC/ggml/include" \
+  scripts/query_transition/qa_pool_probe.cpp -L"$LLAMA_BIN" -Wl,-rpath-link,"$LLAMA_BIN" \
+  -lllama -lggml-base -lggml -o "$OUT/qa-pool.so"
+export LLAMA_BACKEND_DIR="$LLAMA_BIN" LD_LIBRARY_PATH="$LLAMA_BIN:${LD_LIBRARY_PATH:-}"
+for size in 4b 9b; do
+    model="$MODEL4"
+    if test "$size" = 9b; then model="$MODEL9"; fi
+    "$PYTHON" scripts/query_transition/qa_pool_control.py "$OUT/qa-pool.so" "$model" \
+        "$SQUAD" "$DATA/natural/$size/rows.json" "$OUT/pool-$size"
+done
+```
+
+## Compact subset pilot
+
+`qa_subset.py` uses the same native intervention site to test fixed eight-head subsets on article-disjoint, numeric-answer examples. Build the library as above. Run the script with the same five arguments as the positive control and an independent output directory. Discovery uses a fixed subset of the archived edits, ignores answer and relevance labels for scoring, and orders the two questions by a deterministic shuffle. It maximizes the larger KL divergence from the original distribution minus twice the smaller KL divergence. The frozen panel comprises two four-head groups. The candidate-pair control maximizes mean KL in the same pool. Additional controls include five fixed random eight-head panels, each constituent group, a development-selected full block, the historical single head and block, and the full head panel.
+
+Fresh examples come from the official SQuAD v1.1 training partition, excluding all articles in its development partition. These articles are held out from subset discovery. Supply `--fresh-dataset` or put `train-v1.1.json` next to the original development file. The relevant answer must be a unique numeric string in the original paragraph. The source change substitutes a different number of the same length. Selection and ordering use text and tokenization, with no model predictions. These are automatically constructed edits and cover numeric answers only. Evaluation greedily generates up to 18 tokens while retaining the patch at the original final prompt position. Normalized exact answer match uses all original answer aliases. Group interactions use the four exact masks (neither, either group, both) and compare donor-minus-original first-token logit margin across the two queries. First-token ties are excluded from that contrast. This diagnostic remains distinct from full-answer evaluation.

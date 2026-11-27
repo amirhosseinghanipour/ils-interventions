@@ -106,6 +106,7 @@ def main():
     p.add_argument('task', choices=['gift','route'])
     p.add_argument('out', type=Path)
     p.add_argument('--limit', type=int, default=24)
+    p.add_argument('--compact', action='store_true', help='Restrict verified proposals to eight heads.')
     p.add_argument('--start', type=int, default=0)
     p.add_argument('--k', type=int, nargs='+', default=[32,64])
     args = p.parse_args()
@@ -118,10 +119,10 @@ def main():
             write(dest / 'profile.json', results)
             print(args.task, k, 'B_eq', results['beq'], 'budget', results['budget_ms'], flush=True)
         else:
-            study(model, tok, args.task, k, dest, args.start, args.limit)
+            study(model, tok, args.task, k, dest, args.start, args.limit, args.compact)
 
 
-def search_stream(model, tok, row, pool, arm, seed, prof, start):
+def search_stream(model, tok, row, pool, arm, seed, prof, start, eligible=None):
     """Yield the incumbent to the caller before starting any further blocking operation."""
     from .estimators import fit, hvp_prior
     k = pool.shape[1]
@@ -131,7 +132,12 @@ def search_stream(model, tok, row, pool, arm, seed, prof, start):
     reserve = prof['reserve_ms']
     predictions = None
     fitted = None
+    if eligible is None:
+        eligible = np.ones(len(pool), dtype=bool)
     seen = {0: 0.}
+
+    def proposals(pred):
+        return [int(j) for j in np.argsort(-pred) if eligible[j] and j not in seen]
     incumbent = 0
 
     def acquire(ids):
@@ -142,7 +148,7 @@ def search_stream(model, tok, row, pool, arm, seed, prof, start):
             if not np.isfinite(values).all():
                 raise ValueError('nonfinite native intervention')
             seen.update(zip(new, map(float, values)))
-            incumbent = max([incumbent] + new, key=seen.__getitem__)
+            incumbent = max([incumbent] + [j for j in new if eligible[j]], key=seen.__getitem__)
 
     def event(stage):
         return (dict(stage=stage, i=incumbent, paid_effect=seen[incumbent],
@@ -155,7 +161,9 @@ def search_stream(model, tok, row, pool, arm, seed, prof, start):
             choices = [int(n) for n, t in prof['batch_ms'].items() if int(n) <= batch and t*1.15 < deadline-elapsed()]
             if not choices:
                 break
-            ids = [j for j in range(1, len(pool)) if j not in seen][:max(choices)]
+            ids = [j for j in range(1, len(pool)) if eligible[j] and j not in seen][:max(choices)]
+            if not ids:
+                break
             acquire(ids)
             yield event('exact')
         return
@@ -170,7 +178,7 @@ def search_stream(model, tok, row, pool, arm, seed, prof, start):
         mid, gradient = float(mid[0]), gradient[0]
         fitted = fit('midpoint', empty, [], mid, gradient)
         predictions = fitted(pool)
-        acquire([np.argmax(predictions)])
+        acquire(proposals(predictions)[:1])
         yield event('midpoint')
     prior = None
     if arm.startswith('hvp'):
@@ -181,7 +189,7 @@ def search_stream(model, tok, row, pool, arm, seed, prof, start):
         prior = hvp_prior(v, fd(oracle, v, .125))
         fitted = fit('complement', empty, [], mid, gradient, prior=prior)
         predictions = fitted(pool)
-        acquire([np.argmax(predictions)])
+        acquire(proposals(predictions)[:1])
         yield event('prior')
     method = 'complement' if prior is not None else arm
     selected = []
@@ -204,7 +212,10 @@ def search_stream(model, tok, row, pool, arm, seed, prof, start):
             # Half uniform, half most promising complement pairs, identical rule in both arms.
             uniform = take[:n_pairs//2]
             remaining = [j for j in available if j not in uniform]
-            exploit = sorted(remaining, key=lambda j:max(predictions[2*j:2*j+2]), reverse=True)
+            def acquisition_score(j):
+                pair = slice(2*j, 2*j+2)
+                return max(predictions[pair][eligible[pair]], default=-np.inf)
+            exploit = sorted(remaining, key=acquisition_score, reverse=True)
             take = uniform + exploit[:n_pairs-len(uniform)]
         selected.extend(take)
         pair_ids = np.array(selected)[:, None]*2 + [0,1]
@@ -221,13 +232,17 @@ def search_stream(model, tok, row, pool, arm, seed, prof, start):
         yield event('fit')
         if elapsed() + prof['batch_ms']['1'] >= deadline:
             break
-        ranked = [int(j) for j in np.argsort(-predictions) if j not in seen]
+        ranked = proposals(predictions)
+        if not ranked:
+            break
         acquire(ranked[:8])
         yield event('verify')
 
     # Spend remaining time verifying the strongest unseen proposals, including midpoint's.
     while len(seen) < len(pool) and elapsed() + prof['batch_ms']['8'] * 1.15 < deadline:
-        ranked = [int(j) for j in np.argsort(-predictions) if j not in seen]
+        ranked = proposals(predictions)
+        if not ranked:
+            break
         acquire(ranked[:8])
         yield event('final_verify')
 
@@ -267,7 +282,33 @@ def signal(o, pool, test, y, g, mid, seed):
 ARMS = ['midpoint','hvp2','hvp4','hvp8','complement','dense','proxyspex_fourier','cached_exact']
 
 
-def study(model, tok, task, k, dest, start_index, limit):
+def compact_masks(k, seed):
+    rng = np.random.default_rng(seed)
+    ids = set()
+    while len(ids) < 511:
+        ids.add(tuple(sorted(rng.choice(k,8,replace=False).tolist())))
+    half = np.zeros((512,k), np.int8)
+    for i, chosen in enumerate(sorted(ids), 1):
+        half[i, list(chosen)] = 1
+    half[1:] = half[1:][rng.permutation(511)]
+    paired = np.stack((half,1-half),axis=1).reshape(-1,k)
+    return paired[:512], paired[512:]
+
+
+def compact_development(model, tok, task, k, profile):
+    gaps = []
+    for i,row in enumerate(engine.rows(task,'development')):
+        oracle = engine.prepare(model,tok,row,k)
+        pool, _ = compact_masks(k,740683+i)
+        pool = pool[2::2]
+        truth = chunks(oracle,pool,profile['exact_batch'])
+        g = oracle.gradients(np.full((1,k),.5,np.float32))[1][0]
+        gaps.append(float(max(0.,truth.max()) - max(0.,truth[np.argmax(pool@g)])))
+    return dict(gap=gaps, median=float(np.median(gaps)), qualifies=bool(np.median(gaps)>=.02),
+                decision_margin=.01)
+
+
+def study(model, tok, task, k, dest, start_index, limit, compact=False):
     from .estimators import prepare_tree_backend
     prepare_tree_backend()
     # Shared resident-process startup only, on unrelated synthetic masks.
@@ -275,12 +316,19 @@ def study(model, tok, task, k, dest, start_index, limit):
     warm, _ = masks_for(k, 12001)
     fit('proxyspex_fourier', warm[:32], warm[:32, :4].sum(1), 0., np.zeros(k))
     prof = json.loads((dest/'profile.json').read_text())
+    if compact:
+        dev = compact_development(model,tok,task,k,prof)
+        write(dest/'development-gate.json',dev)
+        print(task,k,dev,flush=True)
+        if not dev['qualifies']:
+            return
     for ix, row in enumerate(engine.rows(task)[start_index:start_index+limit], start_index):
-        seed = 38756 + ix
+        seed = (910712 if compact else 38756) + ix
         out = dest / (row['id']+'.json')
         if out.exists():
             continue
-        pool, test = masks_for(k, seed)
+        pool, test = (compact_masks if compact else masks_for)(k, seed)
+        eligible = np.r_[True, pool[1:].sum(axis=1)==8] if compact else np.ones(len(pool),dtype=bool)
         oracle = engine.prepare(model, tok, row, k)
         # Evaluation-only labels, never passed to the search stream.
         gold = chunks(oracle, pool, prof['exact_batch'])
@@ -293,7 +341,7 @@ def study(model, tok, task, k, dest, start_index, limit):
         for arm in np.random.default_rng(seed+205).permutation(ARMS).tolist():
             start = clock()
             events, predictors = [], []
-            for event, fitted in search_stream(model,tok,row,pool,arm,seed,prof,start):
+            for event, fitted in search_stream(model,tok,row,pool,arm,seed,prof,start,eligible):
                 event['ms'] = clock() - start
                 events.append(event)
                 predictors.append(fitted)
@@ -308,7 +356,7 @@ def study(model, tok, task, k, dest, start_index, limit):
                 event.update(mae=mae, beta=beta, oracle_effect=float(gold[event['i']]))
             traces[arm] = dict(events=events, return_ms=return_ms)
         write(out,dict(id=row['id'],template=row['template'],seed=seed, k=k, task=task,
-                       pool_best=float(max(gold)), gold=gold.tolist(), test_y=test_y.tolist(),
+                       compact=compact, pool_best=float(max(gold[eligible])), gold=gold.tolist(), test_y=test_y.tolist(),
                        signal=sig, traces=traces))
         print(row['id'],k,'complete',flush=True)
 

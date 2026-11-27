@@ -15,6 +15,7 @@ dependencies = ["torch", "numpy", "scipy", "transformers", "datasets", "PyYAML"]
 [project.optional-dependencies]
 test = ["pytest>=8.3.5"]
 plots = ["matplotlib"]
+anytime = ["lightgbm==4.6.0", "scikit-learn", "matplotlib"]
 
 [project.urls]
 Repository = "https://github.com/amirhosseinghanipour/ils-interventions"
